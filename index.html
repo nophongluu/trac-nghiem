@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hệ Thống Trắc Nghiệm Y Khoa & Kinh Tế</title>
+<title>Hệ Thống Trắc Nghiệm Học Tập Đa Năng</title>
 <style>
   :root {
     --primary: #2563eb;
@@ -29,12 +29,12 @@
     justify-content: center;
   }
   .container {
-    max-width: 800px;
+    max-width: 820px;
     width: 100%;
   }
   header {
     background: white;
-    padding: 20px;
+    padding: 18px 20px;
     border-radius: 12px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.08);
     margin-bottom: 20px;
@@ -48,12 +48,17 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
   }
   h1 {
-    font-size: 19px;
+    font-size: 18px;
     margin: 0;
     color: #0f172a;
+  }
+  .top-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
   .score-badge {
     background: #dbeafe;
@@ -61,7 +66,29 @@
     padding: 6px 14px;
     border-radius: 20px;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 14px;
+  }
+  .btn-action {
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    color: #334155;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  .btn-action:hover {
+    background: #e2e8f0;
+  }
+  .btn-primary-act {
+    background: var(--primary);
+    color: white;
+    border: none;
+  }
+  .btn-primary-act:hover {
+    background: var(--primary-hover);
   }
   .nav-grid {
     display: grid;
@@ -86,10 +113,10 @@
     letter-spacing: 0.5px;
   }
   select {
-    padding: 9px 12px;
+    padding: 8px 10px;
     border-radius: 8px;
     border: 1.5px solid #cbd5e1;
-    font-size: 14px;
+    font-size: 13.5px;
     font-weight: 600;
     color: #1e293b;
     background: white;
@@ -171,6 +198,59 @@
   .explanation-box.show {
     display: block;
   }
+
+  /* Modal Form thêm đề */
+  .modal-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    padding: 16px;
+  }
+  .modal-overlay.open {
+    display: flex;
+  }
+  .modal {
+    background: white;
+    border-radius: 12px;
+    max-width: 600px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 24px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  }
+  .modal h2 {
+    margin: 0 0 14px 0;
+    font-size: 18px;
+  }
+  .form-group {
+    margin-bottom: 12px;
+  }
+  .form-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #475569;
+  }
+  .form-group input, .form-group textarea, .form-group select {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  .modal-btns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 16px;
+  }
 </style>
 </head>
 <body>
@@ -179,10 +259,12 @@
   <header>
     <div class="header-top">
       <h1 id="view-title">Hệ Thống Trắc Nghiệm Học Tập</h1>
-      <div class="score-badge" id="score-display">Điểm: 0 / 0</div>
+      <div class="top-actions">
+        <button class="btn-action btn-primary-act" onclick="openAddModal()">➕ Thêm đề mới</button>
+        <div class="score-badge" id="score-display">Điểm: 0 / 0</div>
+      </div>
     </div>
     
-    <!-- Bộ lọc 3 cấp độ -->
     <div class="nav-grid">
       <div class="select-group">
         <label>1. Lĩnh vực</label>
@@ -207,12 +289,39 @@
   <div id="quiz-container"></div>
 </div>
 
+<!-- Modal thêm đề nhanh trực tiếp trên giao diện -->
+<div class="modal-overlay" id="add-modal">
+  <div class="modal">
+    <h2>➕ Nhập bộ câu hỏi / Bài học mới</h2>
+    <div class="form-group">
+      <label>Lĩnh vực</label>
+      <select id="modal-domain">
+        <option value="kinh-te">Kinh Tế Học</option>
+        <option value="y-khoa">Y Khoa</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Chuyên ngành / Môn (VD: Kinh tế vi mô, Nội khoa, Ngoại khoa...)</label>
+      <input type="text" id="modal-subject-name" placeholder="Ví dụ: Nội khoa">
+    </div>
+    <div class="form-group">
+      <label>Tên bài học / Chương</label>
+      <input type="text" id="modal-lesson-title" placeholder="Ví dụ: Chương 4: Lý thuyết hành vi người tiêu dùng">
+    </div>
+    <div class="form-group">
+      <label>Mã dữ liệu câu hỏi (JSON) hoặc dán mã được trợ lý AI xuất:</label>
+      <textarea id="modal-json" rows="8" placeholder='Dán đoạn mã câu hỏi được tạo sẵn vào đây...'></textarea>
+    </div>
+    <div class="modal-btns">
+      <button class="btn-action" onclick="closeAddModal()">Hủy</button>
+      <button class="btn-action btn-primary-act" onclick="saveCustomLesson()">Lưu bài học ngay</button>
+    </div>
+  </div>
+</div>
+
 <script>
-// =========================================================================
-// CẤU TRÚC CƠ SỞ DỮ LIỆU ĐA TẦNG:
-// LĨNH VỰC -> CHUYÊN KHOA / MÔN HỌC -> BÀI HỌC CỤ THỂ -> CÂU HỎI
-// =========================================================================
-const appDatabase = {
+// Dữ liệu gốc mặc định
+const defaultDatabase = {
   "kinh-te": {
     name: "Kinh Tế Học",
     subjects: {
@@ -380,13 +489,102 @@ const appDatabase = {
             ]
           },
           "chuong-3": {
-            title: "Chương 3: Cân bằng cung cầu & Hệ số co giãn (Mẫu)",
+            title: "Chương 3: Cân bằng cung cầu và hệ số co giãn của cầu (10 câu)",
             questions: [
               {
-                q: "Khi giá tăng 10% làm lượng cầu giảm 20%, hệ số co giãn của cầu theo giá là:",
-                opts: ["-0.5", "-2.0", "-1.0", "-0.2"],
-                ans: 1,
-                exp: "Ed = (% thay đổi Qd) / (% thay đổi P) = (-20%) / (10%) = -2.0."
+                q: "Khi thu nhập giảm các yếu tố khác không đổi, giá cả và sản lượng cân bằng mới của hàng hóa thông thường sẽ:",
+                opts: [
+                  "Giá thấp hơn và lượng cân bằng nhỏ hơn.",
+                  "Giá thấp hơn và lượng cân bằng lớn hơn.",
+                  "Không thay đổi.",
+                  "Giá cao hơn và lượng cân bằng nhỏ hơn."
+                ],
+                ans: 0,
+                exp: "Hàng hóa thông thường có cầu đồng biến với thu nhập. Khi thu nhập giảm → Cầu giảm (đường cầu dịch trái) → Giá cân bằng giảm và lượng cân bằng giảm."
+              },
+              {
+                q: "Dư cầu:",
+                opts: [
+                  "Chỉ xuất hiện khi giá thấp hơn giá cân bằng.",
+                  "Do cung quá cao.",
+                  "Đồng nghĩa với dư thừa hàng hóa.",
+                  "Không duy trì lâu trong thị trường và giá sẽ giảm."
+                ],
+                ans: 0,
+                exp: "Dư cầu (thiếu hụt hàng hóa) xảy ra khi lượng cầu lớn hơn lượng cung, tức là khi giá thị trường thấp hơn mức giá cân bằng."
+              },
+              {
+                q: "Hàm cung và cầu về cam trên thị trường: Ps = 60 + 5Q; Pd = 80 - 5Q, khi đó giá cân bằng trên thị trường sẽ là:",
+                opts: ["50", "80", "60", "70"],
+                ans: 3,
+                exp: "Tại điểm cân bằng: Ps = Pd ⇔ 60 + 5Q = 80 - 5Q ⇔ 10Q = 20 ⇔ Q = 2. Thay Q = 2 vào hàm giá: P = 60 + 5(2) = 70."
+              },
+              {
+                q: "Hàm cung và cầu về cam trên thị trường: Ps = 50 + 5Q; Pd = 100 - 5Q, khi đó lượng cân bằng trên thị trường là:",
+                opts: ["6", "8", "7", "5"],
+                ans: 3,
+                exp: "Tại điểm cân bằng: Ps = Pd ⇔ 50 + 5Q = 100 - 5Q ⇔ 10Q = 50 ⇔ Q = 5."
+              },
+              {
+                q: "Hàm cung và cầu về cam trên thị trường: Ps = 50 + 5Q; Pd = 100 - 5Q, khi đó hệ số co dãn của cầu tại mức giá cân bằng là:",
+                opts: ["1", "-1", "-3", "3"],
+                ans: 2,
+                exp: "Từ Q cân bằng = 5 suy ra P cân bằng = 75. Hàm cầu: Pd = 100 - 5Q ⇔ Qd = 20 - 0,2P. Hệ số co giãn: Ed = (Qd)' * (P/Q) = (-0,2) * (75 / 5) = -3."
+              },
+              {
+                q: "Trong nền kinh tế thị trường, giá cân bằng được xác định bởi:",
+                opts: [
+                  "Cầu hàng hoá",
+                  "Chi phí sản xuất hàng hoá",
+                  "Cung hàng hoá",
+                  "Tương tác giữa cung và cầu"
+                ],
+                ans: 3,
+                exp: "Giá cân bằng là mức giá mà tại đó lượng cung bằng lượng cầu, được quyết định bởi sự tương tác lẫn nhau giữa cả cung và cầu trên thị trường."
+              },
+              {
+                q: "Dư cung:",
+                opts: [
+                  "Chỉ xuất hiện khi giá cao hơn giá cân bằng.",
+                  "Không duy trì lâu trong thị trường và giá sẽ tăng.",
+                  "Đồng nghĩa với thiếu hụt hàng hóa.",
+                  "Do cầu quá cao."
+                ],
+                ans: 0,
+                exp: "Dư cung (thừa hàng) xuất hiện khi lượng cung vượt quá lượng cầu, điều này chỉ xảy ra khi mức giá thực tế cao hơn giá cân bằng."
+              },
+              {
+                q: "Trạng thái thiếu hụt hàng hóa là trạng thái mà ở đó:",
+                opts: [
+                  "Lượng cầu bằng lượng cung",
+                  "Lượng cầu nhỏ hơn lượng cung",
+                  "Lượng cầu hàng hóa bằng không",
+                  "Lượng cầu vượt quá lượng cung"
+                ],
+                ans: 3,
+                exp: "Thiếu hụt hàng hóa (dư cầu) xảy ra khi lượng người mua muốn mua (lượng cầu Qd) lớn hơn lượng người bán sẵn sàng bán (lượng cung Qs)."
+              },
+              {
+                q: "Nếu giá trần thấp hơn giá cân bằng, sẽ không dẫn đến điều nào dưới đây:",
+                opts: [
+                  "Dư thừa hàng hóa.",
+                  "Thị trường chợ đen và tham nhũng.",
+                  "Phi hiệu quả về kinh tế.",
+                  "Thiết hụt hàng hóa."
+                ],
+                ans: 0,
+                exp: "Giá trần (Pmax) đặt dưới giá cân bằng sẽ kích thích cầu và kìm hãm cung, gây ra thiếu hụt hàng hóa chứ không bao giờ dẫn đến dư thừa hàng hóa."
+              },
+              {
+                q: "Khi thu nhập tăng các yếu tố khác không đổi, giá cả và sản lượng cân bằng mới của hàng hóa thông thường sẽ:",
+                opts: [
+                  "Giá cao hơn và lượng cân bằng lớn hơn.",
+                  "Giá cao hơn và lượng cân bằng nhỏ hơn.",
+                  "Không thay đổi.",
+                  "Giá thấp hơn và lượng cân bằng nhỏ hơn."
+                ],
+                ans: 0,
+                exp: "Với hàng hóa thông thường, thu nhập tăng làm cầu tăng (đường cầu dịch phải) → Điểm cân bằng mới dịch chuyển dọc theo đường cung dẫn tới giá cao hơn và lượng cân bằng lớn hơn."
               }
             ]
           }
@@ -512,12 +710,39 @@ const appDatabase = {
   }
 };
 
+// Đọc dữ liệu từ bộ nhớ trình duyệt nếu có thêm mới
+function getMergedDatabase() {
+  const localSaved = localStorage.getItem('custom_quizzes');
+  if (!localSaved) return defaultDatabase;
+  try {
+    const custom = JSON.parse(localSaved);
+    // Gộp dữ liệu
+    const merged = JSON.parse(JSON.stringify(defaultDatabase));
+    for (const dKey in custom) {
+      if (!merged[dKey]) merged[dKey] = custom[dKey];
+      else {
+        for (const sKey in custom[dKey].subjects) {
+          if (!merged[dKey].subjects[sKey]) merged[dKey].subjects[sKey] = custom[dKey].subjects[sKey];
+          else {
+            Object.assign(merged[dKey].subjects[sKey].lessons, custom[dKey].subjects[sKey].lessons);
+          }
+        }
+      }
+    }
+    return merged;
+  } catch(e) {
+    return defaultDatabase;
+  }
+}
+
+let appDatabase = getMergedDatabase();
 let curDomain = "kinh-te";
 let curSubject = "vi-mo";
-let curLesson = "chuong-2";
+let curLesson = "chuong-3";
 let currentScore = 0;
 
 function initApp() {
+  appDatabase = getMergedDatabase();
   const domainSelect = document.getElementById('domain-select');
   domainSelect.innerHTML = '';
   for (const [dKey, dVal] of Object.entries(appDatabase)) {
@@ -565,7 +790,11 @@ function updateLessonDropdown() {
     opt.textContent = lVal.title;
     lessonSelect.appendChild(opt);
   }
-  curLesson = Object.keys(lessons)[0];
+  if (curDomain === "kinh-te" && curSubject === "vi-mo" && lessons["chuong-3"]) {
+    curLesson = "chuong-3";
+  } else {
+    curLesson = Object.keys(lessons)[0];
+  }
   lessonSelect.value = curLesson;
   renderQuestions();
 }
@@ -639,6 +868,48 @@ function renderQuestions() {
     card.appendChild(expBox);
     container.appendChild(card);
   });
+}
+
+function openAddModal() {
+  document.getElementById('add-modal').classList.add('open');
+}
+
+function closeAddModal() {
+  document.getElementById('add-modal').classList.remove('open');
+}
+
+function saveCustomLesson() {
+  const domainKey = document.getElementById('modal-domain').value;
+  const subjName = document.getElementById('modal-subject-name').value.trim() || "Chung";
+  const lessonTitle = document.getElementById('modal-lesson-title').value.trim() || "Bài tập mới";
+  const jsonStr = document.getElementById('modal-json').value.trim();
+
+  let questions = [];
+  try {
+    questions = JSON.parse(jsonStr);
+  } catch(e) {
+    alert("Dữ liệu câu hỏi chưa đúng định dạng JSON. Bạn có thể yêu cầu Trợ lý AI tạo đoạn mã JSON câu hỏi này rồi dán vào nhé!");
+    return;
+  }
+
+  const subjKey = subjName.toLowerCase().replace(/\s+/g, '-');
+  const lessonKey = "lesson-" + Date.now();
+
+  const saved = localStorage.getItem('custom_quizzes');
+  const custom = saved ? JSON.parse(saved) : {};
+
+  if (!custom[domainKey]) custom[domainKey] = { name: domainKey === "kinh-te" ? "Kinh Tế Học" : "Y Khoa", subjects: {} };
+  if (!custom[domainKey].subjects[subjKey]) custom[domainKey].subjects[subjKey] = { name: subjName, lessons: {} };
+  custom[domainKey].subjects[subjKey].lessons[lessonKey] = {
+    title: lessonTitle,
+    questions: questions
+  };
+
+  localStorage.setItem('custom_quizzes', JSON.stringify(custom));
+  closeAddModal();
+  curDomain = domainKey;
+  initApp();
+  alert("Đã lưu bài học mới thành công!");
 }
 
 initApp();
