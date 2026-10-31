@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Hệ Thống Trắc Nghiệm Học Tập Đa Năng</title>
+<title>🍀 Ôn Luyện Trắc Nghiệm - Logistics & Chuỗi Cung Ứng</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍀</text></svg>">
 <style>
   :root {
     --primary: #2563eb;
@@ -33,355 +34,252 @@
     min-height: 100vh;
   }
   .container {
-    max-width: 760px;
+    max-width: 800px;
     width: 100%;
   }
 
-  /* GIAO DIỆN TRANG CHỦ CHỌN BÀI */
-  #home-screen {
-    animation: fadeIn 0.25s ease;
+  /* MÀN HÌNH CHỌN BÀI HỌC */
+  #home-view {
+    animation: fadeIn 0.2s ease;
   }
-  .home-header {
+  .header-box {
     text-align: center;
     margin-bottom: 24px;
     padding-top: 8px;
   }
-  .home-header h1 {
+  .header-box h1 {
     font-size: 22px;
+    font-weight: 800;
     margin: 0 0 6px 0;
     color: #0f172a;
-    font-weight: 800;
   }
-  .home-header p {
+  .header-box p {
     font-size: 14px;
     color: var(--text-muted);
     margin: 0;
   }
 
-  /* Bộ lọc thả xuống Dropdown thông minh */
-  .selection-panel {
+  /* Bộ lọc dropdown nhanh */
+  .filter-card {
     background: white;
-    padding: 20px;
-    border-radius: 16px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 20px;
+    border: 1.5px solid var(--border);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.03);
     margin-bottom: 24px;
   }
-  .form-row {
+  .filter-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 12px;
     margin-bottom: 14px;
   }
-  .form-row:last-child {
-    margin-bottom: 0;
+  @media (max-width: 600px) {
+    .filter-grid { grid-template-columns: 1fr; }
   }
-  .form-row label {
+  .filter-item label {
     display: block;
-    font-size: 12px;
+    font-size: 11.5px;
     font-weight: 700;
     text-transform: uppercase;
     color: var(--text-muted);
     letter-spacing: 0.5px;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
   }
-  .select-styled {
+  select {
     width: 100%;
-    padding: 12px 14px;
-    border-radius: 10px;
+    padding: 10px 12px;
+    border-radius: 9px;
     border: 1.5px solid var(--border);
-    font-size: 14.5px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--text);
     background: #f8fafc;
     outline: none;
     cursor: pointer;
-    transition: 0.2s;
   }
-  .select-styled:focus {
+  select:focus {
     border-color: var(--primary);
     background: white;
   }
-  .select-styled:disabled {
-    background: #f1f5f9;
-    color: #94a3b8;
-    cursor: not-allowed;
-  }
-  .btn-start-quiz {
+  .btn-start {
     width: 100%;
-    padding: 14px;
+    padding: 12px;
     background: var(--primary);
     color: white;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     border: none;
-    border-radius: 10px;
+    border-radius: 9px;
     cursor: pointer;
-    box-shadow: 0 4px 12px rgba(37,99,235,0.25);
-    transition: 0.2s;
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+    box-shadow: 0 3px 10px rgba(37,99,235,0.2);
+    transition: 0.15s;
   }
-  .btn-start-quiz:hover {
-    background: var(--primary-hover);
-  }
-  .btn-start-quiz:disabled {
-    background: #94a3b8;
-    cursor: not-allowed;
-    box-shadow: none;
-  }
+  .btn-start:hover { background: var(--primary-hover); }
 
-  /* Dạng Thẻ Grid Cards trực quan */
-  .section-title {
-    font-size: 14px;
+  /* Danh sách thẻ môn học */
+  .section-label {
+    font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
     color: var(--text-muted);
     letter-spacing: 0.5px;
     margin-bottom: 12px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
   }
   .cards-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     gap: 12px;
-    margin-bottom: 24px;
   }
-  .subject-card {
+  .card-item {
     background: white;
     border: 1.5px solid var(--border);
-    border-radius: 14px;
+    border-radius: 12px;
     padding: 16px;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.15s ease;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-  .subject-card:hover {
+  .card-item:hover {
     border-color: var(--primary);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(37,99,235,0.08);
   }
-  .card-icon {
-    font-size: 26px;
-    margin-bottom: 10px;
-  }
-  .card-title {
-    font-size: 15px;
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 4px;
-    line-height: 1.35;
-  }
-  .card-meta {
-    font-size: 12px;
-    color: var(--text-muted);
-    font-weight: 500;
-  }
+  .card-item .icon { font-size: 26px; margin-bottom: 8px; }
+  .card-item .title { font-size: 15px; font-weight: 700; color: #0f172a; margin-bottom: 4px; }
+  .card-item .sub { font-size: 12px; color: var(--text-muted); }
 
-  /* KHÔNG GIAN LÀM BÀI TẬP TRUNG (QUIZ INTERFACE) */
-  #quiz-screen {
+  /* MÀN HÌNH LÀM BÀI DANH SÁCH CUỘN (TẤT CẢ CÂU HỎI TRÊN 1 TRANG) */
+  #quiz-view {
     display: none;
-    animation: fadeIn 0.25s ease;
+    animation: fadeIn 0.2s ease;
   }
-  .quiz-top-bar {
+  .quiz-header {
+    background: white;
+    padding: 14px 18px;
+    border-radius: 12px;
+    border: 1.5px solid var(--border);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    margin-bottom: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 14px;
     gap: 10px;
+    flex-wrap: wrap;
   }
-  .btn-back-home {
-    background: white;
+  .quiz-header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .btn-back {
+    background: #f1f5f9;
     border: 1.5px solid var(--border);
     padding: 7px 12px;
     border-radius: 8px;
     font-size: 13px;
     font-weight: 600;
-    color: var(--text-muted);
+    color: var(--text);
     cursor: pointer;
     transition: 0.15s;
-    display: flex;
-    align-items: center;
-    gap: 4px;
   }
-  .btn-back-home:hover {
-    color: var(--text);
-    border-color: #cbd5e1;
-    background: #f1f5f9;
+  .btn-back:hover { background: #e2e8f0; }
+  .quiz-title-text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f172a;
   }
-  .score-badge-mini {
+  .score-badge {
     background: #dbeafe;
     color: var(--primary);
     padding: 6px 14px;
     border-radius: 20px;
     font-weight: 700;
-    font-size: 13.5px;
-    box-shadow: 0 1px 2px rgba(37,99,235,0.1);
+    font-size: 14px;
   }
 
-  /* Thanh tiến trình */
-  .quiz-progress-container {
+  /* Thẻ câu hỏi trong danh sách cuộn */
+  .question-card {
     background: white;
-    border-radius: 12px;
-    padding: 12px 16px;
-    border: 1px solid var(--border);
-    margin-bottom: 16px;
-  }
-  .quiz-progress-info {
-    display: flex;
-    justify-content: space-between;
-    font-size: 12.5px;
-    font-weight: 600;
-    color: var(--text-muted);
-    margin-bottom: 6px;
-  }
-  .progress-track {
-    width: 100%;
-    height: 6px;
-    background: #e2e8f0;
-    border-radius: 4px;
-    overflow: hidden;
-  }
-  .progress-bar-fill {
-    height: 100%;
-    background: var(--primary);
-    width: 0%;
-    transition: width 0.3s ease;
-  }
-
-  /* Thẻ câu hỏi đơn lẻ */
-  .single-question-card {
-    background: white;
-    border-radius: 16px;
-    padding: 22px;
+    border-radius: 14px;
+    padding: 20px;
     border: 1.5px solid var(--border);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
-    margin-bottom: 16px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+    margin-bottom: 18px;
   }
   .q-badge {
-    display: inline-block;
     font-size: 12px;
     font-weight: 700;
+    color: var(--text-muted);
     text-transform: uppercase;
-    color: var(--primary);
-    background: var(--primary-light);
-    padding: 3px 10px;
-    border-radius: 6px;
-    margin-bottom: 12px;
-    letter-spacing: 0.5px;
+    margin-bottom: 8px;
   }
-  .q-title {
-    font-size: 17px;
+  .q-text {
+    font-size: 16px;
     font-weight: 600;
     line-height: 1.5;
     color: #0f172a;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
   }
-
-  /* Nút đáp án to chuẩn Mobile */
-  .options-vertical {
+  .options-list {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
   }
-  .btn-answer {
+  .opt-btn {
     width: 100%;
     text-align: left;
-    padding: 15px 18px;
+    padding: 13px 16px;
     font-size: 15px;
     background: #f8fafc;
     border: 1.5px solid var(--border);
-    border-radius: 12px;
+    border-radius: 10px;
     cursor: pointer;
     transition: all 0.15s ease;
     font-weight: 500;
     color: #1e293b;
-    line-height: 1.45;
-    min-height: 52px;
+    line-height: 1.4;
     display: flex;
     align-items: center;
     gap: 10px;
+    min-height: 48px;
   }
-  .btn-answer:hover:not(:disabled) {
+  .opt-btn:hover:not(:disabled) {
     background: #eff6ff;
     border-color: #93c5fd;
   }
-  .btn-answer.correct {
+  .opt-btn.correct {
     background-color: var(--correct-bg) !important;
     border-color: var(--correct-border) !important;
     color: var(--correct-text) !important;
     font-weight: 600;
   }
-  .btn-answer.wrong {
+  .opt-btn.wrong {
     background-color: var(--wrong-bg) !important;
     border-color: var(--wrong-border) !important;
     color: var(--wrong-text) !important;
   }
-  .btn-answer:disabled {
-    cursor: default;
-  }
+  .opt-btn:disabled { cursor: default; }
 
-  /* Hộp giải thích nổi bật */
-  .explanation-box {
-    margin-top: 18px;
-    padding: 14px 18px;
+  /* Hộp giải thích */
+  .exp-box {
+    margin-top: 14px;
+    padding: 12px 16px;
     background-color: var(--primary-light);
     border-left: 4px solid var(--primary);
     border-radius: 8px;
-    font-size: 14.5px;
+    font-size: 14px;
     line-height: 1.6;
     color: #1e3a8a;
     display: none;
-    animation: fadeIn 0.3s ease;
+    animation: fadeIn 0.2s ease;
   }
-  .explanation-box.show {
-    display: block;
-  }
-
-  /* Nút điều hướng chuyển câu */
-  .nav-buttons-row {
-    display: flex;
-    justify-content: space-between;
-    gap: 12px;
-  }
-  .btn-nav {
-    flex: 1;
-    padding: 13px;
-    border-radius: 10px;
-    font-size: 15px;
-    font-weight: 700;
-    border: 1.5px solid var(--border);
-    background: white;
-    color: var(--text);
-    cursor: pointer;
-    transition: 0.15s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 6px;
-  }
-  .btn-nav:hover:not(:disabled) {
-    background: #f1f5f9;
-  }
-  .btn-nav-primary {
-    background: var(--primary);
-    color: white;
-    border-color: var(--primary);
-  }
-  .btn-nav-primary:hover:not(:disabled) {
-    background: var(--primary-hover);
-  }
-  .btn-nav:disabled {
-    opacity: 0.4;
-    cursor: not-allowed;
-  }
+  .exp-box.show { display: block; }
 
   @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(4px); }
+    from { opacity: 0; transform: translateY(3px); }
     to { opacity: 1; transform: translateY(0); }
   }
 </style>
@@ -389,94 +287,50 @@
 <body>
 
 <div class="container">
-  <!-- MÀN HÌNH 1: TRANG CHỦ CHỌN BÀI HỌC -->
-  <div id="home-screen">
-    <div class="home-header">
-      <h1>Hệ Thống Luyện Trắc Nghiệm</h1>
-      <p>Chọn ngành và môn học để bắt đầu ôn tập</p>
+  <!-- MÀN HÌNH 1: TRANG CHỦ CHỌN MÔN / CHƯƠNG -->
+  <div id="home-view">
+    <div class="header-box">
+      <h1>Logistics & Quản Lý Chuỗi Cung Ứng</h1>
+      <p>Chọn môn học và bài tập để bắt đầu luyện trắc nghiệm</p>
     </div>
 
-    <!-- Bảng Dropdown chọn nhanh theo luồng logic -->
-    <div class="selection-panel">
-      <div class="form-row">
-        <label>1. Chọn Ngành đào tạo</label>
-        <select id="sel-domain" class="select-styled" onchange="onDomainSelect()">
-        </select>
+    <!-- Thanh Dropdown chọn nhanh -->
+    <div class="filter-card">
+      <div class="filter-grid">
+        <div class="filter-item">
+          <label>1. Chọn Môn học</label>
+          <select id="select-subject" onchange="onSubjectChange()"></select>
+        </div>
+        <div class="filter-item">
+          <label>2. Chọn Bài học / Chương</label>
+          <select id="select-lesson"></select>
+        </div>
       </div>
-
-      <div class="form-row">
-        <label>2. Chọn Chuyên ngành / Môn học</label>
-        <select id="sel-subject" class="select-styled" onchange="onSubjectSelect()" disabled>
-          <option value="">-- Vui lòng chọn ngành trước --</option>
-        </select>
-      </div>
-
-      <div class="form-row">
-        <label>3. Chọn Bài học / Chương thi</label>
-        <select id="sel-lesson" class="select-styled" onchange="onLessonSelect()" disabled>
-          <option value="">-- Vui lòng chọn môn trước --</option>
-        </select>
-      </div>
-
-      <button id="btn-start" class="btn-start-quiz" onclick="startQuizSession()" disabled>
-        Bắt đầu làm bài 🚀
-      </button>
+      <button class="btn-start" onclick="startSelectedLesson()">Bắt đầu làm bài 🚀</button>
     </div>
 
-    <!-- Thẻ Cards gợi ý môn học trực quan -->
-    <div class="section-title">📂 Danh mục môn học nổi bật</div>
-    <div class="cards-grid" id="cards-container"></div>
+    <!-- Thẻ gợi ý các môn học -->
+    <div class="section-label">📚 Danh mục môn học</div>
+    <div class="cards-grid" id="cards-grid"></div>
   </div>
 
-  <!-- MÀN HÌNH 2: KHÔNG GIAN LÀM BÀI TẬP TRUNG (1 CÂU/MÀN HÌNH) -->
-  <div id="quiz-screen">
-    <!-- Thanh điều khiển trên cùng -->
-    <div class="quiz-top-bar">
-      <button class="btn-back-home" onclick="backToHome()">
-        ← Đổi bài học
-      </button>
-      <div class="score-badge-mini" id="score-badge">
-        Điểm: 0 / 0
+  <!-- MÀN HÌNH 2: TOÀN BỘ CÂU HỎI TRÊN 1 TRANG (CUỘN XUỐNG LÀM LIÊN TỤC) -->
+  <div id="quiz-view">
+    <div class="quiz-header">
+      <div class="quiz-header-left">
+        <button class="btn-back" onclick="backToHome()">← Đổi bài học</button>
+        <span class="quiz-title-text" id="quiz-header-title">Tên bài học</span>
       </div>
+      <div class="score-badge" id="score-display">Điểm: 0 / 0</div>
     </div>
 
-    <!-- Thanh tiến độ -->
-    <div class="quiz-progress-container">
-      <div class="quiz-progress-info">
-        <span id="quiz-module-name">Kinh tế vi mô</span>
-        <span id="question-progress-text">Câu 1 / 15</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-bar-fill" id="progress-bar"></div>
-      </div>
-    </div>
-
-    <!-- Khung 1 câu hỏi duy nhất -->
-    <div class="single-question-card">
-      <div class="q-badge" id="current-q-badge">CÂU 1</div>
-      <div class="q-title" id="current-q-text">Nội dung câu hỏi ở đây?</div>
-      
-      <!-- Danh sách nút bấm đáp án lớn -->
-      <div class="options-vertical" id="options-container"></div>
-
-      <!-- Hộp giải thích chi tiết xuất hiện tức thì -->
-      <div class="explanation-box" id="explanation-box"></div>
-    </div>
-
-    <!-- Nút chuyển câu Trước / Sau -->
-    <div class="nav-buttons-row">
-      <button class="btn-nav" id="btn-prev" onclick="navQuestion(-1)">
-        ← Câu trước
-      </button>
-      <button class="btn-nav btn-nav-primary" id="btn-next" onclick="navQuestion(1)">
-        Câu tiếp theo →
-      </button>
-    </div>
+    <!-- Vùng chứa danh sách tất cả các câu hỏi -->
+    <div id="questions-list"></div>
   </div>
 </div>
 
 <script>
-const defaultDatabase = {
+const appDatabase = {
   "kinh-te": {
     "name": "Logistics và quản lý chuỗi cung ứng",
     "subjects": {
@@ -1461,359 +1315,183 @@ const defaultDatabase = {
         }
       }
     }
-  },
-  "y-khoa": {
-    "name": "Y Khoa",
-    "subjects": {
-      "noi-khoa": {
-        "name": "Nội khoa",
-        "lessons": {
-          "ho-hap-hen": {
-            "title": "Hô hấp: Chẩn đoán & Cấp cứu Hen phế quản",
-            "questions": [
-              {
-                "q": "Thuốc cắt cơn ưu tiên hàng đầu trong xử trí cơn hen phế quản cấp là:",
-                "opts": [
-                  "SABA (Salbutamol) dạng khí dung hoặc xịt định liều",
-                  "Corticosteroid đường uống liều cao",
-                  "Kháng sinh nhóm Macrolid",
-                  "Theophylline truyền tĩnh mạch"
-                ],
-                "ans": 0,
-                "exp": "SABA (chủ vận beta-2 tác dụng ngắn) là lựa chọn đầu tay giúp giãn phế quản nhanh chóng trong cấp cứu cơn hen cấp."
-              },
-              {
-                "q": "Dấu hiệu nào sau đây chỉ điểm cơn hen phế quản đe dọa tính mạng (cơn hen ác tính)?",
-                "opts": [
-                  "Phổi nhiều ran rít, ran ngáy 2 phế trường",
-                  "Lồng ngực im lặng (silent chest), tri giác lơ mơ",
-                  "Nhịp thở 24 lần/phút",
-                  "Mạch 100 lần/phút"
-                ],
-                "ans": 1,
-                "exp": "Phổi im lặng (tiếng thở mất hoàn toàn do tắc nghẽn đường thở trầm trọng) và rối loạn ý thức là dấu hiệu suy hô hấp tối cấp đe dọa tính mạng."
-              }
-            ]
-          },
-          "tieu-hoa-xht": {
-            "title": "Tiêu hóa: Xuất huyết tiêu hóa do tăng áp cửa",
-            "questions": [
-              {
-                "q": "Thuốc co mạch tạng được khuyến cáo sử dụng sớm ngay khi nghi ngờ vỡ giãn tĩnh mạch thực quản là:",
-                "opts": [
-                  "Terlipressin hoặc Octreotide",
-                  "Omeprazole liều chuẩn",
-                  "Tranexamic acid",
-                  "Vitamin K1 tiêm bắp"
-                ],
-                "ans": 0,
-                "exp": "Các thuốc giảm áp lực tĩnh mạch cửa (Terlipressin, Somatostatin, Octreotide) cần được dùng càng sớm càng tốt trước cả khi nội soi can thiệp."
-              }
-            ]
-          }
-        }
-      },
-      "ngoai-khoa": {
-        "name": "Ngoại khoa",
-        "lessons": {
-          "ruot-thua": {
-            "title": "Cấp cứu bụng: Viêm ruột thừa cấp",
-            "questions": [
-              {
-                "q": "Điểm đau khu trú điển hình trong viêm ruột thừa cấp vị trí giải phẫu bình thường là:",
-                "opts": [
-                  "Điểm Mac-Burney ở hố chậu phải",
-                  "Điểm túi mật (Murphy)",
-                  "Điểm Mayo-Robson",
-                  "Điểm Lanz ở hố chậu trái"
-                ],
-                "ans": 0,
-                "exp": "Điểm Mac-Burney nằm ở vị trí 1/3 ngoài đường nối gai chậu trước trên phải với rốn."
-              }
-            ]
-          }
-        }
-      },
-      "san-khoa": {
-        "name": "Sản phụ khoa",
-        "lessons": {
-          "u-xo-tu-cung": {
-            "title": "Phụ khoa: U xơ cơ tử cung & U buồng trứng",
-            "questions": [
-              {
-                "q": "Triệu chứng lâm sàng thường gặp nhất của u xơ tử cung dưới niêm mạc là:",
-                "opts": [
-                  "Rong kinh, cường kinh gây thiếu máu",
-                  "Vô kinh thứ phát",
-                  "Đau bụng cấp tính lan ra sau lưng",
-                  "Sốt cao kèm khí hư mùi hôi"
-                ],
-                "ans": 0,
-                "exp": "U xơ dưới niêm mạc làm biến dạng buồng tử cung và tăng diện tích nội mạc, triệu chứng điển hình nhất là rong kinh, cường kinh kéo dài."
-              }
-            ]
-          }
-        }
-      },
-      "nhi-khoa": {
-        "name": "Nhi khoa",
-        "lessons": {
-          "sot-co-giat": {
-            "title": "Cấp cứu nhi: Co giật do sốt cao",
-            "questions": [
-              {
-                "q": "Đặc điểm nào sau đây thuộc tiêu chuẩn co giật do sốt đơn thuần ở trẻ em?",
-                "opts": [
-                  "Cơn co giật toàn thể trương lực - co giật, kéo dài dưới 15 phút, không để lại dấu thần kinh khu trú",
-                  "Co giật cục bộ nửa người",
-                  "Cơn giật kéo dài trên 20 phút",
-                  "Tái phát nhiều lần trong vòng 24 giờ"
-                ],
-                "ans": 0,
-                "exp": "Sốt co giật đơn thuần: trẻ 6 tháng - 5 tuổi, cơn co giật toàn thể, kéo dài < 15 phút, không tái phát trong 24h và thần kinh bình thường sau cơn."
-              }
-            ]
-          }
-        }
-      }
-    }
   }
 };
 
-let activeDomain = "";
-let activeSubject = "";
-let activeLesson = "";
+const domainKey = "kinh-te";
+const subjects = appDatabase[domainKey].subjects;
 
-let currentQuestions = [];
-let currentIndex = 0;
-let userAnswers = {}; // { qIdx: selectedOptIdx }
+let currentSubjectKey = "";
+let currentLessonKey = "";
 let score = 0;
+let userAnswers = {};
 
-// Khởi tạo trang chủ
 function initHome() {
-  const domSelect = document.getElementById('sel-domain');
-  domSelect.innerHTML = '<option value="">-- Chọn ngành --</option>';
+  const subjSelect = document.getElementById('select-subject');
+  subjSelect.innerHTML = '';
 
-  for (const [key, d] of Object.entries(defaultDatabase)) {
+  for (const [sKey, sVal] of Object.entries(subjects)) {
     const opt = document.createElement('option');
-    opt.value = key;
-    opt.textContent = d.name;
-    domSelect.appendChild(opt);
-  }
-
-  renderCardsGrid();
-}
-
-function onDomainSelect() {
-  const domVal = document.getElementById('sel-domain').value;
-  activeDomain = domVal;
-  const subjSelect = document.getElementById('sel-subject');
-  const lessSelect = document.getElementById('sel-lesson');
-  const btnStart = document.getElementById('btn-start');
-
-  subjSelect.innerHTML = '<option value="">-- Chọn môn học --</option>';
-  lessSelect.innerHTML = '<option value="">-- Chọn bài học --</option>';
-  lessSelect.disabled = true;
-  btnStart.disabled = true;
-
-  if (!domVal) {
-    subjSelect.disabled = true;
-    return;
-  }
-
-  const subjects = defaultDatabase[domVal].subjects;
-  for (const [key, s] of Object.entries(subjects)) {
-    const opt = document.createElement('option');
-    opt.value = key;
-    opt.textContent = s.name;
+    opt.value = sKey;
+    opt.textContent = sVal.name;
     subjSelect.appendChild(opt);
   }
-  subjSelect.disabled = false;
+
+  currentSubjectKey = Object.keys(subjects)[0];
+  subjSelect.value = currentSubjectKey;
+  updateLessonDropdown();
+  renderCards();
 }
 
-function onSubjectSelect() {
-  const subjVal = document.getElementById('sel-subject').value;
-  activeSubject = subjVal;
-  const lessSelect = document.getElementById('sel-lesson');
-  const btnStart = document.getElementById('btn-start');
+function onSubjectChange() {
+  currentSubjectKey = document.getElementById('select-subject').value;
+  updateLessonDropdown();
+}
 
-  lessSelect.innerHTML = '<option value="">-- Chọn bài học --</option>';
-  btnStart.disabled = true;
-
-  if (!subjVal) {
-    lessSelect.disabled = true;
-    return;
-  }
-
-  const lessons = defaultDatabase[activeDomain].subjects[subjVal].lessons;
-  for (const [key, l] of Object.entries(lessons)) {
+function updateLessonDropdown() {
+  const lessSelect = document.getElementById('select-lesson');
+  lessSelect.innerHTML = '';
+  const lessons = subjects[currentSubjectKey].lessons;
+  for (const [lKey, lVal] of Object.entries(lessons)) {
     const opt = document.createElement('option');
-    opt.value = key;
-    opt.textContent = l.title;
+    opt.value = lKey;
+    opt.textContent = lVal.title;
     lessSelect.appendChild(opt);
   }
-  lessSelect.disabled = false;
 }
 
-function onLessonSelect() {
-  activeLesson = document.getElementById('sel-lesson').value;
-  document.getElementById('btn-start').disabled = !activeLesson;
-}
-
-// Tạo danh sách thẻ Card trực quan
-function renderCardsGrid() {
-  const grid = document.getElementById('cards-container');
+function renderCards() {
+  const grid = document.getElementById('cards-grid');
   grid.innerHTML = '';
 
   const metaIcons = {
-    'vi-mo': { icon: '📊', desc: 'Quy luật cung cầu, hệ số co giãn' },
+    'vi-mo': { icon: '📊', desc: 'Cung cầu, độ co giãn, giá cân bằng' },
     'van-hoa-kd': { icon: '🤝', desc: 'Đạo đức kinh doanh, triết lý doanh nghiệp' },
-    'internet-elearning': { icon: '🌐', desc: 'Địa chỉ IP, giao thức mạng, E-Learning' },
-    'noi-khoa': { icon: '🩺', desc: 'Cấp cứu hen, xuất huyết tiêu hóa' },
-    'ngoai-khoa': { icon: '🏥', desc: 'Cấp cứu bụng, viêm ruột thừa cấp' },
-    'san-khoa': { icon: '🤰', desc: 'U xơ tử cung, phụ khoa' },
-    'nhi-khoa': { icon: '👶', desc: 'Sốt cao co giật ở trẻ' }
+    'internet-elearning': { icon: '🌐', desc: 'Địa chỉ IP, giao thức mạng, E-Learning' }
   };
 
-  for (const [dKey, d] of Object.entries(defaultDatabase)) {
-    for (const [sKey, s] of Object.entries(d.subjects)) {
-      const card = document.createElement('div');
-      card.className = 'subject-card';
-      const meta = metaIcons[sKey] || { icon: '📚', desc: 'Tổng hợp câu hỏi trắc nghiệm' };
+  for (const [sKey, sVal] of Object.entries(subjects)) {
+    const card = document.createElement('div');
+    card.className = 'card-item';
+    const meta = metaIcons[sKey] || { icon: '📖', desc: 'Hệ thống câu hỏi trắc nghiệm' };
+    const lessonCount = Object.keys(sVal.lessons).length;
 
-      card.innerHTML = `
-        <div>
-          <div class="card-icon">${meta.icon}</div>
-          <div class="card-title">${s.name}</div>
-          <div class="card-meta">${meta.desc}</div>
-        </div>
-        <div style="margin-top: 12px; font-size: 12px; font-weight: 700; color: var(--primary);">
-          ${Object.keys(s.lessons).length} bài học →
-        </div>
-      `;
+    card.innerHTML = `
+      <div>
+        <div class="icon">${meta.icon}</div>
+        <div class="title">${sVal.name}</div>
+        <div class="sub">${meta.desc}</div>
+      </div>
+      <div style="margin-top: 14px; font-size: 12.5px; font-weight: 700; color: var(--primary);">
+        ${lessonCount} chương/bài tập →
+      </div>
+    `;
 
-      card.onclick = () => {
-        // Tự động điền dropdown và bắt đầu bài đầu tiên của môn
-        document.getElementById('sel-domain').value = dKey;
-        onDomainSelect();
-        document.getElementById('sel-subject').value = sKey;
-        onSubjectSelect();
-        const firstLesson = Object.keys(s.lessons)[0];
-        document.getElementById('sel-lesson').value = firstLesson;
-        onLessonSelect();
-        startQuizSession();
-      };
-
-      grid.appendChild(card);
-    }
-  }
-}
-
-// Bắt đầu làm bài: Ẩn trang chủ, hiện không gian làm bài
-function startQuizSession() {
-  const lessonObj = defaultDatabase[activeDomain].subjects[activeSubject].lessons[activeLesson];
-  currentQuestions = lessonObj.questions;
-  currentIndex = 0;
-  userAnswers = {};
-  score = 0;
-
-  document.getElementById('home-screen').style.display = 'none';
-  document.getElementById('quiz-screen').style.display = 'block';
-
-  document.getElementById('quiz-module-name').innerText = `${defaultDatabase[activeDomain].subjects[activeSubject].name} • ${lessonObj.title}`;
-  renderSingleQuestion();
-}
-
-// Quay lại trang chủ
-function backToHome() {
-  document.getElementById('quiz-screen').style.display = 'none';
-  document.getElementById('home-screen').style.display = 'block';
-}
-
-// Hiển thị 1 câu hỏi duy nhất
-function renderSingleQuestion() {
-  const total = currentQuestions.length;
-  const qData = currentQuestions[currentIndex];
-
-  document.getElementById('current-q-badge').innerText = `CÂU ${currentIndex + 1} / ${total}`;
-  document.getElementById('current-q-text').innerText = qData.q;
-  document.getElementById('question-progress-text').innerText = `Câu ${currentIndex + 1} / ${total}`;
-  document.getElementById('progress-bar').style.width = `${((currentIndex + 1) / total) * 100}%`;
-  document.getElementById('score-badge').innerText = `Điểm: ${score} / ${total}`;
-
-  // Điều khiển nút Trước / Tiếp
-  document.getElementById('btn-prev').disabled = (currentIndex === 0);
-  const btnNext = document.getElementById('btn-next');
-  if (currentIndex === total - 1) {
-    btnNext.innerText = 'Hoàn thành bài ôn 🎉';
-  } else {
-    btnNext.innerText = 'Câu tiếp theo →';
-  }
-
-  // Danh sách nút đáp án
-  const optsContainer = document.getElementById('options-container');
-  optsContainer.innerHTML = '';
-  const letters = ['A', 'B', 'C', 'D'];
-  const expBox = document.getElementById('explanation-box');
-
-  const hasAnswered = (userAnswers[currentIndex] !== undefined);
-  const userPick = userAnswers[currentIndex];
-
-  qData.opts.forEach((optText, optIdx) => {
-    const btn = document.createElement('button');
-    btn.className = 'btn-answer';
-    btn.innerHTML = `<span style="font-weight:700; width:22px;">${letters[optIdx]}.</span> <span>${optText}</span>`;
-
-    if (hasAnswered) {
-      btn.disabled = true;
-      if (optIdx === qData.ans) {
-        btn.classList.add('correct');
-      } else if (optIdx === userPick) {
-        btn.classList.add('wrong');
-      }
-    }
-
-    btn.onclick = () => {
-      userAnswers[currentIndex] = optIdx;
-      const isCorrect = (optIdx === qData.ans);
-      if (isCorrect) score++;
-
-      // Cập nhật lại giao diện ngay
-      renderSingleQuestion();
+    card.onclick = () => {
+      document.getElementById('select-subject').value = sKey;
+      currentSubjectKey = sKey;
+      updateLessonDropdown();
+      const firstLessonKey = Object.keys(sVal.lessons)[0];
+      document.getElementById('select-lesson').value = firstLessonKey;
+      startSelectedLesson();
     };
 
-    optsContainer.appendChild(btn);
+    grid.appendChild(card);
+  }
+}
+
+function startSelectedLesson() {
+  currentSubjectKey = document.getElementById('select-subject').value;
+  currentLessonKey = document.getElementById('select-lesson').value;
+
+  const lessonObj = subjects[currentSubjectKey].lessons[currentLessonKey];
+  document.getElementById('quiz-header-title').innerText = `${subjects[currentSubjectKey].name} • ${lessonObj.title}`;
+
+  document.getElementById('home-view').style.display = 'none';
+  document.getElementById('quiz-view').style.display = 'block';
+
+  score = 0;
+  userAnswers = {};
+  renderAllQuestions(lessonObj.questions);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function backToHome() {
+  document.getElementById('quiz-view').style.display = 'none';
+  document.getElementById('home-view').style.display = 'block';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// HIỂN THỊ TOÀN BỘ CÂU HỎI TRÊN CÙNG 1 TRANG
+function renderAllQuestions(questions) {
+  const container = document.getElementById('questions-list');
+  container.innerHTML = '';
+  const total = questions.length;
+  document.getElementById('score-display').innerText = `Điểm: 0 / ${total}`;
+  const letters = ['A', 'B', 'C', 'D'];
+
+  questions.forEach((qItem, qIdx) => {
+    const card = document.createElement('div');
+    card.className = 'question-card';
+
+    const qBadge = document.createElement('div');
+    qBadge.className = 'q-badge';
+    qBadge.innerText = `CÂU ${qIdx + 1} / ${total}`;
+    card.appendChild(qBadge);
+
+    const qText = document.createElement('div');
+    qText.className = 'q-text';
+    qText.innerText = qItem.q;
+    card.appendChild(qText);
+
+    const optsList = document.createElement('div');
+    optsList.className = 'options-list';
+
+    const expBox = document.createElement('div');
+    expBox.className = 'exp-box';
+
+    const optButtons = [];
+
+    qItem.opts.forEach((optText, optIdx) => {
+      const btn = document.createElement('button');
+      btn.className = 'opt-btn';
+      btn.innerHTML = `<span style="font-weight:700; width:22px;">${letters[optIdx]}.</span> <span>${optText}</span>`;
+
+      btn.onclick = () => {
+        if (userAnswers[qIdx] !== undefined) return;
+        userAnswers[qIdx] = optIdx;
+
+        optButtons.forEach(b => b.disabled = true);
+        const isCorrect = (optIdx === qItem.ans);
+
+        if (isCorrect) {
+          btn.classList.add('correct');
+          score++;
+          document.getElementById('score-display').innerText = `Điểm: ${score} / ${total}`;
+        } else {
+          btn.classList.add('wrong');
+          optButtons[qItem.ans].classList.add('correct');
+        }
+
+        expBox.innerHTML = `
+          <div style="font-weight:700; margin-bottom:4px;">
+            ${isCorrect ? '✅ Bạn đã trả lời đúng!' : '❌ Chưa chính xác!'} (Đáp án chuẩn: ${letters[qItem.ans]})
+          </div>
+          <div><strong>Giải thích:</strong> ${qItem.exp || 'Không có giải thích chi tiết.'}</div>
+        `;
+        expBox.classList.add('show');
+      };
+
+      optButtons.push(btn);
+      optsList.appendChild(btn);
+    });
+
+    card.appendChild(optsList);
+    card.appendChild(expBox);
+    container.appendChild(card);
   });
-
-  // Hộp giải thích
-  if (hasAnswered) {
-    const isCorrect = (userPick === qData.ans);
-    expBox.innerHTML = `
-      <div style="font-weight:700; margin-bottom:4px;">
-        ${isCorrect ? '✅ Bạn đã trả lời đúng!' : '❌ Chưa chính xác!'} (Đáp án chuẩn: ${letters[qData.ans]})
-      </div>
-      <div><strong>Giải thích:</strong> ${qData.exp || 'Không có giải thích bổ sung.'}</div>
-    `;
-    expBox.classList.add('show');
-  } else {
-    expBox.classList.remove('show');
-    expBox.innerHTML = '';
-  }
 }
 
-// Chuyển câu hỏi Trước / Tiếp
-function navQuestion(direction) {
-  const newIndex = currentIndex + direction;
-  if (newIndex >= 0 && newIndex < currentQuestions.length) {
-    currentIndex = newIndex;
-    renderSingleQuestion();
-  } else if (newIndex >= currentQuestions.length) {
-    alert(`🎉 Chúc mừng bạn đã hoàn thành bài ôn tập!\nTổng điểm đạt được: ${score} / ${currentQuestions.length}`);
-    backToHome();
-  }
-}
-
-// Khởi chạy khi mở web
 initHome();
 </script>
 </body>
