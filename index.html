@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ôn Luyện Trắc Nghiệm - Đa Bài Học</title>
+<title>Hệ Thống Trắc Nghiệm Y Khoa & Kinh Tế</title>
 <style>
   :root {
     --primary: #2563eb;
@@ -29,7 +29,7 @@
     justify-content: center;
   }
   .container {
-    max-width: 760px;
+    max-width: 800px;
     width: 100%;
   }
   header {
@@ -48,7 +48,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
   }
   h1 {
     font-size: 19px;
@@ -63,16 +63,33 @@
     font-weight: 700;
     font-size: 15px;
   }
-  .selector-box {
-    display: flex;
+  .nav-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
     gap: 10px;
-    align-items: center;
+  }
+  @media (max-width: 640px) {
+    .nav-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  .select-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .select-group label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #64748b;
+    letter-spacing: 0.5px;
   }
   select {
-    padding: 9px 14px;
+    padding: 9px 12px;
     border-radius: 8px;
     border: 1.5px solid #cbd5e1;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     color: #1e293b;
     background: white;
@@ -120,6 +137,7 @@
     transition: all 0.15s ease;
     font-weight: 500;
     color: #334155;
+    line-height: 1.4;
   }
   .btn-opt:hover:not(:disabled) {
     background: #e2e8f0;
@@ -160,13 +178,29 @@
 <div class="container">
   <header>
     <div class="header-top">
-      <h1 id="lesson-title">Kinh tế vi mô</h1>
+      <h1 id="view-title">Hệ Thống Trắc Nghiệm Học Tập</h1>
       <div class="score-badge" id="score-display">Điểm: 0 / 0</div>
     </div>
-    <div class="selector-box">
-      <select id="lesson-select" onchange="switchLesson(this.value)">
-        <!-- Danh sách bài học / chương sẽ được nạp tự động vào đây -->
-      </select>
+    
+    <!-- Bộ lọc 3 cấp độ -->
+    <div class="nav-grid">
+      <div class="select-group">
+        <label>1. Lĩnh vực</label>
+        <select id="domain-select" onchange="onDomainChange()">
+        </select>
+      </div>
+
+      <div class="select-group">
+        <label>2. Chuyên ngành / Môn</label>
+        <select id="subject-select" onchange="onSubjectChange()">
+        </select>
+      </div>
+
+      <div class="select-group">
+        <label>3. Bài học / Chương</label>
+        <select id="lesson-select" onchange="onLessonChange()">
+        </select>
+      </div>
     </div>
   </header>
 
@@ -174,222 +208,386 @@
 </div>
 
 <script>
-// ==========================================
-// NƠI BẠN THÊM BÀI HỌC VÀ CÂU HỎI MỚI
-// ==========================================
-const courseData = {
-  "bai-1": {
-    title: "Bài 1: Tổng quan Kinh tế vi mô & Cung cầu",
-    questions: [
-      {
-        q: "Trong nền kinh tế chỉ huy, tác nhân kinh tế nào đóng vai trò chủ đạo?",
-        opts: ["Thị trường", "Nhà nước", "Người dân", "Các doanh nghiệp"],
-        ans: 1,
-        exp: "Trong nền kinh tế chỉ huy, Nhà nước quyết định toàn bộ việc phân bổ nguồn lực và sản xuất thông qua kế hoạch tập trung."
-      },
-      {
-        q: "Trong mô hình kinh tế thị trường, các vấn đề cơ bản của hệ thống kinh tế được giải quyết:",
-        opts: [
-          "Thông qua thị trường.",
-          "Thông qua các vấn đề của chính phủ.",
-          "Thông qua chỉ tiêu pháp lệnh của nhà nước",
-          "Thông qua thị trường và các kế hoạch của chính phủ."
-        ],
-        ans: 0,
-        exp: "Cơ chế thị trường tự do tự điều tiết cung cầu và giá cả để giải quyết các vấn đề kinh tế cơ bản."
-      },
-      {
-        q: "Vấn đề nào dưới đây không thuộc kinh tế vi mô:",
-        opts: [
-          "Sự khác biệt thu nhập của quốc gia",
-          "Cung cầu",
-          "Tiêu dùng",
-          "Sự thay đổi công nghệ"
-        ],
-        ans: 0,
-        exp: "Thu nhập quốc gia thuộc phạm vi nghiên cứu của Kinh tế vĩ mô."
-      },
-      {
-        q: "Chủ đề mang tính trọng tâm nhất mà kinh tế học nghiên cứu là gì?",
-        opts: [
-          "Sự khan hiếm nguồn lực.",
-          "Tối đa hóa lợi nhuận.",
-          "Tiền tệ.",
-          "Cơ chế giá cả."
-        ],
-        ans: 0,
-        exp: "Kinh tế học nghiên cứu cách phân bổ nguồn lực khan hiếm để thỏa mãn nhu cầu vô hạn của con người."
-      },
-      {
-        q: "Cách tiếp cận một cách khoa học và khách quan để nghiên cứu các quan hệ kinh tế là",
-        opts: [
-          "Kinh tế học chuẩn tắc.",
-          "Kinh tế học vĩ mô.",
-          "Kinh tế chính trị.",
-          "Kinh tế học thực chứng."
-        ],
-        ans: 3,
-        exp: "Kinh tế học thực chứng giải thích các hiện tượng kinh tế một cách khách quan dựa trên thực tế kiểm chứng."
-      },
-      {
-        q: "Kinh tế học vi mô tập trung nghiên cứu kinh tế dưới góc độ nào?",
-        opts: [
-          "Hành vi của người tiêu dùng và doanh nghiệp.",
-          "Thị trường chứng khoán.",
-          "Toàn bộ nền kinh tế.",
-          "Chính phủ."
-        ],
-        ans: 0,
-        exp: "Kinh tế vi mô tập trung vào hành vi của các cá nhân và doanh nghiệp đơn lẻ."
-      },
-      {
-        q: "Câu nào sau đây thuộc kinh tế vi mô:",
-        opts: [
-          "Chính sách thuế và chi tiêu của chính phủ là công cụ để chính phủ điều tiết nền kinh tế",
-          "Lợi nhuận kinh tế là động lực thu hút các doanh nghiệp mới gia nhập vào ngành sản xuất",
-          "Khi Chính phủ tăng thuế thì đường tổng cầu sẽ dịch chuyển sang trái",
-          "Tỷ lệ thất nghiệp ở Việt Nam hiện nay ở mức cao"
-        ],
-        ans: 1,
-        exp: "Hành vi doanh nghiệp gia nhập thị trường là vấn đề vi mô."
-      },
-      {
-        q: "Do nhiều người từ các tỉnh nhập cư vào thành phố Hà Nội kết quả là đường cầu mặt hàng gạo ở Hà Nội:",
-        opts: ["Vận động dọc", "Dịch chuyển sang phải.", "Dịch chuyển sang trái.", "Không dịch chuyển."],
-        ans: 1,
-        exp: "Số lượng người tiêu dùng tăng làm tăng cầu tại mọi mức giá, khiến đường cầu dịch chuyển sang phải."
-      },
-      {
-        q: "Đường cầu thị trường có thể được xác định:",
-        opts: [
-          "Cộng tất cả đường cầu cá nhân theo chiều dọc",
-          "Cộng lượng mua của các người mua lớn",
-          "Không câu nào đúng",
-          "Cộng tất cả đường cầu của các cá nhân theo chiều ngang"
-        ],
-        ans: 3,
-        exp: "Đường cầu thị trường bằng tổng lượng cầu của các cá nhân ở mỗi mức giá (cộng theo chiều ngang)."
-      },
-      {
-        q: "Hàm số cầu của một hàng hóa là sự tương quan giữa:",
-        opts: [
-          "Lượng cầu hàng hóa đó với tổng hữu dụng.",
-          "Lượng cầu hàng hóa đó với giá cả của nó.",
-          "Lượng cầu hàng hóa đó với tổng số doanh thu của người bán.",
-          "Lượng cầu hàng hóa đó với tổng số chi tiêu của người tiêu dùng."
-        ],
-        ans: 1,
-        exp: "Hàm cầu biểu thị mối quan hệ giữa lượng cầu Qd và mức giá P."
-      },
-      {
-        q: "Hiện tượng nào sau đây không gây ra sự dịch chuyển của đường cầu:",
-        opts: [
-          "Sự gia tăng giá mặt hàng thay thế.",
-          "Sự gia tăng giá mặt hàng bổ sung.",
-          "Sự thay đổi giá bán của bản thân mặt hàng đó.",
-          "Sự giảm sụt của thu nhập."
-        ],
-        ans: 2,
-        exp: "Giá của chính hàng hóa đó thay đổi chỉ gây ra sự di chuyển dọc trên đường cầu, không làm dịch chuyển đường cầu."
-      },
-      {
-        q: "Nếu giá hàng hoá A tăng lên gây ra sự dịch chuyển của đường cầu đối với hàng hoá B về phía bên trái:",
-        opts: [
-          "B là hàng hoá cấp thấp",
-          "A và B là hàng hoá thay thế trong tiêu dùng",
-          "A và B là hàng hóa bổ sung trong tiêu dùng",
-          "A là hàng hóa cấp thấp"
-        ],
-        ans: 2,
-        exp: "Giá A tăng làm giảm lượng mua A, kéo theo giảm lượng mua B -> A và B là hàng hóa bổ sung."
-      },
-      {
-        q: "Quy luật cầu chỉ ra rằng nếu các yếu tố không đổi thì:",
-        opts: [
-          "Giữa lượng cầu và thu nhập có mối quan hệ đồng biến.",
-          "Giữa số lượng hàng hóa và giá cả hàng hóa có mối quan hệ nghịch biến",
-          "Giữa số lượng hàng hóa và sở thích có mối quan hệ đồng biến.",
-          "Giữa lượng cầu hàng hóa này và giá hàng hóa thay thế có mối liên hệ với nhau."
-        ],
-        ans: 1,
-        exp: "Quy luật cầu: Giá và lượng cầu có quan hệ nghịch biến (ceteris paribus)."
-      },
-      {
-        q: "Trong điều kiện giá cả không đổi, đường cầu dịch chuyển là do tác động của các nhân tố:",
-        opts: [
-          "Giá cả sản phẩm thay thế.",
-          "Công nghệ.",
-          "Chính sách trợ cấp của chính phủ dành cho người tiêu dùng.",
-          "Dự báo của nhà sản xuất về tình trạng cung cầu trong tương lai."
-        ],
-        ans: 0,
-        exp: "Giá mặt hàng thay thế là yếu tố ngoại sinh làm dịch chuyển đường cầu."
-      },
-      {
-        q: "Khi thu nhập của người tiêu dùng tăng lên:",
-        opts: [
-          "Cầu của hàng hóa thông thường, cao cấp giảm",
-          "Cầu của hàng hóa thông thường, cao cấp không đổi",
-          "Cầu hàng hóa thứ cấp tăng",
-          "Cầu hàng hóa thông thường, cao cấp tăng"
-        ],
-        ans: 3,
-        exp: "Hàng thông thường và cao cấp có cầu tăng khi thu nhập của người tiêu dùng tăng."
+// =========================================================================
+// CẤU TRÚC CƠ SỞ DỮ LIỆU ĐA TẦNG:
+// LĨNH VỰC -> CHUYÊN KHOA / MÔN HỌC -> BÀI HỌC CỤ THỂ -> CÂU HỎI
+// =========================================================================
+const appDatabase = {
+  "kinh-te": {
+    name: "Kinh Tế Học",
+    subjects: {
+      "vi-mo": {
+        name: "Kinh tế vi mô",
+        lessons: {
+          "chuong-2": {
+            title: "Chương 2: Cung – Cầu hàng hóa (15 câu)",
+            questions: [
+              {
+                q: "Trong nền kinh tế chỉ huy, tác nhân kinh tế nào đóng vai trò chủ đạo?",
+                opts: ["Thị trường", "Nhà nước", "Người dân", "Các doanh nghiệp"],
+                ans: 1,
+                exp: "Trong nền kinh tế chỉ huy, Nhà nước quyết định toàn bộ việc phân bổ nguồn lực và sản xuất thông qua kế hoạch tập trung."
+              },
+              {
+                q: "Trong mô hình kinh tế thị trường, các vấn đề cơ bản của hệ thống kinh tế được giải quyết:",
+                opts: [
+                  "Thông qua thị trường.",
+                  "Thông qua các vấn đề của chính phủ.",
+                  "Thông qua chỉ tiêu pháp lệnh của nhà nước",
+                  "Thông qua thị trường và các kế hoạch của chính phủ."
+                ],
+                ans: 0,
+                exp: "Cơ chế thị trường tự do tự điều tiết cung cầu và giá cả để giải quyết các vấn đề kinh tế cơ bản."
+              },
+              {
+                q: "Vấn đề nào dưới đây không thuộc kinh tế vi mô:",
+                opts: [
+                  "Sự khác biệt thu nhập của quốc gia",
+                  "Cung cầu",
+                  "Tiêu dùng",
+                  "Sự thay đổi công nghệ"
+                ],
+                ans: 0,
+                exp: "Thu nhập quốc gia thuộc phạm vi nghiên cứu của Kinh tế vĩ mô."
+              },
+              {
+                q: "Chủ đề mang tính trọng tâm nhất mà kinh tế học nghiên cứu là gì?",
+                opts: [
+                  "Sự khan hiếm nguồn lực.",
+                  "Tối đa hóa lợi nhuận.",
+                  "Tiền tệ.",
+                  "Cơ chế giá cả."
+                ],
+                ans: 0,
+                exp: "Kinh tế học nghiên cứu cách phân bổ nguồn lực khan hiếm để thỏa mãn nhu cầu vô hạn của con người."
+              },
+              {
+                q: "Cách tiếp cận một cách khoa học và khách quan để nghiên cứu các quan hệ kinh tế là",
+                opts: [
+                  "Kinh tế học chuẩn tắc.",
+                  "Kinh tế học vĩ mô.",
+                  "Kinh tế chính trị.",
+                  "Kinh tế học thực chứng."
+                ],
+                ans: 3,
+                exp: "Kinh tế học thực chứng giải thích các hiện tượng kinh tế một cách khách quan dựa trên thực tế kiểm chứng."
+              },
+              {
+                q: "Kinh tế học vi mô tập trung nghiên cứu kinh tế dưới góc độ nào?",
+                opts: [
+                  "Hành vi của người tiêu dùng và doanh nghiệp.",
+                  "Thị trường chứng khoán.",
+                  "Toàn bộ nền kinh tế.",
+                  "Chính phủ."
+                ],
+                ans: 0,
+                exp: "Kinh tế vi mô tập trung vào hành vi của các cá nhân và doanh nghiệp đơn lẻ."
+              },
+              {
+                q: "Câu nào sau đây thuộc kinh tế vi mô:",
+                opts: [
+                  "Chính sách thuế và chi tiêu của chính phủ là công cụ để chính phủ điều tiết nền kinh tế",
+                  "Lợi nhuận kinh tế là động lực thu hút các doanh nghiệp mới gia nhập vào ngành sản xuất",
+                  "Khi Chính phủ tăng thuế thì đường tổng cầu sẽ dịch chuyển sang trái",
+                  "Tỷ lệ thất nghiệp ở Việt Nam hiện nay ở mức cao"
+                ],
+                ans: 1,
+                exp: "Hành vi doanh nghiệp gia nhập thị trường là vấn đề vi mô."
+              },
+              {
+                q: "Do nhiều người từ các tỉnh nhập cư vào thành phố Hà Nội kết quả là đường cầu mặt hàng gạo ở Hà Nội:",
+                opts: ["Vận động dọc", "Dịch chuyển sang phải.", "Dịch chuyển sang trái.", "Không dịch chuyển."],
+                ans: 1,
+                exp: "Số lượng người tiêu dùng tăng làm tăng cầu tại mọi mức giá, khiến đường cầu dịch chuyển sang phải."
+              },
+              {
+                q: "Đường cầu thị trường có thể được xác định:",
+                opts: [
+                  "Cộng tất cả đường cầu cá nhân theo chiều dọc",
+                  "Cộng lượng mua của các người mua lớn",
+                  "Không câu nào đúng",
+                  "Cộng tất cả đường cầu của các cá nhân theo chiều ngang"
+                ],
+                ans: 3,
+                exp: "Đường cầu thị trường bằng tổng lượng cầu của các cá nhân ở mỗi mức giá (cộng theo chiều ngang)."
+              },
+              {
+                q: "Hàm số cầu của một hàng hóa là sự tương quan giữa:",
+                opts: [
+                  "Lượng cầu hàng hóa đó với tổng hữu dụng.",
+                  "Lượng cầu hàng hóa đó với giá cả của nó.",
+                  "Lượng cầu hàng hóa đó với tổng số doanh thu của người bán.",
+                  "Lượng cầu hàng hóa đó với tổng số chi tiêu của người tiêu dùng."
+                ],
+                ans: 1,
+                exp: "Hàm cầu biểu thị mối quan hệ giữa lượng cầu Qd và mức giá P."
+              },
+              {
+                q: "Hiện tượng nào sau đây không gây ra sự dịch chuyển của đường cầu:",
+                opts: [
+                  "Sự gia tăng giá mặt hàng thay thế.",
+                  "Sự gia tăng giá mặt hàng bổ sung.",
+                  "Sự thay đổi giá bán của bản thân mặt hàng đó.",
+                  "Sự giảm sụt của thu nhập."
+                ],
+                ans: 2,
+                exp: "Giá của chính hàng hóa đó thay đổi chỉ gây ra sự di chuyển dọc trên đường cầu, không làm dịch chuyển đường cầu."
+              },
+              {
+                q: "Nếu giá hàng hoá A tăng lên gây ra sự dịch chuyển của đường cầu đối với hàng hoá B về phía bên trái:",
+                opts: [
+                  "B là hàng hoá cấp thấp",
+                  "A và B là hàng hoá thay thế trong tiêu dùng",
+                  "A và B là hàng hóa bổ sung trong tiêu dùng",
+                  "A là hàng hóa cấp thấp"
+                ],
+                ans: 2,
+                exp: "Giá A tăng làm giảm lượng mua A, kéo theo giảm lượng mua B -> A và B là hàng hóa bổ sung."
+              },
+              {
+                q: "Quy luật cầu chỉ ra rằng nếu các yếu tố không đổi thì:",
+                opts: [
+                  "Giữa lượng cầu và thu nhập có mối quan hệ đồng biến.",
+                  "Giữa số lượng hàng hóa và giá cả hàng hóa có mối quan hệ nghịch biến",
+                  "Giữa số lượng hàng hóa và sở thích có mối quan hệ đồng biến.",
+                  "Giữa lượng cầu hàng hóa này và giá hàng hóa thay thế có mối liên hệ với nhau."
+                ],
+                ans: 1,
+                exp: "Quy luật cầu: Giá và lượng cầu có quan hệ nghịch biến (ceteris paribus)."
+              },
+              {
+                q: "Trong điều kiện giá cả không đổi, đường cầu dịch chuyển là do tác động của các nhân tố:",
+                opts: [
+                  "Giá cả sản phẩm thay thế.",
+                  "Công nghệ.",
+                  "Chính sách trợ cấp của chính phủ dành cho người tiêu dùng.",
+                  "Dự báo của nhà sản xuất về tình trạng cung cầu trong tương lai."
+                ],
+                ans: 0,
+                exp: "Giá mặt hàng thay thế là yếu tố ngoại sinh làm dịch chuyển đường cầu."
+              },
+              {
+                q: "Khi thu nhập của người tiêu dùng tăng lên:",
+                opts: [
+                  "Cầu của hàng hóa thông thường, cao cấp giảm",
+                  "Cầu của hàng hóa thông thường, cao cấp không đổi",
+                  "Cầu hàng hóa thứ cấp tăng",
+                  "Cầu hàng hóa thông thường, cao cấp tăng"
+                ],
+                ans: 3,
+                exp: "Hàng thông thường và cao cấp có cầu tăng khi thu nhập của người tiêu dùng tăng."
+              }
+            ]
+          },
+          "chuong-3": {
+            title: "Chương 3: Cân bằng cung cầu & Hệ số co giãn (Mẫu)",
+            questions: [
+              {
+                q: "Khi giá tăng 10% làm lượng cầu giảm 20%, hệ số co giãn của cầu theo giá là:",
+                opts: ["-0.5", "-2.0", "-1.0", "-0.2"],
+                ans: 1,
+                exp: "Ed = (% thay đổi Qd) / (% thay đổi P) = (-20%) / (10%) = -2.0."
+              }
+            ]
+          }
+        }
       }
-    ]
+    }
   },
-  "bai-2": {
-    title: "Bài 2: Độ co giãn của Cung & Cầu (Mẫu)",
-    questions: [
-      {
-        q: "Khi giá tăng 10% làm lượng cầu giảm 20%, hệ số co giãn của cầu theo giá là:",
-        opts: ["-0.5", "-2.0", "-1.0", "-0.2"],
-        ans: 1,
-        exp: "Ed = (% thay đổi của lượng cầu) / (% thay đổi của giá) = (-20%) / (10%) = -2.0."
+  "y-khoa": {
+    name: "Y Khoa",
+    subjects: {
+      "noi-khoa": {
+        name: "Nội khoa",
+        lessons: {
+          "ho-hap-hen": {
+            title: "Hô hấp: Chẩn đoán & Cấp cứu Hen phế quản",
+            questions: [
+              {
+                q: "Thuốc cắt cơn ưu tiên hàng đầu trong xử trí cơn hen phế quản cấp là:",
+                opts: [
+                  "SABA (Salbutamol) dạng khí dung hoặc xịt định liều",
+                  "Corticosteroid đường uống liều cao",
+                  "Kháng sinh nhóm Macrolid",
+                  "Theophylline truyền tĩnh mạch"
+                ],
+                ans: 0,
+                exp: "SABA (chủ vận beta-2 tác dụng ngắn) là lựa chọn đầu tay giúp giãn phế quản nhanh chóng trong cấp cứu cơn hen cấp."
+              },
+              {
+                q: "Dấu hiệu nào sau đây chỉ điểm cơn hen phế quản đe dọa tính mạng (cơn hen ác tính)?",
+                opts: [
+                  "Phổi nhiều ran rít, ran ngáy 2 phế trường",
+                  "Lồng ngực im lặng (silent chest), tri giác lơ mơ",
+                  "Nhịp thở 24 lần/phút",
+                  "Mạch 100 lần/phút"
+                ],
+                ans: 1,
+                exp: "Phổi im lặng (tiếng thở mất hoàn toàn do tắc nghẽn đường thở trầm trọng) và rối loạn ý thức là dấu hiệu suy hô hấp tối cấp đe dọa tính mạng."
+              }
+            ]
+          },
+          "tieu-hoa-xht": {
+            title: "Tiêu hóa: Xuất huyết tiêu hóa do tăng áp cửa",
+            questions: [
+              {
+                q: "Thuốc co mạch tạng được khuyến cáo sử dụng sớm ngay khi nghi ngờ vỡ giãn tĩnh mạch thực quản là:",
+                opts: [
+                  "Terlipressin hoặc Octreotide",
+                  "Omeprazole liều chuẩn",
+                  "Tranexamic acid",
+                  "Vitamin K1 tiêm bắp"
+                ],
+                ans: 0,
+                exp: "Các thuốc giảm áp lực tĩnh mạch cửa (Terlipressin, Somatostatin, Octreotide) cần được dùng càng sớm càng tốt trước cả khi nội soi can thiệp."
+              }
+            ]
+          }
+        }
       },
-      {
-        q: "Nếu đường cầu hoàn toàn co giãn thì đồ thị đường cầu sẽ:",
-        opts: ["Thẳng đứng song song trục tung", "Nằm ngang song song trục hoành", "Dốc xuống từ trái qua phải", "Dốc lên từ trái qua phải"],
-        ans: 1,
-        exp: "Đường cầu hoàn toàn co giãn (Ed = vô cực) là một đường nằm ngang song song với trục sản lượng."
+      "ngoai-khoa": {
+        name: "Ngoại khoa",
+        lessons: {
+          "ruot-thua": {
+            title: "Cấp cứu bụng: Viêm ruột thừa cấp",
+            questions: [
+              {
+                q: "Điểm đau khu trú điển hình trong viêm ruột thừa cấp vị trí giải phẫu bình thường là:",
+                opts: [
+                  "Điểm Mac-Burney ở hố chậu phải",
+                  "Điểm túi mật (Murphy)",
+                  "Điểm Mayo-Robson",
+                  "Điểm Lanz ở hố chậu trái"
+                ],
+                ans: 0,
+                exp: "Điểm Mac-Burney nằm ở vị trí 1/3 ngoài đường nối gai chậu trước trên phải với rốn."
+              }
+            ]
+          }
+        }
+      },
+      "san-khoa": {
+        name: "Sản phụ khoa",
+        lessons: {
+          "u-xo-tu-cung": {
+            title: "Phụ khoa: U xơ cơ tử cung & U buồng trứng",
+            questions: [
+              {
+                q: "Triệu chứng lâm sàng thường gặp nhất của u xơ tử cung dưới niêm mạc là:",
+                opts: [
+                  "Rong kinh, cường kinh gây thiếu máu",
+                  "Vô kinh thứ phát",
+                  "Đau bụng cấp tính lan ra sau lưng",
+                  "Sốt cao kèm khí hư mùi hôi"
+                ],
+                ans: 0,
+                exp: "U xơ dưới niêm mạc làm biến dạng buồng tử cung và tăng diện tích nội mạc, triệu chứng điển hình nhất là rong kinh, cường kinh kéo dài."
+              }
+            ]
+          }
+        }
+      },
+      "nhi-khoa": {
+        name: "Nhi khoa",
+        lessons: {
+          "sot-co-giat": {
+            title: "Cấp cứu nhi: Co giật do sốt cao",
+            questions: [
+              {
+                q: "Đặc điểm nào sau đây thuộc tiêu chuẩn co giật do sốt đơn thuần ở trẻ em?",
+                opts: [
+                  "Cơn co giật toàn thể trương lực - co giật, kéo dài dưới 15 phút, không để lại dấu thần kinh khu trú",
+                  "Co giật cục bộ nửa người",
+                  "Cơn giật kéo dài trên 20 phút",
+                  "Tái phát nhiều lần trong vòng 24 giờ"
+                ],
+                ans: 0,
+                exp: "Sốt co giật đơn thuần: trẻ 6 tháng - 5 tuổi, cơn co giật toàn thể, kéo dài < 15 phút, không tái phát trong 24h và thần kinh bình thường sau cơn."
+              }
+            ]
+          }
+        }
       }
-    ]
+    }
   }
 };
 
-let currentLessonKey = "bai-1";
+let curDomain = "kinh-te";
+let curSubject = "vi-mo";
+let curLesson = "chuong-2";
 let currentScore = 0;
 
 function initApp() {
-  const selectElem = document.getElementById('lesson-select');
-  selectElem.innerHTML = '';
-  for (const [key, lesson] of Object.entries(courseData)) {
+  const domainSelect = document.getElementById('domain-select');
+  domainSelect.innerHTML = '';
+  for (const [dKey, dVal] of Object.entries(appDatabase)) {
     const opt = document.createElement('option');
-    opt.value = key;
-    opt.textContent = lesson.title;
-    selectElem.appendChild(opt);
+    opt.value = dKey;
+    opt.textContent = dVal.name;
+    domainSelect.appendChild(opt);
   }
-  loadLesson(currentLessonKey);
+  domainSelect.value = curDomain;
+  updateSubjectDropdown();
 }
 
-function switchLesson(key) {
-  currentLessonKey = key;
-  loadLesson(key);
+function onDomainChange() {
+  curDomain = document.getElementById('domain-select').value;
+  updateSubjectDropdown();
 }
 
-function loadLesson(key) {
-  const lesson = courseData[key];
-  document.getElementById('lesson-title').innerText = lesson.title;
+function updateSubjectDropdown() {
+  const subjectSelect = document.getElementById('subject-select');
+  subjectSelect.innerHTML = '';
+  const subjects = appDatabase[curDomain].subjects;
+  for (const [sKey, sVal] of Object.entries(subjects)) {
+    const opt = document.createElement('option');
+    opt.value = sKey;
+    opt.textContent = sVal.name;
+    subjectSelect.appendChild(opt);
+  }
+  curSubject = Object.keys(subjects)[0];
+  subjectSelect.value = curSubject;
+  updateLessonDropdown();
+}
+
+function onSubjectChange() {
+  curSubject = document.getElementById('subject-select').value;
+  updateLessonDropdown();
+}
+
+function updateLessonDropdown() {
+  const lessonSelect = document.getElementById('lesson-select');
+  lessonSelect.innerHTML = '';
+  const lessons = appDatabase[curDomain].subjects[curSubject].lessons;
+  for (const [lKey, lVal] of Object.entries(lessons)) {
+    const opt = document.createElement('option');
+    opt.value = lKey;
+    opt.textContent = lVal.title;
+    lessonSelect.appendChild(opt);
+  }
+  curLesson = Object.keys(lessons)[0];
+  lessonSelect.value = curLesson;
+  renderQuestions();
+}
+
+function onLessonChange() {
+  curLesson = document.getElementById('lesson-select').value;
+  renderQuestions();
+}
+
+function renderQuestions() {
+  const lessonObj = appDatabase[curDomain].subjects[curSubject].lessons[curLesson];
+  document.getElementById('view-title').innerText = `${appDatabase[curDomain].name} • ${lessonObj.title}`;
   currentScore = 0;
-  const total = lesson.questions.length;
+  const total = lessonObj.questions.length;
   document.getElementById('score-display').innerText = `Điểm: 0 / ${total}`;
-  
+
   const container = document.getElementById('quiz-container');
   container.innerHTML = '';
 
   const letters = ['a', 'b', 'c', 'd'];
 
-  lesson.questions.forEach((item, qIdx) => {
+  lessonObj.questions.forEach((item, qIdx) => {
     const card = document.createElement('div');
     card.className = 'card';
 
@@ -428,7 +626,7 @@ function loadLesson(key) {
         }
 
         expBox.innerHTML = `
-          <div><strong>${isCorrect ? '✅ Chính xác!' : '❌ Chưa đúng!'} (Đáp án đúng: ${letters[item.ans].toUpperCase()})</strong></div>
+          <div><strong>${isCorrect ? '✅ Chính xác!' : '❌ Chưa chính xác!'} (Đáp án đúng: ${letters[item.ans].toUpperCase()})</strong></div>
           <div style="margin-top: 4px;"><strong>Giải thích:</strong> ${item.exp}</div>
         `;
         expBox.classList.add('show');
