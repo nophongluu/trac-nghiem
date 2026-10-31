@@ -199,7 +199,6 @@
     display: block;
   }
 
-  /* Modal Form thêm đề */
   .modal-overlay {
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
@@ -289,7 +288,6 @@
   <div id="quiz-container"></div>
 </div>
 
-<!-- Modal thêm đề nhanh trực tiếp trên giao diện -->
 <div class="modal-overlay" id="add-modal">
   <div class="modal">
     <h2>➕ Nhập bộ câu hỏi / Bài học mới</h2>
@@ -301,12 +299,12 @@
       </select>
     </div>
     <div class="form-group">
-      <label>Chuyên ngành / Môn (VD: Kinh tế vi mô, Nội khoa, Ngoại khoa...)</label>
-      <input type="text" id="modal-subject-name" placeholder="Ví dụ: Nội khoa">
+      <label>Chuyên ngành / Môn (VD: Kinh tế vi mô, Văn hóa kinh doanh, Nội khoa...)</label>
+      <input type="text" id="modal-subject-name" placeholder="Ví dụ: Văn hóa kinh doanh">
     </div>
     <div class="form-group">
       <label>Tên bài học / Chương</label>
-      <input type="text" id="modal-lesson-title" placeholder="Ví dụ: Chương 4: Lý thuyết hành vi người tiêu dùng">
+      <input type="text" id="modal-lesson-title" placeholder="Ví dụ: Chương 1: Tổng quan về văn hóa kinh doanh">
     </div>
     <div class="form-group">
       <label>Mã dữ liệu câu hỏi (JSON) hoặc dán mã được trợ lý AI xuất:</label>
@@ -320,7 +318,6 @@
 </div>
 
 <script>
-// Dữ liệu gốc mặc định
 const defaultDatabase = {
   "kinh-te": {
     name: "Kinh Tế Học",
@@ -589,6 +586,126 @@ const defaultDatabase = {
             ]
           }
         }
+      },
+      "van-hoa-kd": {
+        name: "Văn hóa kinh doanh",
+        lessons: {
+          "chuong-1": {
+            title: "Chương 1: Tổng quan về văn hóa kinh doanh (10 câu)",
+            questions: [
+              {
+                q: "Thông qua giao lưu văn hóa sẽ làm biến đổi một cách tế nhị và dần dần thói quen, thị hiếu và sở thích của người bản địa, và những thay đổi này sẽ mở ra thị trường mới cho các nhà sản xuất. Vậy văn hóa kinh doanh có vai trò gì?",
+                opts: [
+                  "Văn hóa kinh doanh là phương thức phát triển sản xuất kinh doanh bền vững",
+                  "Văn hóa kinh doanh là nguồn lực phát triển kinh doanh",
+                  "Văn hóa kinh doanh là sự khác biệt hóa, cái bản sắc riêng của doanh nghiệp",
+                  "Văn hóa kinh doanh là điều kiện để đẩy mạnh kinh doanh quốc tế"
+                ],
+                ans: 3,
+                exp: "Giao lưu văn hóa làm biến đổi thị hiếu và thói quen tiêu dùng của người bản địa, mở ra thị trường mới, tạo điều kiện thúc đẩy kinh doanh quốc tế."
+              },
+              {
+                q: "Những quy ước thông thường của cuộc sống hàng ngày, những hành vi ứng xử, thói quen, nếp sinh hoạt tương đối ổn định của các thành viên trong nhóm xã hội được lưu truyền từ thế hệ này qua thế hệ khác. Đó là biểu hiện của nhân tố nào cấu thành nên văn hóa?",
+                opts: [
+                  "Thói quen",
+                  "Kiến thức và sự hiểu biết",
+                  "Phong tục tập quán",
+                  "Giáo dục và nhận thức"
+                ],
+                ans: 2,
+                exp: "Phong tục tập quán là các quy ước, hành vi ứng xử và nếp sinh hoạt ổn định được truyền qua nhiều thế hệ trong cộng đồng."
+              },
+              {
+                q: "Là một hệ thống hữu cơ những giá trị vật chất và tinh thần do con người sáng tạo và tích lũy qua quá trình hoạt động thực tiễn, trong sự tương tác giữa con người với môi trường tự nhiên và xã hội của mình. Đây là khái niện của",
+                opts: [
+                  "Triết lý kinh doanh",
+                  "Văn hóa kinh doanh",
+                  "Triết lý",
+                  "Văn hóa"
+                ],
+                ans: 3,
+                exp: "Đây là định nghĩa tổng quát về Văn hóa: hệ thống các giá trị vật chất và tinh thần do con người sáng tạo và tích lũy qua thực tiễn."
+              },
+              {
+                q: "Là nguồn lực phát triển kinh doanh. Đó là vai trò của",
+                opts: [
+                  "Văn hóa kinh doanh",
+                  "Văn hóa doanh nghiệp",
+                  "Triết lý kinh doanh",
+                  "Triết lý doanh nghiệp"
+                ],
+                ans: 0,
+                exp: "Văn hóa kinh doanh đóng vai trò là một nguồn lực quan trọng thúc đẩy hoạt động sản xuất kinh doanh phát triển."
+              },
+              {
+                q: "Kinh doanh và văn hóa có mối quan hệ biện chứng với nhau. Bao gồm kinh doanh có văn hóa và kinh doanh phi văn hóa. Đó chính là vai trò nào của văn hóa kinh doanh?",
+                opts: [
+                  "Văn hóa kinh doanh là sự khác biệt hóa, cái bản sắc riêng của doanh nghiệp",
+                  "Văn hóa kinh doanh là nguồn lực phát triển kinh doanh",
+                  "Văn hóa kinh doanh là điều kiện để đẩy mạnh kinh doanh quốc tế",
+                  "Văn hóa kinh doanh là phương thức phát triển sản xuất kinh doanh bền vững"
+                ],
+                ans: 3,
+                exp: "Kinh doanh có văn hóa giúp ngăn ngừa tiêu cực và bảo đảm sự hài hòa lợi ích lâu dài, là phương thức phát triển sản xuất kinh doanh bền vững."
+              },
+              {
+                q: "Phát huy những tiềm năng của con người và qua đó góp phần nâng cao các giá trị của văn hóa. Đó là chức năng nào của văn hóa?",
+                opts: [
+                  "Chức năng nhận thức",
+                  "Chức năng giáo dục",
+                  "Chức năng giải trí",
+                  "Chức năng thẩm mỹ"
+                ],
+                ans: 1,
+                exp: "Chức năng giáo dục của văn hóa thể hiện ở việc đánh thức và phát huy tiềm năng con người, từ đó nâng cao các giá trị văn hóa xã hội."
+              },
+              {
+                q: "Những luật lệ do con người đặt ra để điều tiết và định hình những quan hệ tương hỗ giữa con người. Những yếu tố này ảnh hưởng trực tiếp tới môi trường kinh doanh và qua đó ảnh hưởng sâu sắc tới việc hình thành và phát triển văn hóa kinh doanh. Đó là sự tác động của nhân tố nào đến văn hóa kinh doanh?",
+                opts: [
+                  "Nền văn hóa xã hội",
+                  "Quá trình toàn cầu hóa",
+                  "Sự khác biệt và giao lưu văn hóa",
+                  "Thể chế xã hội"
+                ],
+                ans: 3,
+                exp: "Thể chế xã hội (luật pháp, chính sách và cơ chế điều tiết) tác động trực tiếp đến môi trường kinh doanh và sự hình thành văn hóa kinh doanh."
+              },
+              {
+                q: "Sự giao lưu văn hóa tạo điều kiện cho các chủ thể kinh doanh lựa chọn khía cạnh tốt về văn hóa của các chủ thể khác. Đó chính là tác động của nhân tố nào đến văn hóa kinh doanh?",
+                opts: [
+                  "Thể chế xã hội",
+                  "Nền văn hóa xã hội",
+                  "Sự khác biệt và giao lưu văn hóa",
+                  "Quá trình toàn cầu hóa"
+                ],
+                ans: 2,
+                exp: "Giao lưu văn hóa tạo cơ hội cọ xát, học hỏi và tiếp thu những mặt tích cực, phù hợp từ các nền văn hóa khác."
+              },
+              {
+                q: "Nhân tố văn hóa có mặt trong mọi công tác, hoạt động xã hội và thường tác động tới con người một cách gián tiếp, vô hình tạo ra các khuôn mẫu xã hội. Do đó văn hóa đóng vai trò gì?",
+                opts: [
+                  "Linh hồn và hệ điều tiết của sự phát triển",
+                  "Tư tưởng và quan điểm của sự phát triển",
+                  "Động lực của sự phát triển xã hội",
+                  "Mục tiêu của sự phát triển"
+                ],
+                ans: 0,
+                exp: "Văn hóa thẩm thấu vào mọi hoạt động và điều chỉnh hành vi con người theo chuẩn mực chung, đóng vai trò linh hồn và hệ điều tiết của sự phát triển."
+              },
+              {
+                q: "Văn hóa tạo nên nếp suy nghĩ và cảm nhận chung mang tính bản sắc có đặc trưng cơ bản là gì?",
+                opts: [
+                  "Văn hóa mang tính vùng miền",
+                  "Văn hóa mang tính địa phương",
+                  "Văn hóa mang tính dân tộc",
+                  "Văn hóa mang tính độc đáo"
+                ],
+                ans: 2,
+                exp: "Tính dân tộc là đặc trưng cốt lõi tạo ra hệ giá trị, bản sắc và cách suy nghĩ, cảm nhận tương đồng của các thành viên trong một dân tộc."
+              }
+            ]
+          }
+        }
       }
     }
   },
@@ -710,13 +827,11 @@ const defaultDatabase = {
   }
 };
 
-// Đọc dữ liệu từ bộ nhớ trình duyệt nếu có thêm mới
 function getMergedDatabase() {
   const localSaved = localStorage.getItem('custom_quizzes');
   if (!localSaved) return defaultDatabase;
   try {
     const custom = JSON.parse(localSaved);
-    // Gộp dữ liệu
     const merged = JSON.parse(JSON.stringify(defaultDatabase));
     for (const dKey in custom) {
       if (!merged[dKey]) merged[dKey] = custom[dKey];
@@ -737,8 +852,8 @@ function getMergedDatabase() {
 
 let appDatabase = getMergedDatabase();
 let curDomain = "kinh-te";
-let curSubject = "vi-mo";
-let curLesson = "chuong-3";
+let curSubject = "van-hoa-kd";
+let curLesson = "chuong-1";
 let currentScore = 0;
 
 function initApp() {
@@ -790,11 +905,7 @@ function updateLessonDropdown() {
     opt.textContent = lVal.title;
     lessonSelect.appendChild(opt);
   }
-  if (curDomain === "kinh-te" && curSubject === "vi-mo" && lessons["chuong-3"]) {
-    curLesson = "chuong-3";
-  } else {
-    curLesson = Object.keys(lessons)[0];
-  }
+  curLesson = Object.keys(lessons)[0];
   lessonSelect.value = curLesson;
   renderQuestions();
 }
