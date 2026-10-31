@@ -263,7 +263,7 @@
     
     <div class="nav-grid">
       <div class="select-group">
-        <label>1. Lĩnh vực</label>
+        <label>1. Ngành</label>
         <select id="domain-select" onchange="onDomainChange()">
         </select>
       </div>
@@ -289,9 +289,9 @@
   <div class="modal">
     <h2>➕ Nhập bộ câu hỏi / Bài học mới</h2>
     <div class="form-group">
-      <label>Lĩnh vực</label>
+      <label>Ngành</label>
       <select id="modal-domain">
-        <option value="kinh-te">Kinh Tế Học</option>
+        <option value="kinh-te">Logistics và quản lý chuỗi cung ứng</option>
         <option value="y-khoa">Y Khoa</option>
       </select>
     </div>
@@ -317,7 +317,7 @@
 <script>
 const defaultDatabase = {
   "kinh-te": {
-    name: "Kinh Tế Học",
+    name: "Logistics và quản lý chuỗi cung ứng",
     subjects: {
       "vi-mo": {
         name: "Kinh tế vi mô",
@@ -1006,7 +1006,7 @@ function saveCustomLesson() {
   const saved = localStorage.getItem('custom_quizzes');
   const custom = saved ? JSON.parse(saved) : {};
 
-  if (!custom[domainKey]) custom[domainKey] = { name: domainKey === "kinh-te" ? "Kinh Tế Học" : "Y Khoa", subjects: {} };
+  if (!custom[domainKey]) custom[domainKey] = { name: domainKey === "kinh-te" ? "Logistics và quản lý chuỗi cung ứng" : "Y Khoa", subjects: {} };
   if (!custom[domainKey].subjects[subjKey]) custom[domainKey].subjects[subjKey] = { name: subjName, lessons: {} };
   custom[domainKey].subjects[subjKey].lessons[lessonKey] = {
     title: lessonTitle,
