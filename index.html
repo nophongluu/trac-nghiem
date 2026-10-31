@@ -1509,7 +1509,7 @@ function onLessonChange() {
 
 function renderQuestions() {
   const lessonObj = appDatabase[curDomain].subjects[curSubject].lessons[curLesson];
-  document.getElementById('view-title').innerText = `${appDatabase[curDomain].name} • ${lessonObj.title}`;
+  document.getElementById('view-title').innerText = `${appDatabase[curDomain].subjects[curSubject].name} • ${lessonObj.title}`;
   currentScore = 0;
   const total = lessonObj.questions.length;
   document.getElementById('score-display').innerText = `Điểm: 0 / ${total}`;
