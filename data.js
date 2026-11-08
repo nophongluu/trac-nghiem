@@ -290,6 +290,906 @@ const appDatabase = {
                 "exp": "Với hàng hóa thông thường, thu nhập tăng làm cầu tăng (đường cầu dịch phải) → Điểm cân bằng mới dịch chuyển dọc theo đường cung dẫn tới giá cao hơn và lượng cân bằng lớn hơn."
               }
             ]
+          },
+          "chuong-4": {
+            "title": "Chương 4: Lý thuyết hành vi người tiêu dùng (20 câu)",
+            "questions": [
+              {
+                "q": "Câu nào dưới đây thuộc về kinh tế vĩ mô?",
+                "opts": [
+                  "Tác động của thâm hụt ngân sách đến lạm phát.",
+                  "Các nguyên nhân làm giảm mức giá lúa.",
+                  "Công ty may 10 áp dụng công nghệ sản xuất mới khiến cho sản lượng cung ứng tăng.",
+                  "Các nguyên nhân làm giá cam giảm."
+                ],
+                "ans": 0,
+                "exp": "Lạm phát và thâm hụt ngân sách là các biến số tổng thể của toàn bộ nền kinh tế, thuộc phạm vi nghiên cứu của Kinh tế vĩ mô."
+              },
+              {
+                "q": "Ưu điểm của mô hình kinh tế chỉ huy là:",
+                "opts": [
+                  "Giải quyết được những nhu cầu công cộng xã hội.",
+                  "Phát huy tính năng động, sáng tạo của các chủ thể kinh tế.",
+                  "Bảo đảm cho các nhà sản xuất kinh doanh tự do lựa chọn và quyết định việc sản xuất kinh doanh và tiêu dùng của mình.",
+                  "Đáp ứng kịp thời những nhu cầu luôn luôn thay đổi của thị trường."
+                ],
+                "ans": 0,
+                "exp": "Kinh tế chỉ huy do Nhà nước điều hành tập trung nên có ưu thế tập trung nguồn lực giải quyết các mục tiêu xã hội, công trình công cộng."
+              },
+              {
+                "q": "Trong nền kinh tế chỉ huy, tác nhân kinh tế nào đóng vai trò chủ đạo?",
+                "opts": [
+                  "Người dân.",
+                  "Nhà nước.",
+                  "Thị trường.",
+                  "Các doanh nghiệp."
+                ],
+                "ans": 1,
+                "exp": "Nhà nước đưa ra mọi quyết định sản xuất cái gì, như thế nào và cho ai thông qua các chỉ tiêu pháp lệnh."
+              },
+              {
+                "q": "Trong mô hình kinh tế thị trường, các vấn đề cơ bản của hệ thống kinh tế được giải quyết:",
+                "opts": [
+                  "Thông qua các vấn đề của chính phủ.",
+                  "Thông qua thị trường và các kế hoạch của chính phủ.",
+                  "Thông qua thị trường.",
+                  "Thông qua chỉ tiêu pháp lệnh của nhà nước."
+                ],
+                "ans": 2,
+                "exp": "Trong nền kinh tế thị trường tự do thuần túy, cơ chế giá cả và cung cầu của thị trường tự động điều tiết việc phân bổ nguồn lực."
+              },
+              {
+                "q": "Nhân tố nào dưới đây không làm dịch chuyển đường cung của Tivi:",
+                "opts": [
+                  "Sự tăng lên trong giá của Tivi.",
+                  "Chính phủ đánh thuế vào người sản xuất.",
+                  "Sự cải tiến công nghệ sản xuất Tivi.",
+                  "Nguyên liệu sản xuất Tivi tăng."
+                ],
+                "ans": 0,
+                "exp": "Giá của chính hàng hóa đó thay đổi chỉ gây ra sự vận động (di chuyển) dọc theo đường cung, không làm dịch chuyển đường cung."
+              },
+              {
+                "q": "Nếu giá hàng hóa A tăng lên gây ra sự dịch chuyển của đường cầu đối với hàng hóa B về phía bên phải:",
+                "opts": [
+                  "A là hàng hóa cấp thấp.",
+                  "A và B là hàng hóa bổ sung trong tiêu dùng.",
+                  "A và B là hàng hóa thay thế trong tiêu dùng.",
+                  "B là hàng hóa cấp thấp."
+                ],
+                "ans": 2,
+                "exp": "Giá A tăng -> người tiêu dùng giảm mua A và chuyển sang mua hàng hóa thay thế B -> Cầu hàng B tăng (dịch chuyển sang phải)."
+              },
+              {
+                "q": "Nhân tố nào sau đây làm dịch chuyển đường cầu của máy ảnh sang phải:",
+                "opts": [
+                  "Chính phủ đánh thuế vào ngành kinh doanh máy ảnh.",
+                  "Giá phim tăng.",
+                  "Giá máy ảnh giảm.",
+                  "Thu nhập dân chúng tăng."
+                ],
+                "ans": 3,
+                "exp": "Máy ảnh là hàng hóa thông thường, khi thu nhập dân chúng tăng sẽ làm tăng nhu cầu mua máy ảnh tại mọi mức giá -> đường cầu dịch sang phải."
+              },
+              {
+                "q": "Trường hợp nào sau đây gây ra sự di chuyển hay sự vận động dọc theo đường cung của xăng:",
+                "opts": [
+                  "Mức lương của công nhân lọc dầu tăng lên.",
+                  "Giá xăng giảm.",
+                  "Người mua dự đoán giá xăng sẽ giảm trong thời gian tới.",
+                  "Có sự cải tiến trong công nghệ lọc dầu."
+                ],
+                "ans": 1,
+                "exp": "Sự thay đổi của chính mức giá bán sản phẩm (giá xăng) dẫn đến sự vận động dọc theo đường cung."
+              },
+              {
+                "q": "Hàm số cầu của một hàng hóa là sự tương quan giữa:",
+                "opts": [
+                  "Lượng cầu hàng hóa đó với tổng số chi tiêu của người tiêu dùng.",
+                  "Lượng cầu hàng hóa đó với tổng số doanh thu của người bán.",
+                  "Lượng cầu hàng hóa đó với giá cả của nó.",
+                  "Lượng cầu hàng hóa đó với tổng hữu dụng."
+                ],
+                "ans": 2,
+                "exp": "Hàm cầu biểu diễn mối quan hệ phụ thuộc giữa lượng cầu (Qd) và mức giá (P) của hàng hóa đó."
+              },
+              {
+                "q": "Điều nào dưới đây không làm dịch chuyển đường cầu đối với thịt bò:",
+                "opts": [
+                  "Thị hiếu đối với thịt bò thay đổi.",
+                  "Thu nhập của người tiêu dùng tăng lên.",
+                  "Giá thịt bò giảm xuống.",
+                  "Giá hàng hóa thay thế cho thịt bò tăng lên."
+                ],
+                "ans": 2,
+                "exp": "Giá bản thân thịt bò thay đổi chỉ gây ra sự trượt dọc trên đường cầu, không làm dịch chuyển đường cầu."
+              },
+              {
+                "q": "Đường cầu của nước rửa chén Sunlight dịch chuyển sang phải là do:",
+                "opts": [
+                  "Giá nước rửa chén Sunlight giảm.",
+                  "Giá của nước rửa chén Sunlight tăng.",
+                  "Giá các loại nước rửa chén khác tăng.",
+                  "Giá của nước rửa chén khác giảm."
+                ],
+                "ans": 2,
+                "exp": "Các loại nước rửa chén khác là hàng hóa thay thế cho Sunlight; khi giá đối thủ tăng, người tiêu dùng chuyển sang mua Sunlight nhiều hơn -> Cầu Sunlight dịch phải."
+              },
+              {
+                "q": "Trong điều kiện giá cả không đổi, đường cầu dịch chuyển là do tác động của các nhân tố:",
+                "opts": [
+                  "Dự báo của nhà sản xuất về tình trạng cung cầu trong tương lai.",
+                  "Giá cả sản phẩm thay thế.",
+                  "Công nghệ.",
+                  "Chính sách trợ cấp của chính phủ dành cho người tiêu dùng."
+                ],
+                "ans": 1,
+                "exp": "Giá cả hàng hóa thay thế/bổ sung, thu nhập, thị hiếu... là các nhân tố ngoại sinh làm dịch chuyển đường cầu."
+              },
+              {
+                "q": "Hàm cung và cầu về cam trên thị trường: Ps = 60 + 5Q; Pd = 80 - 5Q. Khi đó hệ số co giãn của cầu tại mức giá cân bằng là:",
+                "opts": [
+                  "8.",
+                  "-8.",
+                  "7.",
+                  "-7."
+                ],
+                "ans": 3,
+                "exp": "Cân bằng: 60 + 5Q = 80 - 5Q <=> 10Q = 20 <=> Q = 2, P = 70. Hàm cầu Qd = 16 - 0.2P. Ed = (Qd)' * (P/Q) = (-0.2) * (70 / 2) = -7."
+              },
+              {
+                "q": "Giá trần luôn dẫn tới:",
+                "opts": [
+                  "Sự dư cung.",
+                  "Sự thiếu hụt hàng hóa.",
+                  "Sự gia nhập ngành.",
+                  "Sự cân bằng thị trường."
+                ],
+                "ans": 1,
+                "exp": "Giá trần (Pmax) luôn được áp dưới giá cân bằng để bảo vệ người mua, dẫn đến lượng cầu vượt lượng cung (gây thiếu hụt hàng hóa)."
+              },
+              {
+                "q": "Hàm cung và cầu về cam trên thị trường: Ps = 60 + 5Q; Pd = 80 - 5Q. Khi đó lượng cân bằng trên thị trường sẽ là:",
+                "opts": [
+                  "5.",
+                  "3.",
+                  "2.",
+                  "4."
+                ],
+                "ans": 2,
+                "exp": "Tại điểm cân bằng: Ps = Pd <=> 60 + 5Q = 80 - 5Q <=> 10Q = 20 <=> Q = 2."
+              },
+              {
+                "q": "Hình vẽ sau thể hiện cung - cầu về một loại sản phẩm. Điểm cân bằng ban đầu là điểm A. Nếu chi phí đầu vào để sản xuất sản phẩm giảm đáng kể, điểm cân bằng mới sẽ là:",
+                "opts": [
+                  "Điểm J.",
+                  "Điểm M.",
+                  "Điểm L.",
+                  "Điểm K."
+                ],
+                "ans": 1,
+                "exp": "Chi phí đầu vào giảm làm cung tăng (đường cung S dịch chuyển sang phải và xuống dưới), cắt đường cầu D tại điểm cân bằng mới M có sản lượng cao hơn và giá thấp hơn."
+              },
+              {
+                "q": "Dư cầu:",
+                "opts": [
+                  "Không duy trì lâu trong thị trường và giá sẽ giảm.",
+                  "Chỉ xuất hiện khi giá thấp hơn giá cân bằng.",
+                  "Đồng nghĩa với dư thừa hàng hóa.",
+                  "Do cung quá cao."
+                ],
+                "ans": 1,
+                "exp": "Dư cầu (thiếu hụt) xảy ra khi lượng cầu lớn hơn lượng cung, điều này chỉ xuất hiện khi giá thị trường thấp hơn giá cân bằng."
+              },
+              {
+                "q": "Hàm cung và cầu về cam trên thị trường: Ps = 50 + 5Q; Pd = 100 - 5Q. Khi đó hệ số co giãn của cầu tại mức giá cân bằng là:",
+                "opts": [
+                  "3.",
+                  "-1.",
+                  "1.",
+                  "-3."
+                ],
+                "ans": 3,
+                "exp": "Cân bằng: 50 + 5Q = 100 - 5Q <=> 10Q = 50 <=> Q = 5, P = 75. Qd = 20 - 0.2P. Ed = (-0.2) * (75 / 5) = -3."
+              },
+              {
+                "q": "Hệ số co giãn của cầu theo giá là:",
+                "opts": [
+                  "Luôn bằng 0.",
+                  "Là một số âm.",
+                  "Luôn bằng 1.",
+                  "Là một số dương."
+                ],
+                "ans": 1,
+                "exp": "Do quy luật cầu (giá và lượng cầu nghịch biến), hệ số co giãn của cầu theo giá Ed = (% delta Q) / (% delta P) luôn mang dấu âm."
+              },
+              {
+                "q": "Nếu giá trần thấp hơn giá cân bằng, sẽ không dẫn đến điều nào dưới đây:",
+                "opts": [
+                  "Dư thừa hàng hóa.",
+                  "Phi hiệu quả về kinh tế.",
+                  "Thiếu hụt hàng hóa.",
+                  "Thị trường chợ đen và tham nhũng."
+                ],
+                "ans": 0,
+                "exp": "Giá trần thấp hơn giá cân bằng chỉ gây thiếu hụt hàng hóa chứ không thể dẫn đến dư thừa hàng hóa."
+              }
+            ]
+          },
+          "chuong-5": {
+            "title": "Chương 5: Lý thuyết về hành vi của doanh nghiệp (20 câu)",
+            "questions": [
+              {
+                "q": "Khi thu nhập tăng lên (các yếu tố khác không đổi), đường ngân sách sẽ:",
+                "opts": [
+                  "Dịch chuyển song song vào bên trong",
+                  "Thoải hơn đường ngân sách cũ",
+                  "Dốc hơn đường ngân sách cũ",
+                  "Dịch chuyển song song ra bên ngoài"
+                ],
+                "ans": 3,
+                "exp": "Khi thu nhập I tăng trong khi giá hàng hóa Px, Py không đổi, độ dốc không đổi (-Px/Py) và đường ngân sách dịch chuyển song song ra ngoài."
+              },
+              {
+                "q": "Lợi ích cận biên (MU) phản ánh:",
+                "opts": [
+                  "Tỷ giá giữa hai hàng hóa.",
+                  "Tổng thể sự hài lòng do toàn bộ sự tiêu dùng hàng hóa và dịch vụ mang lại.",
+                  "Số đơn vị hàng hóa Y cần phải từ bỏ khi tăng thêm một đơn vị hàng hóa X.",
+                  "Mức độ hài lòng do tiêu dùng một đơn vị sản phẩm cuối cùng mang lại."
+                ],
+                "ans": 3,
+                "exp": "Lợi ích cận biên (Marginal Utility) là độ thỏa dụng tăng thêm khi tiêu dùng thêm một đơn vị sản phẩm (MU = delta TU / delta Q)."
+              },
+              {
+                "q": "Câu nào sau đây không đúng?",
+                "opts": [
+                  "Đường bàng quan có độ dốc âm",
+                  "Các đường bàng quan luôn cắt nhau",
+                  "Các điểm trên một đường bàng quan có độ ưa thích như nhau",
+                  "Đường bàng quan có dạng lồi so với gốc tọa độ"
+                ],
+                "ans": 1,
+                "exp": "Theo tiên đề về tính bắc cầu, các đường bàng quan của một người tiêu dùng không bao giờ cắt nhau."
+              },
+              {
+                "q": "Trong giới hạn ngân sách và sở thích, để tối đa hóa lợi ích người dùng nên mua số lượng sản phẩm theo nguyên tắc:",
+                "opts": [
+                  "Lợi ích biên của các sản phẩm phải bằng nhau.",
+                  "Ưu tiên mua các sản phẩm có mức giá rẻ hơn.",
+                  "Lợi ích biên trên mỗi đơn vị giá cả của các sản phẩm phải bằng nhau.",
+                  "Số tiền chi tiêu cho các sản phẩm phải bằng nhau."
+                ],
+                "ans": 2,
+                "exp": "Nguyên tắc tối đa hóa hữu dụng: MUx / Px = MUy / Py = ... (lợi ích cận biên trên một đồng chi tiêu phải bằng nhau)."
+              },
+              {
+                "q": "Khi đạt tối đa hóa lợi ích thì lợi ích cận biên từ đơn vị cuối cùng của các hàng hóa phải bằng nhau (MUx=MUy=…=MUn). Điều này:",
+                "opts": [
+                  "Đúng hay sai tùy theo sở thích người tiêu dùng.",
+                  "Luôn luôn sai",
+                  "Đúng hay sai tùy theo thu nhập của người tiêu dùng.",
+                  "Đúng khi giá các hàng hóa bằng nhau."
+                ],
+                "ans": 3,
+                "exp": "Công thức tổng quát là MUx/Px = MUy/Py. Do đó MUx = MUy chỉ đúng khi Px = Py (giá các hàng hóa bằng nhau)."
+              },
+              {
+                "q": "Đường biểu thị mối quan hệ giữa giá sản phẩm và thu nhập của người tiêu thụ là đường:",
+                "opts": [
+                  "Đường bàng quan",
+                  "Đường đồng phí",
+                  "Đường ngân sách",
+                  "Đường đồng lượng"
+                ],
+                "ans": 2,
+                "exp": "Phương trình đường ngân sách: I = Px*X + Py*Y, thể hiện mối quan hệ giữa thu nhập I và giá các sản phẩm."
+              },
+              {
+                "q": "Tỷ lệ thay thế biên của hàng hóa X cho hàng hóa Y (MRSx/y) thể hiện:",
+                "opts": [
+                  "Tỷ lệ đánh đổi giữa 2 sản phẩm trên thị trường",
+                  "Số đơn vị hàng hóa Y cần phải từ bỏ khi tăng thêm một đơn vị hàng hóa X",
+                  "Tỷ giá giữa 2 sản phẩm",
+                  "Độ dốc của đường ngân sách"
+                ],
+                "ans": 1,
+                "exp": "MRSxy = -delta Y / delta X, cho biết số lượng hàng Y mà người tiêu dùng sẵn sàng từ bỏ để tiêu dùng thêm 1 đơn vị hàng X mà độ thỏa dụng không đổi."
+              },
+              {
+                "q": "Giá trị tuyệt đối của độ dốc của một đường bàng quan điển hình với Y ở trục tung và X ở trục hoành được tính bằng:",
+                "opts": [
+                  "MUy/MUx",
+                  "MUx/MUy",
+                  "Px/Py",
+                  "Py/Px"
+                ],
+                "ans": 1,
+                "exp": "Độ dốc của đường bàng quan chính là MRSxy = MUx / MUy."
+              },
+              {
+                "q": "Tổng lợi ích (TU) là:",
+                "opts": [
+                  "Số đơn vị hàng hóa Y cần phải từ bỏ khi tăng thêm một đơn vị hàng hóa X",
+                  "Mức độ hài lòng do tiêu dùng một đơn vị sản phẩm cuối cùng mang lại",
+                  "Tỷ giá giữa hai hàng hóa",
+                  "Tổng thể sự hài lòng do toàn bộ sự tiêu dùng hàng hóa và dịch vụ mang lại"
+                ],
+                "ans": 3,
+                "exp": "Tổng lợi ích (Total Utility) là tổng mức độ thỏa mãn thu được từ việc tiêu dùng một lượng hàng hóa, dịch vụ nhất định."
+              },
+              {
+                "q": "Điểm phối hợp tối ưu (đạt TUmax) giữa hai sản phẩm X và Y là:",
+                "opts": [
+                  "Tiếp điểm giữa đường bàng quan và đường đồng phí",
+                  "Tiếp điểm giữa đường đồng lượng và đường đồng phí",
+                  "Tiếp điểm giữa đường đồng lượng và đường ngân sách",
+                  "Tiếp điểm giữa đường bàng quan và đường ngân sách"
+                ],
+                "ans": 3,
+                "exp": "Điểm cân bằng tiêu dùng tối ưu là tiếp điểm giữa đường bàng quan cao nhất có thể với đường ngân sách."
+              },
+              {
+                "q": "Giả định nhà sản xuất chỉ sử dụng 2 yếu tố sản xuất K và L thì tại điểm tương ứng với mức sản lượng tối đa:",
+                "opts": [
+                  "Năng suất biên tính trên giá của mỗi yếu tố sản xuất phải bằng nhau đồng thời số lượng các yếu tố đưa vào sản xuất cũng phải bằng nhau.",
+                  "Độ dốc của đường đồng lượng bằng độ dốc của đường bàng quan.",
+                  "Năng suất biên tính trên giá của mỗi yếu tố sản xuất phải bằng nhau và số lượng các yếu tố sản xuất phải nằm trong giới hạn tổng chi phí doanh nghiệp bỏ ra kinh doanh.",
+                  "Tỷ lệ thay thế biên bằng tỷ lệ giá cả của hai yếu tố sản xuất K và L."
+                ],
+                "ans": 2,
+                "exp": "Điều kiện tối ưu sản xuất: MPk / Pk = MPl / Pl và Pk*K + Pl*L = TC."
+              },
+              {
+                "q": "Một nhà sản xuất cần 2 yếu tố K và L để sản xuất sản phẩm. Biết người này đã chi ra một khoản tiền là TC = 35.600 để mua 2 yếu tố này với giá tương ứng PK = 200; PL = 400. Cho biết hàm sản xuất là Q = 3K (L-1). Phương án sản xuất tối ưu là:",
+                "opts": [
+                  "K= 88, L= 44",
+                  "K= 89, L= 44",
+                  "K= 88, L= 45",
+                  "K= 90, L= 45"
+                ],
+                "ans": 2,
+                "exp": "MPk/Pk = MPl/Pl <=> 3(L-1)/200 = 3K/400 <=> K = 2L - 2. Thay vào 200K + 400L = 35600 giải ra L = 45, K = 88."
+              },
+              {
+                "q": "Chi phí biên (MC) là:",
+                "opts": [
+                  "Chi phí tăng thêm trong tổng chi phí sản xuất khi sản xuất thêm một đơn vị sản phẩm.",
+                  "Chi phí tăng thêm khi sử dụng thêm một đơn vị yếu tố sản xuất.",
+                  "Chi phí tăng thêm khi sử dụng thêm một đơn vị sản phẩm.",
+                  "Chi phí tăng thêm trong tổng chi phí sản xuất khi sử dụng thêm một yếu tố sản xuất."
+                ],
+                "ans": 0,
+                "exp": "Chi phí biên MC = delta TC / delta Q, là phần chi phí tăng thêm khi sản xuất thêm một đơn vị sản phẩm đầu ra."
+              },
+              {
+                "q": "Cho biết hàm sản xuất là Q = 3K (L-1). Hàm năng suất biên của các yếu tố K và L là:",
+                "opts": [
+                  "MPK = L – 1; MPL = 3K",
+                  "MPK = 3L- 3; MPL = 3K",
+                  "MPK = L- 1; MPL = 3K- 3",
+                  "MPK = 3L- 3; MPL = 3K- 3"
+                ],
+                "ans": 1,
+                "exp": "MPk = dQ/dK = 3(L - 1) = 3L - 3; MPl = dQ/dL = 3K."
+              },
+              {
+                "q": "Câu phát biểu nào dưới đây không đúng với khái niệm dài hạn trong kinh tế học:",
+                "opts": [
+                  "Không có yếu tố sản xuất nào là cố định.",
+                  "Dài hạn là khoảng thời gian từ 5 năm trở lên.",
+                  "Các doanh nghiệp có thể thay đổi quy mô sản xuất.",
+                  "Các doanh nghiệp ra khỏi ngành khi giá bán nhỏ hơn chi phí sản xuất trung bình."
+                ],
+                "ans": 1,
+                "exp": "Trong kinh tế học, dài hạn được định nghĩa là khoảng thời gian đủ để doanh nghiệp thay đổi tất cả các yếu tố sản xuất, không quy định mốc thời gian cố định 5 năm."
+              },
+              {
+                "q": "Điều kiện tối đa hóa lợi nhuận của doanh nghiệp trong ngắn hạn là",
+                "opts": [
+                  "Doanh thu cận biên bằng không.",
+                  "Chi phí cận biên bằng doanh thu cận biên.",
+                  "Doanh thu cận biên bằng với mức giá.",
+                  "Doanh thu trung bình bằng với mức giá"
+                ],
+                "ans": 1,
+                "exp": "Mọi doanh nghiệp muốn tối đa hóa lợi nhuận đều phải sản xuất tại mức sản lượng có MR = MC."
+              },
+              {
+                "q": "Tổng chi phí sản xuất sản phẩm A là TC = 400 + 3Q + Q2. Chi phí biến đổi trung bình là:",
+                "opts": [
+                  "(400/Q) + 3 + Q",
+                  "3Q + Q2",
+                  "400",
+                  "3 + Q"
+                ],
+                "ans": 3,
+                "exp": "VC = 3Q + Q^2 => AVC = VC / Q = 3 + Q."
+              },
+              {
+                "q": "Năng suất biên (MP) của một yếu tố sản xuất biến đổi là:",
+                "opts": [
+                  "Số sản phẩm tăng thêm trong tổng sản phẩm của các yếu tố sản xuất.",
+                  "Số sản phẩm tăng thêm trong tổng sản phẩm khi sử dụng thêm một đồng chi phí của các yếu tố sản xuất biến đổi.",
+                  "Số sản phẩm trung bình tính cho mỗi đơn vị yếu tố sản xuất biến đổi.",
+                  "Số sản phẩm tăng thêm trong tổng sản phẩm khi sử dụng thêm một đơn vị yếu tố sản xuất biến đổi, các yếu tố sản xuất còn lại giữ nguyên."
+                ],
+                "ans": 3,
+                "exp": "Năng suất biên của một yếu tố phản ánh sự gia tăng của tổng sản lượng khi tăng thêm 1 đơn vị yếu tố đó, các yếu tố khác giữ nguyên."
+              },
+              {
+                "q": "Tổng chi phí sản xuất sản phẩm A là TC = 400 + 3Q + Q2. Chi phí cố định trung bình là:",
+                "opts": [
+                  "3Q + Q2",
+                  "400/Q",
+                  "3 + Q",
+                  "(400/Q) + 3 + Q"
+                ],
+                "ans": 1,
+                "exp": "FC = 400 => AFC = FC / Q = 400 / Q."
+              },
+              {
+                "q": "Một nhà sản xuất cần 2 yếu tố K và L để sản xuất sản phẩm. Biết người này đã chi ra một khoản tiền là TC = 35.600 để mua 2 yếu tố này với giá tương ứng PK = 200; PL = 400. Cho biết hàm sản xuất là Q = 3K (L-1). Nhà sản xuất muốn sản xuất 1014 đơn vị sản lượng. Phương án sản xuất tối ưu với điều kiện chi phí sản xuất tối thiểu là:",
+                "opts": [
+                  "K=26; L=13",
+                  "K= 28; L= 14",
+                  "K= 28; L= 13",
+                  "K= 26; L =14"
+                ],
+                "ans": 3,
+                "exp": "Từ điều kiện tối ưu K = 2(L-1). Thay vào Q = 3 * 2(L-1) * (L-1) = 6(L-1)^2 = 1014 => (L-1)^2 = 169 => L - 1 = 13 => L = 14, K = 26."
+              }
+            ]
+          },
+          "chuong-6": {
+            "title": "Chương 6: Cạnh tranh và độc quyền (20 câu)",
+            "questions": [
+              {
+                "q": "Các điểm nằm trên đường bàng quan biểu thị:",
+                "opts": [
+                  "Số đơn vị hàng hóa Y cần phải từ bỏ khi tăng thêm một đơn vị hàng hóa X",
+                  "Các tập hợp hàng hóa khác nhau đem lại lợi ích giống nhau",
+                  "Các tập hợp hàng hóa khác nhau có lợi ích khác nhau",
+                  "Những phối hợp khác nhau của hai sản phẩm X và Y cùng tạo ra mức chi phí như nhau."
+                ],
+                "ans": 1,
+                "exp": "Đường bàng quan tập hợp các giỏ hàng hóa khác nhau nhưng cùng mang lại mức độ thỏa dụng (lợi ích) như nhau cho người tiêu dùng."
+              },
+              {
+                "q": "Một người tiêu thụ có phương án tiêu dùng tối ưu là X = 7, Y = 3. Tổng lợi ích của người này được thể hiện qua hàm số TU = X(8-Y). Tổng lợi ích người đó đạt được khi tiêu dùng theo phương án tối ưu là:",
+                "opts": [
+                  "TUmax = 21",
+                  "TUmax = 35",
+                  "TUmax = 33",
+                  "TUmax = 28"
+                ],
+                "ans": 1,
+                "exp": "TUmax = 7 * (8 - 3) = 7 * 5 = 35."
+              },
+              {
+                "q": "Đường bàng quan biểu thị tất cả những phối hợp tiêu dùng giữa hai loại sản phẩm mà người tiêu dùng:",
+                "opts": [
+                  "Sử dụng hết số tiền mà mình có",
+                  "Đạt được mức lợi ích như nhau",
+                  "Đạt được mức lợi ích giảm dần",
+                  "Đạt được mức lợi ích tăng dần"
+                ],
+                "ans": 1,
+                "exp": "Định nghĩa đường bàng quan: tập hợp các phối hợp tiêu dùng đem lại mức thỏa mãn (lợi ích) như nhau."
+              },
+              {
+                "q": "Nếu lợi ích cận biên có giá trị bằng không (MU=0) thì ta có thể biết rằng:",
+                "opts": [
+                  "Tổng lợi ích đang tăng.",
+                  "Tổng lợi ích đạt cực đại.",
+                  "Tổng lợi ích đang giảm.",
+                  "Tổng lợi ích là âm."
+                ],
+                "ans": 1,
+                "exp": "Vì MU = d(TU)/dQ, khi đạo hàm bậc nhất bằng 0 thì tổng lợi ích TU đạt giá trị cực đại."
+              },
+              {
+                "q": "Phối hợp tối ưu của người tiêu dùng là phối hợp thỏa mãn điều kiện:",
+                "opts": [
+                  "Độ dốc của đường đồng lượng bằng độ dốc của đường đồng phí",
+                  "Đường đồng phí tiếp xúc với đường đồng lượng",
+                  "Độ dốc của đường ngân sách bằng với độ dốc của đường bàng quan",
+                  "Thu nhập không đổi, giá cả của hàng hóa thay đổi"
+                ],
+                "ans": 2,
+                "exp": "Tại điểm tối ưu, đường ngân sách tiếp xúc với đường bàng quan, tức độ dốc của hai đường bằng nhau (MRSxy = Px/Py)."
+              },
+              {
+                "q": "Đường biểu thị mối quan hệ giữa giá sản phẩm và thu nhập của người tiêu thụ là đường:",
+                "opts": [
+                  "Đường ngân sách",
+                  "Đường đồng phí",
+                  "Đường bàng quan",
+                  "Đường đồng lượng"
+                ],
+                "ans": 0,
+                "exp": "Đường ngân sách xác định các tập hợp hàng hóa người tiêu dùng có thể mua với mức giá và thu nhập cho trước."
+              },
+              {
+                "q": "Một người tiêu dùng có thu nhập I = 1.200 dùng để mua hai sản phẩm X và Y với giá tương ứng là PX = 100; PY = 300. Lợi ích người này được thể hiện qua hàm số TU = XY. Phương án tiêu dùng tối ưu là:",
+                "opts": [
+                  "X = 3 và Y= 2",
+                  "X = 2 và Y= 6",
+                  "X = 2 và Y= 3",
+                  "X = 6 và Y = 2"
+                ],
+                "ans": 3,
+                "exp": "MUx = Y, MUy = X. MUx/Px = MUy/Py <=> Y/100 = X/300 <=> X = 3Y. 100X + 300Y = 1200 <=> 100(3Y) + 300Y = 1200 <=> 600Y = 1200 => Y = 2, X = 6."
+              },
+              {
+                "q": "Khi đạt tối đa hóa lợi ích thì lợi ích cận biên từ đơn vị cuối cùng của các hàng hóa phải bằng nhau (MUx=MUy=…=MUn). Điều này:",
+                "opts": [
+                  "Đúng hay sai tùy theo sở thích người tiêu dùng.",
+                  "Đúng khi giá các hàng hóa bằng nhau.",
+                  "Đúng hay sai tùy theo thu nhập của người tiêu dùng.",
+                  "Luôn luôn sai"
+                ],
+                "ans": 1,
+                "exp": "Điều kiện cân bằng là MUx/Px = MUy/Py. Do đó MUx = MUy khi và chỉ khi Px = Py."
+              },
+              {
+                "q": "Tổng lợi ích của người tiêu dùng A được thể hiện qua hàm số TU = XY. Lợi ích cận biên của mỗi hàng hóa là:",
+                "opts": [
+                  "MUx = Y/X, MUy = X/Y",
+                  "MUx = X, MUy = Y",
+                  "MUx = Y, MUy = X",
+                  "MUx = X/Y, MUy = Y/X"
+                ],
+                "ans": 2,
+                "exp": "MUx = d(TU)/dX = Y; MUy = d(TU)/dY = X."
+              },
+              {
+                "q": "Tỷ lệ thay thế biên của hàng hóa X cho hàng hóa Y (MRSx/y) thể hiện:",
+                "opts": [
+                  "Độ dốc của đường ngân sách",
+                  "Số đơn vị hàng hóa Y cần phải từ bỏ khi tăng thêm một đơn vị hàng hóa X",
+                  "Tỷ lệ đánh đổi giữa 2 sản phẩm trên thị trường",
+                  "Tỷ giá giữa 2 sản phẩm"
+                ],
+                "ans": 1,
+                "exp": "MRSxy phản ánh lượng hàng Y phải hy sinh để tiêu dùng thêm 1 đơn vị hàng X giữ nguyên mức hữu dụng."
+              },
+              {
+                "q": "Một nhà sản xuất cần 2 yếu tố K và L để sản xuất sản phẩm X. Biết người này đã chi ra một khoản tiền là TC = 15.000 để mua 2 yếu tố này với giá tương ứng PK = 600; PL = 300. Cho biết hàm sản xuất là Q = 2K(L-2). Phương án sản xuất tối ưu là:",
+                "opts": [
+                  "K = 26; L = 26",
+                  "K = 12; L = 12",
+                  "K = 26; L = 12",
+                  "K = 12; L = 26"
+                ],
+                "ans": 3,
+                "exp": "MPk/Pk = MPl/Pl <=> 2(L-2)/600 = 2K/300 <=> L - 2 = 2K <=> L = 2K + 2. 600K + 300(2K+2) = 15000 <=> 1200K = 14400 => K = 12, L = 26."
+              },
+              {
+                "q": "Nhận định nào dưới đây KHÔNG ĐÚNG với đặc điểm của đường đồng lượng",
+                "opts": [
+                  "Đường đồng lượng càng dịch xa gốc tọa độ biểu thị sản lượng càng tăng lên",
+                  "Đường đồng lượng có dạng cong lồi về phía gốc tọa độ",
+                  "Đường đồng lượng có độ dốc âm",
+                  "Các đường đồng lượng cắt nhau"
+                ],
+                "ans": 3,
+                "exp": "Tương tự đường bàng quan, các đường đồng lượng không bao giờ cắt nhau."
+              },
+              {
+                "q": "Doanh thu tăng thêm khi doanh nghiệp tiêu thụ thêm 1 đơn vị hàng hóa hoặc dịch vụ là:",
+                "opts": [
+                  "Tổng doanh thu tính trên mỗi đơn vị hàng hóa hoặc dịch vụ bán ra",
+                  "Doanh thu cận biên.",
+                  "Doanh thu trung bình.",
+                  "Độ dốc của đường doanh thu trung bình."
+                ],
+                "ans": 1,
+                "exp": "Doanh thu cận biên MR = delta TR / delta Q là phần doanh thu tăng thêm khi bán thêm một đơn vị sản phẩm."
+              },
+              {
+                "q": "Hàm tổng chi phí của một xí nghiệp như sau: TC = 50 + 10Q -5Q2 + Q3. Hàm tổng chi phí biến đổi là:",
+                "opts": [
+                  "3Q2 - 10Q + 10",
+                  "Q2 - 5Q + 10",
+                  "Q2 - 5Q + 50/Q + 10",
+                  "Q3 - 5Q2 + 10Q"
+                ],
+                "ans": 3,
+                "exp": "Chi phí cố định FC = 50. Chi phí biến đổi VC = TC - FC = Q^3 - 5Q^2 + 10Q."
+              },
+              {
+                "q": "Tổng chi phí sản xuất sản phẩm A là TC = 400 + 3Q + Q2. Chi phí biến đổi trung bình là:",
+                "opts": [
+                  "3Q + Q2",
+                  "(400/Q) + 3 + Q",
+                  "400",
+                  "3 + Q"
+                ],
+                "ans": 3,
+                "exp": "VC = 3Q + Q^2 => AVC = VC / Q = 3 + Q."
+              },
+              {
+                "q": "Nguyên tắc tối đa hóa lợi nhuận trong ngắn hạn:",
+                "opts": [
+                  "MR= MC",
+                  "MR= ATC",
+                  "MR > MC",
+                  "MR < MC"
+                ],
+                "ans": 0,
+                "exp": "Mọi doanh nghiệp đều tối đa hóa lợi nhuận khi sản xuất ở mức sản lượng thỏa mãn MR = MC."
+              },
+              {
+                "q": "Một nhà sản xuất cần 2 yếu tố K và L để sản xuất sản phẩm. Biết người này đã chi ra một khoản tiền là TC = 35.600 để mua 2 yếu tố này với giá tương ứng PK = 200; PL = 400. Cho biết hàm sản xuất là Q = 3K (L-1). Phương án sản xuất tối ưu là:",
+                "opts": [
+                  "K= 88, L= 45",
+                  "K= 90, L= 45",
+                  "K= 89, L= 44",
+                  "K= 88, L= 44"
+                ],
+                "ans": 0,
+                "exp": "MPk/Pk = MPl/Pl <=> 3(L-1)/200 = 3K/400 <=> K = 2L - 2. 200(2L - 2) + 400L = 35600 <=> 800L = 36000 => L = 45, K = 88."
+              },
+              {
+                "q": "Một nhà sản xuất cần 2 yếu tố K và L để sản xuất sản phẩm X. Biết người này đã chi ra một khoản tiền là TC = 15.000 để mua 2 yếu tố này với giá tương ứng PK = 600; PL = 300. Cho biết hàm sản xuất là Q = 2K(L-2). Sản lượng tối đa đạt được là:",
+                "opts": [
+                  "Q = 240",
+                  "Q = 520",
+                  "Q = 1248",
+                  "Q = 576"
+                ],
+                "ans": 3,
+                "exp": "Tại điểm tối ưu K = 12, L = 26 => Q = 2 * 12 * (26 - 2) = 24 * 24 = 576."
+              },
+              {
+                "q": "Chi phí cố định bình quân (AFC) được tính bằng:",
+                "opts": [
+                  "ATC ở điểm cực tiểu",
+                  "TC+ VC",
+                  "A.VC+ MC",
+                  "ATC- AVC"
+                ],
+                "ans": 3,
+                "exp": "Vì ATC = AFC + AVC nên AFC = ATC - AVC."
+              },
+              {
+                "q": "Cho biết hàm sản xuất là Q = 3K (L-1). Hàm năng suất biên của các yếu tố K và L là:",
+                "opts": [
+                  "MPK = 3L- 3; MPL = 3K",
+                  "MPK = L – 1; MPL = 3K",
+                  "MPK = L- 1; MPL = 3K- 3",
+                  "MPK = 3L- 3; MPL = 3K- 3"
+                ],
+                "ans": 0,
+                "exp": "MPk = dQ/dK = 3(L - 1) = 3L - 3; MPl = dQ/dL = 3K."
+              }
+            ]
+          },
+          "chuong-7": {
+            "title": "Chương 7: Thị trường yếu tố sản xuất (20 câu)",
+            "questions": [
+              {
+                "q": "Đối với hãng cạnh tranh hoàn hảo, câu nào sau đây là đúng:",
+                "opts": [
+                  "Sản phẩm không có khả năng thay thế",
+                  "Việc gia nhập hay rút lui khỏi thị trường khó khăn",
+                  "Đường doanh thu biên nằm dưới đường cầu",
+                  "Doanh thu biên chính là giá bán"
+                ],
+                "ans": 3,
+                "exp": "Do hãng cạnh tranh hoàn hảo chấp nhận giá thị trường P cố định nên MR = AR = P."
+              },
+              {
+                "q": "Đường cung của doanh nghiệp cạnh tranh hoàn hảo là:",
+                "opts": [
+                  "Phần đường SMC từ AVC min trở lên.",
+                  "Là nhánh bên phải của đường SMC.",
+                  "Không có phương án nào đúng.",
+                  "Phần đường SMC từ AC min trở lên."
+                ],
+                "ans": 0,
+                "exp": "Trong ngắn hạn, đường cung của hãng cạnh tranh hoàn hảo là phần đường chi phí cận biên ngắn hạn SMC nằm phía trên điểm cực tiểu của AVC."
+              },
+              {
+                "q": "Cầu về sản phẩm B là P=120-Q. Thị trường này do một hãng độc quyền khống chế, chi phí của hãng độc quyền này là: TC =500+Q2+4Q. Với Q = 60 thì khi đó lợi nhuận của hãng sẽ là:",
+                "opts": [
+                  "700",
+                  "200",
+                  "-740",
+                  "2500"
+                ],
+                "ans": 2,
+                "exp": "Tại Q = 60 => P = 120 - 60 = 60. TR = 60 * 60 = 3600. TC = 500 + 60^2 + 4(60) = 4340. Lợi nhuận = TR - TC = 3600 - 4340 = -740."
+              },
+              {
+                "q": "Cầu về sản phẩm B là P=100-Q. Thị trường này do một hãng độc quyền khống chế, chi phí của hãng độc quyền này là: TC =500+Q2+4Q. Với Q=24, lợi nhuận khi đó là bao nhiêu?",
+                "opts": [
+                  "0",
+                  "652",
+                  "1824",
+                  "1172"
+                ],
+                "ans": 1,
+                "exp": "Tại Q = 24 => P = 100 - 24 = 76. TR = 76 * 24 = 1824. TC = 500 + 24^2 + 4(24) = 1172. Lợi nhuận = 1824 - 1172 = 652."
+              },
+              {
+                "q": "Doanh nghiệp độc quyền có các hàm số sau: P= 5.000-2Q; MC = 6Q. Để tối đa hóa lợi nhuận thì doanh nghiệp sẽ sản xuất ở mức giá",
+                "opts": [
+                  "P = 2.000",
+                  "P = 1.500",
+                  "P = 4.000",
+                  "P = 500"
+                ],
+                "ans": 2,
+                "exp": "TR = 5000Q - 2Q^2 => MR = 5000 - 4Q. Tối ưu: MR = MC <=> 5000 - 4Q = 6Q <=> Q = 500. Giá bán: P = 5000 - 2(500) = 4000."
+              },
+              {
+                "q": "Doanh nghiệp độc quyền có MR = 5.000 - 4Q; MC = 6Q. Để tối đa hóa lợi nhuận thì doanh nghiệp sẽ sản xuất sản lượng là:",
+                "opts": [
+                  "Q=600",
+                  "Q=400",
+                  "Q=700",
+                  "Q=500"
+                ],
+                "ans": 3,
+                "exp": "MR = MC <=> 5000 - 4Q = 6Q <=> 10Q = 5000 <=> Q = 500."
+              },
+              {
+                "q": "Doanh nghiệp có các hàm số sau: P= 5.000-2Q. Với Q= 1250 thì doanh thu là:",
+                "opts": [
+                  "TR=3.125.000",
+                  "TR=18.000.000",
+                  "TR=2.250.000",
+                  "TR=20.000.000"
+                ],
+                "ans": 0,
+                "exp": "P = 5000 - 2(1250) = 2500. Doanh thu TR = P * Q = 2500 * 1250 = 3,125,000."
+              },
+              {
+                "q": "Trong thị trường độc quyền hoàn toàn:",
+                "opts": [
+                  "Các công ty có thể gia nhập hoặc rút lui khỏi ngành trong dài hạn mà không gặp nhiều khó khăn.",
+                  "Chỉ có một người bán duy nhất bán một loại hàng hóa mà có thể có một vài sản phẩm thay thế tương tự nhau.",
+                  "Có một vài người bán cùng bán một loại hàng hóa độc nhất không thể thay thế.",
+                  "Chỉ có một người bán duy nhất bán một loại hàng hóa độc nhất không thể thay thế."
+                ],
+                "ans": 3,
+                "exp": "Đặc trưng độc quyền hoàn toàn: duy nhất một người bán sản phẩm độc nhất, không có hàng hóa thay thế gần gũi."
+              },
+              {
+                "q": "Doanh nghiệp trong thị trường độc quyền hoàn toàn với MR = (-1/5)Q + 30. Tìm Q để doanh thu cực đại:",
+                "opts": [
+                  "P=150",
+                  "P = 110",
+                  "P = 210",
+                  "P = 120"
+                ],
+                "ans": 0,
+                "exp": "Doanh thu TR đạt cực đại khi doanh thu cận biên MR = 0 <=> (-1/5)Q + 30 = 0 <=> Q = 150 (tương ứng phương án 150)."
+              },
+              {
+                "q": "Doanh thu biên trong thị trường độc quyền hoàn toàn thì:",
+                "opts": [
+                  "Bằng với giá.",
+                  "Nhỏ hơn giá",
+                  "Lớn hơn giá.",
+                  "Có thể lớn hơn, nhỏ hơn hoặc bằng giá."
+                ],
+                "ans": 1,
+                "exp": "Do đường cầu dốc xuống, để bán thêm sản phẩm doanh nghiệp phải hạ giá nên MR luôn nhỏ hơn mức giá P tại mọi mức sản lượng Q > 0."
+              },
+              {
+                "q": "Khi P < AVCmin, doanh nghiệp cạnh tranh hoàn hảo nên quyết định:",
+                "opts": [
+                  "Sản xuất tại xuất lượng có AVCmin",
+                  "Ngừng sản xuất",
+                  "Sản xuất ở sản lượng tại đó MC = MR",
+                  "Sản xuất tại xuất lượng có P = MC"
+                ],
+                "ans": 1,
+                "exp": "Khi giá bán không đủ bù đắp chi phí biến đổi trung bình tối thiểu (P < AVCmin), tiếp tục sản xuất sẽ lỗ thêm cả biến phí nên hãng phải đóng cửa/ngừng sản xuất."
+              },
+              {
+                "q": "Trong thị trường cạnh tranh hoàn hảo, để lợi nhuận tối đa doanh nghiệp cung ứng tại mức sản lượng có:",
+                "opts": [
+                  "Chi phí thấp nhất",
+                  "MR=P",
+                  "P=MC",
+                  "Chi phí bình quân thấp nhất"
+                ],
+                "ans": 2,
+                "exp": "Hãng cạnh tranh hoàn hảo có MR = P, nên điều kiện tối đa hóa lợi nhuận MR = MC trở thành P = MC."
+              },
+              {
+                "q": "Để tối đa hóa lợi nhuận, các doanh nghiệp so sánh chi phí cận biên của một yếu tố với:",
+                "opts": [
+                  "Doanh thu mà của mọi yếu tố được sử dụng",
+                  "Doanh thu mà yếu tố đó tạo ra",
+                  "Doanh thu cận biên mà yếu tố đó tạo ra",
+                  "Tổng chi phí để sử dụng yếu tố đó"
+                ],
+                "ans": 2,
+                "exp": "Nguyên tắc tuyển dụng/thuê yếu tố sản xuất: so sánh chi phí cận biên của yếu tố (MFC) với doanh thu sản phẩm cận biên của yếu tố đó (MRP)."
+              },
+              {
+                "q": "Sản phẩm doanh thu cận biên của yếu tố sản xuất là",
+                "opts": [
+                  "Sự thay đổi của tổng doanh thu do sử dụng thêm một đơn vị của một yếu tố sản xuất đó",
+                  "Sự thay đổi của tổng doanh thu do sử dụng thêm một đơn vị của tất cả các yếu tố sản xuất.",
+                  "Sự thay đổi của giá sản phẩm khi sử dụng thêm một đơn vị của một yếu tố sản xuất đó",
+                  "Sự thay đổi của tổng doanh thu do tiêu thụ thêm một đơn vị hàng hoá dịch vụ."
+                ],
+                "ans": 0,
+                "exp": "Sản phẩm doanh thu cận biên (Marginal Revenue Product - MRP) là lượng tổng doanh thu tăng thêm khi sử dụng thêm một đơn vị yếu tố sản xuất đó."
+              },
+              {
+                "q": "Giả định hàm sản xuất của doanh nghiệp có dạng Q = 12L - L2. Giá bán sản phẩm là P= 20. Đường cầu lao động (Ld) là:",
+                "opts": [
+                  "Ld = 240 + 40L",
+                  "Ld = 12 + 2L",
+                  "Ld = 12 - 2L",
+                  "Ld = 240 - 40L"
+                ],
+                "ans": 3,
+                "exp": "MP_L = 12 - 2L. Đường cầu lao động chính là đường MRP_L = P * MP_L = 20 * (12 - 2L) = 240 - 40L."
+              },
+              {
+                "q": "Mức tiền lương tối thiểu được quy định cao hơn mức tiền lương cân bằng trên thị trường lao động dẫn đến:",
+                "opts": [
+                  "Dư thừa việc làm",
+                  "Thất nghiệp.",
+                  "Đường cung lao động thay đổi",
+                  "Đường cầu lao động thay đổi"
+                ],
+                "ans": 1,
+                "exp": "Tiền lương tối thiểu cao hơn lương cân bằng tạo ra dư cung lao động (số người muốn làm lớn hơn số chỗ làm doanh nghiệp thuê), dẫn đến thất nghiệp."
+              },
+              {
+                "q": "Mức tiền lương tăng lên 10% tạo ra 2% tăng lên về số lượng lao động cung ứng. Vậy, hệ số co giãn của cung về lao động là",
+                "opts": [
+                  "0,2%",
+                  "0,2",
+                  "5%",
+                  "5"
+                ],
+                "ans": 1,
+                "exp": "Es = (% delta Ls) / (% delta W) = 2% / 10% = 0.2."
+              },
+              {
+                "q": "Cung lao động là",
+                "opts": [
+                  "lượng lao động mà người lao động sẵn sàng và có khả năng cung ứng tại các mức tiền công tối thiểu.",
+                  "lượng lao động mà người lao động sẵn sàng và có khả năng cung ứng tại các mức tiền công khác nhau trong một giai đoạn nhất định",
+                  "lượng lao động mà người lao động sẵn sàng và có khả năng cung ứng tại các mức tiền công khác nhau trong mọi thời kì.",
+                  "lượng lao động mà người lao động sẵn sàng cung ứng tại các mức tiền công khác nhau trong một giai đoạn nhất định"
+                ],
+                "ans": 1,
+                "exp": "Cung lao động là số lượng lao động mà người lao động sẵn sàng và có khả năng cung ứng ở các mức tiền công khác nhau trong một thời kỳ nhất định."
+              },
+              {
+                "q": "Khi giá của sản phẩm đầu ra tăng:",
+                "opts": [
+                  "Có sự di chuyển dọc đường cầu lao động",
+                  "Đường cầu lao động dịch chuyển sang bên phải",
+                  "Đường cầu lao động không thay đổi",
+                  "Đường cầu lao động dịch chuyển sang bên trái"
+                ],
+                "ans": 1,
+                "exp": "Giá sản phẩm P tăng làm MRP_L = P * MP_L tăng tại mọi mức lao động, khiến đường cầu lao động dịch chuyển sang phải."
+              },
+              {
+                "q": "Cung lao động của ngành là",
+                "opts": [
+                  "sự cộng theo chiều dọc đường cung lao động của các cá nhân",
+                  "Không có câu trả lời đúng",
+                  "sự cộng theo chiều ngang đường cung lao động của các cá nhân",
+                  "do Chính phủ quy định"
+                ],
+                "ans": 2,
+                "exp": "Đường cung lao động của ngành được xác định bằng cách cộng lượng cung lao động của tất cả cá nhân ở từng mức tiền công (cộng theo chiều ngang)."
+              }
+            ]
           }
         }
       },
