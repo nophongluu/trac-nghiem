@@ -1,4 +1,4 @@
-// Ngân hàng câu hỏi trắc nghiệm Logistics & Quản lý chuỗi cung ứng
+// Ngân hàng câu hỏi trắc nghiệm Logistics & Y Khoa
 const appDatabase = {
   "kinh-te": {
     "name": "Logistics và quản lý chuỗi cung ứng",
@@ -1878,6 +1878,1281 @@ const appDatabase = {
                 ],
                 "ans": 3,
                 "exp": "Dịch vụ Cloud (Điện toán đám mây - IaaS/PaaS/SaaS) cung cấp tính năng co giãn linh hoạt (Rapid elasticity) cho phép người dùng tự động tăng/giảm tài nguyên nhanh chóng."
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "y-khoa": {
+    "name": "Y Khoa",
+    "subjects": {
+      "ho-hap": {
+        "name": "Khoa Hô hấp",
+        "lessons": {
+          "hen-phe-quan": {
+            "title": "Hen phế quản (Asthma) - 35 câu",
+            "questions": [
+              {
+                "q": "Theo GINA, SABA đơn trị liệu là phương pháp được ưu tiên cho bệnh nhân hen nhẹ để giảm chi phí và tác dụng phụ của corticosteroid.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "GINA không còn khuyến cáo SABA đơn trị liệu cho bất kỳ bậc điều trị nào do làm tăng nguy cơ đợt cấp nặng và tử vong. Lựa chọn ưu tiên (Track 1) là ICS-formoterol liều thấp khi cần."
+              },
+              {
+                "q": "Chẩn đoán hen ở trẻ em từ 5 tuổi trở xuống chủ yếu dựa vào các tiêu chuẩn lâm sàng thay vì đo chức năng hô hấp.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Trẻ $\\le 5$ tuổi khó thực hiện đúng kỹ thuật đo hô hấp ký; chẩn đoán chủ yếu dựa vào kiểu hình lâm sàng khò khè tái diễn và đáp ứng thử nghiệm điều trị kiểm soát bằng ICS."
+              },
+              {
+                "q": "Việc sử dụng Fenoterol hiện nay được GINA khuyến cáo rộng rãi như một thuốc cắt cơn an toàn.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Fenoterol là SABA đồng vận beta-2 chọn lọc kém hơn, có nguy cơ tim mạch cao và từng liên quan đến dịch tễ tử vong do hen; hiện không còn được ưu tiên."
+              },
+              {
+                "q": "Ở người lớn, chỉ số $\text{FeNO} \\ge 50\text{ ppb}$ có thể hỗ trợ chẩn đoán kiểu hình hen viêm đường thở Type 2.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "FeNO $> 50\text{ ppb}$ ở người lớn phản ánh tình trạng viêm đường thở do bạch cầu ái toan (Type 2 inflammation)."
+              },
+              {
+                "q": "Liệu pháp MART (duy trì và cắt cơn bằng ICS-formoterol) có thể áp dụng cho trẻ em từ 6 đến 11 tuổi ở các Bước 3 và 4.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "GINA khuyến cáo MART với Budesonide/Formoterol liều rất thấp/thấp cho trẻ 6–11 tuổi từ Bậc 3 trở lên."
+              },
+              {
+                "q": "Phụ nữ mang thai mắc hen nên được khuyến khích giảm liều ICS ngay khi có thể để tránh ảnh hưởng đến thai nhi.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Cần duy trì kiểm soát hen tích cực; nguy cơ do cơn hen nặng gây thiếu oxy cho thai nhi lớn hơn rất nhiều so với nguy cơ từ ICS."
+              },
+              {
+                "q": "Magnesi sulfat dạng phun khí dung hiện nay được khuyến cáo thường quy để điều trị đợt cấp hen nặng tại khoa cấp cứu.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Khuyến cáo ưu tiên là Magnesi sulfat truyền tĩnh mạch ($MgSO_4$ IV liều 2g truyền 20 phút), khí dung không được dùng thường quy."
+              },
+              {
+                "q": "Theo GINA, mục tiêu bão hòa oxy ($SpO_2$) cho trẻ em 6–11 tuổi trong đợt cấp hen là $94 - 98\\%$.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Mục tiêu oxy ở trẻ em là $94 - 98\\%$, trong khi ở người lớn là $93 - 95\\%$."
+              },
+              {
+                "q": "Việc sử dụng thuốc chẹn beta (beta-blockers) đường uống là chống chỉ định tuyệt đối cho tất cả bệnh nhân hen.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Chẹn beta không chọn lọc bị chống chỉ định, nhưng chẹn chọn lọc tim ($\beta_1$) có thể cân nhắc cẩn thận trong các chỉ định tim mạch bắt buộc (sau nhồi máu cơ tim, suy tim)."
+              },
+              {
+                "q": "Đo nồng độ eosinophil trong đờm là một xét nghiệm phổ biến và dễ thực hiện tại mọi cơ sở y tế tuyến cơ sở.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Xét nghiệm tế bào đờm đòi hỏi kỹ thuật ly giải và chuyên gia tế bào học lành nghề, chỉ thực hiện ở các trung tâm chuyên sâu."
+              },
+              {
+                "q": "Một bệnh nhân nam 25 tuổi, triệu chứng hen xuất hiện ít (dưới 2 ngày/tuần), chức năng phổi bình thường. Theo GINA Track 1 (lựa chọn ưu tiên), bước điều trị ban đầu nào là phù hợp nhất?",
+                "opts": [
+                  "ICS-formoterol liều thấp khi cần thiết",
+                  "ICS liều thấp hàng ngày cộng với SABA khi cần",
+                  "SABA đơn thuần khi cần thiết",
+                  "ICS-formoterol liều trung bình hàng ngày"
+                ],
+                "ans": 0,
+                "exp": "Track 1 Bậc 1–2 chỉ định dùng ICS-formoterol liều thấp khi có triệu chứng."
+              },
+              {
+                "q": "Trẻ 4 tuổi có tiền sử khò khè tái phát 3 lần trong năm qua, thường xuất hiện khi nhiễm virus. Trẻ đáp ứng tốt với thuốc giãn phế quản khí dung. Chẩn đoán nào nên được ghi nhận?",
+                "opts": [
+                  "Viêm phế quan co thắt",
+                  "Viêm tiểu phế quản",
+                  "Nghi ngờ hen phế quản / Hen trẻ em",
+                  "Viêm phổi hít"
+                ],
+                "ans": 2,
+                "exp": "Khò khè tái phát $\\ge 3$ lần/năm kèm đáp ứng tốt với thuốc dãn phế quản gợi ý mạnh mẽ hen phế quản ở trẻ nhỏ."
+              },
+              {
+                "q": "Một bệnh nhân đang sử dụng liệu pháp MART với ICS-formoterol liều thấp. Khi cơn hen bắt đầu xấu đi, bệnh nhân nên làm gì theo kế hoạch hành động?",
+                "opts": [
+                  "Uống ngay kháng sinh liều cao",
+                  "Tiếp tục liều duy trì và dùng thêm các nhát hít ICS-formoterol khi cần để cắt cơn",
+                  "Ngừng thuốc duy trì và chuyển sang chỉ dùng SABA",
+                  "Chỉ tăng gấp đôi liều duy trì buổi sáng"
+                ],
+                "ans": 1,
+                "exp": "Nguyên lý của MART là dùng chính bình xịt ICS-formoterol làm thuốc cắt cơn, giúp bổ sung cả thuốc giãn phế quản và liều chống viêm ICS ngay thời điểm nguy cơ."
+              },
+              {
+                "q": "Bệnh nhân nam 60 tuổi, tiền sử hút thuốc lá 30 bao-năm, có triệu chứng khó thở khi gắng sức và khò khè biến đổi. Chỉ số $FEV_1/FVC$ sau test giãn phế quản là $< 0.70$, nhưng $FEV_1$ tăng $> 12\\%$ và $> 200\text{ ml}$. Chẩn đoán nghi ngờ nhất là?",
+                "opts": [
+                  "Hen phế quản đơn thuần",
+                  "Chồng lấp các đặc điểm hen và COPD (Asthma-COPD overlap)",
+                  "Suy tim sung huyết",
+                  "COPD đơn thuần"
+                ],
+                "ans": 1,
+                "exp": "Tắc nghẽn không hồi phục hoàn toàn ($FEV_1/FVC < 0.7$) trên người hút thuốc kèm tính hồi phục phế quản đáng kể và khò khè biến đổi gợi ý hội chứng chồng lấp."
+              },
+              {
+                "q": "Bệnh nhân mắc hen nặng, đã dùng ICS-LABA liều cao tối ưu nhưng vẫn không kiểm soát được triệu chứng. Xét nghiệm thấy Eosinophil máu là $450\text{ tế bào}/\\mu\text{L}$. Bước tiếp theo nên là?",
+                "opts": [
+                  "Tiếp tục tăng liều ICS vượt mức tối đa",
+                  "Ngừng tất cả thuốc xịt và chỉ dùng liệu pháp tâm lý",
+                  "Chuyển tuyến chuyên khoa để đánh giá kiểu hình và cân nhắc liệu pháp sinh học (Biologics)",
+                  "Bắt đầu duy trì Prednisolone đường uống vĩnh viễn"
+                ],
+                "ans": 2,
+                "exp": "Hen nặng không kiểm soát có Eosinophil máu $\\ge 300/\\mu\text{L}$ là ứng viên cho liệu pháp sinh học nhắm vào IL-5/IL-5R hoặc IL-4R."
+              },
+              {
+                "q": "Bệnh nhân nữ 30 tuổi, sau khi uống Aspirin để giảm đau đầu thì xuất hiện cơn co thắt phế quản nặng kèm polyp mũi tái phát. Bệnh nhân này có khả năng mắc hội chứng gì?",
+                "opts": [
+                  "Hen do gắng sức (EIB)",
+                  "Dị ứng thực phẩm cấp tính",
+                  "Bệnh hô hấp trầm trọng hơn do Aspirin (AERD / Tam chứng Samter)",
+                  "Hen nghề nghiệp"
+                ],
+                "ans": 2,
+                "exp": "Tam chứng Samter/AERD gồm: Hen, polyp mũi xoang tái diễn và nhạy cảm với thuốc ức chế COX-1 (Aspirin/NSAIDs)."
+              },
+              {
+                "q": "Tại khoa cấp cứu, người lớn nhập viện vì đợt cấp hen nặng ($SpO_2 < 90\\%$, nhịp thở $> 30\text{ lần/phút}$, co kéo cơ hô hấp phụ). Điều trị nào nên được bắt đầu ngay lập tức cùng với oxy liệu pháp?",
+                "opts": [
+                  "ICS liều thấp 1 lần duy nhất",
+                  "Khí dung SABA kết hợp SAMA (Ipratropium) lặp lại và dùng Corticosteroid toàn thân sớm",
+                  "Chỉ dùng kháng sinh tĩnh mạch liều cao",
+                  "Tiêm tĩnh mạch Aminophylline nhanh"
+                ],
+                "ans": 1,
+                "exp": "Phác đồ chuẩn đợt cấp nặng: Oxy duy trì $SpO_2$ 93–95%, SABA + SAMA khí dung lặp lại mỗi 20 phút trong giờ đầu kèm Corticosteroid toàn thân sớm."
+              },
+              {
+                "q": "Bệnh nhân hen phàn nàn về việc thường xuyên bị khàn tiếng và nấm miệng sau khi dùng bình xịt định liều (pMDI) chứa ICS. Lời khuyên nào là đúng nhất?",
+                "opts": [
+                  "Chuyển sang dùng corticoid đường uống kéo dài",
+                  "Ngừng dùng thuốc hít ngay lập tức",
+                  "Sử dụng thêm buồng đệm (spacer) và súc miệng nhổ ra sau khi hít thuốc",
+                  "Hít thuốc dồn dập hơn để thuốc trôi nhanh xuống phổi"
+                ],
+                "ans": 2,
+                "exp": "Buồng đệm giúp giữ các hạt thuốc lớn không lắng đọng tại hầu họng, kết hợp súc miệng bằng nước sạch sẽ loại bỏ phần lớn nguy cơ nấm họng và khàn tiếng."
+              },
+              {
+                "q": "Sau khi xử trí đợt cấp hen tại phòng khám và bệnh nhân đã ổn định xuất viện, thời điểm hẹn tái khám tối ưu là:",
+                "opts": [
+                  "Trong vòng 2 đến 7 ngày",
+                  "Chỉ khi nào xuất hiện triệu chứng khó thở nặng",
+                  "Sau 3 đến 6 tháng",
+                  "Sau 24 giờ kể từ khi ra viện"
+                ],
+                "ans": 0,
+                "exp": "GINA khuyến cáo bệnh nhân sau đợt cấp cần tái khám sớm trong vòng 2–7 ngày để rà soát kỹ thuật xịt thuốc, sự tuân thủ và kế hoạch hành động."
+              },
+              {
+                "q": "Vận động viên điền kinh thường xuyên bị ho và tức ngực sau khi chạy gắng sức được 10 phút. Thử nghiệm nào nên được chỉ định để xác nhận chẩn đoán co thắt phế quản do gắng sức?",
+                "opts": [
+                  "Đo điện tâm đồ gắng sức đơn thuần",
+                  "Chụp cắt lớp vi tính ngực độ phân giải cao",
+                  "Nội soi phế quản sinh thiết",
+                  "Đo chức năng hô hấp trước và sau nghiệm pháp gắng sức (hoặc test kích thích phế quản)"
+                ],
+                "ans": 3,
+                "exp": "Đo $FEV_1$ trước và sau bài test gắng sức chuẩn (chẩn đoán xác định nếu $FEV_1$ giảm $\\ge 10\\%$ và $> 200\text{ ml}$)."
+              },
+              {
+                "q": "Hen phế quản là bệnh lý viêm mạn tính đường thở đặc trưng bởi sự biến đổi của triệu chứng hô hấp và giới hạn luồng khí thở ra có thể hồi phục tự nhiên hoặc sau dùng thuốc.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Trong đo chức năng hô hấp, kết quả nào sau đây thể hiện đáp ứng hồi phục phế quản dương tính ở người lớn?",
+                "opts": [
+                  "$FEV_1$ tăng $> 8\\%$ và $> 150\text{ ml}$ sau hít $400\\mu\text{g}$ Salbutamol",
+                  "$FEV_1$ tăng $> 12\\%$ và $> 200\text{ ml}$ sau hít $400\\mu\text{g}$ Salbutamol",
+                  "Tỷ lệ $FEV_1/FVC$ giữ nguyên ở mức $< 0.70$",
+                  "$FVC$ giảm $> 10\\%$"
+                ],
+                "ans": 1,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Khuyến cáo hiện nay cho phép sử dụng SABA đơn thuần không cần kèm ICS làm lựa chọn ưu tiên ở Bậc 1.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Luôn cần có ICS để khống chế tình trạng viêm nền."
+              },
+              {
+                "q": "Phụ nữ mang thai mắc hen nên ngừng thuốc kiểm soát để tránh dị tật thai nhi.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Nồng độ FeNO $\\ge 50\text{ ppb}$ là dấu ấn sinh học hỗ trợ xác định viêm đường thở Type 2.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Hen nặng (Severe Asthma) là tình trạng hen không kiểm soát dù đã tuân thủ điều trị tối ưu ở Bậc 4–5 và kiểm soát tốt các yếu tố nguy cơ/đồng mắc.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Trong đợt cấp hen tại cấp cứu, Magnesi sulfat tiêm tĩnh mạch được chỉ định thường quy cho mọi mức độ đợt cấp.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Chỉ dùng cho đợt cấp nặng hoặc không đáp ứng với điều trị giãn phế quản ban đầu."
+              },
+              {
+                "q": "Kháng thể đơn dòng Anti-IgE (Omalizumab) chỉ định cho hen dị ứng nặng có test lẩy da hoặc IgE huyết thanh đặc hiệu dương tính với dị nguyên quanh năm.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Bệnh nhân sử dụng từ $\\ge 3$ bình SABA (loại 200 liều) mỗi năm có nguy cơ đợt cấp hen nặng tăng cao rõ rệt.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Dùng $\\ge 3$ bình/năm làm tăng nguy cơ nhập viện cấp cứu; $\\ge 12$ bình/năm làm tăng nguy cơ tử vong."
+              },
+              {
+                "q": "Nghiệm pháp kích thích phế quản (Methacholine challenge test) là chỉ định đầu tay cho mọi bệnh nhân nghi ngờ hen kể cả khi có tắc nghẽn nặng trên hô hấp ký.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Chống chỉ định làm test kích thích phế quản khi $FEV_1 < 60\\%$ hoặc có tắc nghẽn luồng khí nặng."
+              },
+              {
+                "q": "Theo kế hoạch hành động hen dạng phác đồ ICS cố định, việc tự tăng liều ICS tạm thời lên gấp 4 lần có thể được áp dụng khi triệu chứng bắt đầu trở nặng.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Nghiên cứu cho thấy tăng gấp 4 lần liều ICS giúp giảm nguy cơ phải dùng steroid đường uống."
+              },
+              {
+                "q": "Thuốc an thần (Sedatives) được khuyến khích sử dụng cho bệnh nhân trong đợt cấp hen nặng để giảm lo âu và kích động.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Chống chỉ định tuyệt đối vì làm ức chế trung tâm hô hấp và làm nặng thêm suy hô hấp tăng $CO_2$."
+              },
+              {
+                "q": "Theo phân loại mức độ nặng, hen được coi là mức độ nhẹ khi được kiểm soát tốt chỉ với phác đồ điều trị ở Bậc 1 hoặc Bậc 2.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Bệnh nhân hen thể ho (Cough-variant asthma) luôn có biểu hiện tắc nghẽn cố định rõ rệt trên hô hấp ký thường quy.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Phần lớn hô hấp ký ban đầu ở bệnh nhân hen thể ho là bình thường; chẩn đoán dựa vào test tăng đáp ứng phế quản và đáp ứng với thuốc điều trị hen."
+              },
+              {
+                "q": "Liều Budesonide dạng hít hàng ngày ở người lớn được phân loại ở mức trung bình (Medium dose) là bao nhiêu?",
+                "opts": [
+                  "$200 - 400\\mu\text{g}$",
+                  "$> 400 - 800\\mu\text{g}$",
+                  "$> 1600\\mu\text{g}$",
+                  "$100 - 200\\mu\text{g}$"
+                ],
+                "ans": 1,
+                "exp": "Liều thấp: $200 - 400\\mu\text{g}$; Liều trung bình: $> 400 - 800\\mu\text{g}$; Liều cao: $> 800\\mu\text{g}/ngày$."
+              }
+            ]
+          },
+          "viem-phe-quan-cap": {
+            "title": "Viêm phế quản cấp (Acute Bronchitis) - 30 câu",
+            "questions": [
+              {
+                "q": "Sự hiện diện của đờm mủ (có màu xanh/vàng) là bằng chứng tin cậy cho thấy nguyên nhân do vi khuẩn và bắt buộc dùng kháng sinh.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Màu đờm chủ yếu do enzyme myeloperoxidase từ bạch cầu đa nhân phóng thích trong phản ứng viêm chống lại virus, không đồng nghĩa với nhiễm khuẩn."
+              },
+              {
+                "q": "Virus là nguyên nhân gây ra 90% đến 95% các trường hợp viêm phế quản cấp ở người lớn khỏe mạnh.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Theo hướng dẫn của ACCP, chụp X-quang ngực thẳng thường quy là cần thiết cho tất cả bệnh nhân viêm phế quản cấp.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Chỉ chụp khi nghi ngờ viêm phổi (sinh hiệu bất thường: mạch $>100$, thở $>24$, sốt $>38^\\circ\text{C}$, ran khu trú, hoặc người cao tuổi lú lẫn)."
+              },
+              {
+                "q": "Xét nghiệm nồng độ Procalcitonin có thể giúp hướng dẫn giảm chỉ định kháng sinh không cần thiết trong các nhiễm trùng đường hô hấp dưới.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Thời gian ho trung bình của viêm phế quản cấp thường kéo dài khoảng bao lâu?",
+                "opts": [
+                  "Dưới 3 ngày",
+                  "Khoảng 10 đến 21 ngày (có thể tới 3–4 tuần)",
+                  "Luôn luôn trên 8 tuần",
+                  "Đúng 24 giờ"
+                ],
+                "ans": 1,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Có thể sử dụng Aspirin cho trẻ em và thanh thiếu niên bị viêm phế quản cấp để hạ sốt.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Nguy cơ mắc Hội chứng Reye nguy hiểm tính mạng."
+              },
+              {
+                "q": "Mật ong được khuyến cáo để giảm triệu chứng ho an toàn cho trẻ em từ bao nhiêu tháng tuổi trở lên?",
+                "opts": [
+                  "Trẻ sơ sinh từ 1 tháng tuổi",
+                  "Từ 6 tháng tuổi",
+                  "Từ 12 tháng tuổi trở lên",
+                  "Mọi lứa tuổi đều cấm"
+                ],
+                "ans": 2,
+                "exp": "Dưới 12 tháng tuổi có nguy cơ ngộ độc độc tố Clostridium botulinum."
+              },
+              {
+                "q": "Corticosteroid đường uống là phác đồ điều trị tiêu chuẩn và bắt buộc cho mọi bệnh nhân viêm phế quản cấp thông thường.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Không có khuyến cáo dùng steroid toàn thân thường quy cho viêm phế quản cấp đơn thuần trên người không có bệnh nền."
+              },
+              {
+                "q": "Thuốc giãn phế quản $\beta_2$-agonist (như Salbutamol) mang lại lợi ích rõ rệt cho tất cả bệnh nhân viêm phế quản cấp, ngay cả khi không có co thắt phế quản hay khò khè.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Chỉ có ích ở nhóm bệnh nhân có biểu hiện co thắt phế quản kèm khò khè."
+              },
+              {
+                "q": "Hút thuốc lá và phơi nhiễm ô nhiễm không khí làm tăng tính mẫn cảm và kéo dài triệu chứng của viêm phế quản cấp.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Tiêm vắc-xin cúm hàng năm có thể tạo miễn dịch chéo phòng ngừa viêm phế quản do Rhinovirus.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Vắc-xin cúm chỉ đặc hiệu cho các chủng virus cúm mùa."
+              },
+              {
+                "q": "Kỹ thuật xét nghiệm Multiplex PCR có thể phát hiện đồng thời nhiều tác nhân virus và vi khuẩn không điển hình trong cùng một que quẹt tỵ hầu.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Đo chức năng hô hấp trong đợt viêm phế quản cấp có thể cho thấy tình trạng tăng đáp ứng đường thở thoáng qua ở khoảng bao nhiêu % bệnh nhân?",
+                "opts": [
+                  "Gần như 0%",
+                  "Khoảng 40% – 50%",
+                  "100% vĩnh viễn",
+                  "Dưới 1%"
+                ],
+                "ans": 1,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Viêm phổi là một biến chứng thứ phát tiềm tàng cần cảnh giác ở người cao tuổi bị viêm phế quản cấp.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Thuốc giảm ho chứa dẫn xuất Opioid/Codeine được khuyến cáo ưu tiên dùng cho trẻ nhỏ để ức chế ho ban đêm.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Chống chỉ định cho trẻ em vì nguy cơ suy hô hấp do ức chế thần kinh trung ương."
+              },
+              {
+                "q": "Bệnh nhân nam 35 tuổi đến khám vì ho khan kéo dài 7 ngày. Khám: Mạch 78 lần/phút, Nhịp thở 16 lần/phút, Nhiệt độ $37^\\circ\text{C}$. Phổi rì rào phế nang rõ, không ran. Xử trí thích hợp nhất là:",
+                "opts": [
+                  "Chỉ định chụp X-quang ngực thẳng",
+                  "Kê đơn kháng sinh nhóm Macrolide",
+                  "Giải thích diễn tiến lành tính, điều trị triệu chứng hỗ trợ và hẹn theo dõi",
+                  "Nhập viện theo dõi"
+                ],
+                "ans": 2,
+                "exp": "Sinh hiệu hoàn toàn bình thường, khám phổi sạch, không có chỉ định chụp X-quang hay kháng sinh."
+              },
+              {
+                "q": "Trẻ 8 tháng tuổi bị viêm phế quản cấp, sốt $38.5^\\circ\text{C}$. Lựa chọn thuốc hạ sốt an toàn và phù hợp nhất là:",
+                "opts": [
+                  "Acetaminophen hoặc Ibuprofen (với liều phù hợp cân nặng)",
+                  "Aspirin liều thấp",
+                  "Phối hợp đồng thời Aspirin và Paracetamol",
+                  "Không dùng thuốc hạ sốt"
+                ],
+                "ans": 0,
+                "exp": "Trẻ $\\ge 6$ tháng tuổi có thể dùng an toàn Acetaminophen hoặc Ibuprofen."
+              },
+              {
+                "q": "Ở bệnh nhân có tiền sử COPD bị viêm phế quản cấp có kèm biểu hiện đợt cấp (tăng khó thở, tăng thể tích đờm), mục đích chính của việc kê một đợt ngắn Corticosteroid là gì?",
+                "opts": [
+                  "Giảm viêm phế quản, cải thiện thông khí và phục hồi chức năng phổi nền",
+                  "Diệt sạch virus gây bệnh",
+                  "Thay thế hoàn toàn thuốc giãn phế quản",
+                  "Hạ thân nhiệt nhanh"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Bệnh nhân có cơn ho rũ rượi từng cơn, kèm tiếng thở rít hít vào (\"whoop\") và nôn sau cơn ho. Cần nghi ngờ nhiều nhất đến vi khuẩn nào?",
+                "opts": [
+                  "Streptococcus pneumoniae",
+                  "Bordetella pertussis (vi khuẩn Ho gà)",
+                  "Mycoplasma pneumoniae",
+                  "Legionella pneumophila"
+                ],
+                "ans": 1,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Bệnh nhân nam 22 tuổi, đang bị viêm phế quản cấp, sau một cơn ho dữ dội đột ngột đau ngực chói một bên và khó thở tiến triển nhanh. Biến chứng nào cần nghi ngờ hàng đầu?",
+                "opts": [
+                  "Tràn khí màng phổi tự phát do vỡ kén khí dưới màng phổi",
+                  "Viêm cơ tim cấp",
+                  "Trào ngược dạ dày",
+                  "Tắc ruột do tăng áp lực ổ bụng"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Một cụ ông 78 tuổi được đưa đến cấp cứu vì ho, sốt nhẹ và lú lẫn mới xuất hiện. Mạch 105 lần/phút, Nhịp thở 26 lần/phút. Bước xử trí đúng đắn nhất là:",
+                "opts": [
+                  "Chẩn đoán viêm phế quản cấp và cho về theo dõi tại nhà",
+                  "Kê đơn thuốc an thần",
+                  "Chỉ định chụp X-quang ngực thẳng và làm các xét nghiệm loại trừ viêm phổi/nhiễm trùng huyết",
+                  "Khuyên tập thể dục nhẹ"
+                ],
+                "ans": 2,
+                "exp": "Người cao tuổi có triệu chứng không điển hình kèm sinh hiệu bất thường và lú lẫn có nguy cơ rất cao bị viêm phổi nặng."
+              },
+              {
+                "q": "Xét nghiệm chẩn đoán nhanh virus Cúm mùa trong đợt khởi phát có giá trị lâm sàng lớn nhất ở điểm nào?",
+                "opts": [
+                  "Hướng dẫn chỉ định điều trị thuốc kháng virus sớm (trong vòng 48h) và cách ly kiểm soát lây nhiễm",
+                  "Để tìm cớ dùng thêm kháng sinh",
+                  "Để thay thế cho vắc-xin cúm",
+                  "Dự đoán chính xác số ngày bệnh nhân ho"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Một bệnh nhân ho kéo dài hơn 4 tuần sau khi các triệu chứng viêm phế quản cấp ban đầu đã hết sốt. Bước xử trí tiếp theo là:",
+                "opts": [
+                  "Tự động kê thêm đợt kháng sinh phổ rộng thứ hai",
+                  "Đánh giá lại toàn diện để tìm các nguyên nhân ho bán cấp/mạn tính (hen phế quản, UACS, GERD, thuốc ƯCMC)",
+                  "Nhập khoa điều trị tích cực",
+                  "Khuyên bệnh nhân không cần đi khám lại"
+                ],
+                "ans": 1,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Một người khỏe mạnh phàn nàn đờm chuyển từ trắng sang xanh đục sau 4 ngày và nhất quyết đòi kháng sinh. Lời giải thích khoa học nhất là gì?",
+                "opts": [
+                  "Màu đờm xanh là do bạch cầu giải phóng sắc tố kháng viêm, không phải bằng chứng nhiễm khuẩn",
+                  "Đờm xanh đồng nghĩa 100% có vi khuẩn nguy hiểm",
+                  "Uống kháng sinh liều cao 3 ngày là khỏi ngay",
+                  "Virus chuyển thành đờm xanh trước khi chết"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Tác nhân virus nào sau đây có thể gây viêm phế quản - phổi tiến triển thành suy hô hấp cấp nặng (ARDS) ở người trẻ tuổi có cơ địa nhạy cảm?",
+                "opts": [
+                  "Adenovirus chủng độc lực cao hoặc Cúm (Influenza A/H1N1, H5N1)",
+                  "Rhinovirus thể nhẹ",
+                  "Rotavirus",
+                  "Norovirus"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Bệnh nhân nữ đau nhức cơ thành ngực dọc xương ức sau 5 ngày ho dữ dội. Ấn các kẽ sườn đau tăng, không khó thở, X-quang tim phổi bình thường. Chẩn đoán hợp lý nhất là:",
+                "opts": [
+                  "Nhồi máu cơ tim cấp",
+                  "Đau cơ xương thành ngực do ho gắng sức liên tục",
+                  "Tràn mủ màng phổi",
+                  "Thuyên tắc phổi diện rộng"
+                ],
+                "ans": 1,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Khuyến cáo của FDA và CDC đối với thuốc ho và cảm lạnh không kê đơn (OTC) chứa chất chống nghẹt mũi hoặc kháng histamin cho trẻ dưới 4 tuổi là gì?",
+                "opts": [
+                  "Không nên sử dụng do nguy cơ tác dụng phụ nghiêm trọng và thiếu bằng chứng hiệu quả",
+                  "Có thể dùng thuốc người lớn giảm liều 1/4",
+                  "Dùng liều gấp đôi nếu chưa đỡ",
+                  "Dùng kèm thuốc an thần"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Vì sao người đã tiêm phòng vắc-xin cúm hàng năm vẫn có thể mắc viêm phế quản cấp do Rhinovirus?",
+                "opts": [
+                  "Do vắc-xin cúm tạo kháng thể đặc hiệu với virus Cúm, không tạo miễn dịch chống lại Rhinovirus",
+                  "Do vắc-xin cúm bị hỏng",
+                  "Do Rhinovirus tiêu diệt kháng thể cúm",
+                  "Do cơ thể kháng vắc-xin hoàn toàn"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Biện pháp không dùng thuốc quan trọng nhất để phòng ngừa tái phát viêm phế quản cấp ở người hút thuốc lá là:",
+                "opts": [
+                  "Uống kháng sinh định kỳ hàng tháng",
+                  "Cai thuốc lá hoàn toàn và hạn chế tiếp xúc khói bụi ô nhiễm",
+                  "Uống vitamin C liều cực cao",
+                  "Chỉ đeo khẩu trang giấy mỏng"
+                ],
+                "ans": 1,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Phương pháp chẩn đoán xác định nhanh và có độ nhạy cao nhất hiện nay đối với tác nhân Ho gà (Bordetella pertussis) là gì?",
+                "opts": [
+                  "Chụp X-quang phổi thẳng",
+                  "Real-time PCR quẹt dịch tỵ hầu",
+                  "Soi tươi đờm dưới kính hiển vi",
+                  "Nuôi cấy nước tiểu"
+                ],
+                "ans": 1,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              }
+            ]
+          },
+          "viem-phoi-cong-dong": {
+            "title": "Viêm phổi mắc phải cộng đồng (CAP) - 30 câu",
+            "questions": [
+              {
+                "q": "Theo ATS/IDSA, siêu âm phổi (LUS) có thể là giải pháp thay thế X-quang ngực trong điều kiện nào?",
+                "opts": [
+                  "Chỉ khi kết quả X-quang ngực nghi ngờ",
+                  "Tại các cơ sở y tế có bác sĩ được đào tạo chuyên môn lâm sàng phù hợp"
+                ],
+                "ans": 1,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Ở bệnh nhân ngoại trú khỏe mạnh, có tổn thương đông đặc trên X-quang nhưng xét nghiệm dương tính với virus đường hô hấp (không có biểu hiện nhiễm khuẩn kèm theo), ATS khuyến nghị:",
+                "opts": [
+                  "Không kê đơn kháng sinh theo kinh nghiệm thường quy",
+                  "Kê đơn kháng sinh ngay để dự phòng"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Nhuộm Gram và cấy đờm có bắt buộc thực hiện thường quy cho tất cả bệnh nhân viêm phổi mắc phải cộng đồng điều trị ngoại trú không?",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Chỉ khuyến cáo ở bệnh nhân nội trú nặng, hoặc bệnh nhân có nguy cơ nhiễm MRSA / Pseudomonas aeruginosa."
+              },
+              {
+                "q": "Đối với bệnh nhân nội trú viêm phổi không nặng, khi đã đạt tiêu chuẩn ổn định lâm sàng, thời gian điều trị kháng sinh tối thiểu được khuyến cáo là:",
+                "opts": [
+                  "Tối thiểu 3 đến 5 ngày",
+                  "Bắt buộc từ 14 đến 21 ngày"
+                ],
+                "ans": 0,
+                "exp": "ATS khuyến cáo điều trị đủ ít nhất 5 ngày hoặc dừng sau khi đạt tiêu chuẩn ổn định lâm sàng tối thiểu 48 giờ."
+              },
+              {
+                "q": "Corticosteroid toàn thân được khuyến cáo sử dụng thường quy cho tất cả bệnh nhân viêm phổi cộng đồng nội trú mức độ nhẹ/không nặng.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Không khuyến cáo thường quy trừ khi có sốc nhiễm khuẩn hoặc đợt cấp COPD/hen đi kèm."
+              },
+              {
+                "q": "Trong viêm phổi cộng đồng nặng (không do virus cúm), một số thử nghiệm lâm sàng gần đây (như CAPE-COD) cho thấy Corticosteroid toàn thân có thể giúp giảm tỷ lệ tử vong.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Chỉ số $PaO_2/FiO_2 \\le 250$ là một tiêu chuẩn chính (Major criterion) để quyết định nhập ICU theo IDSA/ATS.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Đây là tiêu chuẩn PHỤ (Minor). Hai tiêu chuẩn CHÍNH là: Suy hô hấp cần thở máy xâm nhập và Sốc nhiễm khuẩn cần thuốc vận mạch."
+              },
+              {
+                "q": "Thang điểm PES được sử dụng để làm gì trong quản lý viêm phổi cộng đồng?",
+                "opts": [
+                  "Đánh giá mức độ khó thở",
+                  "Phân tầng nguy cơ nhiễm vi khuẩn đa kháng thuốc (Pseudomonas, Enterobacteriaceae ESBL, MRSA)"
+                ],
+                "ans": 1,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Xét nghiệm kháng nguyên nước tiểu được khuyến cáo ở bệnh nhân viêm phổi nặng đối với hai tác nhân nào?",
+                "opts": [
+                  "Streptococcus pneumoniae và Legionella pneumophila",
+                  "Mycoplasma và Chlamydia"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Nhờ đặc tính dược động học có thời gian bán thải kéo dài trong mô, liệu trình 3 ngày Azithromycin ($500\text{ mg}$/ngày) có hiệu lực lâm sàng tương đương phác đồ kháng sinh 5–7 ngày khác.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Xét nghiệm Procalcitonin âm tính cho phép bác sĩ loại trừ 100% tình trạng đồng nhiễm vi khuẩn trên bệnh nhân viêm phổi do virus.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Procalcitonin có độ âm tính giả nhất định ở giai đoạn sớm, không dùng đơn độc để phủ nhận hoàn toàn lâm sàng."
+              },
+              {
+                "q": "Tác nhân vi khuẩn nào là nguyên nhân hàng đầu gây bội nhiễm viêm phổi hoại tử nặng sau khi mắc Cúm?",
+                "opts": [
+                  "Staphylococcus aureus (bao gồm cả MRSA)",
+                  "Mycoplasma pneumoniae"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Vi khuẩn điển hình gây viêm phổi cộng đồng nhập viện thường gặp nhất tại Việt Nam và trên thế giới là Streptococcus pneumoniae (Phế cầu).",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Kháng sinh nhóm Fluoroquinolone hô hấp (như Levofloxacin) không cần hiệu chỉnh liều theo mức lọc cầu thận ở bệnh nhân suy thận.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Levofloxacin thải trừ chủ yếu qua thận, bắt buộc phải chỉnh liều theo độ thanh thải creatinine (Moxifloxacin thải trừ qua gan thì không cần chỉnh)."
+              },
+              {
+                "q": "Ở bệnh nhân viêm phổi nặng có sốc nhiễm khuẩn, kháng sinh tĩnh mạch thích hợp nên được dùng trong vòng:",
+                "opts": [
+                  "Càng sớm càng tốt, lý tưởng trong vòng 1 giờ đầu",
+                  "Chờ sau 24 giờ để có kết quả kháng sinh đồ"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Bệnh nhân 45 tuổi, khỏe mạnh, sốt, đau ngực. PCR dương tính Cúm A, X-quang có tổn thương phổi kẽ nhẹ, $SpO_2\\ 96\\%$, tri giác tỉnh táo, mạch và huyết áp bình thường. Xử trí phù hợp nhất theo hướng dẫn:",
+                "opts": [
+                  "Kê đơn thuốc kháng virus Oseltamivir và theo dõi ngoại trú, không dùng kháng sinh thường quy",
+                  "Nhập viện ICU dùng kháng sinh phổ rộng",
+                  "Không điều trị gì",
+                  "Cho uống Corticoid liều cao"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Bệnh nhân nữ 72 tuổi, tiền sử đái tháo đường, điều trị VPMPCĐ ngày thứ 3 bằng Ceftriaxone + Azithromycin. Bệnh nhân hết sốt 24 giờ, nhịp thở 18 lần/phút, ăn uống tốt. Hướng xử trí tiếp theo:",
+                "opts": [
+                  "Chuyển sang kháng sinh uống thích hợp và chuẩn bị kế hoạch xuất viện (tổng liệu trình 5 ngày)",
+                  "Tiếp tục tiêm tĩnh mạch đủ 14 ngày",
+                  "Thêm thuốc kháng nấm",
+                  "Đổi sang Carbapenem"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Bệnh nhân nam sốc nhiễm khuẩn do viêm phổi nặng, đang dùng Noradrenaline liều cao, xét nghiệm Cúm âm tính. Lựa chọn điều trị bổ trợ có bằng chứng:",
+                "opts": [
+                  "Corticosteroid toàn thân (Hydrocortisone truyền tĩnh mạch $200\text{ mg}$/ngày)",
+                  "Dùng Methylprednisolone xung liều $1\text{g}$/ngày",
+                  "Truyền Albumin liều cực cao",
+                  "Không dùng bất kỳ thuốc vận mạch nào"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Bệnh nhân 68 tuổi: lú lẫn mới xuất hiện (1đ), Urea $8\text{ mmol/L}$ (1đ), Nhịp thở 32 lần/phút (1đ), Huyết áp 85/50 mmHg (1đ), Tuổi $\\ge 65$ (1đ). Điểm CURB-65 của bệnh nhân là bao nhiêu và hướng xử trí?",
+                "opts": [
+                  "2 điểm; điều trị ngoại trú",
+                  "5 điểm; nguy cơ tử vong rất cao, chỉ định nhập ICU ngay",
+                  "1 điểm; cho về nhà",
+                  "3 điểm; nằm viện thông thường"
+                ],
+                "ans": 1,
+                "exp": "Thỏa mãn cả 5 tiêu chí CURB-65 = 5 điểm."
+              },
+              {
+                "q": "Bệnh nhân có chỉ số PSI (Pneumonia Severity Index) là 140 điểm. Bệnh nhân thuộc nhóm nguy cơ nào?",
+                "opts": [
+                  "Nhóm V; Nguy cơ tử vong rất cao, cần nhập viện điều trị tích cực",
+                  "Nhóm I; Điều trị ngoại trú",
+                  "Nhóm II; Nguy cơ thấp",
+                  "Nhóm III; Quan sát tại cấp cứu"
+                ],
+                "ans": 0,
+                "exp": "PSI $> 130$ điểm thuộc Nhóm V (tỷ lệ tử vong lên tới 27–30%)."
+              },
+              {
+                "q": "Bệnh nhân tiền sử giãn phế quản, suy thận mạn, vừa nằm viện dùng kháng sinh 2 tuần trước. Đây là các yếu tố thuộc thang điểm PES gợi ý nguy cơ gì?",
+                "opts": [
+                  "Nguy cơ cao nhiễm vi khuẩn đa kháng (Pseudomonas aeruginosa)",
+                  "Nguy cơ nhiễm virus thông thường",
+                  "Nguy cơ dị ứng thuốc",
+                  "Nguy cơ tắc nghẽn đường thở do dị vật"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Bệnh nhân nam 55 tuổi, nông dân tiếp xúc bùn đất, đái tháo đường kiểm soát kém, sốt cao, đờm mủ, hoại tử tạo hang trên X-quang phổi. Tác nhân đặc hữu tại Việt Nam cần lưu ý là:",
+                "opts": [
+                  "Burkholderia pseudomallei (Bệnh Melioidosis)",
+                  "Virus hợp bào hô hấp (RSV)",
+                  "Mycoplasma pneumoniae",
+                  "Bordetella pertussis"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Nguyên tắc an toàn nhất khi chuyển đổi kháng sinh từ đường tiêm sang đường uống (Switch therapy) là:",
+                "opts": [
+                  "Bệnh nhân hết sốt $\\ge 24\text{ giờ}$, huyết động ổn định, hấp thu đường tiêu hóa tốt",
+                  "Đủ 14 ngày tiêm tĩnh mạch",
+                  "Ngay khi có kết quả X-quang phổi hết sạch tổn thương",
+                  "Khi bạch cầu giảm về 0"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Bệnh nhân có nguy cơ cao nhất nhiễm trực khuẩn mủ xanh (Pseudomonas aeruginosa) khi có đặc điểm nào?",
+                "opts": [
+                  "Giãn phế quản nặng hoặc COPD giai đoạn rất nặng kèm tiền sử phân lập vi khuẩn này trước đó",
+                  "Người trẻ tuổi không bệnh nền",
+                  "Nuôi chim cảnh trong nhà",
+                  "Chỉ bị sốt nhẹ không ho"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Triệu chứng nào gợi ý thuyên tắc động mạch phổi cấp hơn là viêm phổi điển hình?",
+                "opts": [
+                  "Khó thở và đau ngực kiểu màng phổi khởi phát đột ngột dữ dội, không có sốt cao hay đờm mủ trước đó",
+                  "Sốt rét run kèm ho khạc đờm rỉ sắt từ từ 5 ngày",
+                  "Đáp ứng với Amoxicillin sau 48 giờ",
+                  "Hình ảnh đông đặc có phế quản hơi trên phim chụp"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Vì sao hướng dẫn lâm sàng vẫn gợi ý phối hợp kháng sinh ở bệnh nhân nội trú có test virus dương tính khi chưa thể loại trừ nhiễm trùng?",
+                "opts": [
+                  "Tỷ lệ đồng nhiễm vi khuẩn ở bệnh nhân nội trú nặng là đáng kể và khó phân định dứt khoát ban đầu",
+                  "Kháng sinh có thể tiêu diệt virus",
+                  "Kháng sinh làm tăng thể lực cho bệnh nhân",
+                  "Do quy định hành chính"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Kháng sinh nào là lựa chọn ưu tiên hàng đầu để điều trị viêm phổi do trực khuẩn Gram âm đường ruột sinh men ESBL (Extended-Spectrum Beta-Lactamase)?",
+                "opts": [
+                  "Carbapenem (Meropenem, Imipenem hoặc Ertapenem)",
+                  "Ceftriaxone",
+                  "Amoxicillin",
+                  "Clarithromycin"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Bệnh nhân trẻ tuổi, ho khan dai dẳng, đau mỏi cơ, tổn thương mô kẽ lan tỏa hai phế trường trên X-quang. Tác nhân không điển hình phổ biến nhất là:",
+                "opts": [
+                  "Mycoplasma pneumoniae",
+                  "Pseudomonas aeruginosa",
+                  "Klebsiella pneumoniae",
+                  "Tụ cầu vàng"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Tiêu chuẩn ổn định lâm sàng để chuẩn bị cho bệnh nhân viêm phổi xuất viện bao gồm:",
+                "opts": [
+                  "Nhiệt độ $\\le 37.8^\\circ\text{C}$, Mạch $< 100$, Thở $< 24$, Huyết áp tâm thu $\\ge 90\text{ mmHg}$, $SpO_2 \\ge 92\\%$ khí phòng",
+                  "X-quang phổi hoàn toàn biến mất mọi tổn thương",
+                  "Bệnh nhân muốn về nhà dù vẫn đang sốt $39^\\circ\text{C}$",
+                  "Cấy đờm ra vi khuẩn"
+                ],
+                "ans": 0,
+                "exp": "Tổn thương X-quang phổi thường mờ chậm hơn rất nhiều (từ 4–8 tuần) so với sự hồi phục lâm sàng."
+              },
+              {
+                "q": "Khuyến nghị về vắc-xin phòng ngừa viêm phổi phế cầu cho bệnh nhân có bệnh phổi phế quản mạn tính:",
+                "opts": [
+                  "Khuyến cáo tiêm đầy đủ vắc-xin phế cầu cộng hợp (như PCV15/PCV20) để giảm nguy cơ viêm phổi xâm lấn",
+                  "Không có giá trị phòng bệnh",
+                  "Chỉ tiêm một lần lúc mới sinh",
+                  "Chống chỉ định cho người bị hen/COPD"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              }
+            ]
+          },
+          "copd": {
+            "title": "Bệnh phổi tắc nghẽn mạn tính (COPD) - 30 câu",
+            "questions": [
+              {
+                "q": "Theo báo cáo GOLD, liệu pháp bộ ba (LABA + LAMA + ICS) đã được chứng minh làm giảm tỷ lệ tử vong do mọi nguyên nhân so với liệu pháp giãn phế quản kép (LABA + LAMA) ở bệnh nhân COPD có triệu chứng và tiền sử đợt cấp thường xuyên.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Thử nghiệm IMPACT và ETHOS chứng minh giảm tử vong do mọi nguyên nhân ở nhóm bệnh nhân này."
+              },
+              {
+                "q": "Chỉ số $FEV_1/FVC < 0.70$ đo được sau khi dùng thuốc giãn phế quản (Post-bronchodilator) là tiêu chuẩn bắt buộc để xác nhận giới hạn luồng khí cố định trong COPD.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Phải là chỉ số SAU nghiệm pháp dãn phế quản (post-BD)."
+              },
+              {
+                "q": "Thời gian điều trị Corticosteroid toàn thân đường uống (như Prednisone $40\text{ mg}$/ngày) trong đợt kịch phát COPD thông thường được khuyến cáo kéo dài bao lâu?",
+                "opts": [
+                  "Không quá 5 ngày",
+                  "Tối thiểu 1 tháng"
+                ],
+                "ans": 0,
+                "exp": "Thử nghiệm REDUCE khẳng định 5 ngày có hiệu quả tương đương 14 ngày và giảm biến chứng tác dụng phụ."
+              },
+              {
+                "q": "Xét nghiệm Procalcitonin hiện nay được khuyến cáo là công cụ duy nhất quyết định việc dùng kháng sinh trong mọi đợt cấp COPD.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Lâm sàng vẫn dựa chính vào 3 tiêu chuẩn Anthonisen (tăng khó thở, tăng thể tích đờm, đờm chuyển mủ)."
+              },
+              {
+                "q": "Ở các nước đang phát triển, phơi nhiễm khói sinh khối (đun nấu than củi) và ô nhiễm không khí là nguyên nhân hàng đầu gây COPD ở người không hút thuốc lá.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Bổ sung Vitamin D được khuyến cáo cho tất cả bệnh nhân COPD bất kể nồng độ trong máu có bị thiếu hụt hay không.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Chỉ bổ sung khi xét nghiệm thấy thiếu hụt nghiêm trọng Vitamin D ($< 25\text{ nmol/L}$ hoặc $10\text{ ng/ml}$)."
+              },
+              {
+                "q": "Ensifentrine là thuốc mới hoạt động theo cơ chế ức chế kép chọn lọc đồng thời hai enzym nào?",
+                "opts": [
+                  "PDE3 và PDE4",
+                  "COX-1 và COX-2"
+                ],
+                "ans": 0,
+                "exp": "Ức chế PDE3 giúp giãn cơ trơn phế quản và PDE4 giúp kháng viêm."
+              },
+              {
+                "q": "Liệu pháp oxy dài hạn tại nhà (LTOT) được khuyến cáo thường quy cho mọi bệnh nhân COPD ổn định chỉ có giảm oxy máu nhẹ hoặc trung bình khi gắng sức.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Chỉ chỉ định khi có giảm oxy máu nặng lúc nghỉ ngơi ($PaO_2 \\le 55\text{ mmHg}$ hoặc $SpO_2 \\le 88\\%$)."
+              },
+              {
+                "q": "Chụp cắt lớp vi tính lồng ngực liều thấp (LDCT) hàng năm được khuyến cáo tầm soát ung thư phổi cho mọi bệnh nhân COPD kể cả người chưa từng hút thuốc lá.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "Chỉ tầm soát cho đối tượng có tiền sử hút thuốc nặng (theo tiêu chuẩn tuổi 50–80 và tiền sử $\\ge 20$ bao-năm)."
+              },
+              {
+                "q": "Theo phân loại GOLD ABE, bệnh nhân thuộc Nhóm E (tiền sử $\\ge 2$ đợt cấp trung bình hoặc $\\ge 1$ đợt cấp nhập viện) nên khởi đầu điều trị bằng phác đồ nào?",
+                "opts": [
+                  "LABA + LAMA",
+                  "LAMA đơn trị liệu"
+                ],
+                "ans": 0,
+                "exp": "Lựa chọn ưu tiên ban đầu cho nhóm E là LABA + LAMA (cân nhắc thêm ICS ngay từ đầu nếu Eosinophil máu $\\ge 300\text{ tế bào}/\\mu\text{L}$)."
+              },
+              {
+                "q": "Thuật ngữ 'Chồng lấp Hen - COPD' (ACO) hiện nay vẫn được xem là một thực thể bệnh lý học độc lập riêng biệt trong phân loại chính thức của GOLD.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 1,
+                "exp": "GOLD và GINA nhấn mạnh đây không phải là một bệnh riêng lẻ, mà khuyến cáo nhận diện các đặc điểm hen và COPD trên từng cá thể để điều trị trúng đích."
+              },
+              {
+                "q": "Tình trạng rối loạn hệ vi sinh đường thở (Lung Microbiome Dysbiosis) là một cơ chế được đưa vào cập nhật bệnh sinh của COPD.",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Ngưỡng bạch cầu ái toan (Eosinophil) trong máu nào dự đoán khả năng đáp ứng điều trị tốt nhất khi thêm ICS vào phác đồ COPD?",
+                "opts": [
+                  "$\\ge 300\text{ tế bào}/\\mu\text{L}$",
+                  "Dưới $50\text{ tế bào}/\\mu\text{L}$"
+                ],
+                "ans": 0,
+                "exp": "Eos máu $\\ge 300$ gợi ý lợi ích lâm sàng cao từ ICS; ngược lại Eos $< 100$ ít đáp ứng và tăng nguy cơ viêm phổi."
+              },
+              {
+                "q": "Bệnh nhân trẻ tuổi mắc COPD hoặc có khí phế thũng đáy phổi nên được làm xét nghiệm định lượng yếu tố nào?",
+                "opts": [
+                  "Nồng độ Alpha-1 Antitrypsin (AAT) huyết thanh",
+                  "Acid Uric máu"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Vắc-xin ngừa virus hợp bào hô hấp (RSV) hiện được khuyến cáo cho bệnh nhân COPD lớn tuổi ($\\ge 60$ tuổi).",
+                "opts": [
+                  "Đúng",
+                  "Sai"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Bệnh nhân nam 62 tuổi, tiền sử hút thuốc 40 bao-năm. Hô hấp ký sau test giãn phế quản: $FEV_1/FVC = 0.58$, $FEV_1 = 52\\%$ dự đoán. Trong năm qua có 2 đợt cấp phải dùng kháng sinh và steroid ngoại trú. Điểm CAT 18 điểm. Phân nhóm GOLD và điều trị khởi đầu thích hợp nhất là:",
+                "opts": [
+                  "Nhóm E; Điều trị khởi đầu bằng LABA + LAMA",
+                  "Nhóm B; Điều trị khởi đầu bằng LAMA đơn trị liệu",
+                  "Nhóm A; Dùng SABA khi cần",
+                  "Nhóm B; Phẫu thuật cắt phổi"
+                ],
+                "ans": 0,
+                "exp": "Bệnh nhân có 2 đợt cấp trung bình $\rightarrow$ Nhóm E. Khởi đầu chuẩn là phối hợp LABA + LAMA."
+              },
+              {
+                "q": "Bệnh nhân COPD Nhóm B đang dùng LAMA đơn trị liệu nhưng vẫn còn khó thở nhiều ($mMRC = 2$). Bệnh nhân không có đợt cấp trong năm qua. Bước tối ưu hóa thuốc tiếp theo là gì?",
+                "opts": [
+                  "Thêm ICS (chuyển sang LAMA + ICS)",
+                  "Nâng bậc lên phối hợp giãn phế quản kép LABA + LAMA",
+                  "Bổ sung Theophylline uống",
+                  "Dừng hết thuốc hít"
+                ],
+                "ans": 1,
+                "exp": "Khi bệnh nhân còn khó thở dai dẳng trên đơn trị liệu, khuyến cáo là nâng lên LABA + LAMA."
+              },
+              {
+                "q": "Bệnh nhân COPD đợt cấp nặng nhập viện: khí máu động mạch có $pH = 7.28$, $PaCO_2 = 60\text{ mmHg}$, $PaO_2 = 55\text{ mmHg}$. Bệnh nhân tỉnh táo, tiếp xúc tốt. Biện pháp hỗ trợ hô hấp ưu tiên hàng đầu là:",
+                "opts": [
+                  "Đặt ống nội khí quản và thở máy xâm lấn ngay",
+                  "Thông khí nhân tạo không xâm lấn (NIV / BiPAP)",
+                  "Thở oxy lưu lượng cao qua cannula mũi không kiểm soát ($15\text{ L/phút}$)",
+                  "Tiêm thuốc ức chế hô hấp"
+                ],
+                "ans": 1,
+                "exp": "NIV là lựa chọn đầu tay cho suy hô hấp tăng $CO_2$ toan máu cấp ($7.25 \\le pH \\le 7.35$), giúp giảm tỷ lệ đặt nội khí quản và tử vong."
+              },
+              {
+                "q": "Bệnh nhân COPD nặng vẫn bị đợt cấp tái diễn dù đã dùng liệu pháp bộ ba (LABA + LAMA + ICS) tối ưu, có bạch cầu ái toan máu $\\ge 300\text{ tế bào}/\\mu\text{L}$. Kháng thể đơn dòng nào gần đây được cấp phép bổ sung điều trị?",
+                "opts": [
+                  "Dupilumab (Anti IL-4R$\u0007lpha$)",
+                  "Rituximab",
+                  "Infliximab",
+                  "Trastuzumab"
+                ],
+                "ans": 0,
+                "exp": "Thử nghiệm BOREAS và NOTUS cho thấy Dupilumab giảm rõ rệt đợt cấp ở bệnh nhân COPD có viêm Type 2."
+              },
+              {
+                "q": "Ở bệnh nhân COPD đang duy trì thuốc đầy đủ mà chức năng phổi sụt giảm nhanh bất thường, bước rà soát quan trọng nhất ngoài kỹ thuật dùng thuốc là:",
+                "opts": [
+                  "Đánh giá lại tiền sử phơi nhiễm khói thuốc, khói bụi ô nhiễm và môi trường làm việc",
+                  "Yêu cầu bệnh nhân nằm bất động",
+                  "Kê đơn kháng sinh uống suốt đời",
+                  "Cắt amidan"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Bệnh nhân COPD nhập viện vì nhồi máu cơ tim cấp có chỉ định dùng thuốc chẹn beta giao cảm. Quan điểm y khoa chuẩn xác là:",
+                "opts": [
+                  "Không nên từ chối chỉ định thuốc chẹn chọn lọc trên tim ($\beta_1$-selective) vì lợi ích tim mạch vượt trội và an toàn",
+                  "Chống chỉ định tuyệt đối tất cả các loại chẹn beta",
+                  "Chỉ dùng khi bệnh nhân đã thở máy",
+                  "Dùng thuốc chẹn beta không chọn lọc liều cao"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Bệnh nhân có triệu chứng khó thở, lồng ngực hình thùng, nhưng hô hấp ký sau nghiệm pháp giãn phế quản có $FEV_1/FVC = 0.74$ ($> 0.70$). Khái niệm nào mô tả đúng trường hợp này?",
+                "opts": [
+                  "Bệnh nhân có thể thuộc nhóm \"Pre-COPD\" hoặc PRISm và cần được theo dõi định kỳ",
+                  "Chắc chắn đã bị xơ phổi",
+                  "Hoàn toàn loại trừ mọi bệnh lý đường dẫn khí",
+                  "Hen cấp tính"
+                ],
+                "ans": 0,
+                "exp": "Pre-COPD chỉ các cá nhân có triệu chứng hô hấp hoặc tổn thương cấu trúc phổi nhưng chưa có tắc nghẽn luồng khí cố định."
+              },
+              {
+                "q": "Một bệnh nhân COPD đang dùng LABA + ICS từ trước, hiện ổn định không có đợt cấp, xét nghiệm Eosinophil máu là $70\text{ tế bào}/\\mu\text{L}$. Hướng xử trí hợp lý là:",
+                "opts": [
+                  "Cân nhắc ngừng ICS và chuyển sang phác đồ LABA + LAMA",
+                  "Tăng gấp đôi liều ICS",
+                  "Giữ nguyên suốt đời",
+                  "Dừng toàn bộ các thuốc"
+                ],
+                "ans": 0,
+                "exp": "Eos máu $< 100$ kèm không có đợt cấp cho thấy nguy cơ viêm phổi do ICS cao hơn lợi ích; nên chuyển về LABA + LAMA."
+              },
+              {
+                "q": "Bệnh nhân COPD đến khám vì đờm tăng thể tích và chuyển sang dạng đờm mủ xanh (đủ 2 trong 3 tiêu chuẩn Anthonisen). Kháng sinh đường uống nên được:",
+                "opts": [
+                  "Chỉ định điều trị (đợt cấp mức độ trung bình)",
+                  "Tuyệt đối không dùng",
+                  "Trì hoãn 1 tháng",
+                  "Chuyển cấp cứu thở máy"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Mục đích chính của việc chỉ định thông tim phải ở bệnh nhân COPD có nghi ngờ tăng áp lực động mạch phổi nặng trên siêu âm tim là:",
+                "opts": [
+                  "Đo chính xác áp lực động mạch phổi và kháng lực mạch phổi để phân tầng kiểu hình tăng áp động mạch phổi (PH nhóm 3)",
+                  "Phát hiện dị nguyên gây dị ứng",
+                  "Đo dung tích sống toàn phổi",
+                  "Đo thể tích khí cặn"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Nam giới 48 tuổi, không bao giờ hút thuốc, làm việc văn phòng, được chẩn đoán COPD khí phế thũng nặng vùng đáy phổi. Xét nghiệm đầu tiên cần chỉ định là:",
+                "opts": [
+                  "Định lượng nồng độ Alpha-1 Antitrypsin huyết thanh",
+                  "Test lẩy da với lông thú",
+                  "Cấy máu tìm vi khuẩn",
+                  "Đo nồng độ Cortisol máu"
+                ],
+                "ans": 0,
+                "exp": "Khí phế thũng ở người trẻ không hút thuốc, ưu thế ở đáy phổi là chỉ dấu kinh điển của thiếu hụt di truyền Alpha-1 Antitrypsin."
+              },
+              {
+                "q": "Bệnh nhân COPD đợt cấp điều trị ngoại trú bằng kháng sinh và Corticoid uống, sau 3 ngày thấy triệu chứng đỡ nhiều. Khuyến nghị liệu trình chuẩn là:",
+                "opts": [
+                  "Tiếp tục dùng đủ tổng số 5 ngày thuốc theo phác đồ rồi dừng",
+                  "Kéo dài liên tục 30 ngày",
+                  "Dừng ngay lập tức sau 3 ngày",
+                  "Uống tăng liều gấp đôi"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Trong danh mục vắc-xin cho bệnh nhân COPD lớn tuổi theo khuyến cáo quốc tế, loại vắc-xin nào sau đây KHÔNG thuộc chỉ định ưu tiên thường quy liên quan trực tiếp đến đợt cấp hô hấp:",
+                "opts": [
+                  "Vắc-xin Thủy đậu (Varicella) cho trẻ em",
+                  "Vắc-xin Cúm hàng năm",
+                  "Vắc-xin Phế cầu",
+                  "Vắc-xin Ho gà (Tdap)"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              },
+              {
+                "q": "Tiêu chuẩn nào ở bệnh nhân COPD khí phế thũng giai đoạn nặng giúp dự đoán kết quả tốt khi thực hiện Phẫu thuật giảm thể tích phổi (LVRS)?",
+                "opts": [
+                  "Khí phế thũng không đồng nhất ưu thế thùy trên kèm dung lượng gắng sức thấp sau phục hồi chức năng",
+                  "Khí phế thũng lan tỏa đồng đều hai đáy phổi",
+                  "Đang nghiện thuốc lá nặng chưa cai",
+                  "$FEV_1 > 80\\%$"
+                ],
+                "ans": 0,
+                "exp": "Thử nghiệm NETT chỉ ra nhóm hưởng lợi sống còn rõ nhất từ LVRS là khí phế thũng ưu thế thùy trên và khả năng gắng sức cơ bản thấp."
+              },
+              {
+                "q": "Cơ chế tác dụng chính của hoạt chất Ensifentrine trong điều trị duy trì COPD là gì?",
+                "opts": [
+                  "Ức chế đồng thời enzyme PDE3 (giãn cơ trơn đường thở) và PDE4 (giảm giải phóng các chất trung gian gây viêm)",
+                  "Chẹn thụ thể Leukotriene",
+                  "Bổ sung trực tiếp enzym alpha-1 antitrypsin",
+                  "Tác dụng kháng sinh diệt khuẩn phế cầu"
+                ],
+                "ans": 0,
+                "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
               }
             ]
           }

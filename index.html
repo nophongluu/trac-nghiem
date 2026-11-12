@@ -480,20 +480,24 @@
   <!-- MÀN HÌNH 1: TRANG CHỦ & CẤU HÌNH -->
   <div id="home-view">
     <div class="header-box">
-      <h1>Logistics & Quản Lý Chuỗi Cung Ứng</h1>
-      <p>Hệ thống ôn luyện trắc nghiệm chuyên biệt & Thi thử có bấm giờ</p>
+      <h1>Hệ Thống Trắc Nghiệm Học Tập Chuyên Sâu</h1>
+      <p>Logistics & Chuỗi Cung Ứng • Y Khoa (Luyện tập & Thi thử có bấm giờ)</p>
     </div>
 
     <!-- Bảng chọn bài & Cấu hình nâng cao -->
     <div class="config-panel">
       <!-- Bộ lọc Môn & Bài -->
-      <div class="filter-grid">
+      <div class="filter-grid" style="grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px;">
         <div class="filter-item">
-          <label>1. Chọn Môn học</label>
-          <select id="select-subject" onchange="onSubjectChange()"></select>
+          <label>1. Chọn Ngành đào tạo</label>
+          <select id="select-domain" onchange="onDomainChange()"></select>
         </div>
         <div class="filter-item">
-          <label>2. Chọn Bài học / Chương</label>
+          <label>2. Chuyên ngành / Môn học</label>
+          <select id="select-subject" onchange="onSubjectChange()"></select>
+        </div>
+        <div class="filter-item" style="grid-column: span 2;">
+          <label>3. Bài học / Chuyên đề</label>
           <select id="select-lesson"></select>
         </div>
       </div>
@@ -583,10 +587,8 @@
 <script src="data.js"></script>
 
 <script>
-const domainKey = "kinh-te";
-const subjects = appDatabase[domainKey].subjects;
-
-let currentSubjectKey = "";
+let currentDomainKey = "y-khoa"; // Mặc định mở Y khoa theo yêu cầu mới
+let currentSubjectKey = "ho-hap";
 let currentLessonKey = "";
 let currentMode = "practice"; // 'practice' hoặc 'exam'
 let activeQuestions = [];
@@ -598,8 +600,37 @@ let timerInterval = null;
 let timeLeftSeconds = 0;
 
 function initHome() {
+  const domSelect = document.getElementById('select-domain');
+  domSelect.innerHTML = '';
+
+  for (const [dKey, dVal] of Object.entries(appDatabase)) {
+    const opt = document.createElement('option');
+    opt.value = dKey;
+    opt.textContent = dVal.name;
+    domSelect.appendChild(opt);
+  }
+
+  // Ưu tiên chọn Y khoa nếu có, ngược lại chọn domain đầu tiên
+  if (appDatabase["y-khoa"]) {
+    currentDomainKey = "y-khoa";
+  } else {
+    currentDomainKey = Object.keys(appDatabase)[0];
+  }
+  domSelect.value = currentDomainKey;
+
+  updateSubjectDropdown();
+  renderCards();
+}
+
+function onDomainChange() {
+  currentDomainKey = document.getElementById('select-domain').value;
+  updateSubjectDropdown();
+}
+
+function updateSubjectDropdown() {
   const subjSelect = document.getElementById('select-subject');
   subjSelect.innerHTML = '';
+  const subjects = appDatabase[currentDomainKey].subjects;
 
   for (const [sKey, sVal] of Object.entries(subjects)) {
     const opt = document.createElement('option');
@@ -611,7 +642,6 @@ function initHome() {
   currentSubjectKey = Object.keys(subjects)[0];
   subjSelect.value = currentSubjectKey;
   updateLessonDropdown();
-  renderCards();
 }
 
 function onSubjectChange() {
@@ -622,7 +652,7 @@ function onSubjectChange() {
 function updateLessonDropdown() {
   const lessSelect = document.getElementById('select-lesson');
   lessSelect.innerHTML = '';
-  const lessons = subjects[currentSubjectKey].lessons;
+  const lessons = appDatabase[currentDomainKey].subjects[currentSubjectKey].lessons;
   for (const [lKey, lVal] of Object.entries(lessons)) {
     const opt = document.createElement('option');
     opt.value = lKey;
@@ -647,38 +677,47 @@ function renderCards() {
   grid.innerHTML = '';
 
   const metaIcons = {
-    'vi-mo': { icon: '📊', desc: 'Cung cầu, độ co giãn, giá cân bằng' },
+    'ho-hap': { icon: '🫁', desc: 'Hen phế quản, Viêm phế quản cấp, CAP, COPD' },
+    'vi-mo': { icon: '📊', desc: 'Cung cầu, độ co giãn, lý thuyết DN, độc quyền' },
     'van-hoa-kd': { icon: '🤝', desc: 'Đạo đức kinh doanh, triết lý doanh nghiệp' },
     'internet-elearning': { icon: '🌐', desc: 'Địa chỉ IP, giao thức mạng, E-Learning' }
   };
 
-  for (const [sKey, sVal] of Object.entries(subjects)) {
-    const card = document.createElement('div');
-    card.className = 'card-item';
-    const meta = metaIcons[sKey] || { icon: '📖', desc: 'Hệ thống câu hỏi trắc nghiệm' };
-    const lessonCount = Object.keys(sVal.lessons).length;
+  for (const [dKey, dVal] of Object.entries(appDatabase)) {
+    for (const [sKey, sVal] of Object.entries(dVal.subjects)) {
+      const card = document.createElement('div');
+      card.className = 'card-item';
+      const meta = metaIcons[sKey] || { icon: '📖', desc: 'Ngân hàng câu hỏi trắc nghiệm' };
+      const lessonCount = Object.keys(sVal.lessons).length;
 
-    card.innerHTML = `
-      <div>
-        <div class="icon">${meta.icon}</div>
-        <div class="title">${sVal.name}</div>
-        <div class="sub">${meta.desc}</div>
-      </div>
-      <div style="margin-top: 14px; font-size: 12.5px; font-weight: 700; color: var(--primary);">
-        ${lessonCount} chương/bài tập →
-      </div>
-    `;
+      card.innerHTML = `
+        <div>
+          <div class="icon">${meta.icon}</div>
+          <div style="font-size: 11px; font-weight: 700; color: var(--primary); text-transform: uppercase; margin-bottom: 2px;">
+            ${dVal.name}
+          </div>
+          <div class="title">${sVal.name}</div>
+          <div class="sub">${meta.desc}</div>
+        </div>
+        <div style="margin-top: 14px; font-size: 12.5px; font-weight: 700; color: var(--primary);">
+          ${lessonCount} chuyên đề / bài học →
+        </div>
+      `;
 
-    card.onclick = () => {
-      document.getElementById('select-subject').value = sKey;
-      currentSubjectKey = sKey;
-      updateLessonDropdown();
-      const firstLessonKey = Object.keys(sVal.lessons)[0];
-      document.getElementById('select-lesson').value = firstLessonKey;
-      startQuizSession();
-    };
+      card.onclick = () => {
+        document.getElementById('select-domain').value = dKey;
+        currentDomainKey = dKey;
+        updateSubjectDropdown();
+        document.getElementById('select-subject').value = sKey;
+        currentSubjectKey = sKey;
+        updateLessonDropdown();
+        const firstLessonKey = Object.keys(sVal.lessons)[0];
+        document.getElementById('select-lesson').value = firstLessonKey;
+        startQuizSession();
+      };
 
-    grid.appendChild(card);
+      grid.appendChild(card);
+    }
   }
 }
 
@@ -694,12 +733,13 @@ function shuffleArray(arr) {
 
 // Bắt đầu làm bài
 function startQuizSession() {
+  currentDomainKey = document.getElementById('select-domain').value;
   currentSubjectKey = document.getElementById('select-subject').value;
   currentLessonKey = document.getElementById('select-lesson').value;
 
-  const lessonObj = subjects[currentSubjectKey].lessons[currentLessonKey];
+  const lessonObj = appDatabase[currentDomainKey].subjects[currentSubjectKey].lessons[currentLessonKey];
   // Chìa khóa lưu trữ độc lập theo currentMode
-  const storageKey = `progress_${currentSubjectKey}_${currentLessonKey}_${currentMode}`;
+  const storageKey = `progress_${currentDomainKey}_${currentSubjectKey}_${currentLessonKey}_${currentMode}`;
   
   // Kiểm tra lưu trạng thái dở dang
   const savedState = localStorage.getItem(storageKey);
@@ -726,7 +766,7 @@ function startQuizSession() {
   }
 
   // Cập nhật giao diện làm bài
-  document.getElementById('quiz-header-title').innerText = `${subjects[currentSubjectKey].name} • ${lessonObj.title}`;
+  document.getElementById('quiz-header-title').innerText = `${appDatabase[currentDomainKey].subjects[currentSubjectKey].name} • ${lessonObj.title}`;
   document.getElementById('home-view').style.display = 'none';
   document.getElementById('quiz-view').style.display = 'block';
 
@@ -779,7 +819,7 @@ function resetQuiz() {
   // Xóa bộ nhớ dở dang
   clearProgressState();
 
-  const lessonObj = subjects[currentSubjectKey].lessons[currentLessonKey];
+  const lessonObj = appDatabase[currentDomainKey].subjects[currentSubjectKey].lessons[currentLessonKey];
   initNewQuiz(lessonObj);
 
   // Đặt lại Timer
@@ -975,9 +1015,9 @@ function updateScoresAndNav() {
   });
 }
 
-// CHỨC NĂNG 3: TỰ ĐỘNG LƯU ĐỘC LẬP THEO currentMode
+// Tự động lưu tiến độ vào LocalStorage theo currentDomainKey & currentMode
 function saveProgressState() {
-  const storageKey = `progress_${currentSubjectKey}_${currentLessonKey}_${currentMode}`;
+  const storageKey = `progress_${currentDomainKey}_${currentSubjectKey}_${currentLessonKey}_${currentMode}`;
   const state = {
     questions: activeQuestions,
     answers: userAnswers,
@@ -988,9 +1028,9 @@ function saveProgressState() {
   localStorage.setItem(storageKey, JSON.stringify(state));
 }
 
-// Xóa tiến độ độc lập theo currentMode
+// Xóa tiến độ độc lập theo currentDomainKey & currentMode
 function clearProgressState() {
-  const storageKey = `progress_${currentSubjectKey}_${currentLessonKey}_${currentMode}`;
+  const storageKey = `progress_${currentDomainKey}_${currentSubjectKey}_${currentLessonKey}_${currentMode}`;
   localStorage.removeItem(storageKey);
 }
 
@@ -1045,7 +1085,12 @@ function submitExam(force = false) {
   document.getElementById('submit-exam-wrap').style.display = 'none';
 
   const mark10 = ((finalScore / total) * 10).toFixed(1);
-  alert(`🏁 BẠN ĐÃ HOÀN TẤT BÀI THI!\n\nSố câu trả lời đúng: ${finalScore} / ${total} câu.\nĐiểm số tương ứng: ${mark10} / 10 điểm.\n\nHệ thống đã mở khóa toàn bộ đáp án và lời giải chi tiết bên dưới!`);
+  alert(`🏁 BẠN ĐÃ HOÀN TẤT BÀI THI!
+
+Số câu trả lời đúng: ${finalScore} / ${total} câu.
+Điểm số tương ứng: ${mark10} / 10 điểm.
+
+Hệ thống đã mở khóa toàn bộ đáp án và lời giải chi tiết bên dưới!`);
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
