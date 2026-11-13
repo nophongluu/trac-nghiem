@@ -1888,9 +1888,2014 @@ const appDatabase = {
   "y-khoa": {
     "name": "Y Khoa",
     "subjects": {
+      "nhi-khoa": {
+        "name": "Khoa Nhi",
+        "lessons": {
+          "chan-doan-xu-tri-nang": {
+            "title": "Bài 1: Chẩn đoán và xử trí trẻ bệnh nặng (3 câu)",
+            "questions": [
+              {
+                "q": "Đánh giá BN cấp cứu theo ABCD cần làm gì đầu tiên?",
+                "opts": [
+                  "Khai thông đường thở",
+                  "Kiểm tra tuần hoàn",
+                  "Hỗ trợ hô hấp",
+                  "Đánh giá ý thức"
+                ],
+                "ans": 0,
+                "exp": "Tiếp cận bệnh nhân nặng cấp cứu luôn bắt đầu bằng kiểm soát và làm thông thoáng đường thở (Airway)."
+              },
+              {
+                "q": "Trẻ đang truyền KS thì nổi mày đay, ban đỏ, phù mi mắt, triệu chứng nào chẩn đoán chính xác sốc phản vệ?",
+                "opts": [
+                  "Sốt cao, nổi vân tím",
+                  "Khó thở, tụt HA, đại tiểu tiện không tự chủ hoặc ngất",
+                  "Khó thở, SpO2 tụt",
+                  "Nôn ói đơn thuần"
+                ],
+                "ans": 1,
+                "exp": "Phản vệ độ III (nguy kịch) có tụt huyết áp hoặc khó thở thanh quản dữ dội, co thắt phế quản, rối loạn cơ tròn hoặc ngất."
+              },
+              {
+                "q": "Một trẻ 2 tuổi vào viện li bì, da tái, thời gian đổ đầy mao mạch (CRT) > 3 giây, thở co kéo mạnh. Thái độ xử trí ban đầu theo trình tự ưu tiên là:",
+                "opts": [
+                  "Cho thở oxy ngay, lập đường truyền tĩnh mạch và kiểm tra đường huyết mao mạch",
+                  "Đánh giá và bảo đảm thông thoáng đường thở, hỗ trợ thông khí/cung cấp oxy, sau đó thiết lập đường truyền tuần hoàn",
+                  "Đặt ống thông dạ dày giải áp trước tiên",
+                  "Chụp X-quang tim phổi thẳng cấp cứu"
+                ],
+                "ans": 1,
+                "exp": "Nguyên tắc ABC: Khai thông đường thở (A) -> Cung cấp oxy/hỗ trợ thở (B) -> Lập đường truyền, hồi sức tuần hoàn (C)."
+              }
+            ]
+          },
+          "sang-loc-so-sinh-nguy-co": {
+            "title": "Bài 2: Sàng lọc sơ sinh có nguy cơ (3 câu)",
+            "questions": [
+              {
+                "q": "Bé gái, vừa mới sinh, thai 36 tuần, cân nặng 3000g, sau đẻ khóc to. Mẹ siêu âm trước sinh thấy có hình ảnh đa ối, có hình ảnh quai ruột giãn. Theo bạn nên làm gì đúng nhất cho bé:",
+                "opts": [
+                  "Cho trẻ về với mẹ để sớm cho bú",
+                  "Chuyển đến khoa ngoại nhi có khả năng phẫu thuật",
+                  "Giữ lại theo dõi đến khi trẻ xuất hiện nôn dịch vàng thì chuyển",
+                  "Đặt sonde dạ dày rồi chuyển đến khoa ngoại nhi có khả năng phẫu thuật"
+                ],
+                "ans": 3,
+                "exp": "Siêu âm thai có đa ối và giãn quai ruột là dấu hiệu nghi ngờ tắc ruột bẩm sinh; cần nhịn ăn, đặt sonde dạ dày dẫn lưu dịch tránh nôn trào ngược hít sặc trong quá trình chuyển tuyến."
+              },
+              {
+                "q": "Sau sinh bao lâu mà không thấy phân su thì mới kết luận chậm ỉa phân su:",
+                "opts": [
+                  "6 giờ",
+                  "12 giờ",
+                  "24 giờ",
+                  "48 giờ"
+                ],
+                "ans": 2,
+                "exp": "Bình thường trên 90% trẻ sơ sinh đủ tháng bài xuất phân su trong 24 giờ đầu sau sinh. Sau 24 giờ chưa đi ngoài phân su là mốc báo động cần thăm khám tìm dị tật đường tiêu hóa."
+              },
+              {
+                "q": "Bé trai, 3 ngày tuổi sau đẻ không ỉa phân su, nôn, bụng trướng. Dấu hiệu lâm sàng nào dưới đây nghĩ đến dị tật teo trực tràng:",
+                "opts": [
+                  "Lỗ hậu môn bình thường",
+                  "Đặt sonde hậu môn trực tràng: chỉ vào được khoảng 2cm, không có phân",
+                  "Đặt sonde hậu môn trực tràng: vào sâu, không có phân su",
+                  "Đặt sonde hậu môn trực tràng: vào sâu, có phân su ra"
+                ],
+                "ans": 1,
+                "exp": "Đặt ống thông mềm vào hậu môn bị vướng chặn ở độ sâu khoảng 2cm và không có phân su chứng tỏ có teo hoặc bít tắc trực tràng."
+              }
+            ]
+          },
+          "ngung-tuan-hoan-tre-em": {
+            "title": "Bài 3: Cấp cứu ngừng tuần hoàn trẻ em (3 câu)",
+            "questions": [
+              {
+                "q": "Tần số ép tim ở trẻ sơ sinh và trẻ nhỏ trong cấp cứu ngừng tuần hoàn là bao nhiêu lần/phút?",
+                "opts": [
+                  "100 - 120 lần/phút",
+                  "80 lần/phút",
+                  "60 lần/phút",
+                  "140 lần/phút"
+                ],
+                "ans": 0,
+                "exp": "Tần số ép tim chuẩn theo các khuyến cáo hồi sinh tim phổi hiện đại là từ 100 đến 120 lần/phút ở mọi lứa tuổi."
+              },
+              {
+                "q": "Gián đoạn trong ép tim khi cấp cứu ngừng tuần hoàn nên giới hạn tối đa bao nhiêu giây?",
+                "opts": [
+                  "10 giây",
+                  "5 giây",
+                  "2 giây",
+                  "Ít hơn 10 giây"
+                ],
+                "ans": 3,
+                "exp": "Hạn chế tối đa việc ngắt quãng ép tim để duy trì áp lực tưới máu mạch vành và não; các gián đoạn không được quá 10 giây."
+              },
+              {
+                "q": "Tỷ lệ ép tim : bóp bóng ở trẻ em ngoài giai đoạn sơ sinh khi có HAI người cấp cứu là:",
+                "opts": [
+                  "30 : 2",
+                  "15 : 2",
+                  "3 : 1",
+                  "5 : 1"
+                ],
+                "ans": 1,
+                "exp": "Đối với trẻ em ngoài sơ sinh, khi có 1 người cấp cứu thực hiện tỷ lệ 30:2, khi có từ 2 nhân viên y tế trở lên thực hiện tỷ lệ 15:2."
+              }
+            ]
+          },
+          "hoi-suc-so-sinh-phong-sinh": {
+            "title": "Bài 4: Hồi sức sơ sinh tại phòng sinh (3 câu)",
+            "questions": [
+              {
+                "q": "Tỉ lệ ép tim : bóp bóng trong hồi sức ngừng tuần hoàn ở trẻ sơ sinh tại phòng sinh là:",
+                "opts": [
+                  "15 : 2",
+                  "3 : 1",
+                  "30 : 2",
+                  "5 : 1"
+                ],
+                "ans": 1,
+                "exp": "Trẻ sơ sinh ngừng tim chủ yếu do ngạt, vì vậy tỷ lệ chuẩn hồi sức sơ sinh (NRP) là 3 lần ép tim kết hợp 1 lần bóp bóng (90 lần ép tim + 30 lần bóp bóng mỗi phút)."
+              },
+              {
+                "q": "Khuyến cáo hồi sức sơ sinh đủ tháng bắt đầu bằng oxy nồng độ bao nhiêu?",
+                "opts": [
+                  "21%",
+                  "100%",
+                  "40%",
+                  "60%"
+                ],
+                "ans": 0,
+                "exp": "Hồi sức sơ sinh đủ tháng bắt đầu bằng khí phòng (21% oxy) để tránh tổn thương do các gốc oxy hóa tự do."
+              },
+              {
+                "q": "Trường hợp suy hô hấp nào ở trẻ sơ sinh tại phòng sinh thường phải đặt ống nội khí quản:",
+                "opts": [
+                  "Chậm tiêu dịch phổi",
+                  "Viêm phổi bẩm sinh",
+                  "Hội chứng hít phân su",
+                  "Cơn thở nhanh thoáng qua"
+                ],
+                "ans": 2,
+                "exp": "Trẻ sơ sinh suy hô hấp nặng do hít phân su đặc quánh gây tắc nghẽn đường thở cần đặt nội khí quản sớm để kiểm soát hô hấp và làm sạch dịch đờm dãi."
+              }
+            ]
+          },
+          "soc-o-tre-em": {
+            "title": "Bài 5: Sốc ở trẻ em (3 câu)",
+            "questions": [
+              {
+                "q": "Sốc nhiễm khuẩn ở trẻ em không được làm gì?",
+                "opts": [
+                  "Truyền dung dịch cao phân tử",
+                  "Lập đường truyền tĩnh mạch",
+                  "Thở oxy",
+                  "Dùng thuốc vận mạch Adrenalin"
+                ],
+                "ans": 0,
+                "exp": "Hồi sức dịch ban đầu trong sốc nhiễm khuẩn ở trẻ em luôn ưu tiên dung dịch tinh thể đẳng trương; không sử dụng dịch keo/cao phân tử làm dịch truyền đầu tay vì làm tăng nguy cơ tổn thương thận cấp và rối loạn đông máu."
+              },
+              {
+                "q": "Trẻ còn dấu hiệu sốc sau khi đã truyền bolus dịch đầy đủ (40 - 60 ml/kg) cần làm gì tiếp theo?",
+                "opts": [
+                  "Tiếp tục truyền dịch đẳng trương không giới hạn",
+                  "Bắt đầu dùng thuốc vận mạch/tăng co bóp cơ tim (Adrenaline/Noradrenaline) và đánh giá nguyên nhân mất máu để truyền máu nếu có chỉ định",
+                  "Cho bệnh nhân nằm đầu cao",
+                  "Dùng thuốc lợi tiểu ngay"
+                ],
+                "ans": 1,
+                "exp": "Khi sốc kháng dịch, cần dùng ngay thuốc vận mạch/tăng co bóp cơ tim và cân nhắc chế phẩm máu nếu có thiếu máu kèm theo."
+              },
+              {
+                "q": "Dấu hiệu sớm và nhạy nhất báo hiệu tình trạng sốc ở trẻ em là:",
+                "opts": [
+                  "Huyết áp tụt sâu",
+                  "Nhịp tim nhanh tương ứng với lứa tuổi và giảm tưới máu ngoại vi (CRT > 2 giây, chi mát)",
+                  "Hôn mê sâu",
+                  "Vô niệu hoàn toàn"
+                ],
+                "ans": 1,
+                "exp": "Ở trẻ em, tụt huyết áp là dấu hiệu muộn (sốc mất bù). Dấu hiệu sớm nhất của sốc còn bù là nhịp tim nhanh và thời gian đổ đầy mao mạch (CRT) kéo dài."
+              }
+            ]
+          },
+          "nhiem-khuan-so-sinh": {
+            "title": "Bài 6: Nhiễm khuẩn sơ sinh (3 câu)",
+            "questions": [
+              {
+                "q": "Kháng sinh đầu tay được khuyến cáo trong điều trị nhiễm khuẩn/viêm phổi sơ sinh bẩm sinh là:",
+                "opts": [
+                  "Cephalosporin thế hệ 1",
+                  "Amoxicillin đơn thuần",
+                  "Ampicillin + Gentamicin",
+                  "Ciprofloxacin phối hợp Vancomycin"
+                ],
+                "ans": 2,
+                "exp": "Ampicillin phối hợp Gentamicin bao phủ được cả Liên cầu nhóm B (GBS), Listeria monocytogenes và trực khuẩn Gram âm E. coli."
+              },
+              {
+                "q": "Trẻ sơ sinh nghi ngờ nhiễm khuẩn huyết, xét nghiệm nào có giá trị cao nhất trong đánh giá tình trạng nhiễm trùng sớm:",
+                "opts": [
+                  "CRP máu",
+                  "Procalcitonin (PCT)",
+                  "Số lượng hồng cầu",
+                  "Bilirubin toàn phần"
+                ],
+                "ans": 1,
+                "exp": "Procalcitonin (PCT) tăng rất nhanh sau khi tiếp xúc nội độc tố vi khuẩn (từ 2 - 4 giờ) nên có độ nhạy và giá trị chẩn đoán sớm nhiễm khuẩn huyết tốt hơn CRP."
+              },
+              {
+                "q": "Xét nghiệm nào giúp phát hiện tổn thương phổi phối hợp trong bệnh cảnh nhiễm trùng sơ sinh:",
+                "opts": [
+                  "Bilirubin máu",
+                  "Chụp X-quang phổi",
+                  "Điện giải đồ",
+                  "Đường huyết mao mạch"
+                ],
+                "ans": 1,
+                "exp": "Chụp X-quang tim phổi giúp phát hiện tình trạng viêm phổi hít, thâm nhiễm phế nang hoặc xẹp phổi trong hội chứng nhiễm trùng sơ sinh."
+              }
+            ]
+          },
+          "viem-phoi-tre-em": {
+            "title": "Bài 7: Viêm phổi ở trẻ em (3 câu)",
+            "questions": [
+              {
+                "q": "Bệnh lý nào thường gặp gây suy hô hấp nặng ở trẻ sơ sinh non tháng:",
+                "opts": [
+                  "Chậm tiêu dịch phổi",
+                  "Viêm họng cấp",
+                  "Bệnh màng trong",
+                  "Cơn ngừng thở sinh lý"
+                ],
+                "ans": 2,
+                "exp": "Bệnh màng trong xảy ra chủ yếu ở trẻ đẻ non do tế bào phế nang type II chưa hoàn thiện dẫn đến thiếu hụt chất hoạt diện Surfactant gây xẹp phổi lan tỏa."
+              },
+              {
+                "q": "Theo hướng dẫn của WHO, ngưỡng thở nhanh được xác định ở trẻ từ 2 tháng đến 11 tháng tuổi là:",
+                "opts": [
+                  "Nhịp thở ≥ 60 lần/phút",
+                  "Nhịp thở ≥ 50 lần/phút",
+                  "Nhịp thở ≥ 40 lần/phút",
+                  "Nhịp thở ≥ 30 lần/phút"
+                ],
+                "ans": 1,
+                "exp": "Tiêu chuẩn thở nhanh: dưới 2 tháng là ≥ 60 lần/phút; 2 - 11 tháng là ≥ 50 lần/phút; 1 - 5 tuổi là ≥ 40 lần/phút."
+              },
+              {
+                "q": "Dấu hiệu có giá trị khẳng định trẻ mắc \"Viêm phổi NẶNG\" cần nhập viện điều trị là:",
+                "opts": [
+                  "Sốt cao > 39°C",
+                  "Ho thành cơn dài",
+                  "Rút lõm lồng ngực rõ rệt",
+                  "Nghe phổi có tiếng rên ẩm nhỏ hạt"
+                ],
+                "ans": 2,
+                "exp": "Ở trẻ dưới 5 tuổi mắc viêm phổi, sự xuất hiện của dấu hiệu rút lõm lồng ngực hoặc các dấu hiệu nguy hiểm toàn thân là tiêu chuẩn xếp vào viêm phổi nặng."
+              }
+            ]
+          },
+          "viem-tieu-phe-quan-tre-em": {
+            "title": "Bài 8: Viêm tiểu phế quản (3 câu)",
+            "questions": [
+              {
+                "q": "Khò khè ở trẻ em dưới 3 tuổi có đặc điểm nào sau đây:",
+                "opts": [
+                  "Phần lớn là do nhiễm virus ở đường hô hấp",
+                  "Hầu hết đều là hen phế quản ác tính",
+                  "Bắt buộc phải điều trị bằng kháng sinh phổ rộng",
+                  "Luôn đáp ứng tốt với thuốc giãn phế quản đường uống"
+                ],
+                "ans": 0,
+                "exp": "Các đợt khò khè đầu đời ở trẻ nhũ nhi phần lớn do căn nguyên virus gây viêm tiểu phế quản cấp tính, điển hình nhất là virus hợp bào hô hấp (RSV)."
+              },
+              {
+                "q": "Thời gian cài đặt dòng kích hoạt (trigger) nhịp thở máy ở trẻ > 2 tuổi thông thường là:",
+                "opts": [
+                  "1 - 2 lít/phút",
+                  "0.8 - 2 lít/phút",
+                  "0.5 - 1 lít/phút",
+                  "2 - 3 lít/phút"
+                ],
+                "ans": 2,
+                "exp": "Trigger nhạy giúp giảm công hô hấp cho trẻ khi có suy hô hấp do tổn thương phế quản/tiểu phế quản nặng cần thở máy."
+              },
+              {
+                "q": "Điều trị cốt lõi ở trẻ viêm tiểu phế quản cấp thể nhẹ và trung bình là:",
+                "opts": [
+                  "Sử dụng kháng sinh Cephalosporin thế hệ 3",
+                  "Khí dung Corticoid liều cao kéo dài",
+                  "Làm thông thoáng đường thở (hút đờm mũi họng), cung cấp đủ dịch - dinh dưỡng và thở oxy khi SpO2 < 92%",
+                  "Dùng thuốc giảm ho và chống dị ứng"
+                ],
+                "ans": 2,
+                "exp": "Viêm tiểu phế quản là bệnh tự giới hạn do virus; các can thiệp bằng kháng sinh, giãn phế quản hay corticoid không khuyến cáo thường quy. Điều trị hỗ trợ đường thở và bù dịch là trọng tâm."
+              }
+            ]
+          },
+          "tieu-chay-cap-tre-em": {
+            "title": "Bài 9: Tiêu chảy cấp ở trẻ em (3 câu)",
+            "questions": [
+              {
+                "q": "Bệnh nhân đi ngoài lỵ trực khuẩn (Shigella) thường có đặc điểm phân:",
+                "opts": [
+                  "Phân toàn nước đục như nước vo gạo",
+                  "Phân có nhầy và lẫn máu, đi kèm mót rặn",
+                  "Phân sống phân nát kéo dài",
+                  "Phân vàng sệt bình thường"
+                ],
+                "ans": 1,
+                "exp": "Hội chứng lỵ đặc trưng bởi sốt, đau quặn bụng, mót rặn và đi ngoài nhiều lần phân có nhầy lẫn máu."
+              },
+              {
+                "q": "Trẻ tiêu chảy cấp có 2 dấu hiệu: \"Mắt trũng\" và \"Uống nước háo hức/khát nước\". Theo hướng dẫn của Bộ Y tế, trẻ được phân loại mất nước ở mức độ nào:",
+                "opts": [
+                  "Không mất nước (Phác đồ A)",
+                  "Có mất nước (Phác đồ B)",
+                  "Mất nước nặng (Phác đồ C)",
+                  "Sốc giảm thể tích"
+                ],
+                "ans": 1,
+                "exp": "Trẻ có từ 2 dấu hiệu trở lên trong nhóm: vật vã/kích thích, mắt trũng, uống háo hức, nếp véo da mất chậm được xếp vào phân loại \"Có mất nước\" và bù dịch bằng Oresol theo Phác đồ B."
+              },
+              {
+                "q": "Liều bổ sung kẽm (Zinc) hàng ngày trong điều trị tiêu chảy cấp ở trẻ trên 6 tháng tuổi là:",
+                "opts": [
+                  "5 mg/ngày trong 5 ngày",
+                  "10 mg/ngày trong 7 ngày",
+                  "20 mg/ngày trong 10 - 14 ngày",
+                  "50 mg/ngày trong 1 tháng"
+                ],
+                "ans": 2,
+                "exp": "Bổ sung kẽm đủ 10–14 ngày giúp tái tạo niêm mạc ruột và giảm nguy cơ tái phát. Liều: trẻ < 6 tháng dùng 10 mg/ngày; trẻ ≥ 6 tháng dùng 20 mg/ngày."
+              }
+            ]
+          },
+          "dau-bung-tre-em": {
+            "title": "Bài 10: Đau bụng ở trẻ em (3 câu)",
+            "questions": [
+              {
+                "q": "Chỉ định và chống chỉ định điều trị tháo lồng bằng hơi trong lồng ruột cấp ở trẻ còn bú:",
+                "opts": [
+                  "Luôn tháo lồng bằng hơi bất kể bệnh nhân đến viện vào ngày nào",
+                  "Bắt đầu bằng bơm hơi tháo lồng khi trẻ đến sớm; chống chỉ định bơm hơi khi trẻ đến muộn > 48h hoặc đã có dấu hiệu viêm phúc mạc",
+                  "Chỉ định mổ mở ngay từ đầu cho tất cả các trường hợp lồng ruột",
+                  "Luôn ưu tiên dùng thuốc giảm đau giãn cơ trước"
+                ],
+                "ans": 1,
+                "exp": "Tháo lồng bằng hơi có tỷ lệ thành công cao nếu trẻ đến sớm. Trẻ đến muộn có hoại tử ruột hoặc viêm phúc mạc thì tuyệt đối không bơm hơi vì nguy cơ vỡ thủng ruột."
+              },
+              {
+                "q": "Dấu hiệu quan trọng nhất chứng tỏ khối lồng ruột đã được tháo hoàn toàn sau khi bơm hơi là:",
+                "opts": [
+                  "Bụng trẻ trướng đều",
+                  "Không còn sờ thấy khối lồng",
+                  "Trẻ hết sốt ngay lập tức",
+                  "Áp lực đồng hồ bơm hơi tiếp tục tăng cao"
+                ],
+                "ans": 1,
+                "exp": "Khám bụng không còn sờ thấy khối lồng, kèm theo áp lực đồng hồ tụt đột ngột và hơi ùa sang các quai ruột non là dấu hiệu tháo lồng thành công."
+              },
+              {
+                "q": "Bé trai 12 tháng tuổi đến viện vì khóc thét từng cơn, nôn ra thức ăn và đi ngoài 1 lần phân vàng lẫn nhầy máu. Chẩn đoán lâm sàng đầu tiên nghĩ tới là:",
+                "opts": [
+                  "Rối loạn tiêu hóa",
+                  "Viêm ruột thừa cấp",
+                  "Viêm tụy cấp",
+                  "Lồng ruột"
+                ],
+                "ans": 3,
+                "exp": "Bệnh cảnh khóc thét từng cơn, nôn và đi ngoài phân nhầy máu ở lứa tuổi nhũ nhi là tam chứng kinh điển của lồng ruột."
+              }
+            ]
+          },
+          "tre-co-giat": {
+            "title": "Bài 11: Tiếp cận trẻ co giật (3 câu)",
+            "questions": [
+              {
+                "q": "Khi bệnh nhân đang trong cơn co giật cấp tính, hành động nào sau đây là KHÔNG phù hợp:",
+                "opts": [
+                  "Kiểm soát và làm thông thoáng đường thở",
+                  "Test nhanh đường huyết mao mạch",
+                  "Ghi điện não đồ cấp cứu",
+                  "Dùng thuốc cắt cơn co giật"
+                ],
+                "ans": 2,
+                "exp": "Khi trẻ đang co giật, ưu tiên hàng đầu là bảo vệ đường thở, phòng tránh chấn thương, thở oxy và dùng thuốc cắt cơn; không làm các thăm dò không khẩn cấp như điện não đồ trong lúc cấp cứu."
+              },
+              {
+                "q": "Liều Diazepam tiêm tĩnh mạch chậm trong cắt cơn co giật ở trẻ em thông thường là:",
+                "opts": [
+                  "0.75 mg/kg",
+                  "0.25 mg/kg",
+                  "1 mg/kg",
+                  "0.05 mg/kg"
+                ],
+                "ans": 1,
+                "exp": "Liều chuẩn Diazepam tiêm tĩnh mạch chậm là 0.2 - 0.3 mg/kg (khoảng 0.25 mg/kg, tối đa 10mg/lần); nếu chưa có đường truyền có thể dùng đường bơm hậu môn với liều 0.5 mg/kg."
+              },
+              {
+                "q": "Thời gian tối đa não có thể chịu được thiếu oxy là:",
+                "opts": [
+                  "30 giây",
+                  "1 – 3 phút",
+                  "4 – 5 phút",
+                  "5 – 8 phút"
+                ],
+                "ans": 2,
+                "exp": "Sau 4 - 5 phút ngừng thở hoặc thiếu oxy hoàn toàn, các tế bào thần kinh não bắt đầu thoái hóa và chịu tổn thương không hồi phục."
+              }
+            ]
+          }
+        }
+      },
+      "tim-mach": {
+        "name": "Khoa Tim mạch",
+        "lessons": {
+          "mach-vanh-cap": {
+            "title": "Bài 1: Hội chứng động mạch vành cấp (5 câu)",
+            "questions": [
+              {
+                "q": "Triệu chứng lâm sàng điển hình nhất của hội chứng động mạch vành cấp là:",
+                "opts": [
+                  "Đau ngực sau xương ức kiểu bóp nghẹt, lan lên cằm hoặc vai/tay trái, kéo dài > 20 phút không đỡ khi nghỉ",
+                  "Đau ngực nhói như dao đâm tăng lên khi hít sâu hoặc thay đổi tư thế",
+                  "Đau tức vùng hạ sườn phải lan ra sau lưng kèm sốt và vàng da",
+                  "Đau rát bỏng sau xương ức xuất hiện sau khi ăn no kèm ợ chua"
+                ],
+                "ans": 0,
+                "exp": "Cơn đau thắt ngực do thiếu máu cơ tim cục bộ cấp tính điển hình có cảm giác đè nặng, siết chặt sau xương ức, lan lên vai trái, mặt trong cánh tay trái hoặc hàm dưới, kéo dài trên 20 phút và không giảm khi dùng Nitroglycerin ngậm dưới lưỡi."
+              },
+              {
+                "q": "Xét nghiệm cận lâm sàng cần làm ngay trong vòng 10 phút đầu khi tiếp cận người bệnh nghi ngờ hội chứng vành cấp là:",
+                "opts": [
+                  "Men tim Troponin I/T siêu nhạy",
+                  "Siêu âm tim qua thành ngực",
+                  "Điện tâm đồ 12 chuyển đạo",
+                  "Chụp X-quang tim phổi thẳng"
+                ],
+                "ans": 2,
+                "exp": "Điện tâm đồ 12 chuyển đạo phải được ghi và phân tích trong vòng 10 phút đầu kể từ lúc tiếp cận bệnh nhân nhằm phân loại ngay là Nhồi máu cơ tim có ST chênh lên (STEMI) hay Hội chứng vành cấp không có ST chênh lên (NSTE-ACS)."
+              },
+              {
+                "q": "Chỉ dấu sinh học (Biomarker) có độ nhạy và độ đặc hiệu cao nhất để chẩn đoán tổn thương/hoại tử cơ tim là:",
+                "opts": [
+                  "CK-MB",
+                  "Troponin tim (cTnI hoặc cTnT, đặc biệt là hs-cTn)",
+                  "Myoglobin",
+                  "LDH và AST"
+                ],
+                "ans": 1,
+                "exp": "Troponin tim (đặc biệt là hs-cTn) là tiêu chuẩn vàng chẩn đoán hoại tử tế bào cơ tim theo định nghĩa toàn cầu về Nhồi máu cơ tim nhờ độ nhạy và tính đặc hiệu cơ tim vượt trội so với CK-MB."
+              },
+              {
+                "q": "Chiến lược tái thông động mạch vành thì đầu ưu tiên hàng đầu cho người bệnh Nhồi máu cơ tim có ST chênh lên (STEMI) đến viện trong vòng 12 giờ đầu là:",
+                "opts": [
+                  "Điều trị tiêu sợi huyết tĩnh mạch",
+                  "Can thiệp động mạch vành qua da (PCI) thì đầu",
+                  "Phẫu thuật làm cầu nối chủ - vành (CABG) cấp cứu",
+                  "Điều trị nội khoa bảo tồn bằng thuốc chống đông đơn thuần"
+                ],
+                "ans": 1,
+                "exp": "Can thiệp động mạch vành qua da thì đầu (Primary PCI) là phương pháp tái tưới máu được ưu tiên lựa chọn hàng đầu nếu được thực hiện tại cơ sở có khả năng can thiệp trong thời gian quy định (thời gian cửa - bóng < 90-120 phút)."
+              },
+              {
+                "q": "Chống chỉ định tuyệt đối sử dụng Nitroglycerin ở người bệnh hội chứng vành cấp khi:",
+                "opts": [
+                  "Nhịp tim 85 chu kỳ/phút",
+                  "Có tiền sử tăng huyết áp đang điều trị",
+                  "Huyết áp tâm thu < 90 mmHg hoặc nhồi máu cơ tim thất phải kèm theo",
+                  "Bệnh nhân có đái tháo đường"
+                ],
+                "ans": 2,
+                "exp": "Nitroglycerin gây giãn tĩnh mạch làm giảm tiền gánh. Trong nhồi máu cơ tim thất phải hoặc khi huyết áp tụt (< 90 mmHg), việc giảm tiền gánh sẽ làm tụt huyết áp nghiêm trọng và gây sốc tim. Ngoài ra, chống chỉ định khi người bệnh có dùng thuốc ức chế PDE-5 (sildenafil, tadalafil) trong vòng 24 - 48 giờ trước."
+              }
+            ]
+          },
+          "tang-huyet-ap": {
+            "title": "Bài 2: Tăng huyết áp (5 câu)",
+            "questions": [
+              {
+                "q": "Theo Hướng dẫn chẩn đoán và điều trị tăng huyết áp của Hội Tim mạch học Việt Nam (VNHA/VSH), tăng huyết áp tại phòng khám được xác định khi:",
+                "opts": [
+                  "HATT ≥ 130 mmHg và/hoặc HATTr ≥ 80 mmHg",
+                  "HATT ≥ 135 mmHg và/hoặc HATTr ≥ 85 mmHg",
+                  "HATT ≥ 140 mmHg và/hoặc HATTr ≥ 90 mmHg",
+                  "HATT ≥ 150 mmHg và/hoặc HATTr ≥ 90 mmHg"
+                ],
+                "ans": 2,
+                "exp": "Chẩn đoán tăng huyết áp tại phòng khám khi huyết áp tâm thu (HATT) ≥ 140 mmHg và/hoặc huyết áp tâm trương (HATTr) ≥ 90 mmHg qua ít nhất 2 lần đo ở 2 thời điểm khám khác nhau."
+              },
+              {
+                "q": "Tăng huyết áp thứ phát cần được tầm soát ở nhóm đối tượng nào sau đây:",
+                "opts": [
+                  "Người cao tuổi > 60 tuổi có tiền sử gia đình tăng huyết áp",
+                  "Người trẻ tuổi (< 35 tuổi), tăng huyết áp kháng trị hoặc khởi phát cơn tăng huyết áp kịch phát",
+                  "Bệnh nhân có chỉ số BMI bình thường không hút thuốc lá",
+                  "Tăng huyết áp độ 1 đáp ứng tốt với thay đổi lối sống"
+                ],
+                "ans": 1,
+                "exp": "Tăng huyết áp khởi phát ở người trẻ (< 35 tuổi), tăng huyết áp kháng trị (dù đã dùng 3 nhóm thuốc trong đó có lợi tiểu), hoặc tăng huyết áp tiến triển nhanh cần nghĩ tới nguyên nhân thứ phát (hẹp động mạch thận, u tủy thượng thận, cường aldosteron tiên phát, hẹp eo động mạch chủ...)."
+              },
+              {
+                "q": "Mục tiêu kiểm soát huyết áp chung cho hầu hết bệnh nhân tăng huyết áp trưởng thành (< 65-70 tuổi) không có chống chỉ định là:",
+                "opts": [
+                  "< 150/90 mmHg",
+                  "< 140/90 mmHg, và nếu dung nạp tốt nên đưa về < 130/80 mmHg",
+                  "< 120/70 mmHg",
+                  "< 160/95 mmHg"
+                ],
+                "ans": 1,
+                "exp": "Mục tiêu ban đầu là đưa huyết áp xuống dưới 140/90 mmHg cho tất cả bệnh nhân; nếu người bệnh dung nạp tốt, mục tiêu hướng tới là dưới 130/80 mmHg nhằm giảm tối đa các biến cố tim mạch và đột quỵ."
+              },
+              {
+                "q": "Thuốc hạ áp nhóm ức chế men chuyển (ACEi) hoặc ức chế thụ thể angiotensin II (ARB) chống chỉ định tuyệt đối trong trường hợp nào:",
+                "opts": [
+                  "Phụ nữ có thai",
+                  "Bệnh nhân đái tháo đường có microalbumin niệu",
+                  "Bệnh nhân sau nhồi máu cơ tim có suy tim",
+                  "Tăng huyết áp kèm rối loạn lipid máu"
+                ],
+                "ans": 0,
+                "exp": "ACEi và ARB gây độc cho thai nhi, dẫn đến vô niệu, thiểu ối, dị tật sọ mặt và tử vong thai; do đó chống chỉ định tuyệt đối cho phụ nữ mang thai hoặc có kế hoạch mang thai. Thuốc hạ áp ưu tiên trong thai kỳ gồm Methyldopa, Labetalol, Nifedipine giải phóng chậm."
+              },
+              {
+                "q": "Bệnh nhân tăng huyết áp có kèm bệnh thận mạn xuất hiện mức lọc cầu thận (eGFR) < 30 ml/phút/1.73m², loại thuốc lợi tiểu nào được ưu tiên lựa chọn:",
+                "opts": [
+                  "Lợi tiểu Thiazide (Hydrochlorothiazide)",
+                  "Lợi tiểu quai (Furosemide)",
+                  "Lợi tiểu giữ kali (Spironolactone)",
+                  "Lợi tiểu thẩm thấu (Mannitol)"
+                ],
+                "ans": 1,
+                "exp": "Khi chức năng thận giảm nặng (eGFR < 30 ml/phút), Thiazide mất dần hiệu lực bài niệu; lúc này lợi tiểu quai (như Furosemide) là lựa chọn hiệu quả để kiểm soát thể tích và hạ áp."
+              }
+            ]
+          },
+          "suy-tim": {
+            "title": "Bài 3: Suy tim (5 câu)",
+            "questions": [
+              {
+                "q": "Dấu hiệu sinh hóa giúp chẩn đoán và loại trừ suy tim có giá trị nhất trên lâm sàng là:",
+                "opts": [
+                  "Troponin T siêu nhạy",
+                  "BNP hoặc NT-proBNP",
+                  "CK-MB hoạt độ",
+                  "D-dimer máu"
+                ],
+                "ans": 1,
+                "exp": "Các peptide bài niệu (BNP, NT-proBNP) được giải phóng từ tâm thất khi tăng áp lực và căng dãn thành cơ tim; nồng độ bình thường (BNP < 35 pg/ml hoặc NT-proBNP < 125 pg/ml ở thể mạn) có giá trị dự đoán âm tính rất cao để loại trừ suy tim."
+              },
+              {
+                "q": "Bốn nhóm thuốc trụ cột nền tảng giúp cải thiện tiên lượng và giảm tỷ lệ tử vong ở bệnh nhân suy tim phân suất tống máu giảm (HFrEF) bao gồm:",
+                "opts": [
+                  "ACEi/ARNI, Chẹn beta giao cảm, Kháng thụ thể corticoid khoáng (MRA), Ức chế SGLT2",
+                  "Lợi tiểu quai, Digoxin, Nitrat, Chẹn kênh calci DHP",
+                  "Aspirin, Statin, Chẹn beta, Ức chế men chuyển",
+                  "Thuốc vận mạch, Kháng đông, Digoxin, Lợi tiểu"
+                ],
+                "ans": 0,
+                "exp": "\"Bộ tứ trụ cột\" điều trị suy tim giảm EF theo khuyến cáo tim mạch quốc tế và Bộ Y tế hiện nay gồm: (1) Thuốc ức chế thụ thể Angiotensin-Neprilysin (ARNI) hoặc ức chế men chuyển/chẹn thụ thể; (2) Chẹn beta giao cảm (Bisoprolol, Carvedilol, Metoprolol succinate, Nebivolol); (3) Kháng aldosterone (Spironolactone/Eplerenone); (4) Thuốc ức chế kênh đồng vận chuyển Natri-Glucose 2 (SGLT2i: Dapagliflozin/Empagliflozin)."
+              },
+              {
+                "q": "Nhóm thuốc điều trị suy tim nào có tác dụng giảm triệu chứng ứ huyết nhanh nhất nhưng KHÔNG làm giảm tỷ lệ tử vong:",
+                "opts": [
+                  "Kháng aldosterone (MRA)",
+                  "Lợi tiểu quai (Furosemide)",
+                  "Chẹn beta giao cảm",
+                  "Thuốc ức chế SGLT2"
+                ],
+                "ans": 1,
+                "exp": "Lợi tiểu quai giúp đào thải muối nước nhanh chóng, giảm tiền gánh và giải quyết triệu chứng khó thở, phù do ứ dịch, nhưng các nghiên cứu lâm sàng chứng minh thuốc không làm thay đổi tỷ lệ tử vong dài hạn của bệnh nhân suy tim."
+              },
+              {
+                "q": "Thuốc chống chỉ định sử dụng ở bệnh nhân suy tim có phân suất tống máu giảm (HFrEF) là:",
+                "opts": [
+                  "Chẹn kênh calci nhóm Non-DHP (Verapamil, Diltiazem)",
+                  "Ivabradine",
+                  "Furosemide",
+                  "Digoxin"
+                ],
+                "ans": 0,
+                "exp": "Các thuốc chẹn kênh calci nhóm Non-DHP (Verapamil, Diltiazem) có tác dụng ức chế co bóp cơ tim mạnh (inotropic âm tính), làm trầm trọng thêm tình trạng suy tim và tăng tỷ lệ tử vong ở bệnh nhân HFrEF."
+              },
+              {
+                "q": "Triệu chứng thực thể điển hình của suy tim trái ứ huyết khi khám phổi là:",
+                "opts": [
+                  "Tiếng cọ màng phổi hai bên",
+                  "Rì rào phế nang giảm đều toàn bộ phế trường không có ran",
+                  "Ran ẩm nhỏ hạt xuất hiện ở hai đáy phổi, có thể dâng nhanh lên đỉnh phổi",
+                  "Ran rít, ran ngáy chiếm ưu thế thì thở ra"
+                ],
+                "ans": 2,
+                "exp": "Suy tim trái làm tăng áp lực mao mạch phổi bít, dịch thoát vào mô kẽ và lòng phế nang gây ra ran ẩm hai đáy phổi (trong phù phổi cấp có hình ảnh ran ẩm dâng nhanh như \"thủy triều dâng\")."
+              }
+            ]
+          },
+          "hep-van-hai-la": {
+            "title": "Bài 4: Hẹp van hai lá (5 câu)",
+            "questions": [
+              {
+                "q": "Căn nguyên hàng đầu gây hẹp van hai lá mắc phải ở các nước đang phát triển là:",
+                "opts": [
+                  "Thoái hóa vôi hóa van hai lá ở người cao tuổi",
+                  "Bệnh tim hậu thấp (Thấp tim) do nhiễm Liên cầu khuẩn tan huyết beta nhóm A",
+                  "Bẩm sinh (van hình dù)",
+                  "Viêm nội tâm mạc nhiễm khuẩn"
+                ],
+                "ans": 1,
+                "exp": "Thấp tim là nguyên nhân phổ biến nhất gây tổn thương xơ hóa, dày dính mép van, co rút dây chằng và vôi hóa dẫn đến hẹp lỗ van hai lá cơ học."
+              },
+              {
+                "q": "Tam chứng kinh điển khi nghe tim ở người bệnh hẹp van hai lá bao gồm:",
+                "opts": [
+                  "Tiếng T1 mờ, T2 tách đôi rộng, tiếng thổi tâm thu ở mỏm",
+                  "Tiếng T1 đanh, tiếng clắc mở van hai lá, tiếng rung tâm trương ở mỏm",
+                  "Tiếng thổi tâm thu hình quả trám ở đáy tim lan lên cổ",
+                  "Tiếng cọ màng ngoài tim, tiếng T3, T4"
+                ],
+                "ans": 1,
+                "exp": "\"Tam chứng hẹp hai lá\" đặc trưng gồm: T1 đanh (do các lá van xơ hóa đóng mạnh), tiếng clắc mở van (tiếng mở đột ngột của lá van mềm còn di động ở đầu tâm trương) và tiếng rung tâm trương âm trầm dạng cuộn ở mỏm tim (do dòng máu xoáy qua lỗ van hẹp vào thất trái)."
+              },
+              {
+                "q": "Biến chứng loạn nhịp tim thường gặp nhất và nguy hiểm nhất gây thuyên tắc mạch ở bệnh nhân hẹp van hai lá là:",
+                "opts": [
+                  "Cơn nhịp nhanh trên thất",
+                  "Nhịp nhanh thất",
+                  "Rung nhĩ",
+                  "Block nhĩ thất độ III"
+                ],
+                "ans": 2,
+                "exp": "Áp lực nhĩ trái tăng cao mạn tính dẫn đến giãn buồng nhĩ trái và xơ hóa cơ nhĩ, kích hoạt rung nhĩ. Rung nhĩ làm mất co bóp nhĩ, gây ứ trệ máu và dễ hình thành huyết khối tiểu nhĩ trái bắn đi gây nhồi máu não."
+              },
+              {
+                "q": "Phương pháp cận lâm sàng có giá trị quyết định để chẩn đoán xác định, đo diện tích lỗ van và đánh giá hình thái van hai lá (theo thang điểm Wilkins) là:",
+                "opts": [
+                  "Điện tâm đồ 12 chuyển đạo",
+                  "Chụp X-quang ngực thẳng",
+                  "Siêu âm tim Doppler",
+                  "Chụp cắt lớp vi tính lồng ngực"
+                ],
+                "ans": 2,
+                "exp": "Siêu âm tim qua thành ngực (TTE) kết hợp Doppler màu là phương tiện tiêu chuẩn vàng không xâm lấn giúp đo chênh áp qua van, tính diện tích lỗ van hai lá, đánh giá độ dày, vôi hóa van, độ di động và tình trạng dây chằng cột cơ theo thang điểm Wilkins."
+              },
+              {
+                "q": "Biện pháp can thiệp qua da được lựa chọn hàng đầu cho bệnh nhân hẹp hai lá khít có triệu chứng khi hình thái van thuận lợi (Wilkins ≤ 8 điểm, không có huyết khối nhĩ trái, không hở hai lá vừa - nặng) là:",
+                "opts": [
+                  "Phẫu thuật sửa van hai lá trên tim hở",
+                  "Nong van hai lá bằng bóng qua da (Percutaneous Mitral Balloon Commissurotomy - PMBC)",
+                  "Phẫu thuật thay van hai lá cơ học",
+                  "Đặt clip sửa van hai lá qua đường ống thông (MitraClip)"
+                ],
+                "ans": 1,
+                "exp": "Nong van hai lá bằng bóng qua vách liên nhĩ là phương pháp can thiệp xâm lấn tối thiểu ưu tiên số 1 cho bệnh nhân hẹp van hai lá có triệu chứng mà van chưa bị vôi hóa nặng (điểm Wilkins ≤ 8) và không có chống chỉ định (không có huyết khối trong nhĩ trái/tiểu nhĩ trái và hở van hai lá đi kèm < 2/4)."
+              }
+            ]
+          }
+        }
+      },
+      "noi-tiet-huyet-hoc": {
+        "name": "Khoa Nội tiết - Huyết học",
+        "lessons": {
+          "dai-thao-duong": {
+            "title": "Bài 1: Đái tháo đường (13 câu)",
+            "questions": [
+              {
+                "q": "Tiêu chuẩn chẩn đoán đái tháo đường dựa trên nghiệm pháp dung nạp glucose đường uống (OGTT với 75g glucose) là:",
+                "opts": [
+                  "Đường huyết 2 giờ sau uống glucose ≥ 7,8 mmol/L",
+                  "Đường huyết 2 giờ sau uống glucose ≥ 12,0 mmol/L",
+                  "Đường huyết 2 giờ sau uống glucose ≥ 11,1 mmol/L",
+                  "Đường huyết 1 giờ sau uống glucose ≥ 7,8 mmol/L"
+                ],
+                "ans": 2,
+                "exp": "Tiêu chuẩn chẩn đoán đái tháo đường của Bộ Y tế và ADA gồm một trong các tiêu chí: Glucose huyết tương lúc đói ≥ 7,0 mmol/L; Glucose huyết tương 2 giờ sau làm OGTT ≥ 11,1 mmol/L; HbA1c ≥ 6,5%; hoặc bệnh nhân có triệu chứng kinh điển của tăng đường huyết kèm theo một mẫu glucose huyết tương ngẫu nhiên ≥ 11,1 mmol/L."
+              },
+              {
+                "q": "Mục tiêu kiểm soát huyết áp ở bệnh nhân đái tháo đường có protein niệu (+) là:",
+                "opts": [
+                  "< 130/80 mmHg",
+                  "130 - 140/80 mmHg",
+                  "120/80 mmHg",
+                  "120 - 130/80 mmHg"
+                ],
+                "ans": 0,
+                "exp": "Ở bệnh nhân đái tháo đường có biến chứng thận (xuất hiện protein niệu/albumin niệu), đích kiểm soát huyết áp chặt chẽ < 130/80 mmHg giúp làm chậm tốc độ thoái hóa chức năng thận và giảm biến cố tim mạch xơ vữa."
+              },
+              {
+                "q": "Một bệnh nhân đái tháo đường nữ có kế hoạch chuẩn bị mang thai, mục tiêu HbA1c tối ưu cần đạt trước khi thụ thai là:",
+                "opts": [
+                  "< 6,5%",
+                  "< 7,0%",
+                  "< 6,0%",
+                  "< 7,5%"
+                ],
+                "ans": 2,
+                "exp": "Ở phụ nữ đái tháo đường chuẩn bị mang thai, mục tiêu lý tưởng là kiểm soát đường huyết nghiêm ngặt với HbA1c < 6,0% (nếu không xảy ra hạ đường huyết đáng kể) nhằm giảm thiểu tối đa nguy cơ sẩy thai, dị tật bẩm sinh và tiền sản giật."
+              },
+              {
+                "q": "Trong các thuốc nhóm Sulfonylurea, thuốc nào KHÔNG được khuyến cáo sử dụng cho người cao tuổi (> 55 - 60 tuổi) do nguy cơ hạ đường huyết nặng và kéo dài:",
+                "opts": [
+                  "Gliclazide",
+                  "Glibenclamide",
+                  "Glimepiride",
+                  "Tolbutamide"
+                ],
+                "ans": 1,
+                "exp": "Glibenclamide có thời gian bán thải kéo dài và các chất chuyển hóa còn hoạt tính thải qua thận, gây nguy cơ hạ đường huyết nặng, tái phát dai dẳng ở người cao tuổi hoặc suy giảm chức năng thận."
+              },
+              {
+                "q": "Insulin nền nào dưới đây có thời gian tác dụng kéo dài nhất hiện nay (> 42 giờ):",
+                "opts": [
+                  "Degludec",
+                  "Glargine U100",
+                  "Glargine U300",
+                  "Detemir"
+                ],
+                "ans": 0,
+                "exp": "Insulin Degludec là insulin nền thế hệ mới có thời gian tác dụng siêu kéo dài trên 42 giờ với đường cong dược động học phẳng, ít biến thiên dao động nồng độ thuốc trong máu và giảm nguy cơ hạ đường huyết về đêm."
+              },
+              {
+                "q": "Tình trạng nào sau đây KHÔNG phải là biến chứng của đái tháo đường thai kỳ đối với thai nhi/trẻ sơ sinh:",
+                "opts": [
+                  "Đa ối, vàng da sơ sinh, đa hồng cầu",
+                  "Kẹt vai khi sinh, suy hô hấp do chậm hấp thu dịch phổi",
+                  "Hạ glucose máu sơ sinh, hạ calci máu",
+                  "Thiếu máu sơ sinh"
+                ],
+                "ans": 3,
+                "exp": "Tăng đường huyết từ mẹ truyền sang thai kích thích thai nhi tăng tiết insulin, dẫn đến tăng chuyển hóa và tăng nhu cầu oxy mô, kích thích tủy xương sản xuất hồng cầu gây đa hồng cầu sơ sinh (chứ không phải thiếu máu sơ sinh)."
+              },
+              {
+                "q": "Tổn thương cơ quan đích ở mắt do đái tháo đường KHÔNG bao gồm:",
+                "opts": [
+                  "Bệnh võng mạc đái tháo đường không tăng sinh",
+                  "Bệnh võng mạc đái tháo đường tăng sinh",
+                  "Thoái hóa hoàng điểm do tuổi già (AMD)",
+                  "Phù hoàng điểm đái tháo đường"
+                ],
+                "ans": 2,
+                "exp": "Tổn thương vi mạch đặc hiệu do đái tháo đường tại đáy mắt gồm bệnh võng mạc không tăng sinh (vi phình mạch, xuất huyết, xuất tiết), bệnh võng mạc tăng sinh (tân mạch võng mạc) và phù hoàng điểm. Thoái hóa hoàng điểm do tuổi già là một bệnh lý lão hóa độc lập."
+              },
+              {
+                "q": "Thời gian trong khoảng mục tiêu (TIR: Time in Range, nồng độ glucose 3,9 - 10,0 mmol/L) được khuyến cáo cần đạt ở hầu hết người lớn mắc đái tháo đường theo dõi qua hệ thống CGM là:",
+                "opts": [
+                  "> 70%",
+                  "75%",
+                  "60%",
+                  "80%"
+                ],
+                "ans": 0,
+                "exp": "Khuyến cáo quốc tế của ADA và Bộ Y tế khi theo dõi glucose liên tục (CGM) là người bệnh cần đạt TIR (3,9 - 10,0 mmol/L) > 70% thời gian, đồng thời thời gian dưới ngưỡng hạ đường huyết (< 3,9 mmol/L) phải < 4%."
+              },
+              {
+                "q": "Theo dõi và xử trí sau cấp cứu hạ đường huyết nặng ở bệnh nhân đái tháo đường, điều nào sau đây là SAI:",
+                "opts": [
+                  "Cần theo dõi sát ít nhất 48 – 72 giờ sau khi bị hạ đường huyết",
+                  "Phải duy trì truyền dung dịch glucose và cho bệnh nhân ăn các bữa nhỏ trong 2 - 3 ngày",
+                  "Cần đặc biệt chú ý trên bệnh nhân lớn tuổi hoặc có suy giảm chức năng thận",
+                  "Có thể ngừng theo dõi ngay khi đường huyết ngẫu nhiên tăng lên > 7,0 mmol/L"
+                ],
+                "ans": 3,
+                "exp": "Sau khi hồi phục đường huyết tức thời, các thuốc hạ áp đường uống (đặc biệt là sulfonylurea giải phóng kéo dài) hoặc insulin tác dụng chậm vẫn còn lưu hành trong cơ thể, nguy cơ hạ đường huyết tái phát rất cao nên không được ngừng theo dõi sớm ngay khi đường máu vừa đạt ngưỡng bình thường."
+              },
+              {
+                "q": "Bệnh nhân đái tháo đường type 2 đã thất bại với 3 thuốc uống, HbA1c  7,8%, khi chỉ định bổ sung thêm 1 mũi insulin nền, liều khởi đầu khuyến cáo (theo AACE/ADA) là:",
+                "opts": [
+                  "0,1 - 0,2 UI/kg/ngày (hoặc 10 UI/ngày)",
+                  "0,4 - 0,5 UI/kg/ngày",
+                  "4 UI/ngày",
+                  "15 - 20 UI/ngày"
+                ],
+                "ans": 0,
+                "exp": "Liều khởi đầu an toàn của insulin nền một lần mỗi ngày thường là 10 UI hoặc tính theo cân nặng 0,1 - 0,2 UI/kg/ngày, sau đó chỉnh liều tăng dần 2 - 4 UI mỗi 3 - 5 ngày dựa theo đường huyết lúc đói."
+              },
+              {
+                "q": "Thời điểm tiêm insulin Glargine U300 hàng ngày có thể linh hoạt chênh lệch tối đa bao nhiêu giờ so với giờ cố định mà không ảnh hưởng kiểm soát đường huyết:",
+                "opts": [
+                  "1 giờ",
+                  "2 giờ",
+                  "Tối đa 3 giờ",
+                  "Bất kỳ lúc nào trong ngày"
+                ],
+                "ans": 2,
+                "exp": "Nhờ dược động học giải phóng ổn định và kéo dài, insulin Glargine U300 cho phép thời điểm tiêm dao động chênh lệch tối đa 3 giờ trước hoặc sau khung giờ cố định thường ngày."
+              },
+              {
+                "q": "Vị trí tiêm dưới da giúp hấp thu insulin nhanh nhất và ít bị ảnh hưởng bởi vận động cơ học là:",
+                "opts": [
+                  "Mặt trước đùi",
+                  "Mặt ngoài cánh tay",
+                  "Thành bụng",
+                  "Vùng mông"
+                ],
+                "ans": 2,
+                "exp": "Vùng thành bụng có lưu lượng tuần hoàn mao mạch dưới da dồi dào, diện tích rộng và ít bị tác động co cơ hơn so với tay chân, giúp insulin hấp thu nhanh và đều đặn nhất."
+              },
+              {
+                "q": "Nhóm thuốc hạ đường huyết đường uống nào sau đây có nguy cơ gây toan ceton dù đường huyết bình thường hoặc tăng nhẹ (Euglycemic DKA):",
+                "opts": [
+                  "Ức chế men DPP-4",
+                  "Ức chế kênh đồng vận chuyển Natri - Glucose 2 (SGLT2i)",
+                  "Thiazolidinedione (TZD)",
+                  "Sulfonylurea"
+                ],
+                "ans": 1,
+                "exp": "Thuốc ức chế SGLT2 (Dapagliflozin, Empagliflozin...) gây thải glucose qua nước tiểu, kích thích tăng glucagon và ly giải mỡ tạo thể ceton. Trong điều kiện stress bệnh tật, phẫu thuật hoặc nhịn ăn, có thể dẫn đến nhiễm toan ceton với mức đường máu chỉ tăng nhẹ hoặc thậm chí bình thường."
+              }
+            ]
+          },
+          "basedow": {
+            "title": "Bài 2: Basedow (7 câu)",
+            "questions": [
+              {
+                "q": "Biến chứng tim mạch thường gặp nhất trên lâm sàng ở người bệnh Basedow là:",
+                "opts": [
+                  "Viêm cơ tim cấp",
+                  "Tràn dịch màng ngoài tim",
+                  "Loạn nhịp tim (nhịp nhanh xoang, rung nhĩ) và suy tim tăng cung lượng",
+                  "Nhồi máu cơ tim"
+                ],
+                "ans": 2,
+                "exp": "Nồng độ hormone giáp tăng cao làm tăng nhạy cảm với catecholamine và tăng dẫn truyền cơ tim, gây nhịp nhanh xoang liên tục, rung nhĩ và lâu ngày dẫn tới suy tim tăng cung lượng."
+              },
+              {
+                "q": "Đặc điểm lồi mắt trong bệnh Basedow là:",
+                "opts": [
+                  "Luôn luôn xuất hiện đồng thời cả hai bên mắt",
+                  "Chắc chắn sẽ hết hoàn toàn ngay sau khi đưa hormone giáp về bình giáp",
+                  "Có thể xuất hiện trước, đồng thời hoặc thậm chí sau khi bệnh nhân đã đạt trạng thái bình giáp",
+                  "Luôn luôn chỉ bị ở một mắt đơn độc"
+                ],
+                "ans": 2,
+                "exp": "Bệnh mắt Basedow là tổn thương tự miễn do kháng thể kích thích các nguyên bào sợi và mô mỡ sau hốc mắt; diễn tiến của bệnh mắt không hoàn toàn song hành với mức độ cường giáp."
+              },
+              {
+                "q": "Thuốc kháng giáp trạng tổng hợp Propylthiouracil (PTU) được ưu tiên hơn Methimazole (hoặc Thiamazole) trong trường hợp nào:",
+                "opts": [
+                  "Phụ nữ có thai trong 3 tháng giữa thai kỳ",
+                  "Phụ nữ có thai trong 3 tháng cuối thai kỳ",
+                  "Cơn bão giáp trạng và phụ nữ mang thai 3 tháng đầu",
+                  "Bệnh nhân Basedow có tăng men gan từ trước"
+                ],
+                "ans": 2,
+                "exp": "PTU ít đi qua nhau thai hơn và ít nguy cơ gây quái thai ở tam cá nguyệt thứ nhất so với Methimazole. Ngoài ra, PTU còn có tác dụng ức chế enzym deiodinase ở ngoại vi chuyển T4 thành T3 nên được ưu tiên hàng đầu trong xử trí cấp cứu cơn bão giáp."
+              },
+              {
+                "q": "Tác dụng phụ nguy hiểm nhất cần được dặn dò người bệnh theo dõi và làm công thức máu cấp cứu khi dùng thuốc kháng giáp trạng tổng hợp (Methimazole/PTU) là:",
+                "opts": [
+                  "Dị ứng mẩn ngứa da nhẹ",
+                  "Tăng nhẹ men gan thoáng qua",
+                  "Mất/giảm bạch cầu hạt nặng (< 0,5 G/L)",
+                  "Rối loạn tiêu hóa"
+                ],
+                "ans": 2,
+                "exp": "Mất bạch cầu hạt là biến chứng miễn dịch cấp tính đe dọa tính mạng (tỷ lệ 0,2 - 0,5%). Khi bệnh nhân có triệu chứng sốt cao đột ngột, đau họng, loét miệng phải lập tức ngừng thuốc và xét nghiệm công thức máu ngay."
+              },
+              {
+                "q": "Bệnh nhân Basedow đang điều trị Methimazole xuất hiện biến chứng mất bạch cầu hạt nặng, phương pháp kiểm soát cường giáp triệt để tiếp theo là:",
+                "opts": [
+                  "Đổi sang dùng thuốc PTU liều cao",
+                  "Hạ liều Methimazole và phối hợp với kháng sinh",
+                  "Phẫu thuật cắt tuyến giáp (sau khi chuẩn bị về bình giáp bằng Lugol/chẹn beta) hoặc điều trị bằng I-131 (khi đủ điều kiện)",
+                  "Tiếp tục theo dõi không can thiệp gì"
+                ],
+                "ans": 2,
+                "exp": "Khi đã có mất bạch cầu hạt do một loại thuốc kháng giáp, chống chỉ định chuyển sang loại thuốc kháng giáp trạng tổng hợp khác do phản ứng chéo; lúc này chỉ định phẫu thuật tuyến giáp hoặc dùng iod phóng xạ I-131 là giải pháp triệt để."
+              },
+              {
+                "q": "Trước khi phẫu thuật điều trị Basedow, bệnh nhân cần được chuẩn bị như thế nào để phòng ngừa bão giáp trong mổ:",
+                "opts": [
+                  "Điều trị nội khoa đưa hormone giáp về trạng thái bình giáp lâm sàng và hóa sinh",
+                  "Ngừng thuốc kháng giáp trạng tổng hợp trước mổ 1 tháng",
+                  "Chỉ cần cho dùng thuốc an thần trước mổ 3 ngày",
+                  "Không cần điều trị trước nếu bướu giáp kích thước lớn"
+                ],
+                "ans": 0,
+                "exp": "Chuẩn bị trước mổ bắt buộc phải đưa bệnh nhân về bình giáp bằng thuốc kháng giáp tổng hợp; trước mổ 10 - 14 ngày có thể dùng thêm dung dịch Lugol để làm giảm tưới máu và giảm độ bở của tuyến giáp, tránh nguy cơ khởi phát cơn bão giáp kịch phát trong và sau mổ."
+              },
+              {
+                "q": "Xét nghiệm tự kháng thể có giá trị đặc hiệu nhất để chẩn đoán xác định căn nguyên bệnh Basedow là:",
+                "opts": [
+                  "Anti-TPO (Kháng thể kháng Thyroid Peroxidase)",
+                  "Anti-Tg (Kháng thể kháng Thyroglobulin)",
+                  "TRAb (Kháng thể kháng thụ thể TSH)",
+                  "Kháng thể kháng nhân (ANA)"
+                ],
+                "ans": 2,
+                "exp": "TRAb (TSH Receptor Antibody) kích thích trực tiếp thụ thể TSH trên màng tế bào nang giáp gây tăng sinh và tăng tiết hormone giáp quá mức, là kháng thể đặc hiệu quyết định chẩn đoán Basedow."
+              }
+            ]
+          },
+          "suy-giap": {
+            "title": "Bài 3: Suy giáp (7 câu)",
+            "questions": [
+              {
+                "q": "Chẩn đoán xác định suy giáp tiên phát (nguyên nhân tại tuyến giáp) trên xét nghiệm hóa sinh máu đặc trưng bởi:",
+                "opts": [
+                  "TSH tăng cao, FT4 giảm",
+                  "TSH giảm, FT4 giảm",
+                  "TSH giảm, FT4 tăng",
+                  "TSH tăng, FT4 tăng"
+                ],
+                "ans": 0,
+                "exp": "Khi tế bào nang tuyến giáp bị tổn thương không sản xuất đủ hormone (FT4 giảm), trục tuyến yên - vùng dưới đồi mất cơ chế feedback âm tính nên kích thích thùy trước tuyến yên tăng tiết TSH rất cao."
+              },
+              {
+                "q": "Nguyên nhân thường gặp nhất gây suy giáp mắc phải ở người trưởng thành tại các vùng không thiếu hụt iod là:",
+                "opts": [
+                  "Viêm tuyến giáp bán cấp De Quervain",
+                  "Viêm tuyến giáp tự miễn mạn tính (Viêm tuyến giáp Hashimoto)",
+                  "Sử dụng thuốc amiodarone kéo dài",
+                  "Suy tuyến yên sau chấn thương sọ não"
+                ],
+                "ans": 1,
+                "exp": "Viêm tuyến giáp Hashimoto (đặc trưng bởi nồng độ tự kháng thể Anti-TPO tăng rất cao trong huyết thanh) gây phá hủy mô giáp dần dần qua trung gian tế bào lympho, là nguyên nhân phổ biến nhất dẫn đến suy giáp vĩnh viễn."
+              },
+              {
+                "q": "Hướng dẫn sử dụng thuốc Levothyroxine (L-T4) đúng cách là:",
+                "opts": [
+                  "Uống ngay sau bữa ăn trưa",
+                  "Uống cùng lúc với các viên bổ sung Canxi và Sắt",
+                  "Uống vào buổi sáng, trước khi ăn sáng ít nhất 30 – 60 phút với một cốc nước lọc",
+                  "Uống ngay trước khi đi ngủ cùng với sữa tươi"
+                ],
+                "ans": 2,
+                "exp": "Levothyroxine được hấp thu tối ưu ở môi trường acid dạ dày khi đói; thức ăn và các ion kim loại sẽ cản trở hấp thu thuốc, do đó bắt buộc uống lúc sáng sớm trước ăn sáng 30 - 60 phút."
+              },
+              {
+                "q": "Các loại thuốc nào sau đây làm GIẢM hấp thu của Levothyroxine tại ruột nếu dùng đồng thời:",
+                "opts": [
+                  "Canxi carbonat",
+                  "Sắt sulfat",
+                  "Thuốc ức chế bơm proton (PPI)",
+                  "Tất cả các thuốc trên"
+                ],
+                "ans": 3,
+                "exp": "Canxi và Sắt tạo phức chelat không tan với Levothyroxine; trong khi PPI làm giảm acid dịch vị cần thiết để giải phóng thuốc. Cần uống các thuốc này cách thời điểm uống L-T4 ít nhất 4 giờ."
+              },
+              {
+                "q": "Điều trị suy giáp trên bệnh nhân cao tuổi có kèm bệnh tim thiếu máu cục bộ (bệnh mạch vành) cần lưu ý nguyên tắc nào:",
+                "opts": [
+                  "Nhanh chóng dùng liều cao ngay từ đầu để đưa hormone về bình thường",
+                  "Bắt đầu bằng liều thấp (12,5 - 25\\mug/ngày), tăng liều từ từ và mục tiêu TSH ở giới hạn cao của khoảng bình thường",
+                  "Không được dùng hormone thay thế mà chỉ điều trị triệu chứng",
+                  "Phối hợp ngay với liều cao corticoid đường tĩnh mạch"
+                ],
+                "ans": 1,
+                "exp": "Hormone giáp làm tăng nhịp tim và tăng chuyển hóa tiêu thụ oxy cơ tim. Khởi đầu liều cao có thể khởi phát cơn đau thắt ngực, nhồi máu cơ tim hoặc loạn nhịp tim nguy hiểm. Cần dò liều chậm mỗi 4 - 6 tuần."
+              },
+              {
+                "q": "Bệnh nhân được chẩn đoán suy tuyến yên toàn bộ gây suy giáp thứ phát kèm suy thượng thận thứ phát, nguyên tắc bù hormone là:",
+                "opts": [
+                  "Bù Levothyroxine trước 1 tuần rồi mới bù Corticoid",
+                  "Bắt buộc phải bù Corticoid (Hydrocortisone) trước hoặc đồng thời với Levothyroxine",
+                  "Chỉ bù Levothyroxine, không cần dùng Corticoid",
+                  "Bù hormone sinh dục đầu tiên"
+                ],
+                "ans": 1,
+                "exp": "Nếu bù Levothyroxine trước khi bù glucocorticoid sẽ làm tăng tốc độ chuyển hóa các steroid ít ỏi còn lại, dễ đẩy bệnh nhân vào cơn suy thượng thận cấp đe dọa tử vong."
+              },
+              {
+                "q": "Biểu hiện lâm sàng điển hình của hội chứng suy giáp nặng là:",
+                "opts": [
+                  "Gầy sút cân nhanh, da nóng ẩm, run tay, nhịp tim nhanh",
+                  "Mệt mỏi, sợ lạnh, tăng cân dù ăn ít, da khô dày, táo bón, nhịp tim chậm, giọng khàn",
+                  "Hồi hộp đánh trống ngực, lồi mắt, tiêu chảy",
+                  "Đau đầu từng cơn kèm vã mồ hôi và cơn tăng huyết áp kịch phát"
+                ],
+                "ans": 1,
+                "exp": "Giảm nồng độ hormone giáp dẫn tới giảm sút chuyển hóa cơ bản toàn thân, gây giảm sinh nhiệt (sợ lạnh), tích tụ dịch nhầy mucopolysaccharide dưới da gây phù niêm không lõm, giảm nhu động ruột (táo bón) và nhịp tim chậm."
+              }
+            ]
+          },
+          "thieu-mau": {
+            "title": "Bài 4: Thiếu máu (8 câu)",
+            "questions": [
+              {
+                "q": "Tiêu chuẩn chẩn đoán thiếu máu ở người nam trưởng thành theo Tổ chức Y tế Thế giới (WHO) là khi nồng độ Hemoglobin (Hb) giảm dưới:",
+                "opts": [
+                  "< 100 g/l",
+                  "< 120 g/l",
+                  "< 130 g/l",
+                  "< 135 g/l"
+                ],
+                "ans": 2,
+                "exp": "Tiêu chuẩn WHO: Nam giới trưởng thành Hb < 130 g/l; Nữ giới không mang thai Hb < 120 g/l; Phụ nữ có thai Hb < 110 g/l."
+              },
+              {
+                "q": "Đặc điểm hình thái hồng cầu trên huyết đồ của bệnh nhân thiếu máu thiếu sắt là:",
+                "opts": [
+                  "Thiếu máu hồng cầu to, ưu sắc",
+                  "Thiếu máu hồng cầu kích thước bình thường, đẳng sắc",
+                  "Thiếu máu hồng cầu nhỏ, nhược sắc (MCV < 80 fl, MCH < 28 pg)",
+                  "Thiếu máu đa hình thái có tăng thể tích khối hồng cầu"
+                ],
+                "ans": 2,
+                "exp": "Thiếu sắt làm giảm tổng hợp hem, dẫn đến các tế bào hồng cầu được tủy xương giải phóng ra có kích thước nhỏ và giảm hàm lượng huyết sắc tố trong mỗi tế bào."
+              },
+              {
+                "q": "Chỉ số sinh hóa có giá trị tin cậy nhất để phản ánh chính xác lượng sắt dự trữ trong cơ thể là:",
+                "opts": [
+                  "Sắt huyết thanh",
+                  "Ferritin huyết thanh",
+                  "Transferrin máu",
+                  "Độ bão hòa transferrin"
+                ],
+                "ans": 1,
+                "exp": "Ferritin huyết thanh phản ánh kho dự trữ sắt tại gan, lách và tủy xương. Khi không có tình trạng viêm nhiễm cấp tính đi kèm, Ferritin < 30 ng/ml là tiêu chuẩn chẩn đoán xác định thiếu máu thiếu sắt."
+              },
+              {
+                "q": "Xét nghiệm nào có giá trị cao nhất giúp phân biệt giữa thiếu máu thiếu sắt và bệnh tan máu bẩm sinh Thalassemia thể nhẹ:",
+                "opts": [
+                  "Định lượng sắt huyết thanh",
+                  "Số lượng hồng cầu máu ngoại vi",
+                  "Điện di huyết sắc tố (Hemoglobin) và xét nghiệm đột biến gen globin",
+                  "Chụp X-quang xương sọ"
+                ],
+                "ans": 2,
+                "exp": "Cả hai đều có hình ảnh hồng cầu nhỏ nhược sắc, nhưng điện di huyết sắc tố ở Thalassemia sẽ phát hiện bất thường thành phần hemoglobin (tăng HbA2, xuất hiện HbF hoặc HbH), kết hợp gen globin để chẩn đoán xác định đột biến. Trong khi đó thiếu máu thiếu sắt có thành phần điện di bình thường."
+              },
+              {
+                "q": "Chẩn đoán xác định thiếu máu tan máu tự miễn (AIHA) dựa vào các tiêu chuẩn nào:",
+                "opts": [
+                  "Lâm sàng có hội chứng thiếu máu tan máu, nghiệm pháp Coombs trực tiếp (+), Bilirubin gián tiếp tăng, LDH tăng, hồng cầu lưới tăng cao",
+                  "Nghiệm pháp Coombs trực tiếp (-), Bilirubin trực tiếp tăng, Ferritin giảm",
+                  "Coombs gián tiếp (+), Haptoglobin tăng, hồng cầu lưới giảm",
+                  "Tủy đồ nghèo tế bào, Ferritin huyết thanh giảm"
+                ],
+                "ans": 0,
+                "exp": "Thiếu máu tan máu tự miễn do kháng thể bám trên màng hồng cầu gây vỡ hồng cầu ngoài mạch. Nghiệm pháp Coombs trực tiếp dương tính phát hiện kháng thể gắn trên hồng cầu, kết hợp tăng sản sinh tủy (hồng cầu lưới tăng) và các sản phẩm ly giải hồng cầu (Bilirubin gián tiếp, LDH tăng)."
+              },
+              {
+                "q": "Thuốc được lựa chọn hàng đầu trong điều trị nội khoa thiếu máu tan máu tự miễn do kháng thể nóng (loại IgG) là:",
+                "opts": [
+                  "Corticosteroid (Methylprednisolone/Prednisolone)",
+                  "Cắt lách ngay từ đầu",
+                  "Thuốc ức chế miễn dịch Cyclophosphamide",
+                  "Truyền máu định kỳ hàng tuần"
+                ],
+                "ans": 0,
+                "exp": "Glucocorticoid liều 1 - 2 mg/kg/ngày là điều trị khởi đầu chuẩn, có hiệu quả ức chế đại thực bào phá hủy hồng cầu có gắn kháng thể tại lách và giảm sản xuất tự kháng thể."
+              },
+              {
+                "q": "Chỉ định truyền khối hồng cầu trong điều trị thiếu máu cấp hoặc xuất huyết tiêu hóa theo khuyến cáo là:",
+                "opts": [
+                  "Bắt buộc truyền cho mọi trường hợp có Hb < 100 g/l",
+                  "Khi Hb < 70 g/l; hoặc Hb < 80 - 90 g/l ở người cao tuổi hoặc có kèm bệnh lý tim mạch, mạch vành",
+                  "Chỉ định truyền khi bệnh nhân có biểu hiện sốt cao",
+                  "Chỉ truyền máu toàn phần khi lượng máu mất < 20% thể tích tuần hoàn"
+                ],
+                "ans": 1,
+                "exp": "Chiến lược truyền máu hạn chế được chứng minh an toàn và hiệu quả: Ngưỡng truyền là Hb < 70 g/l (đích duy trì 70 - 90 g/l); đối với bệnh nhân có hội chứng vành cấp hoặc bệnh lý tim mạch nền, ngưỡng chỉ định nới lỏng hơn khi Hb < 80 - 90 g/l."
+              },
+              {
+                "q": "Nguyên nhân chủ yếu gây ra tai biến truyền máu cấp tính mức độ nặng và nguy cơ tử vong cao nhất là:",
+                "opts": [
+                  "Truyền máu bị lạnh",
+                  "Do xảy ra phản ứng kháng nguyên - kháng thể (bất đồng nhóm máu hệ ABO)",
+                  "Truyền máu quá chậm",
+                  "Dị ứng mẩn ngứa do protein huyết tương"
+                ],
+                "ans": 1,
+                "exp": "Bất đồng kháng nguyên hồng cầu nhóm ABO giữa người cho và người nhận kích hoạt bổ thể gây tan máu nội mạch cấp tính, sốc phản vệ, suy thận cấp do tắc ống thận và đông máu nội mạch rải rác (DIC)."
+              }
+            ]
+          }
+        }
+      },
+      "than-tiet-nieu": {
+        "name": "Khoa Thận - Tiết niệu",
+        "lessons": {
+          "hoi-chung-than-hu": {
+            "title": "Bài 1: Hội chứng thận hư (5 câu)",
+            "questions": [
+              {
+                "q": "Tiêu chuẩn vàng bắt buộc để chẩn đoán xác định hội chứng thận hư theo Bộ Y tế là:",
+                "opts": [
+                  "Phù to toàn thân và tăng huyết áp",
+                  "Protein niệu > 3,5 g/24 giờ (hoặc chỉ số Protein/Creatinin niệu > 3000 mg/g) và Albumin máu < 30 g/l (Protein máu toàn phần < 60 g/l)",
+                  "Hồng cầu niệu vi thể và trụ hồng cầu",
+                  "Tăng nồng độ Creatinin huyết thanh cấp tính"
+                ],
+                "ans": 1,
+                "exp": "Hai tiêu chuẩn bắt buộc phải có để xác định hội chứng thận hư là: (1) Protein niệu 24 giờ > 3,5 g (ở trẻ em > 50 mg/kg/24h); (2) Albumin huyết tương giảm < 30 g/l (Protein toàn phần < 60 g/l). Phù nhiều và rối loạn lipid máu là các tiêu chuẩn phụ trợ thường gặp."
+              },
+              {
+                "q": "Liều thuốc ức chế miễn dịch Cyclosporin A (Neoral) được khuyến cáo trong điều trị hội chứng thận hư kháng hoặc phụ thuộc Corticoid là:",
+                "opts": [
+                  "1 - 2 mg/kg/ngày",
+                  "1,5 mg/kg/ngày",
+                  "3 - 5 mg/kg/ngày",
+                  "5 - 10 mg/kg/ngày"
+                ],
+                "ans": 2,
+                "exp": "Cyclosporin A là thuốc ức chế Calcineurin được chỉ định trong hội chứng thận hư kháng steroid hoặc hay tái phát với liều khởi đầu thông thường từ 3 - 5 mg/kg/ngày (chia 2 lần uống), cần theo dõi chặt chẽ nồng độ thuốc đáy trong máu và chức năng thận (Creatinin)."
+              },
+              {
+                "q": "Cơ chế bệnh sinh chính dẫn đến tình trạng tăng đông và nguy cơ tắc mạch (đặc biệt là tắc tĩnh mạch thận) trong hội chứng thận hư là:",
+                "opts": [
+                  "Tăng sản xuất tiểu cầu nguyên phát tại tủy xương",
+                  "Mất các yếu tố chống đông tự nhiên qua màng lọc cầu thận (Antithrombin III, Protein C, Protein S) kèm gan tăng tổng hợp Fibrinogen",
+                  "Tăng nồng độ Canxi ion hóa trong máu",
+                  "Giảm sản xuất yếu tố VIII và von Willebrand"
+                ],
+                "ans": 1,
+                "exp": "Màng đáy cầu thận bị tổn thương làm mất các protein chống đông có trọng lượng phân tử nhỏ như Antithrombin III qua nước tiểu; đồng thời gan phản ứng bù trừ hạ áp lực keo bằng cách tăng tổng hợp lipid và các yếu tố đông máu (yếu tố I - Fibrinogen, V, VII, VIII, X) dẫn đến tình trạng tăng đông rõ rệt."
+              },
+              {
+                "q": "Chỉ định sinh thiết thận được đặt ra ở người lớn mắc hội chứng thận hư trong trường hợp nào sau đây:",
+                "opts": [
+                  "Chỉ định cho tất cả người lớn mắc hội chứng thận hư tiên phát trước khi bắt đầu điều trị ức chế miễn dịch",
+                  "Hội chứng thận hư tái phát sau khi đã giảm liều corticoid",
+                  "Hội chứng thận hư có đáp ứng hoàn toàn với Prednisolone sau 2 tuần",
+                  "Chỉ sinh thiết khi nghi ngờ hội chứng thận hư do ung thư"
+                ],
+                "ans": 0,
+                "exp": "Khác với trẻ em (đa số là thể sang thương tối thiểu MCD đáp ứng tốt với Corticoid nên không cần sinh thiết ngay), ở người lớn hội chứng thận hư tiên phát do nhiều nguyên nhân tổn thương mô bệnh học khác nhau (xơ chai cầu thận khu trú từng vùng FSGS, bệnh thận màng MN, viêm cầu thận màng tăng sinh MPGN...), do đó sinh thiết thận là bắt buộc để xác định thể tổn thương và lựa chọn phác đồ điều trị đặc hiệu."
+              },
+              {
+                "q": "Chế độ ăn cho bệnh nhân hội chứng thận hư khi chưa có suy thận:",
+                "opts": [
+                  "Ăn tăng cường thật nhiều đạm (> 2 g/kg/ngày) để bù vào lượng đạm mất qua nước tiểu",
+                  "Đảm bảo đủ đạm (0,8 - 1,0 g/kg/ngày cộng lượng protein mất qua nước tiểu), hạn chế muối (< 2 - 3 g Natri/ngày) khi có phù và hạn chế chất béo bão hòa",
+                  "Kiêng tuyệt đối đạm và chỉ ăn tinh bột",
+                  "Uống càng nhiều nước càng tốt (> 3 lít/ngày)"
+                ],
+                "ans": 1,
+                "exp": "Quan điểm cũ bổ sung quá nhiều đạm làm tăng gánh nặng lọc qua cầu thận và thúc đẩy xơ hóa cầu thận nhanh hơn; chế độ ăn chuẩn là đủ đạm chất lượng cao, ăn nhạt khi có phù để kiểm soát ứ muối nước."
+              }
+            ]
+          },
+          "benh-than-man": {
+            "title": "Bài 2: Bệnh thận mạn (5 câu)",
+            "questions": [
+              {
+                "q": "Theo khuyến cáo KDIGO 2012, một bệnh nhân có mức lọc cầu thận ước tính (eGFR) là 45 ml/phút/1,73m^2 được phân loại bệnh thận mạn giai đoạn mấy:",
+                "opts": [
+                  "Giai đoạn 2",
+                  "Giai đoạn 3 (cụ thể là G3a/G3b)",
+                  "Giai đoạn 4",
+                  "Giai đoạn 5"
+                ],
+                "ans": 1,
+                "exp": "Phân đoạn chức năng lọc cầu thận: G1: ≥ 90 ml/phút G2: 60 - 89 ml/phút G3a: 45 - 59 ml/phút G3b: 30 - 44 ml/phút G4: 15 - 29 ml/phút G5: < 15 ml/phút (suy thận giai đoạn cuối). Mức lọc cầu thận 45 ml/phút nằm ở ranh giới phân loại giai đoạn 3."
+              },
+              {
+                "q": "Nguyên nhân gây tử vong hàng đầu ở bệnh nhân mắc bệnh thận mạn tính và suy thận mạn giai đoạn cuối là:",
+                "opts": [
+                  "Toan chuyển hóa mất bù",
+                  "Suy kiệt nặng do hội chứng ure máu cao",
+                  "Biến cố tim mạch (nhồi máu cơ tim, suy tim, loạn nhịp, đột quỵ)",
+                  "Xuất huyết tiêu hóa nặng"
+                ],
+                "ans": 2,
+                "exp": "Hơn 50% người bệnh bệnh thận mạn tử vong do các biến cố tim mạch xơ vữa, vôi hóa hệ mạch và suy tim trước khi tiến triển đến giai đoạn cần lọc máu."
+              },
+              {
+                "q": "Rối loạn khoáng chất và xương (CKD-MBD) ở bệnh nhân bệnh thận mạn thường biểu hiện trên xét nghiệm sinh hóa máu là:",
+                "opts": [
+                  "Tăng Calci máu, giảm Phosphat máu",
+                  "Tăng Phosphat máu, giảm Calci máu, tăng nồng độ hormone tuyến cận giáp (PTH)",
+                  "Giảm Calci máu, giảm Phosphat máu, giảm nồng độ PTH",
+                  "Tăng Calci máu, tăng Phosphat máu, nồng độ PTH bình thường"
+                ],
+                "ans": 1,
+                "exp": "Giảm mức lọc cầu thận làm ứ đọng phosphat (giảm đào thải qua nước tiểu); đồng thời thận giảm sản xuất Calcitriol (1,25(OH)_2D_3) làm giảm hấp thu calci tại ruột dẫn đến hạ calci máu. Tình trạng này kích thích phì đại tuyến cận giáp gây cường cận giáp thứ phát (tăng PTH)."
+              },
+              {
+                "q": "Nguyên tắc điều chỉnh rối loạn Calci - Phospho ở bệnh nhân suy thận mạn tính là:",
+                "opts": [
+                  "Bổ sung Phospho và hạn chế Calci",
+                  "Bổ sung Calci và hạn chế Phospho trong khẩu phần ăn kết hợp dùng thuốc gắn Phosphat tại ruột",
+                  "Bổ sung đồng thời cả Calci và Phospho liều cao",
+                  "Chỉ cần lọc máu mà không cần can thiệp chế độ ăn"
+                ],
+                "ans": 1,
+                "exp": "Hạn chế các thực phẩm giàu phospho (lòng đỏ trứng, phủ tạng, hạt khô, đồ hộp), dùng thuốc gắn phospho (Calci acetat, Calci carbonat hoặc Sevelamer) uống cùng bữa ăn để giảm hấp thu phospho, và bổ sung dẫn xuất vitamin D hoạt tính."
+              },
+              {
+                "q": "Các phương pháp điều trị thay thế thận cho bệnh nhân suy thận mạn giai đoạn cuối bao gồm:",
+                "opts": [
+                  "Lọc máu ngắt quãng (Thận nhân tạo chu kỳ - HD)",
+                  "Thẩm phân phúc mạc (Lọc màng bụng - PD)",
+                  "Ghép thận",
+                  "Cả 3 phương pháp trên"
+                ],
+                "ans": 3,
+                "exp": "Ba phương pháp điều trị thay thế thận cơ bản hiện nay gồm: Lọc máu ngắt quãng (chạy thận nhân tạo), Thẩm phân phúc mạc (lọc màng bụng cấp/liên tục ngoại trú CAPD) và Ghép thận (phương pháp tối ưu phục hồi chất lượng sống)."
+              }
+            ]
+          },
+          "ton-thuong-than-cap": {
+            "title": "Bài 3: Tổn thương thận cấp (AKI) (5 câu)",
+            "questions": [
+              {
+                "q": "Nguyên nhân thường gặp nhất gây tổn thương thận cấp (AKI) trên lâm sàng là:",
+                "opts": [
+                  "Tổn thương trước thận",
+                  "Hoại tử ống thận cấp tại thận",
+                  "Viêm cầu thận cấp sau nhiễm liên cầu",
+                  "Tắc nghẽn sỏi niệu quản hai bên sau thận"
+                ],
+                "ans": 0,
+                "exp": "Tổn thương trước thận chiếm tới 60 - 70% các ca suy thận cấp, phát sinh do giảm thể tích tuần hoàn thực sự (mất nước, xuất huyết, bỏng) hoặc giảm thể tích tuần hoàn hiệu dụng (suy tim cấp, sốc, xơ gan mất bù) dẫn đến giảm tưới máu qua thận nhưng cấu trúc nhu mô thận vẫn còn nguyên vẹn."
+              },
+              {
+                "q": "Theo tiêu chuẩn KDIGO 2012, chẩn đoán và phân độ tổn thương thận cấp dựa vào sự biến đổi của:",
+                "opts": [
+                  "Mức lọc cầu thận eGFR và Protein niệu",
+                  "Thể tích thận trên siêu âm và bạch cầu niệu",
+                  "Nồng độ Creatinin huyết thanh và thể tích nước tiểu theo thời gian",
+                  "Nồng độ Ure máu và Acid uric máu"
+                ],
+                "ans": 2,
+                "exp": "Tiêu chuẩn KDIGO 2012 định nghĩa AKI khi: Creatinin huyết thanh tăng ≥ 26,5 \\mumol/l trong vòng 48 giờ, hoặc tăng ≥ 1,5 lần so với giá trị nền trong vòng 7 ngày qua, hoặc lượng nước tiểu < 0,5 ml/kg/giờ kéo dài trên 6 giờ."
+              },
+              {
+                "q": "Chỉ số nào sau đây có giá trị cao nhất giúp phân biệt tổn thương trước thận (suy thận chức năng) với hoại tử ống thận cấp (ATN) tại thận:",
+                "opts": [
+                  "Phân suất thải Natri (FeNa < 1%) và tỷ lệ Ure/Creatinin huyết tương > 20 (trong trước thận)",
+                  "Có bạch cầu niệu trong nước tiểu",
+                  "Hồng cầu niệu > 1000 tế bào/ml",
+                  "Nồng độ Kali máu tăng cao"
+                ],
+                "ans": 0,
+                "exp": "Trong AKI trước thận, ống thận còn nguyên vẹn nên tăng cường tái hấp thu muối và nước tối đa, dẫn đến FeNa < 1%, Natri niệu < 20 mmol/L, áp lực thẩm thấu niệu cao (> 500 mOsm/kg) và tỷ lệ Ure/Creatinin máu > 20. Ngược lại, trong hoại tử ống thận cấp ống thận bị tổn thương mất khả năng cô đặc nên FeNa > 2%, Natri niệu > 40 mmol/L."
+              },
+              {
+                "q": "Thuốc nào sau đây KHÔNG làm hạ nồng độ Kali máu trong cấp cứu tăng Kali máu nặng có biến đổi điện tâm đồ ở bệnh nhân AKI:",
+                "opts": [
+                  "Insulin kết hợp dung dịch Glucose ưu trương",
+                  "Canxi clorid hoặc Canxi gluconat tiêm tĩnh mạch",
+                  "Khí dung thuốc kích thích thụ thể beta-2 giao cảm (Salbutamol)",
+                  "Lọc máu cấp cứu ngắt quãng"
+                ],
+                "ans": 1,
+                "exp": "Canxi tiêm tĩnh mạch có tác dụng đối kháng màng tế bào cơ tim, ổn định điện thế màng để phòng ngừa rung thất và ngừng tim chứ hoàn toàn không làm giảm nồng độ Kali trong máu. Các thuốc đưa kali vào trong tế bào gồm Insulin + Glucose, Salbutamol, Bicarbonat."
+              },
+              {
+                "q": "Bệnh nhân sau dùng thuốc kháng sinh hoặc NSAID xuất hiện sốt, phát ban ngoài da, đau khớp, xét nghiệm nước tiểu có nhiều bạch cầu ái toan (Eosinophil niệu) và trụ bạch cầu, định hướng nguyên nhân AKI là do:",
+                "opts": [
+                  "Hoại tử ống thận cấp do thiếu máu cục bộ",
+                  "Viêm thận kẽ cấp dị ứng do thuốc (AIN)",
+                  "Sỏi kẹt niệu quản hai bên",
+                  "Viêm cầu thận tiến triển nhanh"
+                ],
+                "ans": 1,
+                "exp": "Tam chứng kinh điển: sốt, phát ban, đau khớp kết hợp với suy giảm chức năng thận và có bạch cầu ái toan trong nước tiểu là dấu hiệu đặc trưng của viêm thận bể thận kẽ dị ứng cấp do thuốc (thường gặp sau Penicillin, Cephalosporin, Quinolon, NSAID, Allopurinol...)."
+              }
+            ]
+          },
+          "nhiem-khuan-tiet-nieu": {
+            "title": "Bài 4: Nhiễm khuẩn đường tiết niệu (5 câu)",
+            "questions": [
+              {
+                "q": "Căn nguyên vi sinh vật thường gặp nhất gây nhiễm khuẩn tiết niệu cộng đồng và bệnh viện là:",
+                "opts": [
+                  "Pseudomonas aeruginosa",
+                  "Proteus mirabilis",
+                  "Escherichia coli (E. coli)",
+                  "Klebsiella pneumoniae"
+                ],
+                "ans": 2,
+                "exp": "Trực khuẩn Gram âm đường ruột E. coli chiếm 70 - 85% các trường hợp nhiễm khuẩn đường tiết niệu nhờ các yếu tố bám dính (fimbriae/pili) gắn chặt vào thụ thể trên bề mặt biểu mô đường niệu."
+              },
+              {
+                "q": "Triệu chứng lâm sàng nào sau đây thường KHÔNG gặp trong viêm bàng quang cấp đơn thuần:",
+                "opts": [
+                  "Tiểu buốt, tiểu rắt nhiều lần",
+                  "Đau tức âm ỉ vùng hạ vị",
+                  "Sốt cao rét run kèm đau nhức vùng hông lưng",
+                  "Nước tiểu đục, có thể có đái máu cuối bãi"
+                ],
+                "ans": 2,
+                "exp": "Viêm bàng quang là nhiễm khuẩn đường tiết niệu dưới, tổn thương khu trú niêm mạc bàng quang nên không có sốt hoặc chỉ sốt nhẹ. Khi có hội chứng nhiễm trùng toàn thân sốt cao rét run, đau vùng hông lưng, dấu hiệu vỗ hông lưng dương tính là biểu hiện của viêm thận bể thận cấp (nhiễm khuẩn tiết niệu trên)."
+              },
+              {
+                "q": "Tiêu chuẩn vàng để chẩn đoán xác định nhiễm khuẩn đường tiết niệu là:",
+                "opts": [
+                  "Tổng phân tích nước tiểu có Esterase bạch cầu (+) và Nitrit (+)",
+                  "Cấy nước tiểu giữa dòng dương tính với số lượng vi khuẩn ≥ 10^5 CFU/ml (đối với mẫu lấy vô khuẩn qua sonde bàng quang là ≥ 10^3 CFU/ml)",
+                  "Soi tươi cặn lắng nước tiểu thấy nhiều tế bào biểu mô",
+                  "Siêu âm thấy dày thành bàng quang"
+                ],
+                "ans": 1,
+                "exp": "Cấy nước tiểu định lượng và làm kháng sinh đồ là tiêu chuẩn quyết định chẩn đoán xác định căn nguyên vi khuẩn và hướng dẫn lựa chọn kháng sinh điều trị."
+              },
+              {
+                "q": "Trường hợp nào sau đây luôn được phân loại là \"Nhiễm khuẩn tiết niệu phức tạp\":",
+                "opts": [
+                  "Viêm bàng quang cấp ở phụ nữ trẻ, khỏe mạnh, không mang thai",
+                  "Nhiễm khuẩn tiết niệu ở nam giới, phụ nữ có thai, người có sỏi hoặc dị tật đường niệu, đái tháo đường, hoặc mang ống thông bàng quang lưu",
+                  "Viêm bàng quang tái phát sau giao hợp ở phụ nữ trong độ tuổi sinh đẻ",
+                  "Nhiễm khuẩn tiết niệu có số lượng vi khuẩn 10^4 CFU/ml"
+                ],
+                "ans": 1,
+                "exp": "Nhiễm khuẩn tiết niệu phức tạp là các trường hợp xảy ra trên cơ địa có bất thường về cấu trúc hoặc chức năng đường niệu, nam giới, phụ nữ có thai, người suy giảm miễn dịch hoặc có can thiệp thủ thuật xâm lấn (đặt sonde tiểu, nội soi)."
+              },
+              {
+                "q": "Biện pháp quan trọng nhất giúp hạn chế tối đa nguy cơ nhiễm khuẩn tiết niệu liên quan đến đặt ống thông bàng quang (CAUTI) trong bệnh viện là:",
+                "opts": [
+                  "Dùng kháng sinh dự phòng toàn thân liên tục trong suốt thời gian lưu sonde",
+                  "Đảm bảo kỹ thuật vô khuẩn tuyệt đối khi đặt, duy trì hệ thống dẫn lưu kín vô khuẩn và rút ống thông càng sớm càng tốt khi hết chỉ định",
+                  "Định kỳ bơm rửa bàng quang bằng dung dịch kháng sinh hàng ngày",
+                  "Luôn thay ống thông bàng quang mới mỗi 3 ngày một lần"
+                ],
+                "ans": 1,
+                "exp": "Đảm bảo vô trùng khi thao tác đặt sonde, giữ hệ thống túi chứa dịch kín và đặt thấp hơn mức bàng quang, cùng việc rút ống sớm nhất có thể là biện pháp phòng ngừa nhiễm khuẩn bệnh viện được chứng minh có hiệu quả cao nhất. Không khuyến cáo dùng kháng sinh dự phòng thường quy vì gây tăng đề kháng kháng sinh."
+              }
+            ]
+          },
+          "soi-than-tiet-nieu": {
+            "title": "Bài 5: Sỏi thận tiết niệu (5 câu)",
+            "questions": [
+              {
+                "q": "Vị trí sỏi di chuyển gây ra cơn đau quặn thận cấp tính điển hình nhất trên lâm sàng là:",
+                "opts": [
+                  "Sỏi đài thận dưới kích thước nhỏ",
+                  "Sỏi niệu quản (đặc biệt là sỏi kẹt ở đoạn 1/3 trên hoặc các vị trí hẹp sinh lý của niệu quản)",
+                  "Sỏi bàng quang nằm tự do",
+                  "Sỏi san hô đài bể thận không gây bít tắc"
+                ],
+                "ans": 1,
+                "exp": "Cơn đau quặn thận xuất hiện khi viên sỏi di chuyển làm tắc nghẽn cấp tính dòng chảy nước tiểu tại niệu quản, gây tăng áp lực đột ngột trong lòng niệu quản và bể thận, làm căng trướng bao thận kích thích các thụ thể cảm giác đau nội tạng."
+              },
+              {
+                "q": "Loại sỏi tiết niệu nào sau đây KHÔNG cản quang (không nhìn thấy bóng sỏi trên phim chụp X-quang hệ tiết niệu không chuẩn bị - KUB):",
+                "opts": [
+                  "Sỏi Calci Oxalat",
+                  "Sỏi Calci Phosphat",
+                  "Sỏi Struvite (Magnesi Amoni Phosphat - sỏi nhiễm trùng PAM)",
+                  "Sỏi Acid Uric (Sỏi Urat)"
+                ],
+                "ans": 3,
+                "exp": "Sỏi urat và sỏi cystin có độ cản quang kém hoặc hoàn toàn không cản quang trên phim X-quang thường quy; để chẩn đoán xác định cần dựa vào siêu âm hệ niệu hoặc chụp cắt lớp vi tính (CT scan) không tiêm cản quang."
+              },
+              {
+                "q": "Hai phương tiện chẩn đoán hình ảnh được sử dụng phổ biến và đầu tay nhất để tầm soát, chẩn đoán sỏi hệ tiết niệu là:",
+                "opts": [
+                  "Chụp niệu đồ tĩnh mạch (UIV) và chụp MRI hệ niệu",
+                  "Siêu âm hệ tiết niệu và chụp X-quang hệ tiết niệu không chuẩn bị (KUB)",
+                  "Chụp cắt lớp vi tính đa dãy có tiêm thuốc và soi bàng quang",
+                  "X-quang bụng nghiêng và xạ hình thận"
+                ],
+                "ans": 1,
+                "exp": "Siêu âm phát hiện tốt sỏi thận, ứ nước đài bể thận và sỏi bàng quang; phối hợp với KUB để xác định số lượng, kích thước và tính chất cản quang của sỏi."
+              },
+              {
+                "q": "Phương pháp tán sỏi ngoài cơ thể (ESWL) được chỉ định thích hợp nhất trong trường hợp nào dưới đây:",
+                "opts": [
+                  "Sỏi niệu quản 1/3 trên kích thước < 10 - 15 mm (hoặc sỏi bể thận < 20 mm) không có hẹp niệu quản phía dưới",
+                  "Sỏi đài dưới thận kích thước lớn > 35 mm",
+                  "Sỏi bàng quang kích thước > 30 mm có viêm bàng quang cấp",
+                  "Sỏi niệu quản ở phụ nữ đang mang thai"
+                ],
+                "ans": 0,
+                "exp": "Tán sỏi ngoài cơ thể là can thiệp ít xâm lấn, có hiệu quả tốt đối với sỏi đài bể thận kích thước < 20 mm hoặc sỏi niệu quản đoạn trên < 10 - 15 mm khi đường niệu phía dưới thông thoáng. Chống chỉ định ở phụ nữ mang thai, rối loạn đông máu nặng hoặc nhiễm khuẩn tiết niệu đang hoạt động."
+              },
+              {
+                "q": "Thái độ xử trí ưu tiên hàng đầu khi tiếp nhận người bệnh đang trong cơn đau quặn thận cấp tính là:",
+                "opts": [
+                  "Cho bệnh nhân uống thật nhiều nước (> 2 - 3 lít) và vận động nhảy dây để tống sỏi",
+                  "Dùng thuốc giảm đau chống viêm không steroid (NSAID) tiêm tĩnh mạch/bắp kết hợp thuốc giãn cơ trơn đường niệu",
+                  "Mổ mở lấy sỏi cấp cứu ngay trong đêm",
+                  "Kháng sinh phổ rộng liều cao đơn thuần"
+                ],
+                "ans": 1,
+                "exp": "NSAID (như Ketorolac, Diclofenac) là thuốc giảm đau hàng đầu cho cơn đau quặn thận vì vừa ức chế tổng hợp prostaglandin làm giảm dòng máu đến thận (giảm áp lực trong đài bể thận), vừa chống viêm phù nề niêm mạc niệu quản quanh viên sỏi. Hạn chế uống quá nhiều nước trong lúc đau vì sẽ làm tăng áp lực căng trướng bể thận gây đau tăng lên."
+              }
+            ]
+          }
+        }
+      },
+      "co-xuong-khop": {
+        "name": "Khoa Cơ xương khớp",
+        "lessons": {
+          "benh-gut": {
+            "title": "Bài 1: Bệnh Gút (7 câu)",
+            "questions": [
+              {
+                "q": "Theo tiêu chuẩn Bennett và Wood 1968, tiêu chuẩn vàng để chẩn đoán xác định bệnh Gút là:",
+                "opts": [
+                  "Tăng acid uric máu kết hợp sưng đau khớp bàn ngón chân cái",
+                  "Tìm thấy tinh thể urat natri trong dịch khớp hoặc trong hạt tophi",
+                  "Hình ảnh khuyết xương dạng hốc trên phim chụp X-quang khớp",
+                  "Đáp ứng hoàn toàn với Colchicine trong vòng 48 giờ"
+                ],
+                "ans": 1,
+                "exp": "Tiêu chuẩn Bennett và Wood 1968 quy định chẩn đoán xác định khi tìm thấy tinh thể urat trong dịch khớp hoặc trong chất lắng đọng của hạt tophi (bằng kính hiển vi phân cực). Nếu không làm được xét nghiệm này, cần có ít nhất 2 trong 4 tiêu chuẩn lâm sàng/tiền sử quy định."
+              },
+              {
+                "q": "Theo tiêu chuẩn Bennett và Wood 1968, các tiêu chuẩn lâm sàng hỗ trợ chẩn đoán bệnh Gút bao gồm các đặc điểm sau, TRỪ:",
+                "opts": [
+                  "Tiền sử hoặc hiện tại có ít nhất hai đợt sưng đau dữ dội của một khớp, khởi phát đột ngột, đau dữ dội và khỏi hoàn toàn trong vòng 1 - 2 tuần",
+                  "Tiền sử hoặc hiện tại có một đợt viêm khớp bàn ngón chân cái (khớp ngón I)",
+                  "Cứng khớp buổi sáng kéo dài trên 1 giờ và viêm đối xứng các khớp nhỏ bàn tay",
+                  "Có hạt tophi ở vành tai hoặc quanh khớp và/hoặc đáp ứng tốt với Colchicine (giảm viêm giảm đau rõ rệt trong 48 giờ)"
+                ],
+                "ans": 2,
+                "exp": "Cứng khớp buổi sáng kéo dài > 1 giờ và viêm đối xứng khớp bàn ngón tay là đặc trưng của Viêm khớp dạng thấp theo ACR 1987, không thuộc tiêu chuẩn chẩn đoán Gút của Bennett và Wood."
+              },
+              {
+                "q": "Đặc điểm hình ảnh tổn thương xương khớp đặc trưng của bệnh Gút mạn tính trên phim chụp X-quang là:",
+                "opts": [
+                  "Bào mòn xương ở bờ khớp, hẹp khe khớp đối xứng, dính khớp",
+                  "Cầu xương mảnh đối xứng nối các thân đốt sống",
+                  "Khuyết xương dạng hốc lớn, bờ tròn hoặc bầu dục, nằm ở đầu xương hoặc ngoài vùng bao hoạt dịch, có thể kèm viền xương tân tạo bao quanh (dấu hiệu móc xương)",
+                  "Mất chất khoáng đầu xương lan tỏa không có khuyết xương"
+                ],
+                "ans": 2,
+                "exp": "Tổn thương X-quang đặc trưng của gút mạn là các khuyết xương (hốc) nằm dưới sụn hoặc cạnh khớp, bờ tròn có viền xơ hóa xương xung quanh (do lắng đọng tinh thể urat bào mòn xương từ ngoài vào), thường thấy dấu hiệu \"móc xương\" nhô ra."
+              },
+              {
+                "q": "Dấu hiệu hình ảnh đặc trưng của bệnh Gút trên siêu âm khớp là:",
+                "opts": [
+                  "Dấu hiệu hình bóng Felson",
+                  "Dấu hiệu đường đôi (Double contour sign)",
+                  "Dấu hiệu gai xương bờ khớp",
+                  "Dấu hiệu mỏng sụn khớp toàn bộ"
+                ],
+                "ans": 1,
+                "exp": "Dấu hiệu đường đôi trên siêu âm là dải tăng âm bất thường chạy song song với bề mặt xương dưới sụn, bản chất là lớp tinh thể urat lắng đọng phủ trên bề mặt sụn khớp."
+              },
+              {
+                "q": "Đặc điểm sưng đau khớp trong bệnh Gút mạn tính có hạt tophi thường là, NGOẠI TRỪ:",
+                "opts": [
+                  "Khớp sưng biến dạng do khối tophi chèn ép và phá hủy đầu xương",
+                  "Thường tổn thương nhiều khớp ở chi dưới kèm theo các khớp ngón tay",
+                  "Viêm nhiều khớp đối xứng hoàn toàn hai bên từ giai đoạn đầu",
+                  "Có thể có các đợt viêm cấp bùng phát trên nền khớp đau biến dạng mạn tính"
+                ],
+                "ans": 2,
+                "exp": "Khác với Viêm khớp dạng thấp có tính chất đối xứng điển hình, tổn thương khớp và hạt tophi trong bệnh Gút thường phân bố không đối xứng."
+              },
+              {
+                "q": "Nhóm thuốc nào sau đây có cơ chế tác dụng hạ acid uric máu thông qua ức chế enzyme Xanthine Oxidase:",
+                "opts": [
+                  "Allopurinol và Febuxostat",
+                  "Colchicine và Probenecid",
+                  "Meloxicam và Celecoxib",
+                  "Methylprednisolone và Dexamethasone"
+                ],
+                "ans": 0,
+                "exp": "Allopurinol và Febuxostat là hai thuốc ức chế enzyme Xanthine Oxidase hàng đầu, làm giảm quá trình chuyển hóa hypoxanthine và xanthine thành acid uric trong máu."
+              },
+              {
+                "q": "Nguyên tắc điều trị cơ bản bệnh Gút theo hướng dẫn của Bộ Y tế gồm các điểm sau, NGOẠI TRỪ:",
+                "opts": [
+                  "Chống viêm, giảm đau nhanh trong cơn gút cấp bằng Colchicine, NSAIDs hoặc Corticoid",
+                  "Điều trị hạ acid uric máu lâu dài nhằm mục tiêu làm tan tinh thể urat và dự phòng cơn gút cấp tái phát",
+                  "Dự phòng cơn gút cấp tái phát khi bắt đầu dùng thuốc hạ acid uric bằng Colchicine liều thấp (0,5 - 1 mg/ngày) kéo dài 3 - 6 tháng",
+                  "Phải bắt đầu dùng ngay thuốc hạ acid uric máu liều cao ngay trong ngày đầu tiên khởi phát cơn gút cấp"
+                ],
+                "ans": 3,
+                "exp": "Khi đang có cơn gút cấp, không nên khởi đầu thuốc hạ acid uric máu ngay vì sự thay đổi nồng độ acid uric đột ngột trong máu sẽ làm tinh thể urat hòa tan/bong tróc khỏi ổ sụn khớp, khiến cơn viêm khớp bùng phát nặng hơn hoặc kéo dài hơn. Nên bắt đầu thuốc hạ acid uric sau khi cơn cấp đã thuyên giảm hoàn toàn (1 - 2 tuần sau)."
+              }
+            ]
+          },
+          "viem-khop-dang-thap": {
+            "title": "Bài 2: Viêm khớp dạng thấp (7 câu)",
+            "questions": [
+              {
+                "q": "Theo tiêu chuẩn của Hội Thấp khớp học Hoa Kỳ (ACR) 1987, tiêu chuẩn chẩn đoán Viêm khớp dạng thấp bao gồm bao nhiêu tiêu chuẩn, và cần thỏa mãn tối thiểu bao nhiêu tiêu chuẩn để xác định bệnh:",
+                "opts": [
+                  "Gồm 11 tiêu chuẩn, cần thỏa mãn ≥ 4 tiêu chuẩn",
+                  "Gồm 7 tiêu chuẩn, cần thỏa mãn ≥ 4 tiêu chuẩn (các tiêu chuẩn lâm sàng 1 - 4 phải kéo dài ≥ 6 tuần)",
+                  "Gồm 6 tiêu chuẩn, cần thỏa mãn ≥ 3 tiêu chuẩn",
+                  "Gồm 8 tiêu chuẩn, cần thỏa mãn ≥ 5 tiêu chuẩn"
+                ],
+                "ans": 1,
+                "exp": "Tiêu chuẩn ACR 1987 gồm 7 tiêu chuẩn: (1) Cứng khớp buổi sáng ≥ 1 giờ; (2) Viêm ≥ 3 vùng khớp; (3) Viêm khớp bàn tay (khớp cổ tay, bàn ngón, ngón gần); (4) Viêm khớp đối xứng; (5) Hạt thấp dưới da; (6) Yếu tố dạng thấp (RF) huyết thanh dương tính; (7) Hình ảnh X-quang điển hình (bào mòn, mất chất khoáng). Chẩn đoán xác định khi có ≥ 4/7 tiêu chuẩn, trong đó tiêu chuẩn 1 - 4 phải có thời gian diễn biến ít nhất 6 tuần."
+              },
+              {
+                "q": "Tổn thương cơ bản ban đầu trong cơ chế bệnh sinh của bệnh Viêm khớp dạng thấp xảy ra tại vị trí nào:",
+                "opts": [
+                  "Sụn khớp",
+                  "Đầu xương dưới sụn",
+                  "Màng hoạt dịch của khớp",
+                  "Dây chằng và bao khớp"
+                ],
+                "ans": 2,
+                "exp": "Viêm khớp dạng thấp là bệnh tự miễn đặc trưng ban đầu bởi tình trạng viêm mạn tính màng hoạt dịch (tăng sinh tế bào màng hoạt dịch tạo thành mô pannus), sau đó mô pannus này mới xâm lấn phá hủy sụn khớp và đầu xương dưới sụn."
+              },
+              {
+                "q": "Đặc điểm tổn thương khớp ngoại vi điển hình của Viêm khớp dạng thấp là:",
+                "opts": [
+                  "Viêm một khớp lớn đơn độc ở gốc chi (khớp háng, khớp vai)",
+                  "Viêm nhiều khớp nhỏ và vừa, có tính chất đối xứng hai bên, thường gặp ở khớp cổ tay, khớp bàn ngón tay và khớp ngón gần",
+                  "Viêm các khớp ngón xa bàn tay kèm hạt Heberden",
+                  "Viêm khớp di chuyển từ khớp này sang khớp khác và khỏi không để lại di chứng"
+                ],
+                "ans": 1,
+                "exp": "Viêm khớp dạng thấp có tính chất điển hình là viêm đa khớp đối xứng, ưu thế ở các khớp nhỏ và vừa ở ngọn chi (cổ tay, bàn ngón tay, ngón gần); rất hiếm khi tổn thương các khớp ngón xa (DIP)."
+              },
+              {
+                "q": "Vị trí tổn thương ngoài khớp của hạt thấp dưới da (Rheumatoid nodule) trong Viêm khớp dạng thấp thường gặp nhất ở:",
+                "opts": [
+                  "Sụn vành tai, mềm và dễ vỡ rò chất màu trắng phấn",
+                  "Vùng cẳng tay trên xương trụ gần khớp khuỷu hoặc trên xương chày gần khớp gối, tính chất cứng chắc, không đau, không bao giờ tự vỡ",
+                  "Vùng gân gót (gân Achille), sưng tấy đau nhức nhiều trong đợt cấp",
+                  "Dưới da vùng bụng và đùi, di động mềm"
+                ],
+                "ans": 1,
+                "exp": "Hạt thấp dưới da là biểu hiện ngoài khớp đặc hiệu, gặp ở 15 - 20% bệnh nhân VKDT nặng, vị trí điển hình là mặt duỗi của các khớp chịu áp lực tì đè (mặt sau xương trụ gần khuỷu tay, trước xương chày gần khớp gối); hạt có mật độ chắc, dính vào màng xương hoặc gân, không đau và không tự vỡ."
+              },
+              {
+                "q": "Hình ảnh X-quang khớp bàn ngón tay ở giai đoạn sớm của bệnh Viêm khớp dạng thấp là:",
+                "opts": [
+                  "Hẹp khe khớp nặng kèm dính cứng khớp hoàn toàn",
+                  "Gai xương bờ khớp và đặc xương dưới sụn",
+                  "Phù nề mô mềm quanh khớp và mất chất khoáng đầu xương dưới sụn khu trú",
+                  "Lệch trục bàn tay hình \"gió thổi\""
+                ],
+                "ans": 2,
+                "exp": "Ở giai đoạn sớm (giai đoạn I của Steinbrocker), tổn thương X-quang chỉ biểu hiện sưng nề mô mềm quanh khớp và hình ảnh loãng xương/mất chất khoáng ở các đầu xương cạnh khớp. Giai đoạn muộn hơn mới xuất hiện hình ảnh bào mòn xương (khuyết xương bờ khớp), hẹp khe khớp và biến dạng dính khớp."
+              },
+              {
+                "q": "Vị trí tổn thương cột sống DUY NHẤT có thể gặp trong bệnh Viêm khớp dạng thấp là:",
+                "opts": [
+                  "Cột sống cổ (đặc biệt là khớp đội - trục C1 - C2)",
+                  "Cột sống ngực",
+                  "Cột sống thắt lưng",
+                  "Khớp cùng chậu"
+                ],
+                "ans": 0,
+                "exp": "Viêm khớp dạng thấp không tổn thương cột sống ngực, thắt lưng hay khớp cùng chậu. Vị trí trục xương duy nhất có màng hoạt dịch bị ảnh hưởng là cột sống cổ, đặc biệt là khớp đội - trục (C1 - C2), có thể gây bán trật khớp đội trục chèn ép tủy cổ."
+              },
+              {
+                "q": "Thuốc chống thấp khớp làm thay đổi diễn tiến bệnh kinh điển (csDMARD) được lựa chọn hàng đầu làm nền tảng trong điều trị Viêm khớp dạng thấp là:",
+                "opts": [
+                  "Sulfasalazine",
+                  "Hydroxychloroquine",
+                  "Methotrexate",
+                  "Cyclophosphamide"
+                ],
+                "ans": 2,
+                "exp": "Methotrexate là \"tiêu chuẩn vàng\" và là thuốc điều trị cơ bản hàng đầu (anchor drug) trong điều trị VKDT, được chỉ định ngay từ khi chẩn đoán xác định bệnh để làm chậm quá trình hủy hoại sụn khớp."
+              }
+            ]
+          },
+          "thoai-hoa-da-khop": {
+            "title": "Bài 3: Thoái hóa đa khớp (6 câu)",
+            "questions": [
+              {
+                "q": "Tính chất đau khớp điển hình của bệnh nhân thoái hóa khớp là:",
+                "opts": [
+                  "Đau nhiều về đêm gần sáng, kèm theo nóng đỏ khớp",
+                  "Đau kiểu cơ học: đau tăng khi vận động hoặc chịu tải, giảm khi được nghỉ ngơi",
+                  "Đau liên tục dữ dội cả khi nằm yên không thay đổi theo tư thế",
+                  "Đau di chuyển từ khớp này sang khớp khác"
+                ],
+                "ans": 1,
+                "exp": "Thoái hóa khớp có tính chất đau cơ học do ma sát và chịu lực của mặt khớp bị mòn sụn: đau tăng khi cử động, đi lại, lên xuống cầu thang và giảm đau rõ rệt khi nằm nghỉ ngơi."
+              },
+              {
+                "q": "Triệu chứng lâm sàng nào sau đây KHÔNG phù hợp với bệnh thoái hóa khớp gối:",
+                "opts": [
+                  "Dấu hiệu lạo xạo khớp khi cử động (tiếng lục cục)",
+                  "Dấu hiệu \"phá rỉ khớp\" (cứng khớp thoáng qua vào buổi sáng kéo dài < 30 phút)",
+                  "Cứng khớp buổi sáng kéo dài trên 1 giờ và đau tăng nhiều về đêm",
+                  "Dấu hiệu bào gỗ dương tính khi di động xương bánh chè"
+                ],
+                "ans": 2,
+                "exp": "Cứng khớp buổi sáng kéo dài > 1 giờ và đau tăng về đêm là dấu hiệu của đau khớp kiểu viêm (gặp trong viêm khớp dạng thấp, viêm cột sống dính khớp). Thoái hóa khớp cứng khớp buổi sáng ngắn dưới 30 phút (dấu hiệu phá rỉ khớp)."
+              },
+              {
+                "q": "Tam chứng hình ảnh kinh điển trên phim chụp X-quang khớp của thoái hóa khớp là:",
+                "opts": [
+                  "Bào mòn xương bờ khớp, loãng xương đầu xương, dính khớp",
+                  "Hẹp khe khớp (không đồng đều), đặc xương dưới sụn và gai xương ở rìa khớp",
+                  "Mất chất khoáng đầu xương, hẹp khe khớp đối xứng, dính khớp",
+                  "Hốc khuyết xương lớn ngoài bao hoạt dịch, viền xơ hóa"
+                ],
+                "ans": 1,
+                "exp": "Thoái hóa khớp đặc trưng trên X-quang bằng 3 dấu hiệu: (1) Hẹp khe khớp không đồng đều (thường hẹp khoang trong ở khớp gối); (2) Đặc xương dưới sụn; (3) Mọc gai xương ở rìa mặt khớp."
+              },
+              {
+                "q": "Theo phân loại thoái hóa khớp gối trên X-quang của Kellgren và Lawrence, giai đoạn có hình ảnh gai xương rõ rệt, hẹp khe khớp vừa phải và có đặc xương dưới sụn được xếp vào:",
+                "opts": [
+                  "Độ 1",
+                  "Độ 2",
+                  "Độ 3",
+                  "Độ 4"
+                ],
+                "ans": 2,
+                "exp": "Phân độ Kellgren - Lawrence: Độ 1: Nghi ngờ hẹp khe khớp, có thể có gai nhỏ Độ 2: Gai xương rõ, khe khớp chưa hẹp đáng kể Độ 3: Hẹp khe khớp vừa phải, nhiều gai xương vừa, đặc xương dưới sụn Độ 4: Hẹp khe khớp rất nặng (dính sát), gai xương lớn, đặc xương nhiều và biến dạng đầu xương."
+              },
+              {
+                "q": "Phương pháp điều trị nào sau đây KHÔNG ĐƯỢC khuyến cáo trong phác đồ điều trị thoái hóa khớp gối theo hướng dẫn của Bộ Y tế:",
+                "opts": [
+                  "Giảm cân, tập luyện phục hồi chức năng các bài tập tăng cường cơ tứ đầu đùi",
+                  "Tiêm huyết tương giàu tiểu cầu (PRP) hoặc Acid Hyaluronic nội khớp",
+                  "Thuốc chống viêm không steroid (NSAIDs) bôi tại chỗ hoặc uống ngắn ngày",
+                  "Dùng Corticoid đường toàn thân (uống hoặc tiêm tĩnh mạch) kéo dài"
+                ],
+                "ans": 3,
+                "exp": "Thoái hóa khớp không có chỉ định dùng Corticoid toàn thân vì không giải quyết được nguyên nhân thoái hóa mà còn gây nhiều tác dụng phụ nặng nề (loãng xương, hoại tử vô mạch chỏm xương đùi, loét dạ dày, suy thượng thận). Corticoid chỉ được dùng tiêm nội khớp trong trường hợp có đợt viêm cấp kèm tràn dịch khớp sau khi đã hút dịch và loại trừ nhiễm khuẩn."
+              },
+              {
+                "q": "Nhóm thuốc tác dụng chậm trong điều trị thoái hóa khớp (SYSADOA) bao gồm các thuốc nào sau đây:",
+                "opts": [
+                  "Methotrexate, Leflunomide, Sulfasalazine",
+                  "Paracetamol, Ibuprofen, Celecoxib",
+                  "Glucosamine sulfate, Diacerein, Cao bơ đậu nành không xà phòng hóa (Piascledine)",
+                  "Allopurinol, Colchicine, Febuxostat"
+                ],
+                "ans": 2,
+                "exp": "SYSADOA (Symptomatic Slow Acting Drugs in Osteoarthritis) là nhóm thuốc cải thiện triệu chứng tác dụng chậm, hỗ trợ chuyển hóa sụn khớp gồm: Glucosamine sulfate tinh khiết, Diacerein và Piascledine."
+              }
+            ]
+          },
+          "loang-xuong": {
+            "title": "Bài 4: Loãng xương (7 câu)",
+            "questions": [
+              {
+                "q": "Tiêu chuẩn vàng để chẩn đoán xác định loãng xương theo khuyến cáo của Tổ chức Y tế Thế giới (WHO) dựa trên phương pháp đo mật độ xương (BMD) bằng hấp thụ tia X năng lượng kép (DEXA) tại cột sống thắt lưng hoặc cổ xương đùi là khi chỉ số T-score:",
+                "opts": [
+                  "T-score > -1,0 SD",
+                  "T-score từ -1,0 đến -2,5 SD (thiểu xương/giảm mật độ xương)",
+                  "T-score ≤ -2,5 SD",
+                  "T-score ≤ -3,5 SD"
+                ],
+                "ans": 2,
+                "exp": "Phân loại theo WHO bằng DEXA: Bình thường: T-score ≥ -1,0 SD Giảm mật độ xương (thiếu xương): -2,5 SD < T-score < -1,0 SD Loãng xương: T-score ≤ -2,5 SD."
+              },
+              {
+                "q": "Trường hợp bệnh nhân được chẩn đoán là \"Loãng xương nặng\" khi có tiêu chuẩn:",
+                "opts": [
+                  "Chỉ số T-score ≤ -3,0 SD đơn thuần",
+                  "Chỉ số T-score ≤ -2,5 SD kèm theo tiền sử hoặc hiện tại có gãy xương do loãng xương (gãy xương sau chấn thương nhẹ hoặc xẹp đốt sống)",
+                  "Chỉ số Z-score ≤ -2,0 SD ở người già",
+                  "Bệnh nhân có nguy cơ gãy xương trên mô hình FRAX > 10%"
+                ],
+                "ans": 1,
+                "exp": "Loãng xương nặng (loãng xương đã có biến chứng) được xác định khi thỏa mãn tiêu chuẩn chẩn đoán loãng xương (T-score ≤ -2,5) kèm theo có một hoặc nhiều vị trí gãy xương nguyên phát/lún xẹp đốt sống do chấn thương nhẹ."
+              },
+              {
+                "q": "Vị trí gãy xương do biến chứng loãng xương hay gặp nhất trên lâm sàng ở phụ nữ cao tuổi sau mãn kinh là:",
+                "opts": [
+                  "Xương sườn",
+                  "Đốt sống (lún xẹp thân đốt sống ngực và thắt lưng)",
+                  "Xương trụ và xương mác",
+                  "Xương đòn"
+                ],
+                "ans": 1,
+                "exp": "Lún xẹp đốt sống là biến chứng gãy xương thường gặp nhất do loãng xương ở người cao tuổi, biểu hiện bằng đau lưng cấp hoặc mạn tính, giảm chiều cao và gù vẹo cột sống. Gãy cổ xương đùi đứng thứ hai nhưng là biến chứng nặng nề nhất gây tàn phế."
+              },
+              {
+                "q": "Một bệnh nhân nữ 65 tuổi đo mật độ xương tại gót chân bằng phương pháp siêu âm có chỉ số T-score là -2,8 SD. Thái độ xử trí đúng đắn nhất là:",
+                "opts": [
+                  "Chẩn đoán xác định loãng xương và truyền Bisphosphonate ngay lập tức",
+                  "Tư vấn cho người bệnh kiểm tra lại mật độ xương bằng phương pháp hấp thụ tia X năng lượng kép (DEXA) ở cột sống thắt lưng và cổ xương đùi trước khi đưa ra quyết định điều trị",
+                  "Khẳng định bệnh nhân hoàn toàn bình thường không cần can thiệp",
+                  "Chỉ định phẫu thuật thay khớp háng dự phòng"
+                ],
+                "ans": 1,
+                "exp": "Siêu âm gót chân chỉ là phương pháp tầm soát tại cộng đồng, không phải là tiêu chuẩn vàng để chẩn đoán xác định bệnh hay chỉ định thuốc điều trị đặc hiệu; người bệnh cần được chụp đo bằng phương pháp DEXA ở cột sống thắt lưng và cổ xương đùi."
+              },
+              {
+                "q": "Thuốc nào sau đây KHÔNG thuộc nhóm thuốc chống hủy xương trong điều trị loãng xương:",
+                "opts": [
+                  "Alendronate (nhóm Bisphosphonate)",
+                  "Denosumab (kháng thể kháng RANKL)",
+                  "Zoledronic acid",
+                  "Teriparatide và Abaloparatide (dẫn xuất của hormone tuyến cận giáp PTH)"
+                ],
+                "ans": 3,
+                "exp": "Alendronate, Zoledronic acid và Denosumab là các thuốc ức chế hủy cốt bào (thuốc chống hủy xương). Trong khi đó, Teriparatide và Abaloparatide thuộc nhóm thuốc kích thích đồng hóa tạo xương (kích thích tạo cốt bào tăng tạo xương mới)."
+              },
+              {
+                "q": "Chỉ định điều trị bằng thuốc chống loãng xương đặc hiệu được đặt ra trong trường hợp nào sau đây theo Bộ Y tế:",
+                "opts": [
+                  "Phụ nữ sau mãn kinh hoặc nam giới ≥ 50 tuổi có T-score ≤ -2,5 SD ở cổ xương đùi hoặc cột sống thắt lưng",
+                  "Người bệnh có tiền sử gãy xương đốt sống hoặc gãy cổ xương đùi do chấn thương nhẹ",
+                  "Người bệnh có giảm mật độ xương (-2,5 < T-score < -1,0) kết hợp xác suất gãy xương 10 năm theo mô hình FRAX: gãy cổ xương đùi ≥ 3% hoặc gãy xương chính do loãng xương ≥ 20%",
+                  "Tất cả các trường hợp trên"
+                ],
+                "ans": 3,
+                "exp": "Hướng dẫn chẩn đoán và điều trị loãng xương của Bộ Y tế quy định chỉ định dùng thuốc đặc hiệu chống loãng xương cho tất cả các đối tượng: có T-score ≤ -2,5; hoặc đã có gãy xương bệnh lý (gãy đốt sống, cổ xương đùi); hoặc thiểu xương kèm theo nguy cơ cao theo mô hình FRAX."
+              },
+              {
+                "q": "Biện pháp dùng thuốc nền tảng bắt buộc phải phối hợp cho mọi phác đồ điều trị loãng xương là:",
+                "opts": [
+                  "Bổ sung đầy đủ Calci nguyên tố (1000 - 1200 mg/ngày) và Vitamin D (800 - 1000 UI/ngày)",
+                  "Uống kháng sinh dự phòng",
+                  "Dùng NSAIDs liều cao hàng ngày",
+                  "Tiêm bắp Vitamin B12 định kỳ"
+                ],
+                "ans": 0,
+                "exp": "Mọi thuốc điều trị loãng xương đặc hiệu (Bisphosphonate, Denosumab...) đều phải có đủ nguyên liệu để khoáng hóa xương; do đó bổ sung đủ lượng calci và vitamin D hàng ngày là điều kiện tiên quyết bắt buộc trước và trong suốt quá trình điều trị chống hủy xương."
+              }
+            ]
+          }
+        }
+      },
       "ho-hap": {
         "name": "Khoa Hô hấp",
         "lessons": {
+          "viem-phe-quan-cap-noi": {
+            "title": "Bài 1: Viêm phế quản cấp (4 câu)",
+            "questions": [
+              {
+                "q": "Căn nguyên vi sinh vật phổ biến nhất gây viêm phế quản cấp ở người trưởng thành khỏe mạnh là:",
+                "opts": [
+                  "Vi khuẩn gram âm đường ruột",
+                  "Các loại virus đường hô hấp (Cúm, Parainfluenza, RSV, Rhinovirus, Adenovirus)",
+                  "Phế cầu (Streptococcus pneumoniae)",
+                  "Nấm men Candida albicans"
+                ],
+                "ans": 1,
+                "exp": "Hơn 90% các trường hợp viêm phế quản cấp ở người có chức năng miễn dịch bình thường là do virus đường hô hấp. Vi khuẩn chỉ chiếm tỷ lệ nhỏ (< 10%), thường là vi khuẩn không điển hình (Mycoplasma pneumoniae, Chlamydia pneumoniae) hoặc vi khuẩn ho gà (Bordetella pertussis)."
+              },
+              {
+                "q": "Dấu hiệu lâm sàng và cận lâm sàng giúp phân biệt viêm phế quản cấp với viêm phổi mắc phải cộng đồng là:",
+                "opts": [
+                  "Bệnh nhân có ho và sốt",
+                  "Bệnh nhân khạc đờm màu vàng hoặc xanh",
+                  "Khám phổi không có hội chứng đông đặc và phim chụp X-quang ngực thẳng không có hình ảnh thâm nhiễm phế nang",
+                  "Xét nghiệm máu có tăng nhẹ số lượng bạch cầu"
+                ],
+                "ans": 2,
+                "exp": "Màu sắc của đờm (vàng hay xanh) là do xác bạch cầu thoái hóa và enzyme peroxidase, không dùng để phân biệt giữa nhiễm virus và vi khuẩn. Viêm phế quản cấp tổn thương khu trú ở niêm mạc phế quản nên không có hội chứng đông đặc (rì rào phế nang giảm, gõ đục, rung thanh tăng, ran ẩm khu trú) và X-quang ngực hoàn toàn không có hình mờ thâm nhiễm nhu mô phổi (chỉ thấy tăng đậm rốn phổi hoặc các nhánh phế quản)."
+              },
+              {
+                "q": "Thái độ xử trí bằng thuốc kháng sinh đúng đắn trong viêm phế quản cấp ở người bệnh trước đó khỏe mạnh, không có bệnh lý mạn tính là:",
+                "opts": [
+                  "Chỉ định kháng sinh Cephalosporin thế hệ 3 ngay từ ngày đầu tiên khởi phát ho",
+                  "Dùng kháng sinh nhóm Macrolide kết hợp Quinolone hô hấp",
+                  "Không khuyến cáo sử dụng kháng sinh thường quy, chủ yếu điều trị triệu chứng và nâng đỡ thể trạng",
+                  "Bắt buộc dùng kháng sinh khi người bệnh khạc đờm đục"
+                ],
+                "ans": 2,
+                "exp": "Hầu hết viêm phế quản cấp do virus và bệnh có tính chất tự giới hạn sau 1 - 3 tuần. Việc lạm dụng kháng sinh không làm rút ngắn thời gian mắc bệnh hay ngăn ngừa biến chứng mà làm gia tăng nguy cơ tác dụng phụ và tình trạng kháng thuốc. Kháng sinh chỉ được cân nhắc khi nghi ngờ nhiễm vi khuẩn ho gà, người già suy giảm miễn dịch hoặc bệnh nhân có bệnh lý tim phổi mạn tính kèm theo."
+              },
+              {
+                "q": "Thuốc nào sau đây KHÔNG ĐƯỢC khuyến cáo sử dụng thường quy để điều trị triệu chứng trong viêm phế quản cấp không có co thắt phế quản:",
+                "opts": [
+                  "Paracetamol hạ sốt, giảm đau rát ngực",
+                  "Bù đủ nước và điện giải, nghỉ ngơi hợp lý",
+                  "Thuốc giảm ho thảo dược hoặc làm loãng đờm",
+                  "Corticosteroid đường uống hoặc tiêm tĩnh mạch"
+                ],
+                "ans": 3,
+                "exp": "Các thử nghiệm lâm sàng chứng minh Corticoid toàn thân không mang lại lợi ích trong điều trị viêm phế quản cấp không có biến chứng co thắt ở người không mắc hen hay COPD, trong khi lại tiềm ẩn nhiều nguy cơ tác dụng phụ (tăng đường huyết, kích ứng tiêu hóa, ức chế miễn dịch)."
+              }
+            ]
+          },
+          "viem-phoi-cong-dong-noi": {
+            "title": "Bài 2: Viêm phổi mắc phải cộng đồng (6 câu)",
+            "questions": [
+              {
+                "q": "Viêm phổi mắc phải cộng đồng (CAP) được định nghĩa là tình trạng nhiễm trùng cấp tính của nhu mô phổi:",
+                "opts": [
+                  "Xuất hiện sau khi người bệnh nhập viện điều trị trên 48 giờ",
+                  "Xuất hiện ở ngoài bệnh viện hoặc trong vòng 48 giờ kể từ khi nhập viện",
+                  "Xảy ra ở người bệnh đang thở máy xâm nhập qua ống nội khí quản",
+                  "Xuất hiện ở bệnh nhân nội trú chuẩn bị xuất viện"
+                ],
+                "ans": 1,
+                "exp": "Viêm phổi cộng đồng là nhiễm khuẩn cấp tính của nhu mô phổi (phế nang, mô kẽ) mắc phải ngoài môi trường bệnh viện, biểu hiện lâm sàng xuất hiện ngoài cộng đồng hoặc trong vòng 48 giờ đầu sau khi nhập viện."
+              },
+              {
+                "q": "Căn nguyên vi khuẩn kinh điển thường gặp nhất gây viêm phổi mắc phải cộng đồng ở mọi lứa tuổi là:",
+                "opts": [
+                  "Streptococcus pneumoniae (Phế cầu)",
+                  "Pseudomonas aeruginosa (Trực khuẩn mủ xanh)",
+                  "Klebsiella pneumoniae",
+                  "Staphylococcus aureus kháng Methicillin (MRSA)"
+                ],
+                "ans": 0,
+                "exp": "Phế cầu (Streptococcus pneumoniae) là vi khuẩn Gram dương gây bệnh phổ biến nhất trong viêm phổi cộng đồng, chiếm từ 30 - 50% các trường hợp xác định được căn nguyên."
+              },
+              {
+                "q": "Hội chứng thực thể điển hình khi khám phổi ở bệnh nhân viêm phổi thùy điển hình là:",
+                "opts": [
+                  "Tam chứng Galliard (gõ vang, rung thanh giảm, rì rào phế nang mất)",
+                  "Hội chứng ba giảm (gõ đục, rung thanh giảm, rì rào phế nang giảm)",
+                  "Hội chứng đông đặc (rung thanh tăng, gõ đục, rì rào phế nang giảm kèm tiếng thổi ống) và ran nổ/ran ẩm khu trú",
+                  "Lồng ngực hình thùng, rì rào phế nang giảm đều hai phế trường"
+                ],
+                "ans": 2,
+                "exp": "Phế nang bị lấp đầy bởi dịch rỉ viêm, tế bào bạch cầu và fibrin làm mô phổi đông đặc, dẫn truyền âm thanh của phế quản ra thành ngực tốt hơn (rung thanh tăng, tiếng thổi ống) và ngăn cản thông khí phế nang (gõ đục, rì rào phế nang giảm), đồng thời xuất hiện ran nổ khi các phế nang bóc tách nhau ở cuối thì hít vào."
+              },
+              {
+                "q": "Thang điểm CURB-65 dùng để phân tầng mức độ nặng và định hướng nơi điều trị cho bệnh nhân viêm phổi cộng đồng bao gồm các yếu tố sau, TRỪ:",
+                "opts": [
+                  "C (Confusion): Rối loạn ý thức",
+                  "U (Urea): Ure máu > 7 mmol/l",
+                  "R (Respiratory rate): Tần số thở ≥ 30 lần/phút; B (Blood pressure): Huyết áp tâm thu < 90 mmHg hoặc tâm trương ≤ 60 mmHg; Tuổi ≥ 65",
+                  "Số lượng bạch cầu máu ngoại vi > 20 G/l"
+                ],
+                "ans": 3,
+                "exp": "Thang điểm CURB-65 gồm 5 yếu tố, mỗi yếu tố 1 điểm: C: Ý thức lú lẫn/thay đổi trạng thái tâm thần. U: Ure máu > 7 mmol/l (BUN > 19 mg/dL). R: Tần số thở ≥ 30 lần/phút. B: Huyết áp tâm thu < 90 mmHg hoặc huyết áp tâm trương ≤ 60 mmHg. 65: Tuổi ≥ 65. Điểm 0 - 1: điều trị ngoại trú; Điểm 2: điều trị nội trú khoa nội tổng hợp/hô hấp; Điểm ≥ 3: viêm phổi nặng, cân nhắc điều trị tại ICU."
+              },
+              {
+                "q": "Nguyên tắc điều trị kháng sinh trong viêm phổi mắc phải cộng đồng là:",
+                "opts": [
+                  "Phải chờ có kết quả nuôi cấy đờm/máu và kháng sinh đồ mới được bắt đầu dùng kháng sinh",
+                  "Bắt đầu dùng kháng sinh theo kinh nghiệm càng sớm càng tốt (tốt nhất trong vòng 4 giờ đầu sau khi có chẩn đoán xác định)",
+                  "Luôn sử dụng kháng sinh đường uống cho mọi bệnh nhân nội trú",
+                  "Bắt buộc dùng kháng sinh kéo dài tối thiểu 21 ngày cho mọi thể bệnh"
+                ],
+                "ans": 1,
+                "exp": "Khởi đầu kháng sinh sớm theo kinh nghiệm bao phủ các tác nhân thường gặp (phế cầu, vi khuẩn không điển hình) giúp giảm đáng kể tỷ lệ tử vong và biến chứng. Thời gian điều trị thông thường kéo dài từ 5 - 7 ngày đối với các ca đáp ứng lâm sàng tốt (hết sốt từ 48 - 72 giờ và ổn định các dấu hiệu sinh tồn)."
+              },
+              {
+                "q": "Lựa chọn kháng sinh theo kinh nghiệm ban đầu điều trị ngoại trú cho người bệnh viêm phổi cộng đồng mức độ nhẹ, không có bệnh lý đồng mắc và không có yếu tố nguy cơ nhiễm vi khuẩn kháng thuốc là:",
+                "opts": [
+                  "Ciprofloxacin đường uống",
+                  "Amoxicillin liều cao (1g x 3 lần/ngày) hoặc phối hợp/thay thế bằng Macrolide (Azithromycin/Clarithromycin) hoặc Doxycycline",
+                  "Meropenem kết hợp Vancomycin",
+                  "Gentamicin tiêm bắp đơn độc"
+                ],
+                "ans": 1,
+                "exp": "Hướng dẫn của Bộ Y tế và ATS/IDSA khuyến cáo: với bệnh nhân ngoại trú khỏe mạnh không có bệnh nền, Amoxicillin liều cao có hiệu quả diệt phế cầu tốt; Macrolide hoặc Doxycycline được dùng thay thế khi nghi ngờ vi khuẩn không điển hình hoặc bệnh nhân dị ứng Penicillin."
+              }
+            ]
+          },
+          "copd-noi": {
+            "title": "Bài 3: Bệnh phổi tắc nghẽn mạn tính (COPD) (6 câu)",
+            "questions": [
+              {
+                "q": "Tiêu chuẩn vàng để chẩn đoán xác định tình trạng tắc nghẽn thông khí cố định (không hồi phục hoàn toàn) trong bệnh phổi tắc nghẽn mạn tính (COPD) trên kết quả đo chức năng thông khí phổi là:",
+                "opts": [
+                  "Chỉ số Tiffeneau (FEV₁/VC) > 0.70 sau test hồi phục phế quản",
+                  "Chỉ số Gaensler (FEV₁/FVC) < 0.70 sau test hồi phục phế quản",
+                  "Dung tích sống gắng sức (FVC) giảm < 80% giá trị dự đoán",
+                  "FEV₁ tăng > 12% và > 200 ml sau khi hít thuốc giãn phế quản"
+                ],
+                "ans": 1,
+                "exp": "Tiêu chuẩn chẩn đoán COPD theo GOLD là tỷ lệ FEV₁/FVC < 0.70 đo được sau khi làm test hồi phục phế quản (với 400 mcg Salbutamol hít), khẳng định có sự tắc nghẽn luồng khí thở ra dai dẳng và không hồi phục hoàn toàn."
+              },
+              {
+                "q": "Theo phân loại mức độ tắc nghẽn đường thở của GOLD dựa vào chỉ số FEV₁ sau test hồi phục phế quản, mức độ GOLD 3 (nặng) được xác định khi:",
+                "opts": [
+                  "FEV₁ ≥ 80% giá trị dự đoán",
+                  "50% ≤ FEV₁ < 80% giá trị dự đoán",
+                  "30% ≤ FEV₁ < 50% giá trị dự đoán",
+                  "FEV₁ < 30% giá trị dự đoán"
+                ],
+                "ans": 2,
+                "exp": "Phân loại GOLD theo FEV₁: GOLD 1 (Nhẹ): FEV₁ ≥ 80% GOLD 2 (Trung bình): 50% ≤ FEV₁ < 80% GOLD 3 (Nặng): 30% ≤ FEV₁ < 50% GOLD 4 (Rất nặng): FEV₁ < 30%."
+              },
+              {
+                "q": "Theo chiến lược toàn cầu về COPD (GOLD 2023/2024), bệnh nhân được xếp vào nhóm E (nhóm nguy cơ cao xuất hiện đợt cấp) khi:",
+                "opts": [
+                  "Điểm mMRC ≥ 2 và không có đợt cấp nào trong 12 tháng qua",
+                  "Điểm CAT ≥ 10 và có 1 đợt cấp nhẹ điều trị ngoại trú",
+                  "Có từ 2 đợt cấp mức độ trung bình trở lên hoặc có ít nhất 1 đợt cấp nặng phải nhập viện trong vòng 12 tháng qua",
+                  "FEV₁ < 50% bất kể tiền sử đợt cấp"
+                ],
+                "ans": 2,
+                "exp": "Phân nhóm mới ABE của GOLD gom toàn bộ bệnh nhân có nguy cơ cao bị đợt cấp vào nhóm E (Exacerbations): bất kỳ bệnh nhân nào có ≥ 2 đợt cấp trung bình hoặc ≥ 1 đợt cấp phải nhập viện trong năm qua đều thuộc nhóm E, bất kể điểm triệu chứng khó thở mMRC hay CAT là bao nhiêu."
+              },
+              {
+                "q": "Phác đồ điều trị duy trì khởi đầu được khuyến cáo ưu tiên cho bệnh nhân COPD thuộc nhóm E (nguy cơ đợt cấp cao) là:",
+                "opts": [
+                  "Đơn trị liệu một thuốc giãn phế quản tác dụng ngắn (SABA hoặc SAMA khi cần)",
+                  "Đơn trị liệu LAMA (Kháng cholinergic tác dụng kéo dài)",
+                  "Phối hợp hai thuốc giãn phế quản tác dụng kéo dài LABA + LAMA (cân nhắc phối hợp LABA + LAMA + ICS ngay từ đầu nếu bạch cầu ái toan máu ≥ 300 tế bào/\\mul)",
+                  "Corticoid đường uống liều thấp kéo dài"
+                ],
+                "ans": 2,
+                "exp": "Đối với nhóm E, liệu pháp kết hợp 2 nhóm giãn phế quản cơ chế bổ trợ (LABA + LAMA) vượt trội hơn đơn trị liệu trong việc cải thiện chức năng thông khí và giảm đợt cấp. Nếu bạch cầu ái toan máu ≥ 300 tế bào/\\mul, liệu pháp bộ ba (LABA + LAMA + ICS) được chỉ định ưu tiên để kiểm soát viêm qua trung gian bạch cầu ái toan."
+              },
+              {
+                "q": "Tam chứng Anthonisen xác định đợt cấp COPD bao gồm:",
+                "opts": [
+                  "Khó thở tăng, thể tích đờm tăng, đờm chuyển thành đờm mủ",
+                  "Ho ra máu, đau ngực kiểu màng phổi, sốt cao",
+                  "Khó thở thì hít vào, thở rít thanh quản, tím tái",
+                  "Bụng trướng, phù hai chi dưới, gan to"
+                ],
+                "ans": 0,
+                "exp": "Ba triệu chứng chính của đợt cấp COPD theo tiêu chuẩn Anthonisen gồm: (1) Khó thở tăng lên; (2) Số lượng đờm khạc tăng lên; (3) Đờm trở nên đục/mủ. Đợt cấp mức độ nặng (loại 1) có đủ cả 3 triệu chứng và là chỉ định bắt buộc dùng kháng sinh."
+              },
+              {
+                "q": "Biện pháp điều trị duy nhất được chứng minh giúp cải thiện tỷ lệ sống còn (kéo dài tuổi thọ) ở bệnh nhân COPD có suy hô hấp mạn tính là:",
+                "opts": [
+                  "Khí dung Salbutamol liều cao liên tục",
+                  "Uống Theophylline kéo dài",
+                  "Liệu pháp thở oxy dài hạn tại nhà (LTOT ≥ 15 giờ/ngày) kết hợp cai thuốc lá tuyệt đối",
+                  "Dùng kháng sinh dự phòng hàng tuần"
+                ],
+                "ans": 2,
+                "exp": "Cai thuốc lá là can thiệp làm chậm tốc độ suy giảm FEV₁; đối với bệnh nhân suy hô hấp mạn tính (PaO₂ ≤ 55 mmHg hoặc SpO₂ ≤ 88%), thở oxy dài hạn tại nhà ít nhất 15 giờ mỗi ngày là can thiệp đã được chứng minh cải thiện huyết động phổi, giảm tâm phế mạn và kéo dài thời gian sống."
+              }
+            ]
+          },
+          "hen-phe-quan-noi": {
+            "title": "Bài 4: Hen phế quản (6 câu)",
+            "questions": [
+              {
+                "q": "Hen phế quản là bệnh lý viêm mạn tính đường thở đặc trưng bởi:",
+                "opts": [
+                  "Tắc nghẽn đường thở cố định không hồi phục",
+                  "Tình trạng tăng tính phản ứng đường thở và sự biến đổi giới hạn luồng khí thở ra (tắc nghẽn có thể hồi phục tự nhiên hoặc sau thuốc giãn phế quản)",
+                  "Sự phá hủy vách phế nang và giãn rộng vĩnh viễn các túi phế nang",
+                  "Viêm hoại tử mủ thành phế quản gây giãn phế quản không hồi phục"
+                ],
+                "ans": 1,
+                "exp": "Định nghĩa của GINA: Hen phế quản là bệnh lý viêm mạn tính của đường thở với sự tham gia của nhiều tế bào và thành phần tế bào, dẫn đến tình trạng tăng đáp ứng đường thở (co thắt phế quản, phù nề, tăng tiết nhầy) gây ra các đợt thở khò khè, khó thở, nặng ngực và ho; các triệu chứng này biến đổi theo thời gian và cường độ, đi kèm với giới hạn luồng khí thở ra có thể hồi phục hoàn toàn hoặc một phần."
+              },
+              {
+                "q": "Tiêu chuẩn xác định test hồi phục phế quản dương tính hỗ trợ chẩn đoán hen phế quản khi đo chức năng thông khí là:",
+                "opts": [
+                  "FEV₁ tăng > 8% và > 150 ml sau khi hít thuốc giãn phế quản",
+                  "FEV₁/FVC tăng thêm 5%",
+                  "FEV₁ tăng > 12% VÀ > 200 ml so với giá trị trước test (sau khi hít 400 mcg Salbutamol)",
+                  "FVC tăng > 10%"
+                ],
+                "ans": 2,
+                "exp": "Tiêu chuẩn chẩn đoán tính dao động/hồi phục của luồng khí thở ra ở người lớn là: sau khi hít thuốc giãn phế quản tác dụng ngắn (SABA 4 nhát = 400 mcg), chỉ số FEV₁ cải thiện tăng ít nhất 12% đồng thời tăng tuyệt đối trên 200 ml so với giá trị đo trước đó."
+              },
+              {
+                "q": "Triệu chứng lâm sàng cơn khó thở điển hình của bệnh hen phế quản là:",
+                "opts": [
+                  "Khó thở liên tục cả ngày lẫn đêm không thay đổi theo thời tiết",
+                  "Cơn khó thở xuất hiện đột ngột (thường về đêm gần sáng hoặc sau tiếp xúc dị nguyên), khó thở thì thở ra, có tiếng cò cử/khò khè, nghe phổi có ran rít, ran ngáy lan tỏa hai bên",
+                  "Khó thở thì hít vào kèm tiếng thở rít thanh quản (stridor)",
+                  "Khó thở khi nằm đầu thấp, kèm ho khạc bọt hồng"
+                ],
+                "ans": 1,
+                "exp": "Co thắt các tiểu phế quản làm hẹp đường dẫn khí trong thì thở ra (khi lồng ngực xẹp xuống làm đường thở càng bị ép hẹp), tạo ra tiếng cò cử, khò khè thì thở ra và ran rít, ran ngáy lan tỏa khắp hai phế trường."
+              },
+              {
+                "q": "Dấu hiệu nào sau đây chỉ điểm cơn hen phế quản NGUY KỊCH đe dọa ngừng thở:",
+                "opts": [
+                  "Nhịp tim nhanh 110 chu kỳ/phút",
+                  "Thở co kéo nhẹ cơ liên sườn",
+                  "\"Lồng ngực im lặng\" (phổi câm - rì rào phế nang mất hoàn toàn, không còn nghe thấy tiếng ran do luồng khí qua đường thở quá yếu)",
+                  "Nói từng câu ngắt quãng"
+                ],
+                "ans": 2,
+                "exp": "Khi tắc nghẽn phế quản quá khốc liệt hoặc cơ hô hấp kiệt sức hoàn toàn, lượng khí ra vào phế nang gần như bằng không, lồng ngực giãn căng bất động và nghe phổi không còn thấy ran rít hay rì rào phế nang (\"silent chest\"). Đây là dấu hiệu báo trước ngừng thở, cần đặt nội khí quản và thở máy xâm nhập cấp cứu ngay lập tức."
+              },
+              {
+                "q": "Thuốc điều trị nền tảng quan trọng nhất để kiểm soát viêm và dự phòng cơn hen phế quản theo khuyến cáo của GINA là:",
+                "opts": [
+                  "Thuốc kích thích beta-2 giao cảm tác dụng ngắn (SABA) dạng xịt đơn độc",
+                  "Thuốc giãn phế quản nhóm Xanthine (Theophylline) uống",
+                  "Corticosteroid dạng phun hít (ICS)",
+                  "Kháng sinh đường uống kéo dài"
+                ],
+                "ans": 2,
+                "exp": "Bản chất của hen là phản ứng viêm mạn tính đường thở. GINA nhấn mạnh: không bao giờ điều trị hen chỉ bằng SABA đơn độc vì làm tăng nguy cơ tử vong và đợt cấp nặng; ICS (dùng đơn độc hoặc phối hợp với Formoterol) là thuốc chống viêm bắt buộc để kiểm soát bệnh và phòng ngừa tử vong do hen."
+              },
+              {
+                "q": "Người phụ nữ đang điều trị duy trì hen phế quản ổn định phát hiện có thai, thái độ xử trí đúng đắn nhất đối với thuốc điều trị là:",
+                "opts": [
+                  "Ngừng ngay lập tức toàn bộ các thuốc hít và thuốc uống vì lo sợ tác dụng phụ gây quái thai",
+                  "Chuyển sang dùng thuốc đông y thảo dược",
+                  "Tiếp tục duy trì phác đồ thuốc kiểm soát dạng hít (ICS hoặc ICS/LABA) đều đặn và theo dõi chặt chẽ",
+                  "Chỉ dùng thuốc cắt cơn khi lên cơn khó thở nặng"
+                ],
+                "ans": 2,
+                "exp": "Cơn hen cấp thiếu oxy máu ở mẹ gây nguy cơ sẩy thai, thai chết lưu, đẻ non và dị tật bẩm sinh lớn hơn rất nhiều so với nguy cơ từ thuốc hít. Thuốc ICS (như Budesonide) đã được chứng minh an toàn trong thai kỳ và cần tiếp tục dùng đều đặn để duy trì kiểm soát hen tối ưu cho thai phụ."
+              }
+            ]
+          },
+          "tham-do-chuc-nang-ho-hap": {
+            "title": "Bài 5: Thủ thuật và thăm dò chức năng hô hấp (3 câu)",
+            "questions": [
+              {
+                "q": "Vị trí chọc hút khí màng phổi cấp cứu bằng kim trong tràn khí màng phổi áp lực là:",
+                "opts": [
+                  "Khoang liên sườn 8 - 9 đường nách sau",
+                  "Khoang liên sườn 2 trên đường giữa đòn (hoặc khoang liên sườn 4 - 5 đường nách giữa)",
+                  "Khoang liên sườn 5 đường cạnh ức",
+                  "Khoang liên sườn 7 đường nách trước"
+                ],
+                "ans": 1,
+                "exp": "Khi có tràn khí màng phổi áp lực gây suy hô hấp trụy mạch, cần giải áp cấp cứu ngay bằng cách đâm kim/catheter lớn vào khoang liên sườn 2 đường giữa đòn bờ trên xương sườn dưới (hoặc khoang liên sườn 4 - 5 đường nách giữa) bên tổn thương để giải thoát khí áp lực cao ra ngoài trước khi đặt ống dẫn lưu màng phổi chính thức."
+              },
+              {
+                "q": "Vị trí chọc dò dịch màng phổi thông thường để chẩn đoán và tháo dịch điều trị là:",
+                "opts": [
+                  "Khoang liên sườn 2 đường giữa đòn",
+                  "Khoang liên sườn 4 đường nách trước",
+                  "Khoang liên sườn 8 - 9 trên đường nách sau hoặc đường dưới vai (đi sát bờ trên của xương sườn dưới)",
+                  "Bất kỳ vị trí nào có tiếng gõ vang"
+                ],
+                "ans": 2,
+                "exp": "Bệnh nhân ngồi cúi người ra trước tì lên bàn; vị trí chọc dịch là nơi thấp nhất có ứ đọng dịch (thường ở KLS 8 - 9 đường dưới vai hoặc nách sau). Kim chọc luôn đi sát bờ trên xương sườn dưới để tránh làm tổn thương bó mạch thần kinh liên sườn nằm ở bờ dưới xương sườn trên."
+              },
+              {
+                "q": "Chống chỉ định tuyệt đối của nội soi phế quản ống mềm là:",
+                "opts": [
+                  "Bệnh nhân có ho ra máu dai dẳng chưa rõ nguyên nhân",
+                  "Tràn dịch màng phổi dịch tiết",
+                  "Suy hô hấp nặng không kiểm soát được, rối loạn nhịp tim đe dọa tính mạng, hoặc rối loạn đông máu nặng chưa được điều chỉnh",
+                  "Bệnh nhân có tổn thương nốt mờ đơn độc ở phổi trên phim CT ngực"
+                ],
+                "ans": 2,
+                "exp": "Nội soi phế quản ống mềm có nguy cơ làm tụt oxy máu, kích thích phản xạ tim mạch và chảy máu niêm mạc; chống chỉ định tuyệt đối khi tình trạng suy hô hấp giảm oxy máu nặng không thể duy trì oxy an toàn, rối loạn huyết động/nhịp tim nguy hiểm, hoặc rối loạn đông máu nặng (nguy cơ xuất huyết ồ ạt trong lòng phế quản không cầm được)."
+              }
+            ]
+          },
           "hen-phe-quan": {
             "title": "Hen phế quản (Asthma) - 35 câu",
             "questions": [
@@ -3153,6 +5158,2894 @@ const appDatabase = {
                 ],
                 "ans": 0,
                 "exp": "Đáp án đúng theo hướng dẫn lâm sàng chuẩn."
+              }
+            ]
+          }
+        }
+      },
+      "than-kinh": {
+        "name": "Khoa Thần kinh",
+        "lessons": {
+          "dot-quy-nao": {
+            "title": "Bài 1: Đột quỵ não (9 câu)",
+            "questions": [
+              {
+                "q": "Phương pháp chẩn đoán hình ảnh đầu tay cần thực hiện khẩn cấp ngay khi tiếp nhận bệnh nhân nghi ngờ đột quỵ não cấp là:",
+                "opts": [
+                  "Chụp cắt lớp vi tính (CT) sọ não không tiêm thuốc cản quang",
+                  "Chụp cộng hưởng từ (MRI) sọ não có tiêm đối quang từ",
+                  "Chụp mạch số hóa xóa nền (DSA)",
+                  "Siêu âm Doppler mạch xuyên sọ"
+                ],
+                "ans": 0,
+                "exp": "Chụp CT sọ não không cản quang là phương tiện nhanh nhất giúp phân biệt chính xác giữa xuất huyết não (hình ảnh tăng tỷ trọng tự nhiên) và nhồi máu não (hình ảnh giảm tỷ trọng hoặc bình thường trong những giờ đầu), từ đó đưa ra quyết định có dùng thuốc tiêu sợi huyết hay không."
+              },
+              {
+                "q": "Cửa sổ thời gian vàng để chỉ định thuốc tiêu sợi huyết đường tĩnh mạch (rtPA - Alteplase) cho bệnh nhân nhồi máu não cấp theo khuyến cáo hiện nay là:",
+                "opts": [
+                  "Trong vòng 3 giờ đầu",
+                  "Trong vòng 4,5 giờ đầu kể từ khi khởi phát triệu chứng",
+                  "Trong vòng 6 giờ đầu",
+                  "Trong vòng 24 giờ đầu"
+                ],
+                "ans": 1,
+                "exp": "Hướng dẫn của Bộ Y tế và AHA/ASA khuyến cáo sử dụng rtPA đường tĩnh mạch cho bệnh nhân nhồi máu não cấp trong vòng 4,5 giờ đầu từ thời điểm khởi phát triệu chứng hoặc thời điểm cuối cùng bệnh nhân được ghi nhận bình thường."
+              },
+              {
+                "q": "Liều lượng chuẩn của thuốc tiêu sợi huyết Alteplase (rtPA) trong điều trị nhồi máu não cấp là:",
+                "opts": [
+                  "0,6 mg/kg0,6 mg/kg0,6 mg/kg (bolus 15%15%15%, truyền 85%85%85%)",
+                  "0,8 mg/kg0,8 mg/kg0,8 mg/kg",
+                  "0,9 mg/kg0,9 mg/kg0,9 mg/kg (tối đa 90 mg90 mg90 mg: bolus tĩnh mạch 10%10%10% trong 1 phút, 90%90%90% còn lại truyền tĩnh mạch trong 60 phút)",
+                  "1,0 mg/kg1,0 mg/kg1,0 mg/kg"
+                ],
+                "ans": 2,
+                "exp": "Liều khuyến cáo của rtPA đường tĩnh mạch cho nhồi máu não cấp là 0,9 mg/kg0,9 mg/kg0,9 mg/kg trọng lượng cơ thể (không vượt quá tổng liều 90 mg90 mg90 mg); trong đó 10%10%10% tổng liều được tiêm tĩnh mạch trực tiếp trong 1 phút đầu, 90%90%90% còn lại truyền tĩnh mạch liên tục trong 60 phút."
+              },
+              {
+                "q": "Ngưỡng huyết áp bắt buộc phải hạ xuống trước khi tiến hành dùng thuốc tiêu sợi huyết đường tĩnh mạch ở bệnh nhân nhồi máu não cấp là:",
+                "opts": [
+                  "<140/90 mmHg< 140/90 mmHg<140/90 mmHg",
+                  "<160/100 mmHg< 160/100 mmHg<160/100 mmHg",
+                  "<185/110 mmHg< 185/110 mmHg<185/110 mmHg",
+                  "<220/120 mmHg< 220/120 mmHg<220/120 mmHg"
+                ],
+                "ans": 2,
+                "exp": "Huyết áp ≥185/110 mmHg≥ 185/110 mmHg≥185/110 mmHg làm tăng vọt nguy cơ chuyển dạng xuất huyết não thứ phát khi dùng tiêu sợi huyết. Do đó, bắt buộc phải dùng các thuốc hạ áp tác dụng nhanh (như Nicardipine truyền tĩnh mạch) để đưa huyết áp xuống <185/110 mmHg< 185/110 mmHg<185/110 mmHg trước khi tiêm rtPA và duy trì <180/105 mmHg< 180/105 mmHg<180/105 mmHg trong suốt 24 giờ sau đó."
+              },
+              {
+                "q": "Thời gian tối đa được khuyến cáo mở rộng để can thiệp lấy huyết khối cơ học bằng dụng cụ qua đường nội mạch ở bệnh nhân tắc mạch máu lớn tuần hoàn não trước (khi có tiêu chuẩn hình ảnh học phù hợp) là:",
+                "opts": [
+                  "6 giờ",
+                  "12 giờ",
+                  "24 giờ kể từ khi khởi phát",
+                  "48 giờ"
+                ],
+                "ans": 2,
+                "exp": "Theo các thử nghiệm lâm sàng DAWN và DEFUSE-3, ở bệnh nhân tắc động mạch cảnh trong hoặc đoạn M1 động mạch não giữa, nếu có sự bất tương xứng giữa vùng lõi hoại tử và vùng tranh tối tranh sáng (penumbra) trên hình ảnh tưới máu não (CTP/MRP), cửa sổ can thiệp lấy huyết khối cơ học được mở rộng lên đến 24 giờ."
+              },
+              {
+                "q": "Vị trí chảy máu nội sọ tự phát thường gặp nhất ở bệnh nhân tăng huyết áp mạn tính không kiểm soát là:",
+                "opts": [
+                  "Thùy thái dương",
+                  "Vùng hạch nền - nhân bèo (và bao trong)",
+                  "Cầu não",
+                  "Tiểu não"
+                ],
+                "ans": 1,
+                "exp": "Tăng huyết áp mạn tính gây thoái hóa xơ hyalin và tạo các vi phình mạch Charcot-Bouchard ở các động mạch xuyên nhỏ sâu (đặc biệt là các nhánh động mạch bèo - thể vân xuất phát từ động mạch não giữa), dẫn đến vỡ mạch gây chảy máu nhiều nhất tại vùng nhân bèo/bao trong (chiếm 50 - 60%)."
+              },
+              {
+                "q": "Mục tiêu kiểm soát huyết áp tâm thu trong những giờ đầu ở bệnh nhân xuất huyết não cấp có tăng huyết áp nhập viện nhằm hạn chế khối máu tụ lan rộng là:",
+                "opts": [
+                  "Đưa về <120 mmHg< 120 mmHg<120 mmHg",
+                  "Hạ nhanh và duy trì huyết áp tâm thu trong khoảng 130−140 mmHg130 - 140 mmHg130−140 mmHg (không hạ dưới 130 mmHg130 mmHg130 mmHg)",
+                  "Duy trì từ 160−180 mmHg160 - 180 mmHg160−180 mmHg",
+                  "Không hạ huyết áp vì lo ngại thiếu máu não"
+                ],
+                "ans": 1,
+                "exp": "Hướng dẫn điều trị xuất huyết não cấp khuyến cáo hạ huyết áp tâm thu mục tiêu an toàn về khoảng 130−140 mmHg130 - 140 mmHg130−140 mmHg ở bệnh nhân có huyết áp vào viện từ 150−220 mmHg150 - 220 mmHg150−220 mmHg để giảm nguy cơ khối máu tụ tiếp tục tiến triển mà không làm giảm áp lực tưới máu não."
+              },
+              {
+                "q": "Nguyên nhân hàng đầu gây chảy máu khoang dưới nhện (chảy máu màng não) tự phát không do chấn thương là:",
+                "opts": [
+                  "Vỡ túi phình động mạch não",
+                  "Vỡ dị dạng động tĩnh mạch não (AVM)",
+                  "Xơ vữa mạch máu não",
+                  "Rối loạn đông máu mắc phải"
+                ],
+                "ans": 0,
+                "exp": "Khoảng 80 - 85% các ca chảy máu dưới nhện tự phát là do vỡ túi phình động mạch não (thường nằm ở các ngã ba mạch thuộc đa giác Willis). Dị dạng AVM đứng thứ hai chiếm khoảng 10%."
+              },
+              {
+                "q": "Biến chứng nội sọ nguy hiểm nhất và là nguyên nhân hàng đầu gây tử vong hoặc tàn phế muộn trong những ngày đầu sau vỡ phình mạch gây chảy máu dưới nhện là:",
+                "opts": [
+                  "Hạ Natri máu do hội chứng mất muối qua não (CSW)",
+                  "Động kinh cục bộ",
+                  "Chảy máu tái phát và co thắt mạch não gây nhồi máu não thứ phát",
+                  "Tràn dịch não thất tắc nghẽn"
+                ],
+                "ans": 2,
+                "exp": "Chảy máu tái phát có tỷ lệ tử vong lên tới 70% (nguy cơ cao nhất trong 24 giờ đầu); tiếp theo là biến chứng co thắt mạch não (thường xảy ra từ ngày 4 đến ngày 14) gây thiếu máu cục bộ não diện rộng. Nimodipine được chỉ định thường quy để dự phòng biến chứng co thắt mạch này."
+              }
+            ]
+          },
+          "dau-dau": {
+            "title": "Bài 2: Đau đầu (6 câu)",
+            "questions": [
+              {
+                "q": "Triệu chứng lâm sàng điển hình của cơn đau đầu Migraine không có aura (tiền triệu) là:",
+                "opts": [
+                  "Đau đầu âm ỉ, cảm giác siết chặt như dải băng quấn quanh trán, đau cả hai bên",
+                  "Đau nửa đầu, tính chất đau theo nhịp mạch đập, cường độ trung bình đến dữ dội, tăng lên khi vận động thể lực, thường kèm theo buồn nôn/nôn, sợ ánh sáng và sợ tiếng động",
+                  "Đau nhói dữ dội từng cơn ngắn vài giây vùng mặt theo đường đi của dây V",
+                  "Đau quanh hốc mắt kèm chảy nước mắt, nghẹt mũi cùng bên"
+                ],
+                "ans": 1,
+                "exp": "Đau đầu Migraine điển hình có 4 đặc điểm chính: đau nửa đầu (chiếm 60 - 70%), đau theo nhịp mạch đập, đau nặng lên khi đi lại/leo cầu thang, đi kèm triệu chứng tiêu hóa (buồn nôn, nôn) và các rối loạn giác quan (sợ ánh sáng - photophobia, sợ âm thanh - phonophobia)."
+              },
+              {
+                "q": "Đặc điểm lâm sàng nào sau đây là đặc trưng nhất của Đau đầu chuỗi (Cluster headache):",
+                "opts": [
+                  "Đau ê ẩm lan tỏa khắp đầu, gặp chủ yếu ở nữ giới",
+                  "Đau dữ dội vùng quanh ổ mắt hoặc thái dương một bên, cơn đau kéo dài 15 - 180 phút, kèm theo triệu chứng thần kinh thực vật cùng bên (đỏ mắt, chảy nước mắt, nghẹt mũi, co đồng tử, sụp mi) và bệnh nhân bồn chồn không thể ngồi yên",
+                  "Đau tăng lên khi ho hoặc rặn",
+                  "Đau xuất hiện sau khi ăn thức ăn có chứa bột ngọt"
+                ],
+                "ans": 1,
+                "exp": "Đau đầu chuỗi thuộc nhóm đau đầu dây thần kinh thực vật sinh ba, hay gặp ở nam giới; đau cực kỳ dữ dội quanh mắt một bên kèm phản ứng thần kinh thực vật cùng bên (hội chứng Horner không hoàn toàn, chảy nước mắt, chảy nước mũi); bệnh nhân thường kích thích, đi lại loanh quanh không thể nằm yên (khác với Migraine bệnh nhân muốn nằm nghỉ nơi tối và yên tĩnh)."
+              },
+              {
+                "q": "Biện pháp cắt cơn cấp tính đầu tay, an toàn và hiệu quả cao nhất cho bệnh nhân đang trong cơn đau đầu chuỗi cấp là:",
+                "opts": [
+                  "Thở oxy liều cao (100% với lưu lượng 10 - 12 lít/phút qua mặt nạ có túi dự trữ) và/hoặc dùng Triptan dạng tiêm dưới da/xịt mũi",
+                  "Uống Paracetamol liều cao kết hợp Ibuprofen",
+                  "Truyền tĩnh mạch dung dịch Natriclorid 0,9%",
+                  "Châm cứu bấm huyệt vùng thái dương"
+                ],
+                "ans": 0,
+                "exp": "Thở oxy 100% lưu lượng cao (10 - 15 l/phút) qua mask có túi là điều trị đặc hiệu hàng đầu giúp cắt cơn đau đầu chuỗi trong vòng 15 phút ở hơn 70% bệnh nhân; phối hợp với Sumatriptan tiêm dưới da 6mg."
+              },
+              {
+                "q": "Đặc điểm lâm sàng phân biệt Đau đầu căng thẳng (Tension-type headache) với Đau đầu Migraine là:",
+                "opts": [
+                  "Đau đầu căng thẳng có tính chất ép hoặc siết chặt hai bên, cường độ nhẹ đến vừa, không tăng lên khi hoạt động thể lực thường ngày và không kèm nôn",
+                  "Đau đầu căng thẳng luôn có dấu hiệu mạch đập",
+                  "Đau đầu căng thẳng luôn xuất hiện đột ngột dữ dội như sét đánh",
+                  "Đau đầu căng thẳng luôn chỉ khu trú một bên nửa đầu"
+                ],
+                "ans": 0,
+                "exp": "Đau đầu căng thẳng là loại đau đầu nguyên phát phổ biến nhất, đặc trưng bởi cảm giác căng tức/nặng nề quanh đầu (như đội mũ chật hoặc bị dải băng thắt), đau đối xứng hai bên, không có tính chất mạch đập, không nặng hơn khi leo cầu thang hay đi bộ nhẹ, không buồn nôn/nôn (có thể có sợ ánh sáng hoặc sợ tiếng động nhưng không bao giờ có cả hai)."
+              },
+              {
+                "q": "Dấu hiệu cảnh báo nguy hiểm (\"Cờ đỏ\" - Red flags) ở bệnh nhân đau đầu cần chỉ định chụp chẩn đoán hình ảnh sọ não khẩn cấp bao gồm các dấu hiệu sau, TRỪ:",
+                "opts": [
+                  "Đau đầu khởi phát đột ngột dữ dội đạt đỉnh trong vòng vài giây đến 1 phút (\"đau đầu sét đánh\")",
+                  "Đau đầu mới xuất hiện ở người trên 50 tuổi hoặc người có tiền sử ung thư, suy giảm miễn dịch/HIV",
+                  "Đau đầu kèm theo sốt, cứng gáy, rối loạn ý thức hoặc có dấu hiệu thần kinh khu trú",
+                  "Đau nửa đầu giật theo nhịp mạch xuất hiện từ thời trẻ, lặp lại nhiều năm với tính chất tương tự"
+                ],
+                "ans": 3,
+                "exp": "Đau đầu tái diễn nhiều năm với tính chất quen thuộc là đặc trưng của đau đầu nguyên phát lành tính. Các dấu hiệu \"cờ đỏ\" (hệ thống SNOOP: Systemic symptoms, Neurologic signs, Onset sudden, Older age, Pattern change) cảnh báo căn nguyên thứ phát nguy hiểm tính mạng như xuất huyết dưới nhện, u não, viêm màng não, huyết khối tĩnh mạch não... cần khảo sát hình ảnh sọ não ngay lập tức."
+              },
+              {
+                "q": "Thuốc nào sau đây được khuyến cáo lựa chọn hàng đầu để điều trị dự phòng (phòng ngừa cơn tái phát) cho bệnh nhân đau đầu Migraine thường xuyên (≥3−4≥ 3 - 4≥3−4 cơn/tháng):",
+                "opts": [
+                  "Paracetamol dùng hàng ngày",
+                  "Thuốc chẹn beta giao cảm (Propranolol, Metoprolol) hoặc thuốc chống trầm cảm 3 vòng (Amitriptyline) hoặc thuốc chống động kinh (Topiramate, Valproate)",
+                  "Ergotamine uống kéo dài",
+                  "Corticoid liều cao ngắt quãng"
+                ],
+                "ans": 1,
+                "exp": "Dự phòng Migraine chỉ định khi cơn đau thường xuyên hoặc ảnh hưởng nghiêm trọng đến sinh hoạt. Nhóm thuốc chẹn beta (Propranolol), chống trầm cảm (Amitriptyline), chống động kinh (Topiramate, Divalproex) là các lựa chọn hàng đầu được Bộ Y tế và quốc tế khuyến cáo. Tuyệt đối không dùng các thuốc cắt cơn (Triptan, Ergotamine, NSAIDs) liên tục hàng ngày vì sẽ gây biến chứng đau đầu do lạm dụng thuốc (MOH)."
+              }
+            ]
+          },
+          "12-day-than-kinh-so": {
+            "title": "Bài 3: Khám 12 đôi dây thần kinh sọ (10 câu)",
+            "questions": [
+              {
+                "q": "Bệnh nhân có triệu chứng nhìn mờ, khám thị trường phát hiện tổn thương \"Bán manh hai bên thái dương\" (mất nửa ngoài thị trường của cả hai mắt). Vị trí tổn thương giải phẫu định khu chính xác là tại:",
+                "opts": [
+                  "Dây thần kinh thị giác (Dây II) bên phải",
+                  "Giao thoa thị giác (Chiasma opticum)",
+                  "Dải thị giác bên trái",
+                  "Vỏ não thị giác thùy chẩm"
+                ],
+                "ans": 1,
+                "exp": "Tại giao thoa thị giác, chỉ có các sợi thần kinh xuất phát từ nửa trong (phía mũi) của võng mạc bắt chéo sang bên đối diện; các sợi này chịu trách nhiệm tiếp nhận hình ảnh từ nửa ngoài (phía thái dương) của thị trường. Do đó, tổn thương chèn ép tại giao thoa thị giác (thường gặp nhất là u tuyến yên phát triển lên trên) sẽ gây bán manh hai bên thái dương."
+              },
+              {
+                "q": "Dấu hiệu lâm sàng kinh điển giúp phân biệt chắc chắn giữa Liệt dây thần kinh VII ngoại biên (liệt Bell) và Liệt dây thần kinh VII trung ương là:",
+                "opts": [
+                  "Miệng bị méo lệch sang bên lành",
+                  "Rãnh mũi má bên liệt bị mờ",
+                  "Khả năng vận động của các cơ vùng nửa trên mặt: trong liệt VII ngoại biên bệnh nhân mất nếp nhăn trán và mắt nhắm không kín (dấu hiệu Charles Bell dương tính); còn trong liệt VII trung ương nếp nhăn trán và động tác nhắm mắt vẫn bình thường",
+                  "Mất cảm giác vùng má bên tổn thương"
+                ],
+                "ans": 2,
+                "exp": "Nhân vận động dây VII phần trên (chi phối cơ trán và cơ vòng mi) nhận sợi phân bố thần kinh từ vỏ não của cả hai bên bán cầu; trong khi nhân phần dưới (chi phối cơ quanh miệng) chỉ nhận phân bố từ bán cầu đối bên. Vì vậy, tổn thương trung ương trên nhân chỉ làm liệt 1/4 dưới mặt đối bên (trán nhăn bình thường, nhắm mắt kín); còn tổn thương dây VII ngoại biên từ nhân trở ra sẽ làm liệt toàn bộ nửa mặt cùng bên (mất nếp nhăn trán, dấu hiệu Charles Bell dương tính)."
+              },
+              {
+                "q": "Bệnh nhân có mắt phải lác ngoài, sụp mi mắt hoàn toàn, đồng tử giãn to và mất phản xạ ánh sáng. Bệnh nhân bị tổn thương dây thần kinh sọ nào:",
+                "opts": [
+                  "Dây thần kinh ròng rọc (Dây IV)",
+                  "Dây thần kinh sinh ba (Dây V)",
+                  "Dây thần kinh vận nhãn chung (Dây III) bên phải",
+                  "Dây thần kinh vận nhãn ngoài (Dây VI)"
+                ],
+                "ans": 2,
+                "exp": "Dây III chi phối cơ nâng mi trên, cơ thẳng trong, cơ thẳng trên, cơ thẳng dưới, cơ chéo dưới và các sợi phó giao cảm co đồng tử. Khi liệt dây III hoàn toàn: mắt mất vận động lên trên, xuống dưới và vào trong, cơ thẳng ngoài (dây VI) chiếm ưu thế kéo nhãn cầu lác ra ngoài, kèm sụp mi và giãn đồng tử mất phản xạ ánh sáng."
+              },
+              {
+                "q": "Khám phản xạ giác mạc (chạm nhẹ bông gòn vào rìa củng - giác mạc thấy bệnh nhân chớp cả hai mắt) dùng để đánh giá tính toàn vẹn của cung phản xạ qua các dây thần kinh sọ nào:",
+                "opts": [
+                  "Nhánh cảm giác đi vào theo dây thần kinh sinh ba (Dây V1) và nhánh vận động đi ra theo dây thần kinh mặt (Dây VII)",
+                  "Dây II đi vào và dây III đi ra",
+                  "Dây V đi vào và dây VI đi ra",
+                  "Dây VIII đi vào và dây VII đi ra"
+                ],
+                "ans": 0,
+                "exp": "Nhánh hướng tâm (cảm giác giác mạc) của phản xạ giác mạc được dẫn truyền bởi nhánh mắt (V1V_1V1​) của dây thần kinh sinh ba (Dây V); nhánh ly tâm (vận động khép cơ vòng mi gây chớp mắt) được dẫn truyền bởi dây thần kinh mặt (Dây VII) của cả hai bên."
+              },
+              {
+                "q": "Triệu chứng lác trong (nhãn cầu bị kéo lệch vào phía trong, không liếc ra ngoài được và nhìn đôi tăng lên khi nhìn ngang sang bên tổn thương) là biểu hiện tổn thương của dây thần kinh sọ nào:",
+                "opts": [
+                  "Dây thần kinh thị giác (Dây II)",
+                  "Dây thần kinh vận nhãn (Dây III)",
+                  "Dây thần kinh ròng rọc (Dây IV)",
+                  "Dây thần kinh vận nhãn ngoài (Dây VI)"
+                ],
+                "ans": 3,
+                "exp": "Dây VI chi phối duy nhất cơ thẳng ngoài, có chức năng đưa nhãn cầu liếc ra phía ngoài. Liệt dây VI làm cơ thẳng trong chiếm ưu thế kéo nhãn cầu lác vào trong và bệnh nhân không thể liếc mắt ra ngoài bên liệt. Dây VI có đoạn đường đi trong sọ dài nên rất nhạy cảm và dễ bị tổn thương khi có hội chứng tăng áp lực nội sọ."
+              },
+              {
+                "q": "Tam chứng Horner (Horner's syndrome) bao gồm các dấu hiệu sụp mi nhẹ, co nhỏ đồng tử và giảm/mất tiết mồ hôi nửa mặt cùng bên là do tổn thương của hệ thống nào:",
+                "opts": [
+                  "Tổn thương nhánh đối giao cảm của dây III",
+                  "Tổn thương đường dẫn truyền thần kinh giao cảm cổ",
+                  "Tổn thương nhân vận động dây VII",
+                  "Tổn thương hạch Gasser dây V"
+                ],
+                "ans": 1,
+                "exp": "Chuỗi hạch giao cảm cổ chi phối cơ giãn đồng tử (dilator pupillae), cơ nâng mi trên phụ (cơ Müller) và tuyến mồ hôi vùng mặt. Tổn thương giao cảm cổ (ví dụ do khối u đỉnh phổi Pancoast chèn ép) sẽ gây hội chứng Horner: co đồng tử, sụp mi một phần, mắt thụt sâu và mất mồ hôi nửa mặt cùng bên."
+              },
+              {
+                "q": "Khám các dây thần kinh sọ phối hợp IX (Thiệt hầu) và X (Lang thang) dựa trên các dấu hiệu lâm sàng nào sau đây:",
+                "opts": [
+                  "Cảm giác vị giác 2/32/32/3 trước lưỡi và vận động các cơ mặt",
+                  "Quan sát sự cân đối của vòm khẩu cái, dấu hiệu vén màn (Curtain sign), phản xạ nôn và khả năng nuốt/phát âm của bệnh nhân",
+                  "Động tác thè lưỡi và quan sát độ teo của cơ lưỡi",
+                  "Vận động cơ nhai và cơ thái dương"
+                ],
+                "ans": 1,
+                "exp": "Dây IX và X phối hợp chi phối vận động các cơ hầu họng, màn hầu và thanh quản. Tổn thương một bên sẽ làm vòm khẩu cái bên liệt bị sa xuống, lưỡi gà lệch sang bên lành khi bệnh nhân phát âm chữ \"A\" (dấu hiệu vén màn Vernet), kèm theo nuốt nghẹn, sặc chất lỏng và giọng nói khàn hoặc giọng mũi hở."
+              },
+              {
+                "q": "Khi yêu cầu bệnh nhân thè lưỡi ra ngoài, quan sát thấy đầu lưỡi bị lệch sang bên TRÁI. Nếu đây là tổn thương dây thần kinh hạ thiệt (Dây XII) ngoại biên thì vị trí dây thần kinh bị tổn thương nằm ở:",
+                "opts": [
+                  "Dây thần kinh XII bên phải",
+                  "Dây thần kinh XII bên trái",
+                  "Tổn thương vỏ não vận động bán cầu trái",
+                  "Tổn thương bắt chéo tháp"
+                ],
+                "ans": 1,
+                "exp": "Dây XII chi phối vận động cơ cằm - lưỡi cùng bên, có tác dụng đẩy nửa lưỡi ra trước và hướng sang phía đối diện. Khi liệt dây XII ngoại biên bên nào, cơ cằm lưỡi bên đó bị yếu/liệt, cơ bên lành sẽ đẩy lưỡi lệch sang chính bên bị bệnh (thè lưỡi lệch về bên tổn thương), kèm theo teo cơ và rung giật bó cơ nửa lưỡi bên liệt."
+              },
+              {
+                "q": "Hội chứng Foster-Kennedy là một hội chứng thần kinh đặc trưng giúp định khu các khối u vùng nền sọ tầng trước (như u rãnh khứu, u màng não cánh xương bướm), bao gồm:",
+                "opts": [
+                  "Phù gai thị cả hai bên mắt kèm nhìn đôi",
+                  "Teo gai thị cùng bên tổn thương (do khối u chèn ép trực tiếp dây II) và Phù gai thị ở mắt bên đối diện (do tăng áp lực nội sọ)",
+                  "Phù gai thị cùng bên và teo gai thị đối bên",
+                  "Liệt dây vận nhãn III và mất khứu giác hai bên"
+                ],
+                "ans": 1,
+                "exp": "Khối u ở nền sọ tầng trước chèn ép trực tiếp lên dây thần kinh thị giác cùng bên gây teo gai thị nguyên phát (và mất khứu giác do chèn dây I); đồng thời khi khối u phát triển lớn làm tăng áp lực nội sọ toàn thể sẽ gây phù gai thị ở mắt bên đối diện chưa bị chèn ép trực tiếp."
+              },
+              {
+                "q": "Thủ thuật nghiệm pháp Weber và Rinne sử dụng âm thoa trong thực hành thần kinh được dùng để đánh giá và phân biệt tổn thương của nhánh ốc tai (Dây VIII) là do:",
+                "opts": [
+                  "Liệt dây VII trung ương hay ngoại biên",
+                  "Rối loạn điều hòa tiểu não hay tiền đình",
+                  "Điếc dẫn truyền (tổn thương tai ngoài/tai giữa) hay Điếc tiếp nhận/thần kinh giác quan (tổn thương ốc tai hoặc dây thần kinh VIII)",
+                  "Tổn thương cuống não hay cầu não"
+                ],
+                "ans": 2,
+                "exp": "Nghiệm pháp Rinne so sánh thời gian dẫn truyền qua đường khí đạo và cốt đạo. Nghiệm pháp Weber so sánh sự dẫn truyền cốt đạo giữa hai tai; kết hợp hai nghiệm pháp giúp bác sĩ phân biệt chính xác giảm thính lực là do nguyên nhân cơ học dẫn truyền (Rinne âm tính) hay do tổn thương thần kinh ốc tai - dây VIII (Rinne dương tính, Weber lệch sang tai lành)."
+              }
+            ]
+          }
+        }
+      },
+      "tieu-hoa-gan-mat": {
+        "name": "Khoa Tiêu hóa - Gan mật",
+        "lessons": {
+          "viem-loet-da-day-ta-trang": {
+            "title": "Bài 1: Viêm loét dạ dày - tá tràng (5 câu)",
+            "questions": [
+              {
+                "q": "Phương pháp cận lâm sàng có giá trị tiêu chuẩn vàng để chẩn đoán xác định bệnh loét dạ dày - tá tràng là:",
+                "opts": [
+                  "Chụp X-quang dạ dày - tá tràng có thuốc cản quang",
+                  "Nội soi thực quản - dạ dày - tá tràng qua đường tiêu hóa trên",
+                  "Chụp cắt lớp vi tính (CT scanner) ổ bụng",
+                  "Siêu âm ổ bụng"
+                ],
+                "ans": 1,
+                "exp": "Nội soi tiêu hóa trên là phương tiện chẩn đoán chính xác nhất, cho phép quan sát trực tiếp vị trí, kích thước, hình thái và bờ ổ loét, đồng thời hỗ trợ sinh thiết loại trừ ung thư dạ dày và làm các xét nghiệm tìm vi khuẩn Helicobacter pylori."
+              },
+              {
+                "q": "Hai nguyên nhân kinh điển và phổ biến hàng đầu gây viêm loét dạ dày - tá tràng là:",
+                "opts": [
+                  "Căng thẳng tâm lý (Stress) và chế độ ăn nhiều gia vị cay nóng",
+                  "Nhiễm vi khuẩn Helicobacter pylori (H. pylori) và sử dụng các thuốc chống viêm không steroid (NSAIDs/Aspirin)",
+                  "Trào ngược dịch mật và nhiễm nấm Candida",
+                  "Nghiện rượu và hút thuốc lá"
+                ],
+                "ans": 1,
+                "exp": "Nhiễm H. pylori và việc lạm dụng các thuốc giảm đau chống viêm non-steroid (NSAIDs/Aspirin) chiếm trên 90% nguyên nhân làm mất cân bằng giữa yếu tố bảo vệ niêm mạc (chất nhầy, bicarbonat, prostaglandin) và yếu tố tấn công (acid dịch vị, pepsin) dẫn đến hình thành ổ loét."
+              },
+              {
+                "q": "Các phương pháp không xâm lấn thường được áp dụng để chẩn đoán nhiễm vi khuẩn Helicobacter pylori bao gồm:",
+                "opts": [
+                  "Test urease nhanh qua mảnh sinh thiết nội soi (RUT)",
+                  "Test thở Ure (^{13}C hoặc ^{14}C), xét nghiệm tìm kháng nguyên H. pylori trong phân và huyết thanh học tìm kháng thể IgG",
+                  "Chụp X-quang dạ dày có thuốc cản quang",
+                  "Nuôi cấy vi khuẩn từ dịch dạ dày hút qua ống thông"
+                ],
+                "ans": 1,
+                "exp": "Test thở Ure (^{13}C hoặc ^{14}C) và xét nghiệm kháng nguyên trong phân là hai phương pháp không xâm lấn có độ nhạy và độ đặc hiệu cao nhất, thường được chỉ định để chẩn đoán ban đầu cũng như đánh giá kết quả tiệt trừ sau điều trị. Test urease nhanh qua nội soi là phương pháp xâm lấn."
+              },
+              {
+                "q": "Tại Việt Nam và các khu vực có tỷ lệ vi khuẩn H. pylori kháng Clarithromycin cao (> 15%), phác đồ tiệt trừ H. pylori được Bộ Y tế khuyến cáo lựa chọn ưu tiên hàng đầu là:",
+                "opts": [
+                  "Phác đồ 3 thuốc: PPI + Amoxicillin + Clarithromycin trong 10 ngày",
+                  "Phác đồ 4 thuốc có Bismuth: PPI + Bismuth + Tetracycline + Metronidazole trong 14 ngày",
+                  "Phác đồ phối hợp PPI + Ciprofloxacin trong 7 ngày",
+                  "Đơn trị liệu bằng thuốc ức chế bơm proton (PPI) liều cao"
+                ],
+                "ans": 1,
+                "exp": "Do tỷ lệ kháng Clarithromycin ban đầu tại Việt Nam hiện nay rất cao (> 30 - 40%), phác đồ 3 thuốc cổ điển đã mất hiệu lực; phác đồ 4 thuốc có Bismuth dùng liên tục 14 ngày đạt tỷ lệ tiệt trừ thành công > 85 - 90% và là lựa chọn đầu tay."
+              },
+              {
+                "q": "Các biến chứng ngoại khoa cấp tính và mạn tính thường gặp của bệnh loét dạ dày - tá tràng bao gồm:",
+                "opts": [
+                  "Thủng ổ loét gây viêm phúc mạc",
+                  "Xuất huyết tiêu hóa do loét ăn mòn mạch máu",
+                  "Hẹp môn vị do phù nề và xơ sẹo co kéo",
+                  "Tất cả các biến chứng trên"
+                ],
+                "ans": 3,
+                "exp": "Bệnh loét dạ dày - tá tràng nếu không được điều trị triệt để có thể dẫn đến ba biến chứng chính: Xuất huyết tiêu hóa cao (thường gặp nhất), thủng ổ loét tạo liềm hơi dưới cơ hoành gây viêm phúc mạc cấp, và hẹp môn vị gây nôn thức ăn cũ ứ đọng."
+              }
+            ]
+          },
+          "viem-loet-dai-truc-trang": {
+            "title": "Bài 2: Viêm loét đại trực tràng chảy máu (5 câu)",
+            "questions": [
+              {
+                "q": "Đặc điểm tổn thương giải phẫu bệnh và nội soi điển hình của bệnh Viêm loét đại trực tràng chảy máu (Ulcerative Colitis) là:",
+                "opts": [
+                  "Tổn thương dạng từng đoạn ngắt quãng (nhảy cóc), xen kẽ giữa các vùng niêm mạc lành",
+                  "Tổn thương bắt đầu liên tục từ trực tràng lan dần lên trên qua đại tràng, chỉ khu trú ở lớp niêm mạc và dưới niêm mạc",
+                  "Tổn thương viêm xuyên thành toàn bộ các lớp của thành ruột kèm theo đường rò",
+                  "Thường chỉ tổn thương đoạn cuối hồi tràng và manh tràng"
+                ],
+                "ans": 1,
+                "exp": "Viêm loét đại trực tràng chảy máu (UC) luôn khởi phát từ trực tràng rồi lan liên tục lên trên không có vùng niêm mạc lành xen kẽ (khác với bệnh Crohn có tổn thương nhảy cóc và viêm xuyên thành), đồng thời mức độ tổn thương chỉ nông ở lớp niêm mạc và dưới niêm mạc."
+              },
+              {
+                "q": "Triệu chứng lâm sàng thường gặp nhất khiến bệnh nhân viêm loét đại trực tràng chảy máu đi khám bệnh là:",
+                "opts": [
+                  "Táo bón mạn tính kéo dài nhiều năm",
+                  "Đại tiện nhiều lần phân lỏng có lẫn nhầy máu, kèm theo đau quặn bụng dưới và mót rặn",
+                  "Nôn ra máu đỏ tươi kèm đau vùng thượng vị",
+                  "Đau quặn bụng cơn vùng hạ sườn phải lan lên vai"
+                ],
+                "ans": 1,
+                "exp": "Niêm mạc trực tràng và đại tràng bị xung huyết, trợt loét liên tục dẫn đến xuất huyết và tăng tiết chất nhầy, kích thích co bóp cơ trơn trực tràng gây hội chứng lỵ mạn tính: đại tiện nhiều lần phân nhầy máu, đau quặn dọc khung đại tràng và cảm giác mót rặn liên tục."
+              },
+              {
+                "q": "Thang điểm lâm sàng kinh điển được sử dụng phổ biến nhất để phân độ mức độ nặng của đợt bùng phát viêm loét đại trực tràng chảy máu là:",
+                "opts": [
+                  "Thang điểm Child-Pugh",
+                  "Thang điểm Rockall",
+                  "Thang điểm Truelove và Witts",
+                  "Thang điểm Glasgow"
+                ],
+                "ans": 2,
+                "exp": "Tiêu chuẩn Truelove và Witts phân chia đợt cấp thành nhẹ, trung bình và nặng dựa vào 6 thông số: số lần đi ngoài phân máu trong ngày (< 4 lần/ngày là nhẹ, ≥ 6 lần/ngày là nặng), nhiệt độ cơ thể, nhịp tim, nồng độ Hemoglobin máu, tốc độ lắng máu (沉, ESR) và chỉ số CRP."
+              },
+              {
+                "q": "Thuốc chống viêm được lựa chọn hàng đầu để điều trị tấn công và duy trì lui bệnh cho viêm loét đại trực tràng chảy máu mức độ nhẹ đến trung bình là:",
+                "opts": [
+                  "Nhóm 5-ASA (Mesalamine/Sulfasalazine) dùng đường uống và/hoặc viên đặt/thụt tại chỗ",
+                  "Kháng sinh nhóm Aminoglycoside đường tĩnh mạch",
+                  "Thuốc ức chế bơm proton (PPI) liều cao",
+                  "Thuốc giảm nhu động ruột Loperamide"
+                ],
+                "ans": 0,
+                "exp": "Các hợp chất chứa 5-ASA (5-aminosalicylic acid, như Mesalamine) có tác dụng chống viêm tại chỗ trên bề mặt niêm mạc đại tràng, là lựa chọn nền tảng hàng đầu để đạt được lui bệnh và duy trì lâu dài ở bệnh nhân thể nhẹ và trung bình. Tuyệt đối tránh dùng thuốc làm liệt ruột/giảm nhu động (như Loperamide) trong đợt cấp vì nguy cơ gây phình giãn đại tràng nhiễm độc."
+              },
+              {
+                "q": "Biến chứng cấp tính đe dọa tính mạng người bệnh trong đợt tiến triển nặng của viêm loét đại trực tràng chảy máu là:",
+                "opts": [
+                  "Hội chứng Mallory-Weiss",
+                  "Phình giãn đại tràng nhiễm độc (Toxic megacolon) và thủng đại tràng",
+                  "Hẹp thực quản co rút",
+                  "Trĩ nội tắc mạch"
+                ],
+                "ans": 1,
+                "exp": "Viêm loét sâu lan tỏa làm tổn thương lớp cơ và hệ thần kinh cơ ruột, khiến đại tràng mất trương lực và giãn to trên 6 cm kèm theo hội chứng nhiễm độc toàn thân (sốt cao, nhịp nhanh, tụt huyết áp, viêm phúc mạc do hoại tử thủng), đòi hỏi phải hồi sức tích cực và phẫu thuật cấp cứu cắt toàn bộ đại tràng."
+              }
+            ]
+          },
+          "gerd-trao-nguoc": {
+            "title": "Bài 3: Trào ngược dạ dày thực quản (GERD) (5 câu)",
+            "questions": [
+              {
+                "q": "Hai triệu chứng lâm sàng điển hình và có giá trị nhất để định hướng chẩn đoán bệnh trào ngược dạ dày thực quản là:",
+                "opts": [
+                  "Đau quặn bụng quanh rốn và ỉa chảy",
+                  "Ợ nóng (cảm giác nóng rát sau xương ức lan lên cổ) và Ợ chua (trớ dịch toan lên miệng)",
+                  "Khó thở thì thở ra kèm theo ran rít",
+                  "Nuốt nghẹn thức ăn đặc tăng dần"
+                ],
+                "ans": 1,
+                "exp": "Ợ nóng (Heartburn) và trớ dịch acid/thức ăn (Regurgitation) là hai triệu chứng đặc hiệu nhất của GERD. Khi bệnh nhân có các triệu chứng này xuất hiện ≥ 2 lần/tuần gây ảnh hưởng chất lượng cuộc sống thì có thể chẩn đoán xác định và tiến hành điều trị thử bằng PPI."
+              },
+              {
+                "q": "Bệnh trào ngược dạ dày thực quản được xác định là gây ảnh hưởng đáng kể trên lâm sàng khi triệu chứng ợ nóng/ợ trớ xuất hiện với tần suất:",
+                "opts": [
+                  "1 lần/tháng",
+                  "1 lần/tuần",
+                  "Từ 2 lần trở lên trong một tuần",
+                  "3 lần/ngày kéo dài trong 3 ngày"
+                ],
+                "ans": 2,
+                "exp": "Theo định nghĩa Montreal, trào ngược dạ dày thực quản được xem là bệnh lý (GERD) khi các triệu chứng trào ngược gây phiền toái cho người bệnh, thường là xuất hiện ≥ 2 ngày trong một tuần đối với mức độ nhẹ hoặc ≥ 1 ngày trong tuần đối với mức độ trung bình đến nặng."
+              },
+              {
+                "q": "Nhóm thuốc được khuyến cáo ưu tiên lựa chọn hàng đầu để điều trị kiểm soát triệu chứng và làm lành tổn thương viêm thực quản do trào ngược là:",
+                "opts": [
+                  "Thuốc ức chế bơm proton (PPI)",
+                  "Thuốc kháng thụ thể Histamin H2 đơn độc",
+                  "Thuốc kháng acid (Antacid) dạng nhôm/magnesi phosphat",
+                  "Thuốc bao phủ niêm mạc Sucralfate"
+                ],
+                "ans": 0,
+                "exp": "Thuốc ức chế bơm proton (Omeprazole, Esomeprazole, Rabeprazole, Pantoprazole...) ức chế bài tiết acid dịch vị mạnh và kéo dài nhất, giúp nâng cao pH dạ dày, làm giảm triệu chứng nhanh chóng và liền sẹo trợt loét niêm mạc thực quản với tỷ lệ cao nhất."
+              },
+              {
+                "q": "Thời gian của một liệu trình điều trị chuẩn ban đầu bằng thuốc ức chế bơm proton (PPI) đường uống cho bệnh trào ngược dạ dày thực quản là:",
+                "opts": [
+                  "2 tuần",
+                  "4 tuần",
+                  "8 tuần (uống 1 lần/ngày trước bữa ăn sáng 30 - 60 phút)",
+                  "6 tháng liên tục"
+                ],
+                "ans": 2,
+                "exp": "Hướng dẫn của Bộ Y tế và Hiệp hội Tiêu hóa khuyến cáo liệu trình khởi đầu chuẩn của PPI là 8 tuần với liều tiêu chuẩn 1 lần mỗi ngày trước ăn sáng 30 - 60 phút nhằm đảm bảo ức chế tối đa các bơm proton mới tổng hợp."
+              },
+              {
+                "q": "Trường hợp trào ngược dạ dày thực quản được định nghĩa là \"GERD kháng trị\" khi:",
+                "opts": [
+                  "Bệnh nhân không đỡ triệu chứng sau 2 tuần dùng thuốc kháng acid",
+                  "Bệnh nhân vẫn còn ợ nóng sau 4 tuần dùng PPI liều tiêu chuẩn 1 lần/ngày",
+                  "Không đáp ứng cải thiện triệu chứng sau khi đã điều trị tối ưu bằng thuốc PPI liều gấp đôi (chia 2 lần/ngày) liên tục trên 8 tuần",
+                  "Bệnh nhân có biến chứng Barrett thực quản"
+                ],
+                "ans": 2,
+                "exp": "GERD kháng trị được chẩn đoán khi triệu chứng vẫn dai dẳng hoặc tổn thương viêm loét thực quản không liền dù đã tuân thủ điều trị PPI liều gấp đôi (uống trước ăn sáng và trước ăn tối) kéo dài tối thiểu 8 tuần liên tục. Trường hợp này cần tiến hành đo pH - trở kháng thực quản 24 giờ và nội soi lại."
+              }
+            ]
+          },
+          "xuat-huyet-tieu-hoa": {
+            "title": "Bài 4: Xuất huyết tiêu hóa (7 câu)",
+            "questions": [
+              {
+                "q": "Nguyên nhân thường gặp nhất gây xuất huyết tiêu hóa cao (chảy máu trên góc Treitz) ở người bệnh không có hội chứng tăng áp lực tĩnh mạch cửa là:",
+                "opts": [
+                  "Loét dạ dày - tá tràng",
+                  "Hội chứng rách rách tâm vị Mallory-Weiss",
+                  "Ung thư dạ dày tiến triển",
+                  "Dị dạng mạch máu đường tiêu hóa (Dieulafoy)"
+                ],
+                "ans": 0,
+                "exp": "Loét dạ dày - tá tràng chiếm khoảng 50 - 60% tổng số các trường hợp xuất huyết tiêu hóa trên nhập viện cấp cứu, phổ biến hơn nhiều so với rách tâm vị hay dị dạng mạch máu."
+              },
+              {
+                "q": "Theo phân loại Forrest trên hình ảnh nội soi dạ dày tá tràng, tổn thương được xếp vào mức độ \"Forrest IIa\" là:",
+                "opts": [
+                  "Máu đang phun thành tia từ đáy ổ loét",
+                  "Máu đang rỉ ối từ ổ loét",
+                  "Đáy ổ loét có điểm mạch nhìn thấy rõ nhưng hiện tại không có máu đang chảy",
+                  "Đáy ổ loét có cục máu đông bám chắc"
+                ],
+                "ans": 2,
+                "exp": "Phân loại Forrest trong loét dạ dày - tá tràng: Forrest Ia: Chảy máu phun thành tia Forrest Ib: Chảy máu rỉ ối Forrest IIa: Có điểm mạch nổi rõ (không chảy máu) Forrest IIb: Có cục máu đông bám Forrest IIc: Đáy có cặn sắc tố đen Forrest III: Đáy ổ loét sạch."
+              },
+              {
+                "q": "Chỉ định sử dụng thuốc ức chế bơm proton (PPI) đường tĩnh mạch liều cao (tiêm bolus 80 mg, sau đó truyền liên tục 8 mg/giờ trong 72 giờ) được áp dụng bắt buộc sau can thiệp nội soi cho các phân độ Forrest nào:",
+                "opts": [
+                  "Chỉ áp dụng cho Forrest III",
+                  "Forrest IIc và Forrest III",
+                  "Forrest Ia, Ib, IIa và IIb (các nhóm nguy cơ chảy máu tái phát cao)",
+                  "Áp dụng cho mọi trường hợp viêm dạ dày đơn thuần"
+                ],
+                "ans": 2,
+                "exp": "Các tổn thương thuộc nhóm nguy cơ cao (Forrest Ia, Ib, IIa, IIb) sau khi can thiệp cầm máu qua nội soi cần được duy trì pH dạ dày ≥ 6 liên tục trong 72 giờ đầu bằng phác đồ PPI liều cao truyền tĩnh mạch nhằm ngăn cản quá trình tiêu cục máu đông và phòng ngừa tái xuất huyết."
+              },
+              {
+                "q": "Thang điểm lâm sàng được sử dụng phổ biến nhất để phân tầng nguy cơ xuất huyết tiêu hóa cao, dự đoán tỷ lệ chảy máu tái phát và tỷ lệ tử vong dựa trên cả lâm sàng và nội soi là:",
+                "opts": [
+                  "Thang điểm Child-Pugh",
+                  "Thang điểm CURB-65",
+                  "Thang điểm Rockall (bao gồm Rockall lâm sàng và Rockall đầy đủ)",
+                  "Thang điểm Wells"
+                ],
+                "ans": 2,
+                "exp": "Thang điểm Rockall kết hợp tuổi, tình trạng huyết động (mạch, huyết áp), bệnh phối hợp kèm theo cùng với hình ảnh tổn thương và dấu hiệu chảy máu qua nội soi để phân loại bệnh nhân thành các nhóm nguy cơ thấp, trung bình và cao về khả năng tái xuất huyết và tử vong."
+              },
+              {
+                "q": "Thuốc điều trị đặc hiệu có tác dụng làm co mạch tạng chọn lọc, giúp hạ áp lực tĩnh mạch cửa trong cấp cứu xuất huyết tiêu hóa do vỡ giãn tĩnh mạch thực quản là:",
+                "opts": [
+                  "Omeprazole truyền tĩnh mạch",
+                  "Octreotide (hoặc Somatostatin, Terlipressin)",
+                  "Metronidazole",
+                  "Tranexamic acid"
+                ],
+                "ans": 1,
+                "exp": "Octreotide (chất đồng vận somatostatin) hoặc Terlipressin gây co mạch hệ tạng, làm giảm lưu lượng máu vào hệ thống tĩnh mạch cửa, do đó làm giảm áp lực bên trong các búi giãn tĩnh mạch thực quản - dạ dày và hỗ trợ cầm máu nhanh chóng."
+              },
+              {
+                "q": "Mục tiêu nồng độ Hemoglobin (Hb) cần đạt khi truyền khối hồng cầu theo chiến lược truyền máu hạn chế ở bệnh nhân xuất huyết tiêu hóa trên không có bệnh lý tim mạch thiếu máu cục bộ là:",
+                "opts": [
+                  "Phải đưa Hb lên mức bình thường > 120 g/l",
+                  "Duy trì Hb trong khoảng 100 - 110 g/l",
+                  "Duy trì Hb trong khoảng 70 - 80 g/l (hoặc 70 - 90 g/l)",
+                  "Chỉ truyền máu khi bệnh nhân ngừng thở"
+                ],
+                "ans": 2,
+                "exp": "Các nghiên cứu đa trung tâm chứng minh chiến lược truyền máu hạn chế (bắt đầu truyền khi Hb < 70 g/l, duy trì mục tiêu 70 - 80 g/l ở người trẻ tuổi hoặc 80 - 90 g/l ở người có bệnh tim mạch) làm giảm áp lực nội mạch, giảm tỷ lệ chảy máu tái phát và giảm tỷ lệ tử vong rõ rệt so với truyền máu ồ ạt đưa Hb lên cao."
+              },
+              {
+                "q": "Trình tự các bước xử trí ban đầu đúng đắn khi tiếp nhận một bệnh nhân xuất huyết tiêu hóa trên nặng có tụt huyết áp là:",
+                "opts": [
+                  "Chuyển ngay đến phòng nội soi để can thiệp cầm máu, sau đó mới đặt đường truyền",
+                  "(1) Đặt bệnh nhân nằm đầu thấp, thở oxy; (2) Thiết lập ngay 2 đường truyền tĩnh mạch ngoại vi lớn, lấy máu xét nghiệm và truyền bù dịch đẳng trương/máu; (3) Dùng thuốc giảm tiết PPI tĩnh mạch; (4) Tiến hành nội soi can thiệp khi huyết động đã tạm ổn định",
+                  "Cho bệnh nhân uống sữa lạnh hoặc nước đá để cầm máu dạ dày",
+                  "Đặt ống thông Blakemore chèn ép ngay trước khi khám lâm sàng"
+                ],
+                "ans": 1,
+                "exp": "Nguyên tắc hồi sức cấp cứu: Hồi sức huyết động (bảo vệ đường thở, bù thể tích tuần hoàn bằng NaCl 0.9% hoặc Ringer Lactate qua kim luồn lớn) luôn luôn là ưu tiên số 1 trước khi đưa bệnh nhân đi can thiệp nội soi. Nội soi trên nền bệnh nhân đang sốc tụt huyết áp chưa được bù dịch sẽ làm tăng vọt nguy cơ ngừng tim và tai biến do thủ thuật."
+              }
+            ]
+          },
+          "viem-gan-virus": {
+            "title": "Bài 5: Viêm gan virus (10 câu)",
+            "questions": [
+              {
+                "q": "Dấu ấn huyết thanh đặc hiệu đầu tiên xuất hiện trong máu và dùng để chẩn đoán xác định tình trạng nhiễm virus viêm gan B (HBV) là:",
+                "opts": [
+                  "Anti-HBs",
+                  "HBsAg",
+                  "HBeAg",
+                  "Anti-HBc IgG"
+                ],
+                "ans": 1,
+                "exp": "HBsAg (kháng nguyên bề mặt của HBV) là dấu ấn xuất hiện sớm nhất trong huyết thanh sau khi phơi nhiễm (2 - 4 tuần trước khi men gan tăng và có triệu chứng lâm sàng). Sự tồn tại của HBsAg trên 6 tháng là tiêu chuẩn vàng chẩn đoán nhiễm virus viêm gan B mạn tính."
+              },
+              {
+                "q": "Dấu ấn huyết thanh chỉ điểm sự phục hồi lâm sàng và cơ thể đã có kháng thể bảo vệ miễn dịch chống lại virus viêm gan B là:",
+                "opts": [
+                  "HBeAg",
+                  "Anti-HBe",
+                  "Anti-HBs",
+                  "Anti-HBc IgM"
+                ],
+                "ans": 2,
+                "exp": "Kháng thể Anti-HBs xuất hiện sau khi HBsAg biến mất trong giai đoạn lui bệnh của viêm gan B cấp (hoặc xuất hiện sau khi tiêm phòng vắc-xin thành công), là bằng chứng khẳng định cơ thể đã có đáp ứng miễn dịch bảo vệ lâu dài chống lại HBV."
+              },
+              {
+                "q": "Dấu ấn nào sau đây phản ánh tình trạng virus viêm gan B đang nhân lên mạnh mẽ trong tế bào gan và người bệnh có nguy cơ lây nhiễm rất cao:",
+                "opts": [
+                  "HBeAg dương tính và nồng độ HBV DNA cao trong huyết thanh",
+                  "Anti-HBs nồng độ cao",
+                  "Anti-HBe dương tính",
+                  "Bilirubin máu toàn phần tăng"
+                ],
+                "ans": 0,
+                "exp": "HBeAg là kháng nguyên hòa tan được tiết ra trong quá trình nhân đôi của virus; sự hiện diện của HBeAg cùng với tải lượng HBV DNA cao phản ánh tình trạng virus đang phân chia nhân lên mạnh mẽ, tế bào gan bị hoại tử nhiều và nguy cơ lây truyền qua đường máu/từ mẹ sang con rất lớn."
+              },
+              {
+                "q": "Thuốc kháng virus đường uống (NUCs) được Bộ Y tế khuyến cáo lựa chọn an toàn hàng đầu để điều trị viêm gan B mạn tính cho phụ nữ đang mang thai là:",
+                "opts": [
+                  "Entecavir (ETV)",
+                  "Lamivudine (LAM)",
+                  "Tenofovir disoproxil fumarate (TDF)",
+                  "Tenofovir alafenamide (TAF)"
+                ],
+                "ans": 2,
+                "exp": "TDF có hàng rào kháng thuốc cao, hiệu quả ức chế virus mạnh và có dữ liệu an toàn đầy đủ nhất trong thai kỳ (phân loại mức độ an toàn cho thai kỳ theo FDA là nhóm B), không gây dị tật bẩm sinh và giúp dự phòng lây truyền HBV từ mẹ sang con."
+              },
+              {
+                "q": "Đặc điểm dịch tễ học và tiến triển tự nhiên điển hình của bệnh Viêm gan virus C (HCV) là:",
+                "opts": [
+                  "Hơn 90% bệnh nhân tự khỏi hoàn toàn mà không để lại di chứng",
+                  "Bệnh lây truyền chủ yếu qua đường ăn uống và phân - miệng",
+                  "Khoảng 75 - 85% trường hợp nhiễm virus cấp tính sẽ tiến triển thành viêm gan mạn tính",
+                  "Hiện nay đã có vắc-xin tiêm phòng phổ cập trong chương trình tiêm chủng mở rộng"
+                ],
+                "ans": 2,
+                "exp": "Khác với viêm gan B ở người lớn (hơn 90% tự khỏi), viêm gan C cấp tính thường có triệu chứng lâm sàng âm thầm và có tới 75 - 85% người nhiễm chuyển thành viêm gan mạn tính, là nguyên nhân hàng đầu dẫn đến xơ gan và ung thư biểu mô tế bào gan. Hiện tại vẫn chưa có vắc-xin phòng bệnh viêm gan C."
+              },
+              {
+                "q": "Phác đồ thuốc kháng virus tác dụng trực tiếp (DAAs) Sofosbuvir/Velpatasvir (SOF/VEL) cho bệnh nhân viêm gan C mạn tính chưa có xơ gan hoặc xơ gan còn bù có thời gian điều trị chuẩn theo Bộ Y tế là:",
+                "opts": [
+                  "8 tuần",
+                  "10 tuần",
+                  "12 tuần (uống 1 viên/ngày)",
+                  "24 tuần"
+                ],
+                "ans": 2,
+                "exp": "Phác đồ DAAs tác dụng trên tất cả các genotype (pangenotypic) Sofosbuvir 400mg + Velpatasvir 100mg phối hợp cố định trong 1 viên/ngày uống liên tục 12 tuần đạt tỷ lệ đáp ứng virus bền vững (SVR 12 - coi như khỏi bệnh) trên 95% ở bệnh nhân chưa có xơ gan hoặc xơ gan Child-Pugh A."
+              },
+              {
+                "q": "Chống chỉ định tuyệt đối sử dụng các thuốc kháng virus tác dụng trực tiếp (DAAs) trong điều trị viêm gan C là:",
+                "opts": [
+                  "Phụ nữ đang mang thai",
+                  "Bệnh nhân cao tuổi trên 65 tuổi",
+                  "Bệnh nhân có tiền sử đái tháo đường",
+                  "Bệnh nhân đồng nhiễm HIV đang điều trị ARV ổn định"
+                ],
+                "ans": 0,
+                "exp": "Hiện nay chưa có đầy đủ dữ liệu an toàn về nguy cơ quái thai của các phác đồ DAAs trên người mang thai; do đó chống chỉ định sử dụng DAAs trong thai kỳ và phụ nữ trong độ tuổi sinh đẻ cần thực hiện biện pháp tránh thai hiệu quả trong suốt đợt điều trị."
+              },
+              {
+                "q": "Đường lây truyền chủ yếu của virus viêm gan A (HAV) và virus viêm gan E (HEV) là:",
+                "opts": [
+                  "Đường tiêu hóa (phân - miệng qua nguồn nước và thực phẩm ô nhiễm)",
+                  "Đường máu và tiêm chích ma túy",
+                  "Đường quan hệ tình dục không an toàn",
+                  "Đường hô hấp qua các giọt bắn"
+                ],
+                "ans": 0,
+                "exp": "HAV và HEV là các virus không có vỏ bọc lipid, đào thải qua phân và lây nhiễm qua đường tiêu hóa do ăn uống thực phẩm, nguồn nước bị nhiễm mầm bệnh. Bệnh tiến triển cấp tính, không chuyển sang mạn tính (trừ một số trường hợp nhiễm HEV trên cơ địa suy giảm miễn dịch nặng)."
+              },
+              {
+                "q": "Tam chứng lâm sàng thường gặp trong giai đoạn khởi phát của viêm gan virus cấp điển hình gồm:",
+                "opts": [
+                  "Cổ trướng, phù hai chân và xuất huyết tiêu hóa",
+                  "Sốt nhẹ, mệt mỏi chán ăn, sợ mỡ, buồn nôn, đau tức âm ỉ vùng hạ sườn phải, sau đó xuất hiện nước tiểu sẫm màu và vàng da",
+                  "Đau bụng dữ dội lan ra sau lưng kèm theo nôn vọt",
+                  "Tiêu chảy phân nhầy máu kèm theo mót rặn liên tục"
+                ],
+                "ans": 1,
+                "exp": "Viêm gan virus cấp thường khởi phát bằng giai đoạn tiền hoàng đản kéo dài vài ngày đến một tuần với các triệu chứng giống cúm hoặc rối loạn tiêu hóa (sốt nhẹ, chán ăn, đầy bụng, sợ mùi thức ăn nhiều dầu mỡ), tiếp theo là giai đoạn hoàng đản (tiểu vàng đậm như nước chè đặc, vàng củng mạc mắt, vàng da, khi vàng da xuất hiện thì sốt thường giảm đi)."
+              },
+              {
+                "q": "Bệnh nhân được chẩn đoán ung thư biểu mô tế bào gan (HCC) trên nền viêm gan virus B mạn tính, chỉ định điều trị thuốc kháng virus (TDF hoặc ETV) được đặt ra khi:",
+                "opts": [
+                  "Bất kỳ khi nào bệnh nhân có HBsAg dương tính (bất kể tải lượng HBV DNA và nồng độ ALT)",
+                  "Chỉ điều trị khi ALT ≥ 2 lần giới hạn trên bình thường",
+                  "Chỉ điều trị khi tải lượng virus HBV DNA ≥ 20.000 IU/ml",
+                  "Chỉ điều trị khi khối u gan có kích thước < 3 cm"
+                ],
+                "ans": 0,
+                "exp": "Hướng dẫn của Bộ Y tế và AASLD/EASL quy định: Người bệnh ung thư gan có nhiễm HBV (HBsAg dương tính) bắt buộc phải điều trị thuốc kháng virus NUCs ngay lập tức và kéo dài suốt đời nhằm ức chế sự nhân lên của virus, bảo tồn chức năng tế bào gan còn lại và giảm nguy cơ tái phát u sau can thiệp phẫu thuật/TACE."
+              }
+            ]
+          },
+          "xo-gan": {
+            "title": "Bài 6: Xơ gan (10 câu)",
+            "questions": [
+              {
+                "q": "Đặc điểm tổn thương mô bệnh học kinh điển xác định bản chất của xơ gan là:",
+                "opts": [
+                  "Gan to ứ máu và giãn rộng các tĩnh mạch trên gan",
+                  "Hoại tử tế bào gan lan tỏa, tăng sinh mô xơ liên kết tạo thành các dải xơ và hình thành các nốt tân sinh (nodule) làm đảo lộn cấu trúc vi thể của tiểu thùy gan",
+                  "Thoái hóa mỡ đơn thuần của các tế bào gan quanh tĩnh mạch trung tâm",
+                  "Sự tích tụ quá mức của các tinh thể sắt hoặc đồng trong nhu mô gan"
+                ],
+                "ans": 1,
+                "exp": "Xơ gan là hậu quả cuối cùng của quá trình viêm mạn tính: các tế bào gan bị tổn thương liên tục kích hoạt các tế bào hình sao (tế bào Ito) tăng tổng hợp collagen tạo dải xơ bao quanh các cụm tế bào gan tái tạo (tạo thành nốt giả/nodule), làm biến dạng hoàn toàn mạng lưới mạch máu và cấu trúc tiểu thùy gan."
+              },
+              {
+                "q": "Hai hội chứng lâm sàng lớn phản ánh đầy đủ các triệu chứng và biến chứng của bệnh xơ gan mất bù là:",
+                "opts": [
+                  "Hội chứng nhiễm khuẩn và hội chứng thiếu máu",
+                  "Hội chứng suy chức năng tế bào gan và Hội chứng tăng áp lực tĩnh mạch cửa",
+                  "Hội chứng đông đặc phổi và hội chứng tràn dịch đa màng",
+                  "Hội chứng cushing và hội chứng chuyển hóa"
+                ],
+                "ans": 1,
+                "exp": "Xơ gan tiến triển biểu hiện bằng 2 hội chứng lớn: Suy chức năng gan: vàng da, sao mạch, lòng bàn tay son, phù hai chân, xuất huyết dưới da do giảm đông máu, albumin máu giảm. Tăng áp lực tĩnh mạch cửa: cổ trướng, tuần hoàn bàng hệ kiểu cửa - chủ trên thành bụng, lách to và giãn tĩnh mạch thực quản - dạ dày."
+              },
+              {
+                "q": "Thang điểm Child-Pugh dùng để đánh giá mức độ suy giảm chức năng gan và tiên lượng bệnh nhân xơ gan bao gồm 5 tiêu chuẩn nào sau đây:",
+                "opts": [
+                  "Tuổi, Mạch, Huyết áp, Men gan AST, Men gan ALT",
+                  "Bilirubin toàn phần, Albumin huyết thanh, Chỉ số đông máu INR (hoặc tỷ lệ Prothrombin), Mức độ cổ trướng và Mức độ bệnh não gan",
+                  "Nồng độ Ure máu, Creatinin máu, Natri máu, Thể tích gan, Tiểu cầu",
+                  "Kích thước lách, Nồng độ AFP, Glucose máu, Số lượng hồng cầu, Bạch cầu"
+                ],
+                "ans": 1,
+                "exp": "Thang điểm Child-Pugh đánh giá 5 thông số (mỗi thông số 1 - 3 điểm): Bilirubin, Albumin, INR, Cổ trướng và Bệnh não gan; phân thành: Child-Pugh A (5 - 6 điểm: xơ gan còn bù), Child-Pugh B (7 - 9 điểm: mất bù mức độ vừa) và Child-Pugh C (10 - 15 điểm: mất bù nặng)."
+              },
+              {
+                "q": "Phác đồ dùng thuốc lợi tiểu khởi đầu được Bộ Y tế khuyến cáo trong điều trị cổ trướng do xơ gan là:",
+                "opts": [
+                  "Furosemide 80 mg/ngày đơn độc",
+                  "Phối hợp Spironolactone 100 mg/ngày và Furosemide 40 mg/ngày (uống 1 lần vào buổi sáng)",
+                  "Truyền tĩnh mạch Mannitol 20% liên tục",
+                  "Chỉ định Diamox kết hợp Hypothiazid"
+                ],
+                "ans": 1,
+                "exp": "Xơ gan có tình trạng cường aldosteron thứ phát; việc phối hợp thuốc kháng aldosterone (Spironolactone) và lợi tiểu quai (Furosemide) theo tỷ lệ chuẩn 100 mg : 40 mg (có thể tăng dần liều tối đa lên 400 mg : 160 mg) vừa đảm bảo hiệu quả thải muối nước vừa duy trì cân bằng nồng độ Kali máu."
+              },
+              {
+                "q": "Mục tiêu giảm cân nặng an toàn mỗi ngày khi điều trị lợi tiểu ở bệnh nhân xơ gan có cổ trướng là:",
+                "opts": [
+                  "Giảm tối đa 0,5 kg/ngày ở bệnh nhân không có phù ngoại vi (và giảm tối đa 1,0 kg/ngày ở bệnh nhân có phù hai chân kèm theo)",
+                  "Giảm 2 - 3 kg/ngày càng nhanh càng tốt",
+                  "Giảm 5 kg trong tuần đầu tiên",
+                  "Giảm cân không giới hạn miễn là bệnh nhân hết trướng bụng"
+                ],
+                "ans": 0,
+                "exp": "Dịch cổ trướng chỉ có thể tái hấp thu vào lòng mạch tối đa khoảng 500 ml/ngày. Nếu dùng lợi tiểu quá liều làm giảm cân quá nhanh (> 0,5 kg/ngày khi không phù) sẽ gây giảm thể tích tuần hoàn hiệu dụng, dẫn đến suy thận cấp trước thận, hạ natri máu và khởi phát hội chứng gan thận hoặc hôn mê gan."
+              },
+              {
+                "q": "Tiêu chuẩn chẩn đoán xác định Viêm phúc mạc nhiễm khuẩn nguyên phát (Nhiễm trùng dịch cổ trướng - SBP) khi chọc dò dịch màng bụng là:",
+                "opts": [
+                  "Dịch cổ trướng có nồng độ protein toàn phần > 30 g/l",
+                  "Số lượng bạch cầu đa nhân trung tính (PMN) trong dịch cổ trướng ≥ 250 tế bào/mm^3 (hoặc ≥ 0,25 G/L)",
+                  "Nồng độ glucose trong dịch màng bụng giảm bằng 0",
+                  "Cấy dịch cổ trướng thấy nhiều loại vi khuẩn kỵ khí phối hợp"
+                ],
+                "ans": 1,
+                "exp": "Số lượng bạch cầu đa nhân trung tính ≥ 250/mm^3 là tiêu chuẩn vàng trên lâm sàng để quyết định điều trị kháng sinh ngay lập tức mà không cần chờ kết quả nuôi cấy vi khuẩn (vì cấy dịch cổ trướng có tỷ lệ âm tính cao)."
+              },
+              {
+                "q": "Kháng sinh đường tĩnh mạch được lựa chọn hàng đầu theo kinh nghiệm để điều trị viêm phúc mạc nhiễm khuẩn nguyên phát ở bệnh nhân xơ gan là:",
+                "opts": [
+                  "Kháng sinh nhóm Aminoglycoside (Gentamicin) đơn độc",
+                  "Metronidazole kết hợp Ciprofloxacin",
+                  "Cephalosporin thế hệ 3 (Ceftriaxone 1 - 2 g/ngày hoặc Cefotaxime)",
+                  "Vancomycin kết hợp Colistin"
+                ],
+                "ans": 2,
+                "exp": "Tác nhân gây SBP chủ yếu là trực khuẩn Gram âm đường ruột di chuyển vào dịch ổ bụng (E. coli, Klebsiella). Cephalosporin thế hệ 3 có phổ diệt khuẩn tốt, nồng độ ngấm vào dịch cổ trướng cao và không gây độc cho thận như Aminoglycoside."
+              },
+              {
+                "q": "Biện pháp phòng ngừa tiên phát xuất huyết tiêu hóa ở bệnh nhân xơ gan có các búi giãn tĩnh mạch thực quản độ II - III (kích thước lớn) hoặc có dấu hiệu chấm đỏ trên nội soi là:",
+                "opts": [
+                  "Sử dụng thuốc chẹn beta giao cảm không chọn lọc (Propranolol, Nadolol, Carvedilol) hoặc Thắt giãn tĩnh mạch thực quản bằng vòng cao su qua nội soi (EVL)",
+                  "Uống thuốc ức chế bơm proton (PPI) kéo dài hàng ngày",
+                  "Tiêm xơ các búi giãn tĩnh mạch thực quản định kỳ",
+                  "Phẫu thuật cắt lách và nối thông cửa - chủ cấp cứu"
+                ],
+                "ans": 0,
+                "exp": "Thuốc chẹn beta không chọn lọc làm giảm nhịp tim (qua thụ thể β1) và gây co mạch mạc treo (qua thụ thể β2), làm giảm lưu lượng máu vào hệ cửa, giúp giảm áp lực tĩnh mạch cửa. Thắt búi giãn bằng vòng cao su (EVL) là biện pháp cơ học loại bỏ trực tiếp búi giãn có nguy cơ vỡ cao."
+              },
+              {
+                "q": "Thuốc điều trị nền tảng bắt buộc giúp làm giảm nồng độ Amoniac (NH_3) trong máu ở bệnh nhân có biểu hiện bệnh não gan (hôn mê gan) là:",
+                "opts": [
+                  "Kháng sinh Penicillin liều cao",
+                  "Dung dịch acid amin phân nhánh (BCAA) đường uống đơn độc",
+                  "Disaccharide không hấp thu (Lactulose hoặc Lactitol) dùng đường uống hoặc thụt tháo qua hậu môn",
+                  "Thuốc lợi tiểu Furosemide đường tĩnh mạch"
+                ],
+                "ans": 2,
+                "exp": "Lactulose là đường đôi không hấp thu, khi vào đại tràng bị vi khuẩn lên men thành acid lactic làm toan hóa môi trường lòng ruột (chuyển NH_3 khuếch tán thành ion NH_4^+ không thấm qua niêm mạc ruột vào máu), đồng thời có tác dụng nhuận tràng thẩm thấu tống sạch phân và chất chứa nitơ ra ngoài."
+              },
+              {
+                "q": "Biến chứng Hội chứng gan thận (Hepatorenal Syndrome - HRS) ở bệnh nhân xơ gan mất bù đặc trưng bởi tình trạng:",
+                "opts": [
+                  "Suy thận cấp do hoại tử ống thận cấp sau dùng thuốc cản quang",
+                  "Suy thận chức năng tiến triển do co mạch thận dữ dội trong bối cảnh giãn mạch hệ tạng nặng nề, mặc dù cấu trúc nhu mô thận hoàn toàn bình thường và không đáp ứng với bù đủ thể tích bằng Albumin",
+                  "Viêm cầu thận màng do lắng đọng phức hợp miễn dịch virus",
+                  "Suy thận sau thận do sỏi niệu quản hai bên"
+                ],
+                "ans": 1,
+                "exp": "Hội chứng gan thận là tổn thương thận cấp chức năng xảy ra trên nền xơ gan giai đoạn cuối: tình trạng giãn mạch tạng quá mức làm giảm thể tích máu hiệu dụng, kích hoạt hệ thống thần kinh giao cảm và hệ RAA gây co thắt cực mạnh các tiểu động mạch đến của thận làm giảm nghiêm trọng mức lọc cầu thận. Điều trị bao gồm bù Albumin người kết hợp thuốc co mạch tạng (Terlipressin hoặc Noradrenaline)."
+              }
+            ]
+          }
+        }
+      },
+      "cap-cuu-hoi-suc": {
+        "name": "Khoa Cấp cứu & Hồi sức",
+        "lessons": {
+          "kiem-soat-ban-dau-cap-cuu": {
+            "title": "Bài 1: Nhận định & kiểm soát ban đầu (3 câu)",
+            "questions": [
+              {
+                "q": "Trong hệ thống phân loại bệnh nhân cấp cứu (Triage) theo 4 mức độ màu sắc (Đỏ, Cam, Vàng, Xanh lá cây), bệnh nhân được phân loại mức độ CAM thuộc nhóm:",
+                "opts": [
+                  "Nguy kịch đe dọa tính mạng ngay tức thì, cần hồi sức ngay lập tức (0 phút)",
+                  "Cấp cứu không thể trì hoãn, thời gian tiếp cận xử trí tối đa trong vòng dưới 10 phút",
+                  "Khẩn cấp vừa phải, thời gian chờ tối đa 30 - 60 phút",
+                  "Không cấp cứu, có thể chờ khám theo thứ tự tiếp đón"
+                ],
+                "ans": 1,
+                "exp": "Hệ thống phân loại Triage chuẩn: Màu Đỏ (Hồi sức ngay/nguy kịch, 0 phút); Màu Cam (Cấp cứu khẩn, thời gian can thiệp < 10 phút); Màu Vàng (Cấp cứu vừa, trong vòng 30 - 60 phút); Màu Xanh (Không cấp cứu, có thể trì hoãn)."
+              },
+              {
+                "q": "Khi tiếp cận đánh giá ban đầu bệnh nhân cấp cứu nặng theo trình tự ABCDE, thao tác thực hiện đầu tiên là:",
+                "opts": [
+                  "Đánh giá sự thông thoáng của đường thở và kiểm soát cột sống cổ nếu có chấn thương (Airway & C-spine)",
+                  "Bắt mạch và đo huyết áp tứ chi (Circulation)",
+                  "Đánh giá thang điểm hôn mê Glasgow và phản xạ đồng tử (Disability)",
+                  "Bộc lộ toàn thân để tìm các tổn thương phối hợp (Exposure)"
+                ],
+                "ans": 0,
+                "exp": "Nguyên tắc cấp cứu luôn tuân thủ tuần tự ABCDE: Airway (đường thở kèm cố định cột sống cổ nếu nghi ngờ chấn thương) là ưu tiên số 1, tiếp đến Breathing (hô hấp), Circulation (tuần hoàn), Disability (thần kinh) và Exposure (bộc lộ toàn thân)."
+              },
+              {
+                "q": "Thao tác nào sau đây KHÔNG thuộc các bước khai thông và kiểm soát đường thở cơ bản:",
+                "opts": [
+                  "Nghiệm pháp ngửa đầu - nâng cằm (khi không có chấn thương cổ)",
+                  "Đẩy góc hàm (Jaw-thrust khi nghi ngờ chấn thương cột sống cổ)",
+                  "Hút sạch dịch đờm dãi, máu hoặc dị vật trong khoang miệng",
+                  "Mở màng phổi tối thiểu đặt ống dẫn lưu dịch khí"
+                ],
+                "ans": 3,
+                "exp": "Dẫn lưu màng phổi thuộc bước can thiệp hô hấp (Breathing) để xử trí tràn khí/tràn máu màng phổi, không thuộc bước khai thông đường thở cơ bản (Airway)."
+              }
+            ]
+          },
+          "suy-ho-hap-cap": {
+            "title": "Bài 2: Suy hô hấp cấp (3 câu)",
+            "questions": [
+              {
+                "q": "Chỉ số khí máu động mạch nào sau đây xác định chắc chắn người bệnh có tình trạng suy hô hấp cấp nặng:",
+                "opts": [
+                  "PaO₂ < 80 mmHg khi thở khí phòng",
+                  "PaCO₂ > 40 mmHg kèm pH = 7,38",
+                  "PaO₂ < 60 mmHg khi thở khí phòng (hoặc tỷ lệ PaO₂/FiO₂ ≤ 200 - 300)",
+                  "SaO_2 từ 94 - 98%"
+                ],
+                "ans": 2,
+                "exp": "Suy hô hấp cấp giảm oxy máu được định nghĩa xác định khi PaO₂ < 60 mmHg (kèm SaO_2/SpO₂ < 90%) đo ở khí phòng. Tỷ lệ PaO₂/FiO₂ ≤ 300 phản ánh tình trạng giảm oxy máu từ nhẹ đến nặng (như trong tiêu chuẩn Berlin của ARDS)."
+              },
+              {
+                "q": "Cơ chế bệnh sinh chính dẫn đến suy hô hấp cấp vừa giảm oxy máu vừa tăng CO₂ máu (PaCO₂ > 45 - 50 mmHg) là:",
+                "opts": [
+                  "Rối loạn khuếch tán khí qua màng phế nang mao mạch đơn thuần",
+                  "Giảm thông khí phế nang (gặp trong đợt cấp COPD mệt cơ, liệt cơ hô hấp, ức chế trung tâm hô hấp)",
+                  "Tăng áp lực mao mạch phổi bít trong phù phổi cấp huyết động",
+                  "Tắc nghẽn nhánh động mạch phổi nhỏ do huyết khối"
+                ],
+                "ans": 1,
+                "exp": "CO₂ khuếch tán qua màng phế nang mao mạch nhanh gấp 20 lần O_2. Hiện tượng tăng CO₂ máu chỉ xảy ra khi có tình trạng giảm thông khí phút/thông khí phế nang thực sự do suy bơm cơ hô hấp hoặc kiệt sức cơ thở."
+              },
+              {
+                "q": "Mục tiêu duy trì độ bão hòa oxy mao mạch (SpO₂) khi cung cấp oxy cho bệnh nhân suy hô hấp cấp không có nguy cơ ứ trệ CO₂ là:",
+                "opts": [
+                  "Đạt tuyệt đối 100%",
+                  "Duy trì trong khoảng 94 - 98%",
+                  "Duy trì trong khoảng 88 - 92%",
+                  "Duy trì trên 85% là đủ"
+                ],
+                "ans": 1,
+                "exp": "Theo khuyến cáo hồi sức cấp cứu hô hấp, đích SpO₂ tối ưu ở bệnh nhân không có nguy cơ tăng CO₂ là 94 - 98%. Đối với bệnh nhân có nguy cơ suy hô hấp tăng CO₂ mạn tính (COPD, béo phì giảm thông khí), đích SpO₂ được kiểm soát chặt chẽ ở mức 88 - 92% để tránh ức chế trung tâm hô hấp."
+              }
+            ]
+          },
+          "cap-cuu-ngung-tuan-hoan-aha": {
+            "title": "Bài 3 & 4: Cấp cứu ngừng tuần hoàn AHA (5 câu)",
+            "questions": [
+              {
+                "q": "Khi phát hiện một người đột ngột ngã gục, mất ý thức, không thở hoặc chỉ thở ngáp cá, bước hành động đầu tiên theo hướng dẫn BLS của AHA là:",
+                "opts": [
+                  "Đặt nội khí quản ngay lập tức",
+                  "Đánh giá an toàn hiện trường, kiểm tra đáp ứng của nạn nhân, gọi hỗ trợ/kích hoạt hệ thống cấp cứu và lấy máy phá rung tự động (AED)",
+                  "Lập ngay đường truyền tĩnh mạch ngoại vi",
+                  "Ép ngực ép bụng để kiểm tra dị vật"
+                ],
+                "ans": 1,
+                "exp": "Chuỗi sinh tồn AHA: Đảm bảo an toàn cho nhân viên cấp cứu -> kiểm tra tri giác -> gọi to hỗ trợ và kích hoạt hệ thống báo động cấp cứu/lấy máy AED trước khi bắt đầu các thao tác hồi sinh tim phổi."
+              },
+              {
+                "q": "Kỹ thuật ép tim ngoài lồng ngực chất lượng cao ở người trưởng thành đòi hỏi:",
+                "opts": [
+                  "Tần số ép 60 - 80 lần/phút, độ sâu 2 - 3 cm",
+                  "Tần số ép 100 - 120 lần/phút, độ sâu ít nhất 5 cm (không quá 6 cm), để lồng ngực nở lại hoàn toàn sau mỗi lần ép và hạn chế tối đa việc gián đoạn ép tim (< 10 giây)",
+                  "Tần số ép > 140 lần/phút, ép liên tục không cần thổi ngạt",
+                  "Ép sâu > 7 cm và tì tay liên tục lên lồng ngực để giữ áp lực"
+                ],
+                "ans": 1,
+                "exp": "Tiêu chuẩn ép tim chất lượng cao của AHA: Ép nhanh (100 - 120 lần/phút), ép mạnh (độ sâu 5 - 6 cm ở người lớn), để lồng ngực tái dãn nở hoàn toàn, tránh đè lên ngực giữa các nhát ép và giảm thiểu thời gian gián đoạn dưới 10 giây."
+              },
+              {
+                "q": "Hai dạng rối loạn nhịp tim trong ngừng tuần hoàn CÓ CHỈ ĐỊNH sốc điện phá rung ngay là:",
+                "opts": [
+                  "Phân ly điện cơ (PEA) và Vô tâm thu (Asystole)",
+                  "Rung thất (Ventricular Fibrillation - VF) và Nhịp nhanh thất vô mạch (Pulseless VT)",
+                  "Rung nhĩ đáp ứng thất nhanh và Cuồng nhĩ",
+                  "Nhịp chậm xoang nặng kèm tụt huyết áp"
+                ],
+                "ans": 1,
+                "exp": "Rối loạn nhịp có chỉ định sốc điện (Shockable rhythms) gồm Rung thất và Nhịp nhanh thất mất mạch. Vô tâm thu và Phân ly điện cơ (PEA) là các nhịp không có chỉ định sốc điện (Non-shockable), xử trí chủ yếu là ép tim liên tục và tiêm Adrenalin sớm."
+              },
+              {
+                "q": "Ngay sau khi tiến hành phóng một cú sốc điện phá rung, hành động tiếp theo của đội cấp cứu là:",
+                "opts": [
+                  "Dừng lại kiểm tra mạch cảnh trong 30 giây",
+                  "Nhìn màn hình monitor kiểm tra lại nhịp tim",
+                  "Tiếp tục ép tim ngoài lồng ngực ngay lập tức trong 2 phút (5 chu kỳ 30:2) trước khi đánh giá lại nhịp",
+                  "Tiêm ngay 1 ống Atropine tĩnh mạch"
+                ],
+                "ans": 2,
+                "exp": "Khuyến cáo ACLS nhấn mạnh: Sau khi sốc điện, cơ tim thường bị choáng và chưa tạo được cung lượng tim hiệu quả ngay; do đó phải bắt đầu lại ngay lập tức việc ép tim trong vòng 2 phút, không được dừng lại bắt mạch hay nhìn điện tim."
+              },
+              {
+                "q": "Liều thuốc Amiodarone đường tĩnh mạch được chỉ định cho bệnh nhân ngừng tim do Rung thất hoặc Nhịp nhanh thất vô mạch dai dẳng sau cú sốc điện thứ 3 là:",
+                "opts": [
+                  "Bolus 150 mg tĩnh mạch",
+                  "Bolus 300 mg tĩnh mạch (hoặc trong xương), nếu tái phát có thể nhắc lại liều thứ hai là 150 mg",
+                  "Truyền tĩnh mạch 900 mg trong 24 giờ",
+                  "Bolus 500 mg tĩnh mạch chậm"
+                ],
+                "ans": 1,
+                "exp": "Liều Amiodarone đầu tiên trong ngừng tuần hoàn có sốc điện (sau nhát sốc thứ 3) là 300 mg tiêm tĩnh mạch nhanh; liều bổ sung thứ hai sau nhát sốc thứ 4 hoặc 5 là 150 mg."
+              }
+            ]
+          },
+          "nhoi-mau-co-tim-cap-cuu": {
+            "title": "Bài 5: Nhồi máu cơ tim cấp (2 câu)",
+            "questions": [
+              {
+                "q": "Hình ảnh điện tâm đồ điển hình xác định Nhồi máu cơ tim cấp có ST chênh lên (STEMI) tại các chuyển đạo trước tim (từ V1 đến V6) là:",
+                "opts": [
+                  "Sóng T âm nhọn đối xứng đơn thuần",
+                  "Đoạn ST chênh lên dạng vòm ≥ 2 mm ở ít nhất 2 chuyển đạo liên tiếp kèm sóng Q hoại tử rộng ≥ 0,04 giây",
+                  "Đoạn ST chênh xuống dạng nằm ngang > 1 mm",
+                  "Khoảng PR kéo dài > 0,20 giây"
+                ],
+                "ans": 1,
+                "exp": "Tiêu chuẩn chẩn đoán STEMI trên điện tâm đồ là ST chênh lên mới tại điểm J ở ít nhất hai chuyển đạo liên tiếp (≥ 2 mm ở nam ≥ 40 tuổi tại V2-V3, ≥ 2,5 mm ở nam < 40 tuổi, ≥ 1,5 mm ở nữ; và ≥ 1 mm ở các chuyển đạo khác) kèm theo diễn tiến hình thành sóng Q hoại tử."
+              },
+              {
+                "q": "Gói điều trị ban đầu cấp cứu tại chỗ cho bệnh nhân nhồi máu cơ tim cấp trong lúc chờ can thiệp mạch vành bao gồm các thuốc sau, TRỪ:",
+                "opts": [
+                  "Kháng kết tập tiểu cầu kép (DAPT: nạp Aspirin 150 - 300 mg kết hợp Ticagrelor 180 mg hoặc Clopidogrel 300 - 600 mg)",
+                  "Thuốc chống đông (Heparin không phân đoạn hoặc Enoxaparin)",
+                  "Giảm đau ngực bằng Morphine tiêm tĩnh mạch ngắt quãng nếu đau dữ dội",
+                  "Truyền dịch đẳng trương số lượng lớn (2000 - 3000 ml) nhanh trong 1 giờ"
+                ],
+                "ans": 3,
+                "exp": "Bệnh nhân nhồi máu cơ tim cấp có nguy cơ suy thất trái và phù phổi cấp rất cao. Việc truyền dịch ồ ạt là tối kỵ (chỉ bù dịch thận trọng khi có bằng chứng nhồi máu thất phải kèm tụt huyết áp và không có ứ trệ phổi)."
+              }
+            ]
+          },
+          "dong-mach-chu-cap": {
+            "title": "Bài 6: Hội chứng động mạch chủ cấp (3 câu)",
+            "questions": [
+              {
+                "q": "Tính chất đau ngực đặc trưng nhất cảnh báo Phình bóc tách động mạch chủ ngực cấp tính (Aortic Dissection) là:",
+                "opts": [
+                  "Đau tức âm ỉ tăng dần trong nhiều ngày, đau sau xương ức",
+                  "Đau ngực dữ dội đột ngột như xé rách ngay từ giây đầu tiên, hướng lan xuyên ra sau lưng và dọc xuống giữa hai xương bả vai",
+                  "Đau ngực tăng lên khi nằm nghiêng sang trái, đỡ đau khi cúi người ra trước",
+                  "Đau nhói thành ngực tăng lên khi ấn vào khớp ức sườn"
+                ],
+                "ans": 1,
+                "exp": "Cơn đau do bóc tách động mạch chủ khởi phát đột ngột ở cường độ đỉnh ngay lập tức (khác với nhồi máu cơ tim đau tăng dần), cảm giác như xé, rách hoặc đâm xuyên từ trước ngực lan ra sau lưng giữa hai bả vai dọc theo đường đi của lớp nội mạc bị bóc tách."
+              },
+              {
+                "q": "Tiêu chuẩn vàng trong chẩn đoán hình ảnh để xác định vị trí rách nội mạc, đo kích thước và phân loại bóc tách động mạch chủ (theo Stanford A hay B) tại khoa cấp cứu là:",
+                "opts": [
+                  "Siêu âm tim qua thành ngực thông thường",
+                  "Chụp X-quang ngực thẳng",
+                  "Chụp cắt lớp vi tính đa dãy (MSCT) có tiêm thuốc cản quang toàn bộ lồng ngực và ổ bụng",
+                  "Chụp cộng hưởng từ hạt nhân (MRI)"
+                ],
+                "ans": 2,
+                "exp": "Chụp cắt lớp vi tính đa dãy có cản quang (CTA) ngực - bụng là phương tiện đầu tay tiêu chuẩn với độ nhạy và độ đặc hiệu > 98%, giúp định hình lòng thật/lòng giả, xác định tổn thương các nhánh động mạch tạng và phân loại Stanford để quyết định phẫu thuật cấp cứu (typ A) hay can thiệp nội mạch/điều trị nội khoa (typ B)."
+              },
+              {
+                "q": "Mục tiêu kiểm soát huyết động ban đầu ở bệnh nhân bóc tách động mạch chủ cấp tính khi huyết áp tăng cao là:",
+                "opts": [
+                  "Giảm huyết áp tâm thu xuống < 140 mmHg trong 24 giờ",
+                  "Nhanh chóng kiểm soát nhịp tim < 60 chu kỳ/phút bằng thuốc chẹn beta giao cảm tiêm tĩnh mạch, sau đó hạ huyết áp tâm thu xuống mức 100 - 120 mmHg trong vòng 20 phút",
+                  "Truyền ngay thuốc giãn mạch Hydralazine đơn thuần mà không cần kiểm soát nhịp tim",
+                  "Nâng huyết áp lên > 160 mmHg để tưới máu tạng"
+                ],
+                "ans": 1,
+                "exp": "Mục tiêu điều trị nội khoa cấp cứu là giảm lực xé thành mạch (dP/dt). Bắt buộc phải dùng chẹn beta giao cảm đường tĩnh mạch (như Esmolol, Labetalol) trước để đưa nhịp tim xuống < 60 ck/p, tránh phản xạ nhịp nhanh khi hạ áp, sau đó mới phối hợp thuốc hạ áp giãn mạch (như Nicardipine) để đưa huyết áp tâm thu về mức 100 - 120 mmHg."
+              }
+            ]
+          },
+          "soc-soc-phan-ve": {
+            "title": "Bài 7: Sốc và sốc phản vệ (3 câu)",
+            "questions": [
+              {
+                "q": "Dấu hiệu lâm sàng của tam chứng Beck giúp nhận biết tình trạng Sốc tim do Ép tim cấp (Cardiac Tamponade) gồm:",
+                "opts": [
+                  "Tụt huyết áp, tĩnh mạch cổ nổi to và tiếng tim đập mờ xa xăm",
+                  "Tụt huyết áp, nhịp tim chậm và mất phản xạ gân xương",
+                  "Sốt cao, gan to và đau hạ sườn phải",
+                  "Khó thở, ran ẩm hai đáy phổi và tăng huyết áp kịch phát"
+                ],
+                "ans": 0,
+                "exp": "Tam chứng Beck kinh điển của chèn ép tim cấp: (1) Huyết áp tụt kẹt; (2) Tĩnh mạch cổ nổi căng do máu ứ trệ không về được tim phải; (3) Tiếng tim mờ nhỏ do lớp dịch màng tim dày ngăn cản truyền âm thanh."
+              },
+              {
+                "q": "Theo Thông tư 51/2017/TT-BYT, thuốc thiết yếu và quan trọng nhất bắt buộc phải tiêm bắp ngay lập tức khi phát hiện phản vệ từ độ II trở lên là:",
+                "opts": [
+                  "Methylprednisolone tiêm tĩnh mạch",
+                  "Diphenhydramine (Kháng Histamin H1) tiêm bắp",
+                  "Adrenaline dung dịch 1 mg/1 ml (tiêm bắp ở mặt trước ngoài đùi)",
+                  "Khí dung Salbutamol"
+                ],
+                "ans": 2,
+                "exp": "Adrenaline là thuốc duy nhất cứu sống người bệnh phản vệ nhờ tác dụng kích thích đồng thời thụ thể alpha-1 (co mạch, nâng huyết áp, giảm phù nề thanh môn), beta-1 (tăng co bóp cơ tim) và beta-2 (giãn phế quản, ức chế giải phóng tiếp hóa chất trung gian). Corticoid và kháng Histamin chỉ là thuốc hàng hai, tác dụng chậm và không ngăn được tụt huyết áp cấp thì."
+              },
+              {
+                "q": "Liều lượng Adrenaline tiêm bắp khởi đầu trong xử trí phản vệ độ II - III ở người lớn là:",
+                "opts": [
+                  "Tiêm 1 ống nguyên vẹn (1 mg) tiêm tĩnh mạch nhanh",
+                  "Tiêm bắp 1/2 đến  1 ống (0,5 - 1 mg ở người lớn, tương đương 0,01 mg/kg ở trẻ em), nhắc lại sau mỗi 3 - 5 phút nếu chưa cải thiện",
+                  "Uống 1 ống pha với nước cất",
+                  "Pha truyền tĩnh mạch chậm ngay từ phút đầu tiên"
+                ],
+                "ans": 1,
+                "exp": "Liều dùng theo Bộ Y tế: Người lớn tiêm bắp 1/2 đến 1 ống (0,5 - 1 ml dung dịch 1 mg/1 ml); trẻ em 0,01 mg/kg (tối đa không quá 0,5 mg). Tiêm bắp sâu ở mặt trước ngoài đùi giúp hấp thu thuốc vào máu nhanh gấp nhiều lần so với tiêm ở cơ delta cánh tay."
+              }
+            ]
+          },
+          "dot-quy-nao-cap-cuu": {
+            "title": "Bài 8: Đột quỵ não tại khoa cấp cứu (2 câu)",
+            "questions": [
+              {
+                "q": "Hệ thống thang điểm nhanh được khuyến cáo sử dụng tại hiện trường và phòng cấp cứu để sàng lọc đột quỵ não theo dấu hiệu FAST bao gồm:",
+                "opts": [
+                  "Face (liệt mặt lệch méo miệng), Arm (yếu liệt tay chân), Speech (nói ngọng khó nói), Time (thời gian vàng gọi cấp cứu)",
+                  "Fever (sốt), Abdomen (đau bụng), Sight (mờ mắt), Touch (mất cảm giác)",
+                  "Fall (ngã), Attack (đau tim), Stupor (li bì), Trauma (chấn thương)",
+                  "Foot (yếu chân), Airway (đường thở), Swallow (nuốt khó), Temperature (nhiệt độ)"
+                ],
+                "ans": 0,
+                "exp": "Thang điểm FAST là công cụ nhận diện đột quỵ kinh điển: F (Face - méo mặt khi cười), A (Arm - yếu một bên tay khi giơ cao), S (Speech - nói ngọng hoặc không hiểu lời), T (Time - thời gian là não, gọi cấp cứu chuyển viện ngay)."
+              },
+              {
+                "q": "Chống chỉ định tuyệt đối sử dụng thuốc tiêu sợi huyết đường tĩnh mạch Alteplase ở bệnh nhân nhồi máu não cấp là:",
+                "opts": [
+                  "Bệnh nhân ≥ 80 tuổi",
+                  "Có bằng chứng xuất huyết nội sọ trên phim chụp CT sọ não hoặc tiền sử xuất huyết não trước đây",
+                  "Đường huyết vào viện là 8,0 mmol/L",
+                  "Bệnh nhân có tiền sử đái tháo đường"
+                ],
+                "ans": 1,
+                "exp": "Bất kỳ hình ảnh nào gợi ý chảy máu nội sọ (dù nhỏ) trên CT sọ não đều là chống chỉ định tuyệt đối của tiêu sợi huyết vì thuốc sẽ gây chảy máu ồ ạt dẫn đến tử vong."
+              }
+            ]
+          },
+          "hen-phe-quan-cap-cuu": {
+            "title": "Bài 9: Cơn hen phế quản cấp (2 câu)",
+            "questions": [
+              {
+                "q": "Dấu hiệu lâm sàng phân loại cơn hen phế quản mức độ NẶNG bao gồm:",
+                "opts": [
+                  "Khó thở khi chạy nhanh, nói được cả câu dài",
+                  "Nghe phổi có tiếng ran rít nhẹ rải rác",
+                  "Thở co kéo mạnh các cơ hô hấp phụ, ngồi cúi người ra trước, nói từng từ ngắt quãng, nhịp thở > 30 lần/phút, nhịp tim > 120 chu kỳ/phút và SpO₂ < 90%",
+                  "Khó thở xuất hiện khi ngủ nằm điều hòa"
+                ],
+                "ans": 2,
+                "exp": "Cơn hen nặng đặc trưng bởi tình trạng khó thở liên tục khiến bệnh nhân không thể nằm, nói từng từ, co kéo hõm ức và cơ liên sườn rõ, tim nhanh > 120 ck/p, tần số thở > 30 l/p và độ bão hòa oxy tụt dưới 90%."
+              },
+              {
+                "q": "Xử trí dùng thuốc ban đầu cho một cơn hen phế quản cấp tính nặng tại khoa cấp cứu là:",
+                "opts": [
+                  "Cho uống thuốc giãn phế quản Salbutamol dạng viên",
+                  "Thở oxy qua gọng kính duy trì SpO₂ ≥ 94 - 98%, khí dung liên tục thuốc cường beta-2 tác dụng ngắn (Salbutamol) kết hợp kháng Cholinergic (Ipratropium) và dùng sớm Corticosteroid đường toàn thân",
+                  "Tiêm tĩnh mạch ngay Theophylline liều cao",
+                  "Dùng thuốc an thần Diazepam để bệnh nhân đỡ lo lắng kích thích"
+                ],
+                "ans": 1,
+                "exp": "Phác đồ cấp cứu cơn hen nặng: Cung cấp đủ oxy + Khí dung kết hợp SABA (Salbutamol 5 mg) và SAMA (Ipratropium 0,5 mg) lặp lại mỗi 20 phút trong giờ đầu + Corticoid toàn thân (Methylprednisolone 1 - 2 mg/kg TM) để ngăn ngừa tái phát co thắt. Tuyệt đối cấm dùng thuốc an thần vì ức chế hô hấp dẫn tới ngừng thở."
+              }
+            ]
+          },
+          "ngo-doc-cap": {
+            "title": "Bài 10: Ngộ độc cấp (4 câu)",
+            "questions": [
+              {
+                "q": "Thời điểm rửa dạ dày đem lại hiệu quả loại bỏ chất độc cao nhất và ít tai biến là:",
+                "opts": [
+                  "Trong vòng 1 - 2 giờ đầu sau khi uống chất độc",
+                  "Sau 6 giờ kể từ khi uống",
+                  "Sau 12 giờ",
+                  "Bất kỳ lúc nào miễn là bệnh nhân còn tỉnh"
+                ],
+                "ans": 0,
+                "exp": "Rửa dạ dày chỉ có hiệu quả loại bỏ lượng chất độc đáng kể khi được thực hiện trong vòng 1 giờ (tối đa 2 giờ) sau uống chất độc dạng rắn hoặc độc tính cao. Sau 2 giờ, phần lớn chất độc đã di chuyển qua môn vị xuống ruột non."
+              },
+              {
+                "q": "Chống chỉ định TUYỆT ĐỐI của thủ thuật rửa dạ dày và dùng than hoạt là:",
+                "opts": [
+                  "Ngộ độc thuốc ngủ nhóm Barbituric",
+                  "Ngộ độc thuốc trừ sâu phospho hữu cơ",
+                  "Uống các chất ăn mòn mạnh (Axit mạnh hoặc Bazo/kiềm mạnh) và ngộ độc xăng dầu/hydrocarbon",
+                  "Ngộ độc Paracetamol liều cao"
+                ],
+                "ans": 2,
+                "exp": "Rửa dạ dày khi uống chất ăn mòn có nguy cơ gây thủng thực quản và dạ dày hoại tử, làm chất độc tràn vào trung thất; uống xăng dầu rửa dạ dày dễ gây hít sặc vào đường thở dẫn đến viêm phổi hoại tử suy hô hấp cấp."
+              },
+              {
+                "q": "Thuốc giải độc đặc hiệu (Antidote) của ngộ độc cấp Paracetamol là:",
+                "opts": [
+                  "Naloxone",
+                  "N-Acetylcysteine (NAC)",
+                  "Atropine kết hợp Pralidoxime (PAM)",
+                  "Vitamin K1"
+                ],
+                "ans": 1,
+                "exp": "Ngộ độc Paracetamol do chất chuyển hóa độc NAPQI làm cạn kiệt Glutathione ở gan. NAC cung cấp nhóm sulfhydryl để tái tạo Glutathione và trung hòa trực tiếp NAPQI, bảo vệ tế bào gan khỏi hoại tử cấp nếu dùng sớm trong 8 - 10 giờ đầu."
+              },
+              {
+                "q": "Bệnh nhân vào viện vì co đồng tử nhỏ như đầu đinh ghim, tăng tiết đờm dãi, sùi bọt mép, tụt huyết áp và mạch chậm. Đây là biểu hiện của hội chứng ngộ độc (Toxidrome) nào:",
+                "opts": [
+                  "Hội chứng Anticholinergic (Kháng Cholinergic)",
+                  "Hội chứng Cholinergic (gặp trong ngộ độc thuốc trừ sâu Phospho hữu cơ hoặc Carbamate)",
+                  "Hội chứng Sympathomimetic (Kích thích giao cảm do Amphetamine)",
+                  "Hội chứng cai rượu"
+                ],
+                "ans": 1,
+                "exp": "Thuốc trừ sâu phospho hữu cơ ức chế enzym Acetylcholinesterase làm ứ đọng Acetylcholine tại synap thần kinh, gây hội chứng Muscarinic rầm rộ: co đồng tử tối đa, tăng tiết đờm dãi, co thắt phế quản, nhịp tim chậm, nôn mửa, đại tiểu tiện không tự chủ. Thuốc giải độc đặc hiệu là Atropine đối kháng thụ thể kết hợp PAM để phục hồi enzym."
+              }
+            ]
+          },
+          "cap-cuu-chan-thuong-itls": {
+            "title": "Bài 11: Cấp cứu chấn thương ITLS (1 câu)",
+            "questions": [
+              {
+                "q": "Trong cấp cứu đa chấn thương theo ITLS/ATLS, bước đánh giá ban đầu (Primary Survey) nhằm mục tiêu chính là:",
+                "opts": [
+                  "Khai thác tỉ mỉ hoàn cảnh tai nạn và tiền sử bệnh lý gia đình",
+                  "Bó bột cố định tất cả các xương bị gãy",
+                  "Nhanh chóng phát hiện và xử trí ngay lập tức các tổn thương đe dọa trực tiếp đến tính mạng theo thứ tự ưu tiên ABCDE",
+                  "Đưa bệnh nhân đi chụp cắt lớp vi tính toàn thân ngay lập tức"
+                ],
+                "ans": 2,
+                "exp": "Khảo sát ban đầu (Primary survey) luôn tập trung giải quyết các nguyên nhân gây tử vong nhanh nhất: Tắc đường thở, chấn thương ngực ngạt thở, sốc mất máu cấp và tổn thương não cấp; chỉ khi các chức năng sống cơ bản ổn định mới thực hiện thăm khám thứ cấp toàn diện từ đầu đến chân."
+              }
+            ]
+          },
+          "chan-thuong-so-nao-cap-cuu": {
+            "title": "Bài 12: Cấp cứu chấn thương sọ não (2 câu)",
+            "questions": [
+              {
+                "q": "Khoảng tỉnh (Lucid interval) là dấu hiệu lâm sàng kinh điển và đặc trưng nhất của tổn thương:",
+                "opts": [
+                  "Dập não thùy trán",
+                  "Xuất huyết dưới nhện do vỡ phình mạch",
+                  "Tụ máu ngoài màng cứng (thường do rách động mạch màng não giữa kèm vỡ xương thái dương)",
+                  "Chấn động não đơn thuần"
+                ],
+                "ans": 2,
+                "exp": "Bệnh nhân sau chấn thương bất tỉnh thoáng qua, sau đó tỉnh táo hoàn toàn trong vài chục phút đến vài giờ (\"khoảng tỉnh\"), rồi đột ngột hôn mê sâu trở lại kèm đồng tử một bên giãn to do khối máu tụ ngoài màng cứng tăng dần thể tích chèn ép bán cầu đại não và tụt kẹt não."
+              },
+              {
+                "q": "Tam chứng Cushing cảnh báo hội chứng Tăng áp lực nội sọ nặng đe dọa tụt kẹt não bao gồm:",
+                "opts": [
+                  "Nhịp tim nhanh, hạ huyết áp và thở nhanh nông",
+                  "Tăng huyết áp (đặc biệt tăng huyết áp tâm thu làm khoảng cách huyết áp rộng ra), Nhịp tim chậm và Rối loạn nhịp thở (thở chậm hoặc thở Cheyne-Stokes)",
+                  "Sốt cao, co giật và cứng gáy",
+                  "Đồng tử hai bên co nhỏ, liệt mềm tứ chi"
+                ],
+                "ans": 1,
+                "exp": "Khi áp lực nội sọ tăng quá cao đe dọa tưới máu não, trung tâm vận mạch tại thân não kích hoạt phản xạ tăng huyết áp toàn thân để duy trì áp lực tưới máu não (CPP), áp lực dòng máu cao kích thích thụ thể áp lực xoang cảnh gây phản xạ chậm nhịp tim, đồng thời thân não bị chèn ép gây ức chế trung tâm hô hấp tạo nên tam chứng Cushing."
+              }
+            ]
+          },
+          "chan-thuong-nguc": {
+            "title": "Bài 13: Cấp cứu chấn thương ngực (2 câu)",
+            "questions": [
+              {
+                "q": "Xử trí cấp cứu đầu tiên tại hiện trường hoặc phòng tiếp đón đối với một Vết thương ngực hở phì phò khí là:",
+                "opts": [
+                  "Khâu kín vết thương ngay lập tức bằng chỉ phẫu thuật",
+                  "Băng kín vết thương bằng gạc vô khuẩn theo nguyên tắc 3 góc (hoặc dùng van một chiều) để khí chỉ thoát ra ngoài mà không bị hút ngược vào khoang màng phổi",
+                  "Nhét thật chặt gạc sâu vào bên trong khoang màng phổi",
+                  "Đặt ống nội khí quản và cho thở máy áp lực dương cao ngay"
+                ],
+                "ans": 1,
+                "exp": "Băng ép kín 3 góc tạo thành cơ chế van một chiều: Khi thở ra, mép hở mở ra cho máu và khí áp lực thoát ra ngoài; khi hít vào, miếng băng áp chặt vào thành ngực ngăn không khí ngoài trời tràn vào phổi, phòng ngừa biến chuyển thành tràn khí màng phổi áp lực."
+              },
+              {
+                "q": "Đặc điểm tổn thương của \"Mảng sườn di động\" trong chấn thương ngực kín là:",
+                "opts": [
+                  "Gãy từ 3 xương sườn liên tiếp trở lên, mỗi xương gãy ở ít nhất 2 vị trí, gây ra hiện tượng hô hấp đảo chiều",
+                  "Gãy rạn một xương sườn đơn thuần gây đau nhói khi hít thở",
+                  "Tràn máu màng phổi lượng nhiều kết hợp dập phổi",
+                  "Rách vỡ cơ hoành hai bên"
+                ],
+                "ans": 0,
+                "exp": "Mảng sườn di động làm một vùng thành ngực bị tách rời khỏi khung xương lồng ngực, dẫn đến chuyển động nghịch thường (hô hấp đảo chiều): Khi hít vào (áp lực khoang ngực âm), mảng sườn bị hút lõm vào trong; khi thở ra, mảng sườn lại bị đẩy phồng ra ngoài, làm xẹp phổi và cản trở hồi lưu máu về tim."
+              }
+            ]
+          },
+          "chan-thuong-bung-cap-cuu": {
+            "title": "Bài 14: Cấp cứu chấn thương bụng (2 câu)",
+            "questions": [
+              {
+                "q": "Phương pháp chẩn đoán hình ảnh tại giường nhanh, không xâm lấn, được lựa chọn hàng đầu để tầm soát dịch tự do ổ bụng trong sốc đa chấn thương là:",
+                "opts": [
+                  "Chụp X-quang bụng không chuẩn bị",
+                  "Siêu âm FAST (Focused Assessment with Sonography for Trauma)",
+                  "Chọc rửa ổ bụng chẩn đoán (DPL)",
+                  "Chụp cộng hưởng từ hạt nhân (MRI) bụng"
+                ],
+                "ans": 1,
+                "exp": "Siêu âm FAST chỉ mất 2 - 3 phút tại giường cấp cứu để khảo sát 4 khoang trọng điểm: Khoang Morison (gan - thận), khoang lách - thận, túi cùng Douglas tiểu khung và màng ngoài tim, phát hiện dịch máu tự do để quyết định chỉ định mổ cấp cứu."
+              },
+              {
+                "q": "Tạng đặc dễ bị tổn thương vỡ chảy máu nhiều nhất trong chấn thương bụng kín là:",
+                "opts": [
+                  "Thận",
+                  "Bàng quang",
+                  "Lách (tiếp theo là Gan)",
+                  "Tụy"
+                ],
+                "ans": 2,
+                "exp": "Lách có nhu mô xốp giòn, màng bao mỏng và nằm sát lồng ngực trái, là tạng đặc dễ bị vỡ nhất trong các tai nạn giao thông đụng dập mạn sườn trái, gây tràn máu ổ bụng lượng lớn và sốc mất máu nhanh chóng."
+              }
+            ]
+          },
+          "chan-thuong-cot-song-cap-cuu": {
+            "title": "Bài 15: Cấp cứu chấn thương cột sống (2 câu)",
+            "questions": [
+              {
+                "q": "Nguyên tắc bất động bắt buộc khi vận chuyển nạn nhân nghi ngờ chấn thương cột sống là:",
+                "opts": [
+                  "Để bệnh nhân tự đi lại nếu còn cử động được chân",
+                  "Cố định trục thẳng đầu - cổ - thân trên nền ván cứng (Long backboard) kết hợp nẹp cổ cứng (Collar) và chèn hai bên đầu",
+                  "Cho bệnh nhân nằm võng mềm để đỡ đau lưng",
+                  "Đặt bệnh nhân nằm đầu cao gối gập"
+                ],
+                "ans": 1,
+                "exp": "Cố định toàn thân trên ván cứng cùng nẹp cổ đảm bảo toàn bộ trục cột sống không bị xoay, gấp hoặc ưỡn trong quá trình di chuyển, ngăn ngừa mảnh xương vỡ chèn ép cắt đứt tủy sống gây liệt vĩnh viễn hoặc suy hô hấp ngừng thở."
+              },
+              {
+                "q": "Đặc điểm huyết động phân biệt Sốc tủy (Neurogenic Shock do tổn thương tủy cổ hoặc ngực cao) với Sốc giảm thể tích do mất máu là:",
+                "opts": [
+                  "Tụt huyết áp kèm theo mạch nhanh và co mạch ngoại vi",
+                  "Tụt huyết áp nhưng đi kèm Nhịp tim chậm và Giãn mạch ngoại vi (da ấm, hồng)",
+                  "Tăng huyết áp kịch phát và tím tái",
+                  "Huyết áp kẹt kèm phù toàn thân"
+                ],
+                "ans": 1,
+                "exp": "Tổn thương tủy cổ hoặc ngực cao làm cắt đứt hệ thần kinh giao cảm chi phối mạch máu và tim, dẫn đến mất trương lực co mạch (gây giãn mạch hệ thống, da ấm) và mất dẫn truyền kích thích tim (gây nhịp tim chậm nghịch thường kèm tụt huyết áp)."
+              }
+            ]
+          },
+          "chan-thuong-chi-the-dut-roi": {
+            "title": "Bài 16: Chấn thương chi thể đứt rời (2 câu)",
+            "questions": [
+              {
+                "q": "Dấu hiệu sớm và có giá trị nhất cảnh báo Hội chứng chèn ép khoang cấp tính ở chi bị chấn thương/gãy xương là:",
+                "opts": [
+                  "Mất mạch ngoại vi hoàn toàn",
+                  "Chi thể tím đen và hoại tử da",
+                  "Đau dữ dội quá mức so với tổn thương, đau không đáp ứng với thuốc giảm đau thông thường và Đau tăng dữ dội khi làm động tác kéo giãn thụ động khối cơ trong khoang",
+                  "Chi thể hoàn toàn mất cảm giác"
+                ],
+                "ans": 2,
+                "exp": "Đau khi kéo giãn cơ thụ động là dấu hiệu thiếu máu cơ sớm và nhạy nhất của chèn ép khoang. Dấu hiệu mất mạch ngoại vi hoặc tê liệt hoàn toàn là biểu hiện muộn, khi các tế bào thần kinh và cơ đã hoại tử không thể hồi phục."
+              },
+              {
+                "q": "Quy trình bảo quản chi thể bị đứt rời đúng kỹ thuật trong lúc vận chuyển cấp cứu là:",
+                "opts": [
+                  "Ngâm trực tiếp phần chi thể ngập trong chậu nước đá lạnh",
+                  "Rửa sạch bằng xà phòng và bọc kín trong bông gòn",
+                  "Rửa sạch bằng nước muối sinh lý, bọc kín trong gạc vô khuẩn, cho vào túi nilon buộc kín; sau đó đặt túi nilon này vào trong thùng chứa nước đá lạnh (không để chi thể tiếp xúc trực tiếp với đá)",
+                  "Ngâm phần chi thể vào cồn 70^\\circ để sát trùng"
+                ],
+                "ans": 2,
+                "exp": "Chi thể đứt rời cần được bảo quản lạnh gián tiếp (2 - 4°C) để làm chậm quá trình hoại tử mô. Tuyệt đối không để mô tiếp xúc trực tiếp với đá lạnh vì sẽ gây bỏng lạnh và đông cứng tế bào, khiến miệng mạch máu bị đông vón và không thể vi phẫu nối lại."
+              }
+            ]
+          },
+          "tai-nan-sinh-hoat-bong-dien": {
+            "title": "Bài 17: Đuối nước, điện giật, bỏng (3 câu)",
+            "questions": [
+              {
+                "q": "Hành động ưu tiên số 1 khi sơ cứu nạn nhân bị ĐUỐI NƯỚC vớt lên bờ trong tình trạng bất tỉnh, ngừng thở là:",
+                "opts": [
+                  "Dốc ngược đầu nạn nhân chạy vòng quanh để tống hết nước trong phổi ra ngoài",
+                  "Hơ lửa hoặc sưởi ấm ngay lập tức",
+                  "Đặt nạn nhân nằm ngửa trên nền cứng, khai thông đường thở và tiến hành ngay 5 nhịp thổi ngạt đầu tiên, sau đó phối hợp ép tim - thổi ngạt liên tục",
+                  "Đè lên bụng để ép dạ dày nôn ra nước"
+                ],
+                "ans": 2,
+                "exp": "Nguyên nhân cốt lõi gây ngừng tuần hoàn do đuối nước là ngạt thở thiếu oxy máu. Các động tác dốc nước gây mất thời gian vàng hồi sức não và làm tăng nguy cơ sặc dịch dạ dày vào phổi. Cung cấp oxy khẩn cấp qua thổi ngạt và ép tim là mấu chốt quyết định cứu sống nạn nhân."
+              },
+              {
+                "q": "Công thức Parkland dùng để tính lượng dịch Ringer Lactate cần bù trong 24 giờ đầu cho bệnh nhân bỏng nặng người lớn là:",
+                "opts": [
+                  "2 ml \\times Cân nặng (kg) \\times Diện tích bỏng (% BSD)",
+                  "4 ml \\times Cân nặng (kg) \\times Diện tích bỏng (% BSD) (trong đó 1/2 lượng dịch truyền trong 8 giờ đầu, 1/2 còn lại truyền trong 16 giờ tiếp theo)",
+                  "Truyền 500 ml dung dịch Glucose 5% mỗi giờ",
+                  "10 ml \\times Cân nặng (kg)"
+                ],
+                "ans": 1,
+                "exp": "Phác đồ Parkland kinh điển: Tổng dịch Ringer Lactate trong 24 giờ đầu = 4 ml \\times kg \\times % diện tích bỏng độ II, III; truyền 50% tổng lượng dịch trong 8 giờ đầu tiên kể từ thời điểm bị bỏng và 50% còn lại chia đều trong 16 giờ tiếp theo."
+              },
+              {
+                "q": "Nguyên tắc xử trí đầu tiên khi tiếp cận nạn nhân bị TAI NẠN ĐIỆN GIẬT là:",
+                "opts": [
+                  "Lao vào ôm kéo nạn nhân ra khỏi vùng nguy hiểm ngay lập tức",
+                  "Ngắt ngay nguồn điện (cắt cầu dao, dập aptomat) hoặc dùng vật liệu cách điện khô (gậy gỗ, thanh nhựa) gạt dây điện ra khỏi người nạn nhân trước khi chạm vào người bệnh",
+                  "Đổ nước lạnh vào người nạn nhân để làm mát vết bỏng điện",
+                  "Bắt mạch kiểm tra dấu hiệu sinh tồn ngay khi dòng điện còn nối"
+                ],
+                "ans": 1,
+                "exp": "An toàn hiện trường là nguyên tắc sống còn; không được chạm vào nạn nhân khi chưa cắt nguồn điện hoặc chưa cách ly nạn nhân khỏi dòng điện vì người sơ cứu sẽ bị truyền điện và trở thành nạn nhân tiếp theo."
+              }
+            ]
+          },
+          "van-chuyen-nguoi-benh": {
+            "title": "Bài 18: Vận chuyển người bệnh cấp cứu (2 câu)",
+            "questions": [
+              {
+                "q": "Tư thế vận chuyển bệnh nhân an toàn nhất đối với thai phụ có tuổi thai > 20 tuần bị tụt huyết áp do chấn thương (khi chưa phát hiện tổn thương cột sống) là:",
+                "opts": [
+                  "Nằm ngửa đầu cao",
+                  "Nằm nghiêng sang bên trái (hoặc nghiêng bảng nẹp sang trái 15 - 30^\\circ)",
+                  "Nằm ngửa gác chân cao",
+                  "Nằm sấp có kê gối dưới bụng"
+                ],
+                "ans": 1,
+                "exp": "Tử cung lớn ở nửa sau thai kỳ sẽ đè bẹp tĩnh mạch chủ dưới và động mạch chủ bụng khi thai phụ nằm ngửa, làm giảm mạnh lượng máu tĩnh mạch trở về tim gây hội chứng tụt huyết áp tư thế nằm ngửa; tư thế nghiêng trái giúp giải phóng chèn ép này."
+              },
+              {
+                "q": "Yêu cầu bắt buộc phải hoàn thành trước khi chuyển một bệnh nhân nặng lên tuyến trên là:",
+                "opts": [
+                  "Chờ bệnh nhân hoàn toàn tỉnh táo và tự thở tốt",
+                  "Đã kiểm soát và bảo vệ vững chắc đường thở, duy trì thông khí và huyết động tương đối ổn định, thiết lập ít nhất 1 - 2 đường truyền tĩnh mạch chắc chắn và liên hệ báo trước với cơ sở tiếp nhận",
+                  "Cho bệnh nhân ăn no để có năng lượng di chuyển",
+                  "Ngừng toàn bộ các thuốc vận mạch để tránh tai biến trên đường đi"
+                ],
+                "ans": 1,
+                "exp": "Nguyên tắc chuyển viện an toàn: \"Chỉ chuyển khi đã hồi sức ổn định sơ bộ\"; các chức năng sống (A, B, C) phải được cố định vững (đặt NKQ nếu nguy cơ suy hô hấp/hôn mê, dùng vận mạch kiểm soát huyết áp) và có sự chuẩn bị tiếp nhận của bệnh viện tuyến trên."
+              }
+            ]
+          },
+          "may-tho-co-ban": {
+            "title": "Bài 19: Tổng quan máy thở & phương thức thở (4 câu)",
+            "questions": [
+              {
+                "q": "Phương thức thở máy kiểm soát hỗ trợ theo thể tích (A/C - VCV: Volume Control) có đặc điểm vận hành là:",
+                "opts": [
+                  "Thể tích khí lưu thông (V_t) thay đổi theo sức cản đường thở của bệnh nhân",
+                  "Máy đảm bảo cung cấp một thể tích khí lưu thông (V_t) cố định cài đặt trước cho mỗi nhịp thở; áp lực đường thở sẽ thay đổi phụ thuộc vào độ giãn nở (compliance) và sức cản của phổi bệnh nhân",
+                  "Bệnh nhân tự quyết định hoàn toàn thể tích thở vào",
+                  "Áp lực đỉnh đường thở luôn luôn cố định không đổi"
+                ],
+                "ans": 1,
+                "exp": "Trong mode VCV, bác sĩ cài đặt cố định V_t và tần số thở tối thiểu; máy sẽ đẩy đủ lượng khí đó vào phổi bệnh nhân bất kể áp lực đường thở tăng hay giảm. Nguy cơ lớn nhất của mode này là chấn thương áp lực (Barotrauma) khi phổi bị xơ cứng hoặc tăng sức cản."
+              },
+              {
+                "q": "Chiến lược thông khí bảo vệ phổi ở bệnh nhân mắc hội chứng suy hô hấp tiến triển cấp tính (ARDS) khuyến cáo cài đặt thể tích khí lưu thông (V_t) ở mức:",
+                "opts": [
+                  "10 - 12 ml/kg cân nặng thực tế",
+                  "8 - 10 ml/kg cân nặng lý tưởng",
+                  "Thể tích khí lưu thông thấp 4 - 6 ml/kg trọng lượng cơ thể lý tưởng (Predicted Body Weight - PBW) và duy trì áp lực cao nguyên (P_{plat}) < 30 cmH_2O",
+                  "12 - 15 ml/kg cân nặng lý tưởng"
+                ],
+                "ans": 2,
+                "exp": "ARDS gây đông đặc phổi không đồng đều (\"phổi trẻ em - baby lung\"). Thở máy V_t thấp (4 - 6 ml/kg cân nặng lý tưởng tính theo chiều cao) kết hợp PEEP thích hợp và giới hạn áp lực cao nguyên P_{plat} < 30 cmH_2O giúp ngăn ngừa biến chứng căng giãn phế nang quá mức (Volutrauma) và chấn thương áp lực."
+              },
+              {
+                "q": "Tác dụng sinh lý chính của việc cài đặt áp lực dương cuối kỳ thở ra (PEEP) trong thông khí nhân tạo là:",
+                "opts": [
+                  "Làm giảm thể tích cặn chức năng (FRC)",
+                  "Chống xẹp các phế nang ở cuối thì thở ra, huy động lại các phế nang bị xẹp và cải thiện oxy hóa máu",
+                  "Làm tăng hồi lưu tĩnh mạch về tim phải",
+                  "Làm giảm áp lực đường thở trung bình"
+                ],
+                "ans": 1,
+                "exp": "PEEP duy trì một mức áp lực dương trong lòng phế nang ở cuối thì thở ra, ngăn không cho các phế nang mất surfactant bị xẹp hoàn toàn, từ đó giảm shunt trong phổi và cải thiện tình trạng thiếu oxy máu."
+              },
+              {
+                "q": "Chỉ số áp lực cao nguyên (P_{plat} - Plateau Pressure) trên máy thở phản ánh:",
+                "opts": [
+                  "Áp lực cản trở dòng khí trong các ống dẫn khí lớn",
+                  "Áp lực thực tế tác động trực tiếp lên các phế nang ở cuối thì thở vào khi dòng khí ngừng chuyển động (độ giãn nở của phổi và thành ngực)",
+                  "Áp lực đẩy của bóng chèn nội khí quản",
+                  "Áp lực âm trong màng phổi"
+                ],
+                "ans": 1,
+                "exp": "Khi thực hiện thao tác giữ thì thở vào (End-inspiratory pause), dòng khí ngừng lưu thông (bằng 0), sức cản đường thở bị triệt tiêu; áp lực đo được lúc này chính là P_{plat}, phản ánh trực tiếp sức căng nở của nhu mô phổi và thành ngực. Để bảo vệ phổi, bắt buộc phải duy trì P_{plat} < 30 cmH_2O."
+              }
+            ]
+          }
+        }
+      },
+      "ngoai-khoa": {
+        "name": "Khoa Ngoại tổng hợp & Chấn thương",
+        "lessons": {
+          "viem-ruot-thua-ngoai": {
+            "title": "Bài 1: Viêm ruột thừa (6 câu)",
+            "questions": [
+              {
+                "q": "Vị trí đau khởi phát điển hình của viêm ruột thừa cấp trước khi khu trú về hố chậu phải là:",
+                "opts": [
+                  "Đau nhói liên tục tại hố chậu trái",
+                  "Đau âm ỉ vùng thượng vị hoặc quanh rốn, sau 4 - 6 giờ đau chuyển dần khu trú về hố chậu phải",
+                  "Đau quặn từng cơn dữ dội vùng hạ sườn phải lan lên bả vai",
+                  "Đau tức vùng hạ vị kèm buốt rắt khi đi tiểu"
+                ],
+                "ans": 1,
+                "exp": "Khởi đầu của viêm ruột thừa cấp là cơn đau do tắc lòng ruột thừa, được dẫn truyền theo sợi thần kinh giao cảm nội tạng (đoạn tủy T10) gây cảm giác đau mơ hồ vùng thượng vị hoặc quanh rốn. Khi phản ứng viêm tiến triển lan tới lá phúc mạc thành ở hố chậu phải, các sợi thần kinh xô-ma dẫn truyền cảm giác đau rõ rệt, định khu chính xác tại hố chậu phải."
+              },
+              {
+                "q": "Dấu hiệu thực thể có giá trị quan trọng nhất để chẩn đoán xác định viêm ruột thừa cấp khi thăm khám bụng là:",
+                "opts": [
+                  "Dấu hiệu Murphy dương tính",
+                  "Điểm đau khu trú tại điểm McBurney và có dấu hiệu phản ứng thành bụng ở hố chậu phải",
+                  "Bụng trướng căng, gõ vang toàn bộ",
+                  "Có tiếng óc ách lúc đói vùng thượng vị"
+                ],
+                "ans": 1,
+                "exp": "Điểm đau McBurney (điểm nối 1/3 ngoài và 2/3 trong của đường nối gai chậu trước trên phải với rốn) ấn đau chói kèm theo phản ứng thành bụng (sự co cứng cơ chủ động hoặc không chủ động khi ấn sâu) là dấu hiệu kinh điển phản ánh tình trạng viêm lá phúc mạc thành tương ứng với vị trí ruột thừa tổn thương."
+              },
+              {
+                "q": "Biến đổi cận lâm sàng huyết học thường gặp và có giá trị nhất trong chẩn đoán viêm ruột thừa cấp là:",
+                "opts": [
+                  "Số lượng tiểu cầu giảm dưới 100 G/l",
+                  "Số lượng hồng cầu tăng cao trên 6 T/l",
+                  "Số lượng bạch cầu tăng trên 10 G/l, trong đó bạch cầu đa nhân trung tính chiếm ưu thế (thường > 75 - 80%)",
+                  "Giảm số lượng bạch cầu lympho đơn thuần"
+                ],
+                "ans": 2,
+                "exp": "Viêm ruột thừa cấp là một nhiễm khuẩn ngoại khoa cấp tính; xét nghiệm công thức máu thường cho thấy tăng bạch cầu trung tính rõ rệt, kết hợp với chỉ số viêm CRP tăng cao."
+              },
+              {
+                "q": "Nguyên tắc sử dụng kháng sinh trong điều trị phẫu thuật viêm ruột thừa cấp là:",
+                "opts": [
+                  "Tuyệt đối không dùng kháng sinh trước mổ vì sợ làm lu mờ triệu chứng",
+                  "Sử dụng kháng sinh dự phòng trước mổ cho mọi trường hợp; đối với viêm ruột thừa hoại tử, vỡ hoặc có viêm phúc mạc cần dùng kháng sinh điều trị kết hợp kéo dài sau mổ",
+                  "Chỉ dùng kháng sinh khi ruột thừa đã vỡ mủ",
+                  "Chỉ cần rửa sạch ổ bụng trong mổ mà không cần dùng bất kỳ loại kháng sinh nào"
+                ],
+                "ans": 1,
+                "exp": "Kháng sinh tĩnh mạch (bao phủ vi khuẩn Gram âm đường ruột và vi khuẩn kỵ khí) được chỉ định trước mổ trong mọi trường hợp cắt ruột thừa nhằm giảm biến chứng nhiễm trùng vết mổ và áp xe tồn dư trong ổ bụng. Nếu viêm ruột thừa chưa vỡ, chỉ cần dùng 1 liều kháng sinh dự phòng; nếu đã vỡ hoại tử hoặc viêm phúc mạc thì phải tiếp tục dùng kháng sinh điều trị sau mổ."
+              },
+              {
+                "q": "Bệnh nhân có biểu hiện đau hố chậu phải ngày thứ 5, sốt nhẹ, khám thấy hố chậu phải có một khối ranh giới không rõ, ấn đau tức vừa phải, không có phản ứng thành bụng, toàn trạng ổn định. Chẩn đoán lâm sàng phù hợp nhất là:",
+                "opts": [
+                  "Viêm phúc mạc toàn thể do vỡ ruột thừa",
+                  "Đám quánh ruột thừa",
+                  "Thủng ổ loét dạ dày tá tràng",
+                  "Lồng ruột hồi manh tràng"
+                ],
+                "ans": 1,
+                "exp": "Đám quánh ruột thừa hình thành khi ruột thừa viêm tiến triển chậm và được mạc nối lớn cùng các quai ruột xung quanh bao bọc, khu trú lại thành một khối thâm nhiễm chắc ở hố chậu phải. Thái độ xử trí chuẩn là điều trị nội khoa bằng kháng sinh, theo dõi sát; không mổ cấp cứu trong giai đoạn này vì nguy cơ làm tổn thương thủng các quai ruột đang dính chặt."
+              },
+              {
+                "q": "Biến chứng sau phẫu thuật nội soi cắt ruột thừa cần theo dõi sát trong những ngày đầu sau mổ là:",
+                "opts": [
+                  "Chảy máu trong ổ bụng từ mạc treo ruột thừa",
+                  "Rò mỏm cắt ruột thừa",
+                  "Áp xe tồn dư trong ổ bụng (hố chậu phải hoặc túi cùng Douglas)",
+                  "Tất cả các biến chứng trên"
+                ],
+                "ans": 3,
+                "exp": "Sau mổ cắt ruột thừa, bệnh nhân cần được theo dõi sát các dấu hiệu sinh tồn, tình trạng bụng và dẫn lưu (nếu có) để phát hiện sớm các biến chứng: chảy máu ổ bụng do tuột clip/chỉ buộc động mạch ruột thừa, bục mỏm cắt gây rò tiêu hóa, hoặc áp xe tồn dư (sốt dao động, đau bụng tăng, ỉa lỏng mót rặn sau mổ vài ngày)."
+              }
+            ]
+          },
+          "chan-thuong-vet-thuong-bung": {
+            "title": "Bài 2: Chấn thương bụng - Vết thương bụng (5 câu)",
+            "questions": [
+              {
+                "q": "Khi tiếp cận và khám một bệnh nhân chấn thương bụng kín tại phòng cấp cứu, nguyên tắc quan trọng nhất cần thực hiện là:",
+                "opts": [
+                  "Khám tỉ mỉ từng vùng bụng trước khi kiểm tra các cơ quan khác",
+                  "Khám toàn thân theo thứ tự ưu tiên ABCDE để tìm dấu hiệu sốc và không bỏ sót các tổn thương nguy hiểm đe dọa tính mạng",
+                  "Đưa ngay bệnh nhân đi chụp cắt lớp vi tính bụng có tiêm cản quang",
+                  "Bơm rửa dạ dày để kiểm tra chảy máu tiêu hóa"
+                ],
+                "ans": 1,
+                "exp": "Chấn thương bụng thường nằm trong bệnh cảnh đa chấn thương. Bác sĩ cấp cứu phải khám toàn thân theo thứ tự ABCDE, phát hiện ngay tình trạng sốc mất máu do vỡ tạng đặc hoặc tổn thương mạch máu lớn trước khi tập trung vào các triệu chứng khu trú tại bụng."
+              },
+              {
+                "q": "Cận lâm sàng hình ảnh đầu tay, nhanh chóng, có thể thực hiện ngay tại giường để phát hiện dịch máu tự do trong khoang màng bụng ở bệnh nhân chấn thương bụng kín là:",
+                "opts": [
+                  "Chụp X-quang bụng không chuẩn bị",
+                  "Nội soi ổ bụng chẩn đoán",
+                  "Siêu âm ổ bụng (kỹ thuật FAST)",
+                  "Chụp cộng hưởng từ hạt nhân (MRI) bụng"
+                ],
+                "ans": 2,
+                "exp": "Siêu âm FAST (Focused Assessment with Sonography for Trauma) tại giường giúp phát hiện dịch tự do ở khoang bao gan, bao lách, túi cùng Douglas và màng ngoài tim trong vòng 2 - 3 phút mà không làm gián đoạn quá trình hồi sức bệnh nhân."
+              },
+              {
+                "q": "Chỉ định mở bụng cấp cứu TUYỆT ĐỐI ở bệnh nhân chấn thương bụng kín là:",
+                "opts": [
+                  "Bệnh nhân có tình trạng sốc mất máu huyết động không ổn định và siêu âm FAST phát hiện có dịch tự do trong ổ bụng",
+                  "Rách bao gan độ I trên phim chụp cắt lớp vi tính nhưng huyết động hoàn toàn ổn định",
+                  "Men tụy Amylase máu tăng nhẹ sau đụng dập thành bụng",
+                  "Đau tức bụng nhẹ nhưng không có phản ứng thành bụng"
+                ],
+                "ans": 0,
+                "exp": "Nếu bệnh nhân có sốc mất máu (mạch nhanh, huyết áp tụt) kết hợp với bằng chứng có dịch/máu tự do trong ổ bụng qua siêu âm FAST, phải chuyển thẳng phòng mổ để phẫu thuật mở bụng cầm máu cấp cứu; không chuyển bệnh nhân đi chụp CT scan vì nguy cơ ngừng tim trên đường di chuyển."
+              },
+              {
+                "q": "Bệnh nhân có vết thương thấu bụng, thái độ xử trí phẫu thuật đúng đắn là:",
+                "opts": [
+                  "Khâu kín miệng vết thương thành bụng và cho về theo dõi ngoại trú",
+                  "Nhét gạc vô khuẩn và chờ bệnh nhân sốt mới can thiệp",
+                  "Phẫu thuật mổ cấp cứu (mở bụng hoặc nội soi thăm dò) để kiểm tra toàn diện các tạng trong ổ bụng, cầm máu và xử trí các tổn thương thủng tạng",
+                  "Cắt bỏ đoạn ruột lòi ra ngoài ngay tại phòng khám cấp cứu"
+                ],
+                "ans": 2,
+                "exp": "Vết thương thấu bụng (vết thương đã thủng qua lớp phúc mạc thành) có nguy cơ tổn thương tạng rỗng và mạch máu rất cao. Chỉ định mở bụng hoặc nội soi thăm dò toàn bộ ổ bụng là bắt buộc nhằm tránh bỏ sót tổn thương thủng ruột hay chảy máu đang tiếp diễn."
+              },
+              {
+                "q": "Dấu hiệu hình ảnh có giá trị xác định thủng tạng rỗng (dạ dày, ruột) trong chấn thương hoặc vết thương bụng trên phim chụp X-quang bụng đứng không chuẩn bị là:",
+                "opts": [
+                  "Quai ruột non giãn chứa đầy hơi",
+                  "Hình ảnh liềm hơi dưới cơ hoành (một bên hoặc hai bên)",
+                  "Hình ảnh mức nước - mức hơi chân rộng vòm thấp",
+                  "Bóng thận hai bên to hơn bình thường"
+                ],
+                "ans": 1,
+                "exp": "Khí tự do thoát ra từ ống tiêu hóa bị thủng sẽ di chuyển lên vị trí cao nhất của ổ bụng dưới vòm hoành khi bệnh nhân ở tư thế đứng, tạo nên hình ảnh liềm hơi sáng cản quang ngăn cách giữa cơ hoành và bóng gan/dạ dày."
+              }
+            ]
+          },
+          "viem-tui-mat-cap-soi": {
+            "title": "Bài 3: Viêm túi mật cấp do sỏi (5 câu)",
+            "questions": [
+              {
+                "q": "Cơ chế bệnh sinh khởi phát chủ yếu của viêm túi mật cấp do sỏi là:",
+                "opts": [
+                  "Vi khuẩn từ đường ruột xâm nhập ngược dòng vào đường mật",
+                  "Sỏi kẹt tại cổ túi mật hoặc ống túi mật gây tắc nghẽn lưu thông mật, làm ứ trệ dịch mật, tăng áp lực trong lòng túi mật và gây thiếu máu thành túi mật",
+                  "Trào ngược dịch tụy vào lòng đường mật",
+                  "Dị ứng thuốc kháng sinh đào thải qua gan"
+                ],
+                "ans": 1,
+                "exp": "Trên 90% các ca viêm túi mật cấp bắt đầu do sỏi kẹt tại phễu túi mật hoặc ống túi mật. Dịch mật ứ đọng làm tăng áp lực thành túi mật, gây phù nề, thiếu máu nuôi dưỡng niêm mạc túi mật, sau đó mới xảy ra tình trạng bội nhiễm vi khuẩn thứ phát."
+              },
+              {
+                "q": "Dấu hiệu khám thực thể đặc trưng nhất của viêm túi mật cấp do sỏi là:",
+                "opts": [
+                  "Dấu hiệu Blumberg ở hố chậu phải",
+                  "Dấu hiệu Murphy dương tính (bệnh nhân ngừng thở đột ngột do đau chói khi bác sĩ ấn sâu vào điểm túi mật trong thì hít vào)",
+                  "Dấu hiệu Rovsing dương tính",
+                  "Dấu hiệu Kehr ở vai trái"
+                ],
+                "ans": 1,
+                "exp": "Điểm Murphy là giao điểm của bờ sườn phải và bờ ngoài cơ thẳng to bên phải (tương ứng với đáy túi mật). Khi bệnh nhân hít sâu vào, cơ hoành đẩy đáy túi mật đang viêm chạm vào tay người khám gây đau nhói dữ dội làm bệnh nhân phải ngừng thở đột ngột (dấu hiệu Murphy dương tính)."
+              },
+              {
+                "q": "Tiêu chuẩn chẩn đoán hình ảnh trên siêu âm bụng của viêm túi mật cấp bao gồm:",
+                "opts": [
+                  "Sỏi kẹt ở vùng cổ túi mật hoặc sỏi trong lòng túi mật",
+                  "Thành túi mật dày ≥ 4 mm, có hình ảnh thành túi mật hai lớp hoặc dịch quanh túi mật",
+                  "Túi mật căng to (kích thước ngang > 4 - 5 cm)",
+                  "Tất cả các tiêu chuẩn trên"
+                ],
+                "ans": 3,
+                "exp": "Siêu âm bụng là phương pháp chẩn đoán hình ảnh đầu tay có độ chính xác > 90% đối với viêm túi mật cấp; hội đủ các tiêu chuẩn: phát hiện sỏi mật, thành túi mật dày trên 4mm phù nề, dấu hiệu Murphy siêu âm dương tính và lớp dịch viêm bao quanh túi mật."
+              },
+              {
+                "q": "Phương pháp điều trị triệt để được khuyến cáo lựa chọn hàng đầu cho viêm túi mật cấp do sỏi là:",
+                "opts": [
+                  "Tán sỏi túi mật bằng sóng xung kích ngoài cơ thể",
+                  "Điều trị nội khoa bằng thuốc tan sỏi Acid Ursodeoxycholic",
+                  "Phẫu thuật nội soi cắt túi mật sớm (tốt nhất trong vòng 72 giờ đầu kể từ khi khởi phát triệu chứng)",
+                  "Mổ mở nối mật ruột cấp cứu"
+                ],
+                "ans": 2,
+                "exp": "Phẫu thuật nội soi cắt túi mật sớm trong vòng 72 giờ đầu kể từ khi khởi phát là tiêu chuẩn điều trị vàng hiện nay theo Hướng dẫn Tokyo (Tokyo Guidelines), giúp giảm thời gian nằm viện, giảm chi phí điều trị và hạn chế các biến chứng hoại tử thủng túi mật so với mổ trì hoãn."
+              },
+              {
+                "q": "Biến chứng nguy hiểm đe dọa tính mạng nếu viêm túi mật cấp do sỏi không được xử trí kịp thời là:",
+                "opts": [
+                  "Hoại tử thành túi mật dẫn đến thủng túi mật gây viêm phúc mạc mật toàn thể",
+                  "Áp xe quanh túi mật hoặc áp xe dưới hoành",
+                  "Rò túi mật vào ống tiêu hóa (dạ dày, tá tràng) gây tắc ruột do sỏi mật (Gallstone ileus)",
+                  "Tất cả các biến chứng trên"
+                ],
+                "ans": 3,
+                "exp": "Thiếu máu thành túi mật kéo dài sẽ dẫn tới hoại tử thủng túi mật gây viêm phúc mạc mật hoặc áp xe khu trú; trường hợp sỏi lớn ăn mòn thành túi mật tạo lỗ rò thông vào tá tràng có thể rơi xuống ruột non và kẹt tại van hồi manh tràng gây tắc ruột cơ học do sỏi mật."
+              }
+            ]
+          },
+          "tac-ruot-co-hoc": {
+            "title": "Bài 4: Tắc ruột cơ học (5 câu)",
+            "questions": [
+              {
+                "q": "Bốn triệu chứng cơ năng kinh điển của hội chứng tắc ruột cơ học là:",
+                "opts": [
+                  "Đau bụng cơn, Nôn mửa, Bí trung đại tiện, Trướng bụng",
+                  "Sốt cao, Vàng da, Đau hạ sườn phải, Nôn dịch mật",
+                  "Đau thượng vị, Ợ hơi, Đi ngoài phân đen, Gầy sút cân",
+                  "Đau quặn bụng dưới, Đi ngoài phân nhầy máu, Mót rặn"
+                ],
+                "ans": 0,
+                "exp": "Tứ chứng tắc ruột kinh điển bao gồm: Đau: đau quặn từng cơn tương ứng với sóng nhu động ruột tăng co bóp tống đẩy vật cản. Nôn: nôn thức ăn, dịch tiêu hóa (tắc càng cao nôn càng sớm và nhiều). Bí: bí trung tiện và đại tiện (dấu hiệu khẳng định tắc lưu thông ống tiêu hóa). Trướng: bụng trướng hơi và dịch ứ đọng phía trên chỗ tắc."
+              },
+              {
+                "q": "Hình ảnh X-quang bụng không chuẩn bị tư thế đứng điển hình giúp chẩn đoán xác định tắc ruột non cơ học là:",
+                "opts": [
+                  "Liềm hơi nằm dưới vòm hoành hai bên",
+                  "Nhiều hình ảnh mức nước - mức hơi tập trung ở trung tâm ổ bụng, có đặc điểm chân rộng, vòm thấp và xếp thành hình bậc thang từ hố chậu phải lên hạ sườn trái",
+                  "Khung đại tràng giãn to chứa đầy hơi dọc hai hố chậu",
+                  "Bóng hơi dạ dày dãn khổng lồ chiếm toàn bộ ổ bụng"
+                ],
+                "ans": 1,
+                "exp": "Tắc ruột non cơ học biểu hiện trên X-quang bằng các mức nước - mức hơi nằm ở giữa bụng, vòm thấp chân rộng (do đường kính ruột non nhỏ và nếp gấp niêm mạc chạy suốt chu vi quai ruột), sắp xếp theo chiều đi của mạc treo ruột non từ hố chậu phải lên hạ sườn trái. Ngược lại, tắc đại tràng thì mức nước - hơi nằm ở ngoại vi ổ bụng, vòm cao chân hẹp."
+              },
+              {
+                "q": "Triệu chứng lâm sàng quan trọng nhất giúp phân biệt giữa Tắc ruột do thắt nghẹt (như xoắn ruột, nghẹt quai ruột) và Tắc ruột do bít tắc đơn thuần là:",
+                "opts": [
+                  "Bệnh nhân có nôn ra dịch mật",
+                  "Cơn đau bụng trong tắc ruột thắt nghẹt mang tính chất dữ dội liên tục (không có khoảng giảm đau hoàn toàn giữa các cơn), tình trạng sốc nhiễm độc - mất nước diễn biến rất nhanh và khám có phản ứng phúc mạc tại chỗ",
+                  "Bệnh nhân bí đại tiện nhưng vẫn còn trung tiện được",
+                  "Xét nghiệm bạch cầu máu hoàn toàn bình thường"
+                ],
+                "ans": 1,
+                "exp": "Tắc ruột bít tắc đơn thuần đau theo từng cơn nhu động ruột, giữa các cơn bệnh nhân hết đau; trong khi tắc ruột thắt nghẹt có tổn thương thiếu máu hoại tử mạc treo ruột nên đau dữ dội liên tục không dứt, xuất hiện sớm các triệu chứng viêm phúc mạc và sốc nhiễm trùng - nhiễm độc, cần mổ cấp cứu tối khẩn cấp để cứu đoạn ruột."
+              },
+              {
+                "q": "Biện pháp hồi sức ban đầu bắt buộc và quan trọng nhất cần thực hiện ngay cho mọi bệnh nhân tắc ruột cơ học là:",
+                "opts": [
+                  "Cho bệnh nhân uống thuốc nhuận tràng để tăng cường tống phân",
+                  "Đặt ống thông dạ dày (sonde dạ dày) hút ngắt quãng để giảm áp lực đường tiêu hóa, nhịn ăn uống hoàn toàn và bồi phụ nước, điện giải qua đường tĩnh mạch",
+                  "Thụt tháo đại tràng bằng nước ấm số lượng lớn liên tục",
+                  "Cho dùng thuốc chống co thắt cơ trơn liều cao"
+                ],
+                "ans": 1,
+                "exp": "Đặt ống thông dạ dày giúp hút giải phóng hơi và dịch tiêu hóa ứ đọng, làm xẹp các quai ruột, chống nôn trào ngược gây sặc vào phổi và cải thiện lưu thông máu thành ruột. Đồng thời, bù dịch đẳng trương (NaCl 0.9%, Ringer Lactate) và điều chỉnh rối loạn điện giải (đặc biệt là bù Kali) là bước hồi sức sống còn trước khi tiến hành phẫu thuật."
+              },
+              {
+                "q": "Nguyên nhân thường gặp nhất gây tắc ruột non cơ học ở người lớn có tiền sử từng mổ mở ổ bụng trước đây là:",
+                "opts": [
+                  "Ung thư đại tràng sigma di căn",
+                  "Dây chằng hoặc dính ruột sau phẫu thuật",
+                  "Búi giun đũa gây tắc ruột",
+                  "Dị vật bã thức ăn"
+                ],
+                "ans": 1,
+                "exp": "Dính ruột và dây chằng sau mổ chiếm khoảng 60 - 70% các nguyên nhân gây tắc ruột non cơ học ở người lớn có tiền sử phẫu thuật ổ bụng (như mổ viêm ruột thừa, mổ phụ khoa, mổ viêm phúc mạc). Các quai ruột bị gập góc hoặc chui qua các lỗ khuyết tạo bởi dải dính gây tắc lòng ruột."
+              }
+            ]
+          },
+          "chan-thuong-phan-mem-chi": {
+            "title": "Bài 5: Chấn thương xương, mô mềm, chi đứt rời (5 câu)",
+            "questions": [
+              {
+                "q": "Nguyên tắc bất động cố định tạm thời khi bị gãy xương chi là:",
+                "opts": [
+                  "Chỉ cần cố định chắc chắn tại vị trí ổ gãy",
+                  "Bất động chắc chắn ổ gãy và cố định qua ít nhất hai khớp: khớp phía trên và khớp phía dưới của đoạn xương gãy",
+                  "Kéo nắn thật thẳng trục chi rồi mới nẹp bất động",
+                  "Treo chi lên cao mà không cần nẹp cứng"
+                ],
+                "ans": 1,
+                "exp": "Bất động cố định chi gãy bắt buộc phải giữ bất động được khớp phía trên và khớp phía dưới ổ gãy nhằm triệt tiêu các cử động xoay và giằng xé của khối cơ bám qua hai khớp, giúp giảm đau, phòng ngừa sốc chấn thương, tránh di lệch thứ phát đâm rách mạch máu, thần kinh và màng xương."
+              },
+              {
+                "q": "Biến chứng cấp tính nguy hiểm nhất thường gặp trong điều trị gãy xương kín bằng phương pháp bảo tồn (bó bột hoặc nẹp bột) là:",
+                "opts": [
+                  "Hội chứng chèn ép khoang cấp tính",
+                  "Chảy máu thứ phát không cầm",
+                  "Nhiễm trùng huyết",
+                  "Can lệch xương"
+                ],
+                "ans": 0,
+                "exp": "Sau gãy xương, phản ứng phù nề mô mềm và chảy máu trong khoang cân mạc kín làm áp lực mô kẽ tăng nhanh. Nếu băng bó hoặc bó bột quá chặt, áp lực trong khoang vượt quá áp lực mao mạch sẽ gây tắc nghẽn tuần hoàn mao mạch, dẫn đến hoại tử thần kinh và cơ không thể hồi phục."
+              },
+              {
+                "q": "Chỉ định tháo rạch dọc bột khẩn cấp được đặt ra khi người bệnh có biểu hiện:",
+                "opts": [
+                  "Bệnh nhân cảm thấy vướng víu khó chịu khi mang bột",
+                  "Bệnh nhân muốn vận động khớp sớm",
+                  "Nghi ngờ hoặc bắt đầu xuất hiện dấu hiệu của hội chứng chèn ép khoang (đau buốt tăng liên tục, tê bì ngọn chi, căng tức dưới bột)",
+                  "Bệnh nhân thấy đỡ đau hoàn toàn"
+                ],
+                "ans": 2,
+                "exp": "Bất kỳ khi nào người bệnh có dấu hiệu nghi ngờ chèn ép khoang (đau tăng dữ dội không đáp ứng giảm đau, tê bì, phù nề tím tái các ngón chi), phải rạch dọc bột giải áp ngay qua toàn bộ các lớp bột và lớp bông lót để hạ áp lực khoang."
+              },
+              {
+                "q": "Quy trình sơ cứu và bảo quản một phần chi thể bị đứt rời hoàn toàn đúng kỹ thuật để phục vụ phẫu thuật vi phẫu nối lại là:",
+                "opts": [
+                  "Rửa sạch bằng dung dịch cồn sát trùng rồi thả trực tiếp vào xô đá lạnh",
+                  "Rửa trôi nhẹ dị vật bằng nước muối sinh lý vô khuẩn, bọc kín trong gạc sạch, cho vào túi nilon buộc kín; sau đó đặt túi nilon vào thùng chứa nước đá lạnh (bảo quản ở nhiệt độ 2 - 4°C, không để chi thể ngâm trực tiếp trong nước đá)",
+                  "Ngâm ngập phần chi thể trong dung dịch kháng sinh pha loãng",
+                  "Cho vào túi nilon và để ở nhiệt độ phòng vận chuyển bình thường"
+                ],
+                "ans": 1,
+                "exp": "Chi thể đứt rời cần được bảo quản lạnh gián tiếp từ 2 đến 4°C để làm chậm quá trình thoái hóa và thiếu máu hoại tử mô. Không được ngâm trực tiếp chi thể vào nước đá vì sẽ gây bỏng lạnh mô, phù nề tế bào và phá hủy lớp nội mạc mạch máu, khiến miệng nối vi phẫu bị huyết khối tắc mạch."
+              },
+              {
+                "q": "Thời gian thiếu máu lạnh tối đa cho phép để có thể phẫu thuật nối lại thành công đối với chi thể lớn có chứa nhiều cơ (như cẳng tay, cẳng chân) là:",
+                "opts": [
+                  "Dưới 6 giờ (tối đa 6 - 8 giờ)",
+                  "12 - 24 giờ",
+                  "24 - 48 giờ",
+                  "30 phút"
+                ],
+                "ans": 0,
+                "exp": "Tế bào cơ vân rất nhạy cảm với tình trạng thiếu oxy, sau 6 giờ thiếu máu mô cơ bắt đầu hoại tử không hồi phục và giải phóng độc tố (myoglobin, kali, acid lactic) vào tuần hoàn khi tái tưới máu. Ngón tay (chủ yếu là gân, xương, da) có thể chịu đựng thiếu máu lạnh kéo dài hơn (lên tới 12 - 24 giờ)."
+              }
+            ]
+          },
+          "gay-xuong-cang-chan": {
+            "title": "Bài 6: Gãy xương cẳng chân (5 câu)",
+            "questions": [
+              {
+                "q": "Đặc điểm giải phẫu quan trọng của xương cẳng chân giải thích vì sao gãy thân xương cẳng chân rất dễ trở thành gãy hở và chậm liền xương là:",
+                "opts": [
+                  "Ống tủy xương chày rất hẹp và chịu lực nén kém",
+                  "Mặt trước trong của xương chày nằm ngay sát dưới da, không có cơ bao bọc che chở; hệ thống mạch máu nuôi dưỡng ở đoạn 1/3 dưới rất nghèo nàn",
+                  "Xương mác chịu tới 80% tải trọng cơ thể",
+                  "Khối cơ cẳng chân có màng liên cốt dày cản trở liền xương"
+                ],
+                "ans": 1,
+                "exp": "Toàn bộ mặt trước trong và bờ trước (mào chày) của xương chày nằm sát ngay dưới da, không có lớp cơ đệm bảo vệ nên khi có lực chấn thương đụng dập hoặc đầu xương gãy chọc thủng da rất dễ tạo thành gãy hở. Đoạn 1/3 dưới xương chày có nguồn mạch máu nuôi dưỡng kém, diện bám cơ ít nên tỷ lệ khớp giả và chậm liền xương rất cao."
+              },
+              {
+                "q": "Cẳng chân được giải phẫu phân chia thành bao nhiêu khoang cân mạc kín có nguy cơ bị chèn ép khoang khi gãy xương:",
+                "opts": [
+                  "2 khoang",
+                  "3 khoang",
+                  "4 khoang (khoang trước, khoang ngoài, khoang sau nông và khoang sau sâu)",
+                  "5 khoang"
+                ],
+                "ans": 2,
+                "exp": "Cẳng chân có 4 khoang cân riêng biệt được giới hạn bởi xương chày, xương mác, màng liên cốt và các vách gian cơ: (1) Khoang trước (chứa cơ chày trước, các cơ duỗi ngón, mạch chày trước và thần kinh mác sâu - khoang hay bị chèn ép nhất); (2) Khoang ngoài; (3) Khoang sau nông; (4) Khoang sau sâu."
+              },
+              {
+                "q": "Dấu hiệu lâm sàng gợi ý sớm tình trạng chèn ép khoang trước cẳng chân ở bệnh nhân gãy xương cẳng chân là:",
+                "opts": [
+                  "Mất mạch chày sau ở mắt cá trong hoàn toàn",
+                  "Cẳng chân sưng căng cứng như gỗ, đau tăng dữ dội khi làm nghiệm pháp gấp thụ động mu chân/ngón chân cái (kéo giãn nhóm cơ khoang trước) và tê bì khoang liên ngón I - II bàn chân",
+                  "Hoại tử tím đen toàn bộ bàn chân",
+                  "Liệt hoàn toàn động tác gấp lòng bàn chân"
+                ],
+                "ans": 1,
+                "exp": "Khoang trước chứa thần kinh mác sâu (chi phối cảm giác khoang kẽ ngón chân I - II) và nhóm cơ duỗi cổ chân, ngón chân. Khi chèn ép khoang trước, nghiệm pháp gấp thụ động bàn chân về phía lòng sẽ làm căng giãn các cơ bị thiếu máu gây đau buốt dữ dội; đây là dấu hiệu lâm sàng sớm và có độ nhạy cao nhất."
+              },
+              {
+                "q": "Chỉ định mở cân giải áp khẩn cấp ở bệnh nhân chèn ép khoang cẳng chân dựa trên đo áp lực khoang khi:",
+                "opts": [
+                  "Áp lực khoang vượt quá 10 mmHg",
+                  "Áp lực tuyệt đối trong khoang ≥ 30 mmHg hoặc hiệu số giữa Huyết áp tâm trương và Áp lực khoang (\\Delta P) ≤ 30 mmHg",
+                  "Áp lực khoang bằng huyết áp tâm thu",
+                  "Áp lực khoang giảm dưới 15 mmHg"
+                ],
+                "ans": 1,
+                "exp": "Áp lực khoang bình thường < 8 - 10 mmHg. Khi áp lực tăng ≥ 30 mmHg hoặc hiệu số áp lực tưới máu \\Delta P = HATTr - P_{khoang} ≤ 30 mmHg là chỉ định tuyệt đối phải rạch mở rộng bao cân cẳng chân giải áp để cứu vãn cơ và thần kinh."
+              },
+              {
+                "q": "Phương pháp phẫu thuật kết hợp xương được ưu tiên lựa chọn hàng đầu cho gãy kín vững thân hai xương cẳng chân ở người lớn hiện nay là:",
+                "opts": [
+                  "Mổ mở đặt nẹp vít nén ép (DCP)",
+                  "Đóng đinh nội tủy có chốt (Interlocking nail) kín dưới màn tăng sáng (C-arm)",
+                  "Bó bột đùi cẳng bàn chân kéo dài 6 tháng",
+                  "Đặt khung cố định ngoài vĩnh viễn"
+                ],
+                "ans": 1,
+                "exp": "Đóng đinh nội tủy có chốt kín là phương pháp phẫu thuật xâm lấn tối thiểu tiêu chuẩn: giữ vững trục chi và chiều dài giải phẫu, không mở ổ gãy nên bảo tồn tối đa khối máu tụ và màng xương nuôi dưỡng, giúp liền xương sinh học nhanh và cho phép bệnh nhân tì đè tập phục hồi chức năng sớm."
+              }
+            ]
+          },
+          "gay-xuong-ho": {
+            "title": "Bài 7: Gãy xương hở (6 câu)",
+            "questions": [
+              {
+                "q": "Thời gian xử trí phẫu thuật cắt lọc rửa sạch ổ gãy tối ưu để phòng ngừa nhiễm khuẩn trong gãy xương hở (kể từ khi bị thương) là:",
+                "opts": [
+                  "Dưới 6 giờ (\"thời gian vàng\")",
+                  "Từ 12 - 24 giờ",
+                  "Sau 24 giờ khi đã có triệu chứng nhiễm trùng rõ",
+                  "Sau 48 giờ để cơ thể tự khu trú tổn thương"
+                ],
+                "ans": 0,
+                "exp": "Trong vòng 6 giờ đầu sau chấn thương, vi khuẩn bám dính vào mô dập nát chỉ mới ở giai đoạn sinh sôi cục bộ tại bề mặt, chưa kịp xâm nhập sâu vào hệ thống tuần hoàn và cấu trúc xương; phẫu thuật cắt lọc sớm trong thời gian này giúp biến vết thương bẩn thành vết thương sạch, giảm thiểu tỷ lệ viêm xương tủy xương."
+              },
+              {
+                "q": "Ưu tiên hàng đầu trong các bước tiếp cận và xử trí ban đầu một bệnh nhân bị gãy xương hở tại phòng cấp cứu là:",
+                "opts": [
+                  "Giảm đau bằng thuốc an thần liều cao",
+                  "Hồi sức tích cực: Cầm máu vết thương và chống sốc (chấn thương/mất máu)",
+                  "Bó bột cố định ngay lập tức",
+                  "Nắn chỉnh xương gãy thật thẳng trục"
+                ],
+                "ans": 1,
+                "exp": "Gãy xương hở (đặc biệt các xương lớn như xương đùi, xương chày) gây mất máu nhiều và đau đớn dữ dội; hồi sức tính mạng bằng cầm máu tại chỗ (băng ép có trọng điểm), bù dịch thể tích chống sốc là ưu tiên số 1 trước khi thực hiện các can thiệp chỉnh hình chuyên sâu."
+              },
+              {
+                "q": "Theo bảng phân độ gãy xương hở của Gustilo - Anderson (1984), tổn thương được xếp vào \"Gãy hở Độ I\" khi:",
+                "opts": [
+                  "Vết rách da sạch kích thước ≤ 1 cm, thường do đầu xương gãy đâm thủng từ trong ra, cơ dập nát tối thiểu, đường gãy đơn giản",
+                  "Vết thương rách da kích thước 1 - 10 cm, không có tổn thương mô mềm diện rộng",
+                  "Vết thương dập nát cơ nặng nề, lộ toàn bộ màng xương",
+                  "Vết thương bẩn do tai nạn nông nghiệp bùn đất"
+                ],
+                "ans": 0,
+                "exp": "Phân loại Gustilo: Độ I: Vết thương da ≤ 1 cm, sạch, tổn thương phần mềm tối thiểu, cơ không bị dập nát, gãy xương đơn giản. Độ II: Vết rách da > 1 cm đến 10 cm, tổn thương phần mềm mức độ vừa, không có lóc da rộng. Độ III: Vết rách da > 10 cm hoặc dập nát mô mềm nặng, lóc da diện rộng, gãy phức tạp nhiều mảnh hoặc vết thương bẩn."
+              },
+              {
+                "q": "Đặc điểm phân biệt giữa gãy xương hở Độ IIIA, IIIB và IIIC theo phân loại Gustilo là:",
+                "opts": [
+                  "Độ IIIA tổn thương mô mềm nhỏ hơn Độ II",
+                  "Độ IIIA: mô mềm còn đủ che phủ ổ gãy; Độ IIIB: khuyết hổng mô mềm lớn lộ xương trơ, màng xương bị lột, cần phải chuyển vạt tạo hình che phủ; Độ IIIC: có tổn thương mạch máu chính nuôi dưỡng chi cần phải phục hồi lưu thông mạch",
+                  "Độ IIIC là gãy xương có nhiễm trùng mủ",
+                  "Độ IIIB là gãy xương kèm gãy cột sống"
+                ],
+                "ans": 1,
+                "exp": "Trong nhóm Độ III: IIIA: Mô mềm dập nát rộng nhưng sau cắt lọc vẫn đủ che phủ kín xương gãy. IIIB: Mất tổ chức phần mềm rộng, lộ xương và lột màng xương, không thể khâu che phủ trực tiếp mà cần xoay vạt cơ/vi phẫu ghép vạt. IIIC: Kèm theo đứt hoặc tổn thương động mạch chính đe dọa hoại tử chi, bắt buộc phải mổ cấp cứu khâu nối/ghép mạch máu tái thông dòng máu."
+              },
+              {
+                "q": "Chỉ định phối hợp kháng sinh nhóm Aminoglycosid (như Gentamicin, Amikacin) được Bộ Y tế và phác đồ quốc tế khuyến cáo cho gãy xương hở ở phân độ nào:",
+                "opts": [
+                  "Chỉ dùng cho gãy hở Độ I",
+                  "Chỉ dùng cho gãy hở Độ II",
+                  "Bắt buộc phối hợp từ gãy xương hở Độ III trở lên (hoặc vết thương nông nghiệp nhiễm bẩn nặng)",
+                  "Không bao giờ dùng Aminoglycosid trong chấn thương chỉnh hình"
+                ],
+                "ans": 2,
+                "exp": "Gãy hở Độ I và II thường chỉ cần kháng sinh phổ tác dụng trên vi khuẩn Gram dương (Cephalosporin thế hệ 1 hoặc 2). Từ Độ III trở lên hoặc vết thương bẩn nguy cơ cao nhiễm khuẩn Gram âm đường ruột và trực khuẩn mủ xanh, bắt buộc phải phối hợp thêm Aminoglycosid (như Gentamicin) và Metronidazole (để chống vi khuẩn kỵ khí)."
+              },
+              {
+                "q": "Phương pháp cố định xương được lựa chọn ưu tiên hàng đầu trong xử trí phẫu thuật cấp cứu gãy xương hở nặng Độ IIIB, IIIC hoặc vết thương ô nhiễm nặng là:",
+                "opts": [
+                  "Đặt nẹp nén ép khóa (LCP)",
+                  "Đóng đinh nội tủy có chốt ngay thì đầu",
+                  "Đặt khung cố định ngoài (External fixator)",
+                  "Bó bột kín ngay sau cắt lọc"
+                ],
+                "ans": 2,
+                "exp": "Khung cố định ngoài giúp giữ vững chắc trục xương ở vị trí cách xa ổ gãy, không để lại dị vật kim loại lớn trong ổ gãy đang có nguy cơ nhiễm trùng cao, đồng thời để lộ toàn bộ phần mềm giúp bác sĩ dễ dàng chăm sóc, thay băng, cắt lọc lại và tạo hình chuyển vạt che phủ xương."
+              }
+            ]
+          },
+          "vet-thuong-phan-mem": {
+            "title": "Bài 8: Vết thương phần mềm (4 câu)",
+            "questions": [
+              {
+                "q": "Nguyên tắc vàng trong phẫu thuật xử trí vết thương phần mềm là:",
+                "opts": [
+                  "Khâu thật kín vết thương ngay từ đầu bất kể thời gian đến viện",
+                  "Cắt lọc triệt để tổ chức dập nát hoại tử, lấy sạch dị vật, rửa nhiều lần bằng nước muối sinh lý với áp lực thích hợp và dẫn lưu dịch tốt",
+                  "Rắc bột kháng sinh trực tiếp vào bên trong vết thương",
+                  "Cắt bỏ toàn bộ mảng da xung quanh vết thương"
+                ],
+                "ans": 1,
+                "exp": "Tổn thương mô dập nát, máu tụ và dị vật là môi trường lý tưởng cho vi khuẩn yếm khí (như Clostridium tetani, Clostridium perfringens) phát triển. Phẫu thuật cắt lọc sạch mô chết, tưới rửa rửa trôi vi khuẩn và dẫn lưu thông thoáng là yếu tố quyết định giúp vết thương liền sẹo an toàn."
+              },
+              {
+                "q": "Vết thương phần mềm đến muộn sau 24 giờ, mép vết thương bẩn và có dấu hiệu viêm đỏ phù nề, phương pháp xử trí vết thương đúng đắn là:",
+                "opts": [
+                  "Cắt lọc mép vết thương và khâu kín một lớp ngay thì đầu",
+                  "Cắt lọc sạch tổ chức hoại tử, để hở vết thương hoàn toàn, thay băng chăm sóc hàng ngày và xem xét khâu phục hồi thì hai (sau 5 - 7 ngày khi vết thương sạch lên mô hạt tốt)",
+                  "Băng ép thật chặt không cần can thiệp ngoại khoa",
+                  "Đắp các loại lá thuốc nam để tiêu viêm"
+                ],
+                "ans": 1,
+                "exp": "Vết thương đến muộn sau 24 giờ hoặc có dấu hiệu nhiễm trùng tuyệt đối không được khâu kín thì đầu vì sẽ tạo khoang kín kỵ khí gây hoại thư sinh hơi và nhiễm trùng lan tỏa. Bắt buộc cắt lọc để hở, chăm sóc thay băng sạch sẽ rồi mới khâu da thì hai (khâu thì hai sớm sau 3 - 5 ngày hoặc khâu thì hai muộn sau 7 - 14 ngày)."
+              },
+              {
+                "q": "Xử trí dự phòng uốn ván cho một bệnh nhân có vết thương bẩn, sâu, chưa từng tiêm phòng uốn ván bao giờ (hoặc không nhớ tiền sử tiêm phòng) là:",
+                "opts": [
+                  "Chỉ cần tiêm 1 mũi vắc-xin uốn ván (VAT)",
+                  "Chỉ cần tiêm huyết thanh kháng độc tố uốn ván (SAT) đơn thuần",
+                  "Tiêm ngay huyết thanh kháng độc tố uốn ván (SAT hoặc TIG) tại một vị trí cơ thể, kết hợp tiêm vắc-xin giải độc tố uốn ván (VAT) ở một vị trí khác bằng bơm kim tiêm riêng biệt",
+                  "Không cần tiêm phòng nếu đã dùng kháng sinh đường uống"
+                ],
+                "ans": 2,
+                "exp": "Kháng thể thụ động từ huyết thanh SAT/TIG bảo vệ tức thì trung hòa ngoại độc tố uốn ván tự do trong máu trong khi hệ miễn dịch chưa kịp sản xuất kháng thể; đồng thời tiêm vắc-xin VAT để kích thích cơ thể sinh miễn dịch chủ động lâu dài. Hai thuốc bắt buộc tiêm ở hai vị trí khác nhau để tránh kháng thể trung hòa mất kháng nguyên vắc-xin."
+              },
+              {
+                "q": "Biến chứng ngoại khoa cấp tính nguy hiểm nhất của vết thương dập nát phần mềm sâu do trực khuẩn kỵ khí gây ra với biểu hiện da tím tái, sờ có tiếng lạo xạo hơi dưới da và dịch tiết hôi thối là:",
+                "opts": [
+                  "Viêm cân mạc hoại tử do liên cầu",
+                  "Hoại thư sinh hơi (Gas Gangrene do Clostridium perfringens)",
+                  "Uốn ván thể co cứng",
+                  "Dị ứng thuốc kháng sinh"
+                ],
+                "ans": 1,
+                "exp": "Clostridium perfringens và các vi khuẩn kỵ khí sinh hơi phát triển mạnh trong các vết thương dập nát cơ sâu bị thiếu máu, tạo bọt khí lan tỏa trong mô liên kết và hoại tử cơ ồ ạt, sinh độc tố gây tan máu, sốc nhiễm độc toàn thân đe dọa tử vong trong vài giờ nếu không được cắt lọc mở rộng rạch cân hoặc cắt cụt chi cấp cứu."
+              }
+            ]
+          },
+          "chan-thuong-itls-ngoai": {
+            "title": "Bài 9: Cấp cứu chấn thương ITLS (5 câu)",
+            "questions": [
+              {
+                "q": "Trình tự các bước đánh giá và xử trí nhanh các dấu hiệu đe dọa tính mạng trong Khảo sát ban đầu (Primary Survey) theo ITLS là:",
+                "opts": [
+                  "C - A - B - C - D - E (Kiểm soát chảy máu thảm họa \\rightarrow Kiểm soát đường thở & cột sống cổ \\rightarrow Hô hấp \\rightarrow Tuần hoàn \\rightarrow Thần kinh \\rightarrow Bộc lộ toàn thân)",
+                  "A - B - C - D - E thông thường không cần quan tâm chảy máu lớn bên ngoài",
+                  "Khám chi tiết từ đầu đến chân rồi mới tiến hành hồi sức",
+                  "Đưa đi chụp X-quang và CT toàn thân trước khi hồi sức"
+                ],
+                "ans": 0,
+                "exp": "Hướng dẫn cập nhật mới nhất của ITLS/ATLS đưa chữ C lớn lên đầu tiên: Catastrophic Hemorrhage (Chảy máu thảm họa đe dọa tính mạng ngay tức khắc như đứt động mạch lớn chi) phải được đặt garô hoặc băng ép chèn cầm máu ngay trước hoặc song song với bước bảo vệ đường thở (Airway & C-spine), tiếp tục đến Breathing, Circulation, Disability và Exposure."
+              },
+              {
+                "q": "Một bệnh nhân bị tai nạn giao thông xe máy ngã văng ra đường, vào viện tỉnh táo nhưng kêu đau vùng cổ nhiều, dấu hiệu sinh tồn ổn định. Hành động đầu tiên quan trọng nhất của người tiếp nhận là:",
+                "opts": [
+                  "Đặt ống nội khí quản bảo vệ đường thở ngay",
+                  "Đặt ống canun hầu họng qua miệng",
+                  "Cố định trục cột sống cổ ngay lập tức bằng nẹp cổ cứng (C-spine collar) hoặc giữ thẳng đầu bằng hai tay",
+                  "Đặt 2 đường truyền tĩnh mạch ngoại vi lớn"
+                ],
+                "ans": 2,
+                "exp": "Bất kỳ nạn nhân đa chấn thương hoặc chấn thương từ tầng sinh môn trở lên có cơ chế va đập mạnh đều phải được coi là có chấn thương cột sống cổ cho đến khi có bằng chứng hình ảnh học loại trừ. Cố định cổ ngay lập tức giúp ngăn ngừa di lệch đốt sống làm tổn thương tủy cổ gây liệt tứ chi hoặc ngừng thở."
+              },
+              {
+                "q": "Dụng cụ nẹp cố định nhanh và an toàn nhất được lựa chọn để vận chuyển khẩn cấp một bệnh nhân đa chấn thương nghi ngờ gãy nhiều xương về bệnh viện là:",
+                "opts": [
+                  "Nẹp gỗ từng chi riêng rẽ",
+                  "Bất động toàn thân bệnh nhân trên một Ván cứng (Long Spine Board) có dây đai cố định và chèn đầu",
+                  "Nẹp chi bị tổn thương vào chi lành bên đối diện",
+                  "Nẹp chi bị tổn thương vào thân mình"
+                ],
+                "ans": 1,
+                "exp": "Cố định toàn thân trên ván cứng là phương pháp nẹp nhanh nhất, đồng bộ nhất, vừa bất động vững chắc toàn bộ trục cột sống vừa cố định các xương gãy ở chi và khung chậu, giúp vận chuyển bệnh nhân an toàn lên cáng xe cấp cứu mà không làm tổn thương tiến triển."
+              },
+              {
+                "q": "Thang điểm hôn mê Glasgow (GCS) đánh giá tri giác người bệnh chấn thương dựa trên 3 đáp ứng:",
+                "opts": [
+                  "Huyết áp, Nhịp tim, Nhịp thở",
+                  "Mở mắt (Eye - tối đa 4 điểm), Lời nói (Verbal - tối đa 5 điểm) và Vận động (Motor - tối đa 6 điểm)",
+                  "Phản xạ đồng tử, Phản xạ gân xương, Cơ lực",
+                  "Cảm giác đau, Cảm giác nhiệt, Trương lực cơ"
+                ],
+                "ans": 1,
+                "exp": "Thang điểm Glasgow dao động từ 3 đến 15 điểm: Mở mắt (E): 1 - 4 điểm Lời nói (V): 1 - 5 điểm Vận động (M): 1 - 6 điểm. Điểm GCS ≤ 8 điểm được định nghĩa là chấn thương sọ não nặng / hôn mê, có chỉ định đặt nội khí quản bảo vệ đường thở."
+              },
+              {
+                "q": "Dấu hiệu vỡ khung chậu mất vững trong đa chấn thương có nguy cơ gây sốc mất máu sau phúc mạc dữ dội, biện pháp sơ cứu cố định tạm thời cấp bách tại chỗ là:",
+                "opts": [
+                  "Kéo liên tục qua lồi củ trước xương chày",
+                  "Dùng đai cố định khung chậu chuyên dụng (Pelvic binder) hoặc quấn chặt một tấm ga trải giường quanh ngang mức hai mấu chuyển lớn xương đùi",
+                  "Bó bột chậu lưng chân hai bên",
+                  "Cho bệnh nhân nằm nghiêng sang bên không đau"
+                ],
+                "ans": 1,
+                "exp": "Buộc đai khung chậu ngang mức hai mấu chuyển lớn giúp khép các cánh chậu bị toác (gãy khung chậu kiểu mở cuốn sách), làm giảm thể tích khoang tiểu khung và ép các diện xương vỡ cùng đám rối tĩnh mạch sau phúc mạc đang chảy máu, tạo hiệu ứng chèn ép tự nhiên (tamponade) để cầm máu cứu sống bệnh nhân."
+              }
+            ]
+          },
+          "soi-he-tiet-nieu-ngoai": {
+            "title": "Bài 10: Sỏi hệ tiết niệu (8 câu)",
+            "questions": [
+              {
+                "q": "Triệu chứng lâm sàng khởi phát điển hình của cơn đau quặn thận do sỏi niệu quản là:",
+                "opts": [
+                  "Đau âm ỉ liên tục vùng hạ vị kèm theo tiểu buốt, tiểu rắt",
+                  "Đau đột ngột dữ dội vùng hông lưng một bên, đau lan dọc theo đường đi của niệu quản xuống vùng bẹn sinh dục cùng bên, không có tư thế giảm đau",
+                  "Đau tức vùng hạ sườn phải lan ra sau lưng kèm theo sốt cao và vàng da",
+                  "Đau rát bỏng vùng tầng sinh môn khi ngồi lâu"
+                ],
+                "ans": 1,
+                "exp": "Cơn đau quặn thận xuất hiện khi sỏi di chuyển gây bít tắc đột ngột đường dẫn nước tiểu tại niệu quản. Nước tiểu ứ trệ phía trên làm tăng áp lực đột ngột trong đài bể thận và căng giãn bao thận cấp tính, kích hoạt các sợi thần kinh cảm giác tạng gây cơn đau dữ dội lan theo tiết đoạn thần kinh T11 - L2 xuống cơ quan sinh dục ngoài."
+              },
+              {
+                "q": "Loại sỏi hệ tiết niệu nào sau đây KHÔNG cản quang trên phim chụp X-quang hệ tiết niệu không chuẩn bị (KUB):",
+                "opts": [
+                  "Sỏi Calci Oxalat",
+                  "Sỏi Calci Phosphat",
+                  "Sỏi Magnesi Amoni Phosphat (Struvite - sỏi nhiễm trùng PAM)",
+                  "Sỏi Acid Uric (Sỏi Urat)"
+                ],
+                "ans": 3,
+                "exp": "Sỏi Urat và sỏi Cystin có mật độ nguyên tử thấp nên tia X xuyên qua dễ dàng, không tạo bóng cản quang rõ rệt trên phim X-quang thường quy. Để chẩn đoán xác định các loại sỏi này bắt buộc phải phối hợp siêu âm hệ niệu hoặc chụp cắt lớp vi tính (CT scan) không tiêm thuốc cản quang."
+              },
+              {
+                "q": "Tiêu chuẩn vàng trong chẩn đoán hình ảnh để xác định chính xác vị trí, kích thước, số lượng, độ cản quang (đơn vị Hounsfield) và mức độ ứ nước của sỏi hệ tiết niệu là:",
+                "opts": [
+                  "Siêu âm ổ bụng tổng quát",
+                  "Chụp X-quang hệ tiết niệu không chuẩn bị (KUB)",
+                  "Chụp cắt lớp vi tính (CT scan) hệ tiết niệu không tiêm thuốc cản quang liều thấp",
+                  "Chụp niệu đồ tĩnh mạch (UIV)"
+                ],
+                "ans": 2,
+                "exp": "Chụp CT hệ niệu không tiêm thuốc có độ nhạy (> 97%) và độ đặc hiệu (> 96%) cao nhất trong chẩn đoán sỏi hệ tiết niệu, phát hiện được mọi loại sỏi (kể cả sỏi không cản quang trên KUB), đo chính xác độ cứng của sỏi theo thang điểm Hounsfield (HU) để định hướng phương pháp tán sỏi thích hợp."
+              },
+              {
+                "q": "Phương pháp tán sỏi thận qua da bằng đường hầm nhỏ (Mini-PCNL) được chỉ định ưu tiên hàng đầu trong trường hợp nào sau đây:",
+                "opts": [
+                  "Sỏi đài thận nhỏ kích thước < 5 mm không có triệu chứng",
+                  "Sỏi niệu quản 1/3 dưới sát thành bàng quang",
+                  "Sỏi bể thận hoặc đài thận có kích thước > 20 mm (kể cả sỏi san hô bán phần hoặc toàn phần)",
+                  "Sỏi bàng quang kích thước > 30 mm"
+                ],
+                "ans": 2,
+                "exp": "Tán sỏi thận qua da (PCNL) là phẫu thuật nội soi xâm lấn tối thiểu tiêu chuẩn thay thế mổ mở cho các sỏi thận kích thước lớn (> 20 mm), sỏi phức tạp, sỏi san hô hoặc sỏi đài dưới không thuận lợi cho tán sỏi ngoài cơ thể hay nội soi ngược dòng."
+              },
+              {
+                "q": "Phương pháp phẫu thuật nội soi tán sỏi niệu quản ngược dòng bằng ống bán cứng hoặc ống mềm sử dụng năng lượng Laser (URS) có ưu điểm và chỉ định vượt trội đối với:",
+                "opts": [
+                  "Sỏi thận dạng san hô kích thước > 3 cm",
+                  "Sỏi niệu quản đoạn 1/3 giữa và 1/3 dưới (ống bán cứng) hoặc sỏi niệu quản 1/3 trên và sỏi thận < 20 mm (ống mềm)",
+                  "Sỏi bàng quang tự do ở trẻ sơ sinh",
+                  "Viêm thận bể thận cấp đang có ứ mủ thận"
+                ],
+                "ans": 1,
+                "exp": "Nội soi tán sỏi ngược dòng đi qua đường tự nhiên (niệu đạo \\rightarrow bàng quang \\rightarrow niệu quản) sử dụng laser Holmium/Thulium tán vỡ sỏi vụn như cát và gắp ra ngoài, không để lại sẹo mổ, phục hồi nhanh và là can thiệp hàng đầu cho sỏi niệu quản mọi vị trí."
+              },
+              {
+                "q": "Biến chứng ngoại khoa cấp tính nguy hiểm nhất đe dọa trực tiếp tính mạng bệnh nhân khi sỏi gây tắc nghẽn hoàn toàn đường dẫn nước tiểu là:",
+                "opts": [
+                  "Tiểu ra máu vi thể kéo dài",
+                  "Ứ mủ đài bể thận dẫn đến Nhiễm khuẩn huyết / Sốc nhiễm khuẩn đường niệu",
+                  "Hình thành nang nước giả thận",
+                  "Trào ngược bàng quang niệu quản mạn tính"
+                ],
+                "ans": 1,
+                "exp": "Tắc nghẽn niệu quản kèm nhiễm khuẩn biến thận thành một ổ mủ áp lực cao. Áp lực nước tiểu ứ đọng đẩy vi khuẩn Gram âm (E. coli, Klebsiella) và nội độc tố (Endotoxin) tràn vào các xoang tĩnh mạch thận gây nhiễm trùng huyết và sốc nhiễm khuẩn với tỷ lệ tử vong cao nếu không được dẫn lưu giải áp cấp cứu (đặt sonde JJ hoặc dẫn lưu thận qua da)."
+              },
+              {
+                "q": "Nguyên tắc điều trị ngoại khoa cấp cứu khi bệnh nhân có sỏi niệu quản gây ứ nước - ứ mủ thận kèm theo hội chứng nhiễm khuẩn nhiễm độc nặng là:",
+                "opts": [
+                  "Tiến hành tán sỏi thận qua da lấy hết sỏi ngay lập tức",
+                  "Mổ mở lấy sỏi cấp cứu kết hợp cắt lọc màng thận",
+                  "Ưu tiên hàng đầu là đặt ống thông niệu quản (sonde JJ) ngược dòng hoặc chọc dẫn lưu đài bể thận qua da (PNS) để giải phóng bế tắc, kết hợp kháng sinh phổ rộng; tuyệt đối không can thiệp tán sỏi triệt để khi đang nhiễm trùng cấp",
+                  "Dùng thuốc lợi tiểu liều cao để tăng đào thải mủ"
+                ],
+                "ans": 2,
+                "exp": "Khi đang có tình trạng nhiễm khuẩn cấp tính tại đường niệu trên, việc can thiệp tán sỏi bằng áp lực nước sẽ đẩy vi khuẩn vào tuần hoàn làm sốc nhiễm khuẩn bùng phát nặng hơn. Nguyên tắc sống còn là \"dẫn lưu mủ trước - xử trí sỏi sau\" bằng cách đặt sonde JJ hoặc chọc dẫn lưu thận qua da cấp cứu."
+              },
+              {
+                "q": "Để dự phòng sỏi calci oxalat tái phát sau khi đã sạch sỏi, lời khuyên dinh dưỡng đúng đắn nhất cho người bệnh là:",
+                "opts": [
+                  "Kiêng ăn hoàn toàn các thực phẩm chứa calci (sữa, tôm, cua)",
+                  "Uống đủ nước để lượng nước tiểu đạt > 2 - 2,5 lít/ngày, ăn lượng calci hợp lý (800 - 1000 mg/ngày), giảm ăn mặn (< 5g muối/ngày), hạn chế thịt đỏ và thực phẩm giàu oxalat (rau bina, trà đặc, socola)",
+                  "Uống thật nhiều nước ngọt có ga để toan hóa nước tiểu",
+                  "Nhịn tiểu kéo dài để tăng dung tích bàng quang"
+                ],
+                "ans": 1,
+                "exp": "Uống đủ nước để pha loãng nước tiểu là biện pháp dự phòng quan trọng nhất. Kiêng calci quá mức là sai lầm vì calci tự do trong ruột giảm sẽ làm tăng hấp thu oxalat vào máu gây sỏi oxalat nặng hơn; đồng thời cần ăn nhạt vì natri niệu tăng sẽ kéo theo calci niệu tăng tạo sỏi."
+              }
+            ]
+          },
+          "u-phi-dai-tuyen-tien-liet": {
+            "title": "Bài 11: U phì đại tuyến tiền liệt (BPH) (10 câu)",
+            "questions": [
+              {
+                "q": "U phì đại lành tính tuyến tiền liệt thường xuất phát từ vùng giải phẫu nào của tuyến (theo phân chia giải phẫu của McNeal):",
+                "opts": [
+                  "Vùng chuyển tiếp (Transition zone) bao quanh niệu đạo tiền liệt tuyến",
+                  "Vùng ngoại vi (Peripheral zone)",
+                  "Vùng trung tâm (Central zone)",
+                  "Vùng đệm xơ cơ phía trước"
+                ],
+                "ans": 0,
+                "exp": "Theo phân vùng McNeal: U phì đại lành tính tuyến tiền liệt (BPH) phát triển chủ yếu từ vùng chuyển tiếp (nằm ôm sát đoạn niệu đạo tiền liệt tuyến) nên gây chèn ép dòng tiểu rất sớm. Ngược lại, ung thư tuyến tiền liệt chiếm tới 70 - 80% xuất phát từ vùng ngoại vi."
+              },
+              {
+                "q": "Triệu chứng lâm sàng của tăng sinh lành tính tuyến tiền liệt (hội chứng đường tiểu dưới - LUTS) được chia thành 2 nhóm chính gồm:",
+                "opts": [
+                  "Triệu chứng đau quặn và triệu chứng sốt cao rét run",
+                  "Nhóm triệu chứng tống xuất (chèn ép/tắc nghẽn) và Nhóm triệu chứng chứa đựng (kích thích)",
+                  "Triệu chứng suy thận và triệu chứng thiếu máu",
+                  "Triệu chứng tiêu chảy và triệu chứng táo bón"
+                ],
+                "ans": 1,
+                "exp": "LUTS do BPH bao gồm: Triệu chứng tắc nghẽn (tống xuất): tiểu khó, phải rặn, tia tiểu yếu, tiểu ngắt quãng, tiểu nhỏ giọt cuối bãi, cảm giác tiểu không hết. Triệu chứng kích thích (chứa đựng): tiểu gấp (buồn tiểu không nhịn được), tiểu nhiều lần cả ngày lẫn đêm (nocturia), tiểu són."
+              },
+              {
+                "q": "Đặc điểm thăm khám tuyến tiền liệt qua đường trực tràng (DRE) điển hình của U phì đại lành tính tuyến tiền liệt là:",
+                "opts": [
+                  "Tuyến nhỏ, co rút, ranh giới không rõ",
+                  "Tuyến tiền liệt to, mặt nhẵn, mật độ chắc đàn hồi (như mô ngón tay cái), ranh giới rõ ràng, rãnh giữa còn hoặc mờ, ấn không đau",
+                  "Tuyến gồ ghề, có nhân cứng như đá, mất ranh giới xung quanh",
+                  "Tuyến sưng nóng đỏ đau dữ dội, có ổ lùng nhùng ấn chảy mủ ra niệu đạo"
+                ],
+                "ans": 1,
+                "exp": "Thăm trực tràng (DRE) là động tác lâm sàng cơ bản bắt buộc: trong BPH tuyến to đều, bờ tròn nhẵn, mềm mại đàn hồi và đối xứng. Nếu sờ thấy nhân cứng đanh, bề mặt gồ ghề mất tính đối xứng thì phải cảnh giác cao với ung thư tuyến tiền liệt."
+              },
+              {
+                "q": "Bảng điểm quốc tế đánh giá triệu chứng tuyến tiền liệt (IPSS) phân loại mức độ rối loạn tiểu tiện của người bệnh theo các mức:",
+                "opts": [
+                  "Nhẹ: 1 - 5 điểm; Trung bình: 6 - 15 điểm; Nặng: 16 - 25 điểm",
+                  "Nhẹ: 0 - 7 điểm; Trung bình: 8 - 19 điểm; Nặng: 20 - 35 điểm",
+                  "Nhẹ: 0 - 10 điểm; Nặng: 11 - 20 điểm",
+                  "Bình thường: 0 điểm; Bệnh lý: ≥ 1 điểm"
+                ],
+                "ans": 1,
+                "exp": "Thang điểm IPSS gồm 7 câu hỏi về triệu chứng (mỗi câu từ 0 đến 5 điểm, tổng tối đa 35 điểm) cộng 1 câu hỏi về chất lượng cuộc sống (QoL từ 0 đến 6 điểm); phân loại: 0 - 7 điểm là mức độ nhẹ; 8 - 19 điểm là mức độ trung bình; 20 - 35 điểm là mức độ nặng."
+              },
+              {
+                "q": "Xét nghiệm kháng nguyên đặc hiệu tuyến tiền liệt (PSA) toàn phần trong huyết thanh có ý nghĩa lâm sàng quan trọng nhất là:",
+                "opts": [
+                  "Chẩn đoán xác định kích thước chính xác của khối u",
+                  "Đánh giá mức độ tắc nghẽn của niệu đạo",
+                  "Sàng lọc và định hướng phân biệt giữa tăng sinh lành tính tuyến tiền liệt với ung thư biểu mô tuyến tiền liệt",
+                  "Đánh giá chức năng lọc của cầu thận"
+                ],
+                "ans": 2,
+                "exp": "Giá trị PSA bình thường < 4 ng/ml. Nồng độ PSA từ 4 - 10 ng/ml là vùng ranh giới (xám). Khi PSA > 10 ng/ml hoặc thăm trực tràng nghi ngờ khối gồ ghề cứng, người bệnh có chỉ định chụp MRI tiểu khung và sinh thiết tuyến tiền liệt dưới hướng dẫn của siêu âm để tầm soát ung thư."
+              },
+              {
+                "q": "Cơ chế tác dụng của nhóm thuốc chẹn thụ thể Alpha-1 giao cảm (như Alfuzosin, Tamsulosin, Doxazosin) trong điều trị BPH là:",
+                "opts": [
+                  "Làm teo nhỏ thể tích khối u tuyến tiền liệt sau 6 tháng",
+                  "Làm giãn cơ trơn ở cổ bàng quang, vỏ tuyến và niệu đạo tiền liệt tuyến, giúp cải thiện nhanh lưu lượng dòng tiểu trong vòng 24 - 48 giờ",
+                  "Ức chế chuyển đổi Testosterone thành Dihydrotestosterone (DHT)",
+                  "Kháng khuẩn chống viêm đường tiết niệu dưới"
+                ],
+                "ans": 1,
+                "exp": "Thuốc chẹn alpha-1 làm giãn trương lực cơ trơn vùng cổ bàng quang và tuyến tiền liệt, giải phóng tắc nghẽn động lực học giúp dòng tiểu thông thoáng ngay lập tức (1 - 2 ngày sau uống), nhưng hoàn toàn không làm giảm kích thước thực tế của tuyến. Tác dụng phụ thường gặp là tụt huyết áp tư thế và xuất tinh ngược dòng."
+              },
+              {
+                "q": "Nhóm thuốc ức chế men 5-Alpha Reductase (5-ARI như Finasteride, Dutasteride) có đặc điểm điều trị nào sau đây:",
+                "opts": [
+                  "Giúp làm giãn cơ trơn cổ bàng quang và có tác dụng tối đa sau 1 tuần",
+                  "Ngăn chặn chuyển đổi Testosterone thành Dihydrotestosterone (DHT), làm teo giảm dần thể tích tuyến tiền liệt khoảng 20 - 30% sau 3 - 6 tháng điều trị, giảm nguy cơ bí tiểu cấp và giảm nhu cầu phẫu thuật",
+                  "Chỉ định cho tuyến tiền liệt có kích thước nhỏ < 20 gam",
+                  "Làm tăng gấp đôi nồng độ xét nghiệm PSA trong máu"
+                ],
+                "ans": 1,
+                "exp": "5-ARI ức chế enzym tạo DHT (hormone kích thích chính gây phì đại tế bào tuyến), từ đó làm thu nhỏ thể tích tuyến tiền liệt sau 3 - 6 tháng, thích hợp cho bệnh nhân có tuyến to (> 30 - 40 gam). Thuốc làm giảm khoảng 50% nồng độ PSA huyết thanh sau 6 tháng điều trị (khi đọc kết quả PSA cần nhân đôi để tránh bỏ sót ung thư)."
+              },
+              {
+                "q": "Chỉ định can thiệp phẫu thuật TUYỆT ĐỐI cho bệnh nhân tăng sinh lành tính tuyến tiền liệt được đặt ra trong các trường hợp sau, TRỪ:",
+                "opts": [
+                  "Bí tiểu cấp tái phát (đã thử rút ống thông tiểu sau điều trị thuốc thất bại ít nhất 1 lần)",
+                  "Có biến chứng sỏi bàng quang hoặc túi thừa bàng quang thứ phát do ứ đọng nước tiểu",
+                  "Nhiễm khuẩn tiết niệu tái diễn hoặc đái máu đại thể tái diễn do u xơ gây ra",
+                  "Tuyến tiền liệt có kích thước 45 gam trên siêu âm nhưng bệnh nhân không có triệu chứng rối loạn tiểu tiện (IPSS < 7 điểm)"
+                ],
+                "ans": 3,
+                "exp": "Phẫu thuật tuyến tiền liệt không dựa đơn thuần vào kích thước to trên siêu âm mà dựa vào triệu chứng lâm sàng và biến chứng. Bệnh nhân có tuyến to nhưng không có triệu chứng hoặc triệu chứng nhẹ (IPSS < 7) chỉ cần theo dõi định kỳ. Chỉ định mổ bắt buộc khi điều trị nội khoa thất bại hoặc đã có biến chứng: bí tiểu tái phát, sỏi bàng quang, suy thận do ứ nước đường niệu trên, đái máu tái diễn, túi thừa bàng quang lớn."
+              },
+              {
+                "q": "Phương pháp phẫu thuật tiêu chuẩn vàng (Gold Standard) trong điều trị ngoại khoa tăng sinh lành tính tuyến tiền liệt có thể tích từ 30 - 80 gam hiện nay là:",
+                "opts": [
+                  "Mổ mở bóc u tuyến tiền liệt qua bàng quang (phương pháp Freyer)",
+                  "Phẫu thuật nội soi cắt u tuyến tiền liệt qua đường niệu đạo (TURP)",
+                  "Phẫu thuật cắt toàn bộ tuyến tiền liệt và nạo hạch tiểu khung",
+                  "Đặt stent niệu đạo vĩnh viễn"
+                ],
+                "ans": 1,
+                "exp": "Phẫu thuật nội soi cắt tuyến tiền liệt qua niệu đạo (TURP) là tiêu chuẩn vàng kinh điển: dụng cụ nội soi đi qua niệu đạo cắt khối u thành từng mảnh nhỏ bằng dao điện đơn cực (monopolar) hoặc lưỡng cực (bipolar) và hút rửa ra ngoài, mang lại hiệu quả thông tắc đường tiểu cao, ít mất máu và thời gian nằm viện ngắn."
+              },
+              {
+                "q": "Biến chứng cấp tính đặc thù trong và ngay sau phẫu thuật nội soi cắt u tuyến tiền liệt qua niệu đạo đơn cực (Monopolar TURP) do hấp thu quá nhiều dịch rửa không dẫn điện (Glycine 1,5% hoặc Sorbitol) vào lòng mạch là:",
+                "opts": [
+                  "Hội chứng bão giáp trạng kịch phát",
+                  "Hội chứng nội soi (TURP Syndrome) với biểu hiện ngộ độc nước, quá tải thể tích tuần hoàn và hạ Natri máu cấp tính",
+                  "Hội chứng chèn ép khoang chi dưới",
+                  "Hội chứng Guillain-Barré"
+                ],
+                "ans": 1,
+                "exp": "Trong mổ TURP đơn cực, các xoang tĩnh mạch lớn bị mở ra kết hợp áp lực dịch rửa Glycine cao làm một lượng lớn dịch nhược trương bị hút thẳng vào hệ tuần hoàn. Biểu hiện hội chứng TURP: tăng thể tích máu cấp gây tăng huyết áp, phù phổi cấp, sau đó trụy mạch kèm theo hạ Natri máu nặng gây phù não (lơ mơ, co giật, hôn mê). Phòng ngừa bằng cách rút ngắn thời gian mổ (< 60 phút) hoặc sử dụng dao điện lưỡng cực (Bipolar) cho phép rửa bằng nước muối sinh lý NaCl 0,9% đẳng trương"
+              }
+            ]
+          },
+          "cap-cuu-chan-thuong-cot-song": {
+            "title": "Bài 12: Cấp cứu chấn thương cột sống (5 câu)",
+            "questions": [
+              {
+                "q": "Nguyên tắc sơ cứu và bất động ban đầu bắt buộc đối với nạn nhân nghi ngờ chấn thương cột sống tại hiện trường là:",
+                "opts": [
+                  "Cho nạn nhân ngồi dậy từ từ để kiểm tra vận động hai chân",
+                  "Bất động toàn bộ trục đầu - cổ - thân mình trên một mặt phẳng ván cứng, đặt nẹp cổ cứng và chèn cố định hai bên đầu",
+                  "Dùng cáng bạt mềm gập người để khiêng nạn nhân lên xe cấp cứu",
+                  "Nâng xốc nách và hai chân nạn nhân để chuyển nhanh vào lề đường"
+                ],
+                "ans": 1,
+                "exp": "Bất kỳ chuyển động gập, ưỡn hoặc xoay cột sống nào khi chưa được cố định đều có thể làm mảnh xương vỡ hoặc đĩa đệm di lệch chèn ép cắt đứt tủy sống, gây liệt hoàn toàn không hồi phục hoặc suy hô hấp ngừng thở (nếu tổn thương tủy cổ cao)."
+              },
+              {
+                "q": "Biểu hiện lâm sàng điển hình phân biệt Sốc tủy (Spinal/Neurogenic Shock) do tổn thương tủy sống đoạn cao với Sốc mất máu giảm thể tích là:",
+                "opts": [
+                  "Huyết áp tụt kèm theo mạch nhanh nhỏ và đầu chi lạnh ngắt",
+                  "Huyết áp tụt kèm theo Nhịp tim chậm và Giãn mạch ngoại vi (da ấm, hồng)",
+                  "Huyết áp tăng kịch phát kèm co giật toàn thân",
+                  "Mất máu nhiều ra ngoài kèm tĩnh mạch cổ nổi to"
+                ],
+                "ans": 1,
+                "exp": "Chấn thương tủy cổ hoặc tủy ngực cao (trên T6) làm gián đoạn đường dẫn truyền thần kinh giao cảm chi phối mạch máu và tim, dẫn đến mất trương lực vận mạch (gây giãn mạch hệ thống, tụt huyết áp, da ấm) và mất kiểm soát nhịp tim nhanh của hệ giao cảm, dẫn đến nhịp tim chậm nghịch thường."
+              },
+              {
+                "q": "Giai đoạn \"Choáng tủy\" (Spinal Shock) sau chấn thương tủy sống cấp tính đặc trưng bởi:",
+                "opts": [
+                  "Tăng phản xạ gân xương, tăng trương lực cơ và co cứng hai chân",
+                  "Mất hoàn toàn toàn bộ chức năng vận động, cảm giác và phản xạ dưới mức tổn thương (liệt mềm, mất phản xạ gân xương, mất phản xạ hành hang, bí tiểu do bàng quang mất trương lực)",
+                  "Bệnh nhân tỉnh táo, cơ lực hai chân bình thường",
+                  "Đau nhói cột sống nhưng cơ tròn tự chủ hoàn toàn"
+                ],
+                "ans": 1,
+                "exp": "Choáng tủy là tình trạng ức chế sinh lý thần kinh tạm thời ngay sau tổn thương tủy cấp tính, biểu hiện bằng liệt mềm hoàn toàn, mất toàn bộ phản xạ gân xương và trương lực cơ bên dưới mức tổn thương. Sự phục hồi của phản xạ hành hang (Bulbocavernosus reflex) là dấu hiệu kết thúc giai đoạn choáng tủy."
+              },
+              {
+                "q": "Chỉ định thuốc vận mạch được ưu tiên lựa chọn để nâng và duy trì huyết áp động mạch trung bình (MAP ≥ 85 mmHg) chống thiếu máu tủy trong cấp cứu sốc tủy là:",
+                "opts": [
+                  "Dobutamine truyền tĩnh mạch đơn độc",
+                  "Noradrenaline (hoặc Dopamine, Adrenaline) truyền tĩnh mạch liên tục",
+                  "Furosemide tiêm tĩnh mạch liều cao",
+                  "Nitroglycerin truyền tĩnh mạch kiểm soát áp lực"
+                ],
+                "ans": 1,
+                "exp": "Trong sốc tủy, mất trương lực giao cảm gây giãn mạch và chậm nhịp tim. Bắt buộc dùng các thuốc có hoạt tính kích thích thụ thể alpha-1 và beta-1 (như Noradrenaline) để vừa co mạch nâng huyết áp, vừa nâng nhịp tim, duy trì áp lực tưới máu tủy tối ưu."
+              },
+              {
+                "q": "Tư thế đặt bệnh nhân và phương pháp vận chuyển an toàn đối với nạn nhân chấn thương cột sống là:",
+                "opts": [
+                  "Cho bệnh nhân nằm nghiêng co chân",
+                  "Vận chuyển theo kỹ thuật \"Lăn khúc gỗ\" (Log-roll) với ít nhất 3 - 4 người phối hợp, giữ đầu, cổ, ngực và khung chậu luôn trên một đường thẳng",
+                  "Cõng bệnh nhân trên lưng để đi nhanh qua địa hình khó",
+                  "Nằm ngửa trên đệm nước mềm"
+                ],
+                "ans": 1,
+                "exp": "Kỹ thuật lăn khúc gỗ (Log-roll) đảm bảo cơ thể bệnh nhân được xoay như một khối thống nhất, đầu và cổ luôn thẳng trục với thân mình, không gây ra lực vặn xoắn cột sống trong quá trình thăm khám mặt sau lưng và đặt cáng cứng."
+              }
+            ]
+          },
+          "chan-thuong-cot-song": {
+            "title": "Bài 13: Chấn thương cột sống (7 câu)",
+            "questions": [
+              {
+                "q": "Thang điểm phân loại tổn thương thần kinh trong chấn thương tủy sống được sử dụng phổ biến nhất trên lâm sàng hiện nay là:",
+                "opts": [
+                  "Thang điểm ASIA (American Spinal Injury Association) / Frankel",
+                  "Thang điểm Glasgow",
+                  "Thang điểm Gustilo - Anderson",
+                  "Thang điểm Child-Pugh"
+                ],
+                "ans": 0,
+                "exp": "Hiệp hội Chấn thương Cột sống Hoa Kỳ (ASIA) đưa ra bảng phân loại chuẩn mực đánh giá mức độ khuyết tật thần kinh từ A đến E (ASIA A: Liệt hoàn toàn cả vận động và cảm giác; ASIA E: Chức năng thần kinh bình thường)."
+              },
+              {
+                "q": "Theo thang điểm ASIA, mức độ tổn thương được định nghĩa là \"Tổn thương tủy hoàn toàn\" (ASIA A) khi:",
+                "opts": [
+                  "Còn cảm giác vùng tầng sinh môn nhưng liệt vận động hai chân",
+                  "Cơ lực các nhóm cơ chủ yếu dưới mức tổn thương đạt bậc 3",
+                  "Mất hoàn toàn cả chức năng vận động và cảm giác ở các khoang đoạn tủy cùng thấp nhất (S4 - S5), mất cảm giác quanh hậu môn và mất co thắt cơ thắt hậu môn chủ động",
+                  "Liệt nhẹ một tay và một chân"
+                ],
+                "ans": 2,
+                "exp": "Tiêu chuẩn xác định tổn thương tủy hoàn toàn (ASIA A) dựa vào các phân đoạn tủy cùng thấp nhất (S4 - S5): mất hoàn toàn cảm giác nông/sâu vùng quanh hậu môn và mất co thắt cơ thắt ngoài hậu môn khi thăm trực tràng."
+              },
+              {
+                "q": "Cơ chế chấn thương thường gặp nhất gây gãy vỡ cột sống ngực - thắt lưng (vùng bản lề T12 - L1) trong tai nạn giao thông hoặc ngã cao là:",
+                "opts": [
+                  "Cơ chế gập và nén ép (Flexion - Compression)",
+                  "Cơ chế ưỡn quá mức (Hyperextension)",
+                  "Cơ chế xoay ngang đơn thuần",
+                  "Cơ chế kéo giãn dọc trục"
+                ],
+                "ans": 0,
+                "exp": "Vùng bản lề T12 - L1 là nơi chuyển tiếp giữa đoạn cột sống ngực ít di động (được lồng ngực giữ vững) và đoạn cột sống thắt lưng rất di động. Khi ngã cao mông/chân chạm đất hoặc tai nạn xe, lực gập kết hợp nén ép dồn nén thân đốt sống dẫn đến lún xẹp hoặc vỡ vụn (Burst fracture)."
+              },
+              {
+                "q": "Theo thuyết ba cột trụ của Denis, cột sống bị coi là \"Mất vững\" khi:",
+                "opts": [
+                  "Chỉ tổn thương đơn thuần cột trước (gãy lún nhẹ mặt trước thân đốt sống)",
+                  "Có tổn thương phá hủy từ hai cột trụ trở lên, hoặc tổn thương phá hủy hoàn toàn cột giữa (thành sau thân đốt sống, đĩa đệm và dây chằng dọc sau)",
+                  "Chỉ rách dây chằng liên gai ở cột sau",
+                  "Gãy mỏm gai đơn thuần"
+                ],
+                "ans": 1,
+                "exp": "Thuyết Denis chia cột sống làm 3 cột: Cột trước (dây chằng dọc trước, 2/3 trước thân đốt sống), Cột giữa (1/3 sau thân đốt, dây chằng dọc sau) và Cột sau (cuống sống, cung sau, khớp mấu và phức hợp dây chằng sau). Cột giữa là cột trụ quyết định sự vững chắc; tổn thương cột giữa hoặc tổn thương từ hai cột trở lên được xếp vào loại mất vững cơ học, có chỉ định phẫu thuật cố định."
+              },
+              {
+                "q": "Phương tiện chẩn đoán hình ảnh có giá trị cao nhất để đánh giá tổn thương phù tủy, đụng dập tủy, tụ máu trong tủy và rách các dây chằng cột sống là:",
+                "opts": [
+                  "Chụp X-quang cột sống thẳng và nghiêng",
+                  "Chụp cắt lớp vi tính (CT scan) đa dãy dựng hình xương",
+                  "Chụp cộng hưởng từ (MRI) cột sống",
+                  "Siêu âm Doppler mạch tủy"
+                ],
+                "ans": 2,
+                "exp": "CT scan khảo sát chi tiết cấu trúc xương gãy, nhưng MRI là tiêu chuẩn vàng để đánh giá mô mềm thần kinh: phát hiện chèn ép tủy, phù tủy, chảy máu tủy, rách đĩa đệm và hệ thống dây chằng cột sống."
+              },
+              {
+                "q": "Chỉ định phẫu thuật cấp cứu trong chấn thương cột sống được đặt ra tuyệt đối khi:",
+                "opts": [
+                  "Chấn thương cột sống mất vững kèm theo dấu hiệu chèn ép tủy hoặc suy giảm chức năng thần kinh tiến triển (khiếm khuyết thần kinh dở dang, ASIA B, C, D đang xấu đi)",
+                  "Gãy xương cột sống ổn định, không chèn ép thần kinh và không mất vững",
+                  "Chấn thương tủy đã liệt hoàn toàn trên 48 giờ không còn dấu hiệu tiến triển",
+                  "Chỉ gãy rạn mỏm ngang thân đốt sống"
+                ],
+                "ans": 0,
+                "exp": "Khi có mảnh xương vỡ hoặc đĩa đệm chèn ép ống tủy gây suy giảm thần kinh tiến triển (còn khả năng hồi phục), phẫu thuật giải ép và làm vững cột sống càng sớm càng tốt (trong vòng 24 giờ đầu) giúp giải phóng tủy và tối đa hóa khả năng phục hồi vận động."
+              },
+              {
+                "q": "Biến chứng muộn nguy hiểm thường gặp sau phẫu thuật chấn thương cột sống cần chăm sóc dự phòng là:",
+                "opts": [
+                  "Loét tì đè vùng cùng cụt do nằm bất động kéo dài",
+                  "Nhiễm khuẩn tiết niệu do đặt sonde tiểu lưu hoặc bàng quang thần kinh",
+                  "Viêm phổi ứ đọng và huyết khối tĩnh mạch sâu chi dưới",
+                  "Tất cả các biến chứng trên"
+                ],
+                "ans": 3,
+                "exp": "Bệnh nhân chấn thương cột sống liệt tủy nằm lâu đối mặt với tam chứng biến chứng tàn phế: Loét mục do tì đè, nhiễm trùng đường tiết niệu tái diễn và thuyên tắc huyết khối tĩnh mạch sâu/phổi; cần được xoay trở mỗi 2 giờ, vỗ rung hô hấp, tập phục hồi chức năng và dùng thuốc chống đông dự phòng."
+              }
+            ]
+          },
+          "chan-thuong-so-nao-ngoai": {
+            "title": "Bài 14: Chấn thương sọ não (8 câu)",
+            "questions": [
+              {
+                "q": "Phân loại mức độ nặng của chấn thương sọ não dựa vào thang điểm hôn mê Glasgow (GCS) được xác định như sau:",
+                "opts": [
+                  "Nhẹ: 14 - 15 điểm; Trung bình: 11 - 13 điểm; Nặng: ≤ 10 điểm",
+                  "Nhẹ: 13 - 15 điểm; Trung bình: 9 - 12 điểm; Nặng: 3 - 8 điểm",
+                  "Nhẹ: 10 - 15 điểm; Nặng: < 10 điểm",
+                  "Nhẹ: 12 - 15 điểm; Nặng: < 8 điểm"
+                ],
+                "ans": 1,
+                "exp": "Phân loại lâm sàng chuẩn mực của CTSN: CTSN nhẹ: GCS 13 - 15 điểm (bệnh nhân tỉnh táo, có thể chấn động não thoáng qua) CTSN trung bình: GCS 9 - 12 điểm (lơ mơ, ngủ gà, có rối loạn tri giác) CTSN nặng: GCS 3 - 8 điểm (hôn mê, mất ý thức, cần đặt ống nội khí quản bảo vệ đường thở)."
+              },
+              {
+                "q": "Đặc điểm hình ảnh kinh điển của khối Tụ máu ngoài màng cứng (Epidural Hematoma) trên phim chụp cắt lớp vi tính (CT scan) sọ não là:",
+                "opts": [
+                  "Vùng tăng tỷ trọng tự nhiên (màu trắng), hình thấu kính hai mặt lồi, nằm sát xương sọ và thường bị giới hạn bởi các đường khớp sọ",
+                  "Vùng tăng tỷ trọng hình liềm (hình trăng khuyết), lan tỏa dọc theo bề mặt bán cầu đại não và vượt qua các đường khớp sọ",
+                  "Vùng giảm tỷ trọng ranh giới không rõ kèm đè đẩy não thất",
+                  "Vùng xuất huyết rải rác trong các rãnh cuộn não"
+                ],
+                "ans": 0,
+                "exp": "Màng cứng dính chặt vào bản trong xương sọ tại các đường khớp sọ. Khi rách động mạch màng não giữa, máu áp lực cao bóc tách màng cứng ra khỏi xương sọ tạo thành ổ máu tụ hình thấu kính hai mặt lồi và không thể vượt qua các đường khớp sọ."
+              },
+              {
+                "q": "Đặc điểm hình ảnh của Tụ máu dưới màng cứng cấp tính (Subdural Hematoma) trên phim CT scan sọ não là:",
+                "opts": [
+                  "Khối tăng tỷ trọng hình thấu kính hai mặt lồi",
+                  "Vùng tăng tỷ trọng tự nhiên hình liềm (trăng khuyết), nằm giữa màng cứng và màng nhện, có thể lan tỏa rộng khắp bề mặt một bán cầu não và vượt qua các khớp sọ",
+                  "Khối đồng tỷ trọng hình tròn ở trung tâm não thất",
+                  "Khí tự do trong khoang dưới nhện"
+                ],
+                "ans": 1,
+                "exp": "Tụ máu dưới màng cứng thường do rách các tĩnh mạch cầu nối (Bridging veins) đổ về xoang tĩnh mạch màng cứng. Máu chảy vào khoang lỏng lẻo giữa màng cứng và màng nhện nên dễ dàng lan dọc theo toàn bộ bề mặt bán cầu đại não, tạo hình ảnh liềm cong vượt qua các khớp sọ."
+              },
+              {
+                "q": "Triệu chứng thần kinh khu trú có giá trị báo động đỏ nguy cơ Tụt kẹt thùy thái dương (tụt kẹt móc hải mã qua lều tiểu não) chèn ép cuống não là:",
+                "opts": [
+                  "Hai mắt đảo nhanh liên tục",
+                  "Đồng tử một bên giãn to, mất phản xạ với ánh sáng kèm theo liệt nửa người đối bên",
+                  "Co nhỏ đồng tử hai bên như đầu đinh ghim",
+                  "Liệt nhẹ dây thần kinh VII ngoại biên đơn thuần"
+                ],
+                "ans": 1,
+                "exp": "Khối máu tụ hoặc phù não một bên bán cầu đẩy hồi móc thùy thái dương tụt qua khuyết lều tiểu não, chèn ép trực tiếp lên dây thần kinh vận nhãn (Dây III) gây giãn đồng tử và mất phản xạ ánh sáng cùng bên; đồng thời chèn ép bó tháp tại cuống đại não gây liệt nửa người bên đối diện."
+              },
+              {
+                "q": "Chỉ định phẫu thuật mở nắp sọ cấp cứu lấy khối máu tụ ngoài màng cứng được đặt ra khi:",
+                "opts": [
+                  "Thể tích khối máu tụ > 10 ml ở bệnh nhân tỉnh táo",
+                  "Thể tích khối máu tụ > 30 cm^3 (bất kể điểm GCS) hoặc bệnh nhân có GCS < 9 điểm kèm đồng tử không đều hoặc đường giữa bị đè đẩy > 5 mm",
+                  "Bệnh nhân có vết bầm tím quanh hốc mắt",
+                  "Nứt xương sọ đơn thuần không có máu tụ"
+                ],
+                "ans": 1,
+                "exp": "Hướng dẫn phẫu thuật chấn thương sọ não: Máu tụ ngoài màng cứng có thể tích > 30 ml (hoặc bề dày > 15 mm, đè đẩy đường giữa > 5 mm), hoặc bệnh nhân có suy giảm tri giác tiến triển (GCS tụt ≥ 2 điểm) có chỉ định phẫu thuật mở sọ lấy máu tụ và cầm máu cấp cứu để phòng ngừa tụt kẹt não."
+              },
+              {
+                "q": "Biến chứng ngoại khoa muộn có thể xuất hiện sau phẫu thuật chấn thương sọ não cần được theo dõi và xử trí là:",
+                "opts": [
+                  "Rò dịch não tủy qua vết mổ hoặc qua mũi/tai gây viêm màng não mủ",
+                  "Chảy máu tái phát trong sọ hoặc hình thành ổ máu tụ mới đối bên",
+                  "Giãn não thất sau chấn thương (não úng thủy áp lực bình thường hoặc tắc nghẽn)",
+                  "Tất cả các biến chứng trên"
+                ],
+                "ans": 3,
+                "exp": "Sau phẫu thuật sọ não, bệnh nhân cần được theo dõi sát tri giác, tình trạng vết mổ và dẫn lưu để phát hiện: chảy máu tái phát, rò dịch não tủy qua nền sọ dẫn đến viêm màng não mủ, và biến chứng rối loạn lưu thông dịch não tủy gây não úng thủy."
+              },
+              {
+                "q": "Thuốc và dịch truyền thẩm thấu được ưu tiên lựa chọn để điều trị hạ áp lực nội sọ cấp cứu trong chấn thương sọ não nặng có đe dọa tụt não là:",
+                "opts": [
+                  "Mannitol 20% (liều 0,5 - 1 g/kg truyền nhanh) hoặc dung dịch Natriclorid ưu trương 3% (liều 3 - 5 ml/kg)",
+                  "Dung dịch Glucose 5% truyền tĩnh mạch nhanh",
+                  "Dung dịch Ringer Lactate pha loãng nước cất",
+                  "Thuốc lợi tiểu Furosemide liều thấp đơn độc"
+                ],
+                "ans": 0,
+                "exp": "Dịch ưu trương (Mannitol 20% hoặc NaCl 3%) tạo chênh lệch áp lực thẩm thấu qua hàng rào máu não nguyên vẹn, rút nước từ mô kẽ não vào lòng mạch, giúp hạ nhanh áp lực nội sọ trong tình huống cấp cứu tụt não. Chống chỉ định truyền dịch nhược trương (như Glucose 5%) vì làm nặng thêm tình trạng phù não."
+              },
+              {
+                "q": "Tam chứng rò nền sọ tầng trước điển hình trong chấn thương sọ não bao gồm:",
+                "opts": [
+                  "Chảy máu tai, liệt dây VII ngoại biên và chóng mặt",
+                  "Chảy dịch não tủy qua mũi (nước trong chảy rỉ rả), Dấu hiệu bầm tím quanh hai hốc mắt (\"mắt gấu trúc\" / Dấu hiệu đeo kính râm) và mất khứu giác do tổn thương dây I",
+                  "Bầm tím vùng xương chũm sau tai (Dấu hiệu Battle) và liệt vận nhãn",
+                  "Lõm xương vòm sọ kèm rách màng cứng"
+                ],
+                "ans": 1,
+                "exp": "Vỡ nền sọ tầng trước (vỡ mảnh sàng, trần ổ mắt) làm rách màng não dính chặt vào nền sọ gây chảy dịch não tủy ra mũi, tụ máu muộn dưới da quanh hai ổ mắt (dấu hiệu kính râm/mắt gấu trúc) và đứt các sợi thần kinh khứu giác. Tuyệt đối cấm đặt ống thông dạ dày qua đường mũi ở các bệnh nhân này vì ống có thể chui qua nền sọ vào trong não."
+              }
+            ]
+          }
+        }
+      },
+      "san-phu-khoa": {
+        "name": "Khoa Sản - Phụ khoa",
+        "lessons": {
+          "quan-ly-thai-benh-ly": {
+            "title": "Bài 1: Quản lý thai (Tiền sản giật, ĐTĐ, thai lưu) (9 câu)",
+            "questions": [
+              {
+                "q": "Theo phân loại của Bộ Y tế, tăng huyết áp trong thai kỳ được chia thành mấy nhóm bệnh lý chính:",
+                "opts": [
+                  "4 nhóm",
+                  "5 nhóm",
+                  "6 nhóm",
+                  "3 nhóm"
+                ],
+                "ans": 0,
+                "exp": "Phân loại tăng huyết áp thai kỳ theo Hướng dẫn Quốc gia của Bộ Y tế và ACOG gồm 4 nhóm: (1) Tăng huyết áp mạn tính; (2) Tăng huyết áp thai kỳ (xuất hiện sau tuần 20, không có protein niệu); (3) Tiền sản giật - sản giật; (4) Tiền sản giật ghép trên nền tăng huyết áp mạn tính."
+              },
+              {
+                "q": "Tiêu chuẩn chẩn đoán xác định Tiền sản giật khi tuổi thai sau 20 tuần bao gồm:",
+                "opts": [
+                  "Huyết áp ≥ 130/80 mmHg kết hợp phù nhẹ hai chi dưới",
+                  "Huyết áp tâm thu ≥ 140 mmHg và/hoặc huyết áp tâm trương ≥ 90 mmHg (đo ít nhất 2 lần cách nhau 4 giờ) kèm theo Protein niệu ≥ 0,3 g/24 giờ (hoặc que thử protein niệu 1+)",
+                  "Huyết áp tăng đột ngột kèm đau đầu, nhìn mờ không có protein niệu",
+                  "Tăng acid uric máu đơn thuần"
+                ],
+                "ans": 1,
+                "exp": "Tiền sản giật là hội chứng bệnh lý đặc trưng bởi sự xuất hiện của tăng huyết áp (HATT ≥ 140 mmHg và/hoặc HATTr ≥ 90 mmHg) sau tuần thứ 20 của thai kỳ ở thai phụ trước đó có huyết áp bình thường, đi kèm protein niệu ≥ 0,3 g/24h (hoặc chỉ số Protein/Creatinin niệu ≥ 0,3 mg/mg). Nếu không có protein niệu, chẩn đoán tiền sản giật được xác lập khi có tăng huyết áp kèm rối loạn chức năng cơ quan đích (giảm tiểu cầu, suy thận, suy gan, phù phổi, triệu chứng thần kinh/thị giác)."
+              },
+              {
+                "q": "Thuốc hạ huyết áp đường uống được khuyến cáo lựa chọn an toàn hàng đầu cho phụ nữ mang thai có tăng huyết áp là:",
+                "opts": [
+                  "Methyldopa hoặc Nifedipine tác dụng kéo dài",
+                  "Enalapril hoặc Captopril (ức chế men chuyển)",
+                  "Losartan hoặc Valsartan (chẹn thụ thể AT1)",
+                  "Spironolactone kết hợp Thiazid"
+                ],
+                "ans": 0,
+                "exp": "Methyldopa (kích thích thụ thể alpha-2 trung ương), Labetalol và Nifedipine dạng giải phóng kéo dài là các thuốc hạ áp kinh điển được chứng minh an toàn trong thai kỳ, không làm suy giảm tuần hoàn tử cung - rau thai. Nhóm ức chế men chuyển (ACEi) và chẹn thụ thể Angiotensin (ARB) chống chỉ định tuyệt đối vì gây vô niệu, quái thai và tử vong thai nhi."
+              },
+              {
+                "q": "Thuốc được lựa chọn hàng đầu để dự phòng và điều trị cắt cơn co giật trong Sản giật và Tiền sản giật nặng là:",
+                "opts": [
+                  "Diazepam tiêm tĩnh mạch liều cao",
+                  "Magnesi sulfat (MgSO₄) theo phác đồ tiêm bắp hoặc truyền tĩnh mạch",
+                  "Phenobarbital tiêm bắp",
+                  "Phenytoin truyền tĩnh mạch"
+                ],
+                "ans": 1,
+                "exp": "Magnesi sulfat (MgSO₄) có tác dụng ức chế dẫn truyền thần kinh cơ, giãn mạch não và bảo vệ tế bào thần kinh, là thuốc chống co giật chuẩn mực và hiệu quả nhất trong sản giật. Khi sử dụng MgSO₄, bắt buộc phải theo dõi sát 3 dấu hiệu: phản xạ gân xương bánh chè, tần số thở (≥ 16 lần/phút) và lượng nước tiểu (≥ 30 ml/giờ), đồng thời chuẩn bị sẵn thuốc đối kháng Canxi Gluconat 10% tại giường."
+              },
+              {
+                "q": "Thời điểm chuẩn để tiến hành làm nghiệm pháp dung nạp glucose đường uống (OGTT 75g) tầm soát đái tháo đường thai kỳ cho mọi thai phụ có nguy cơ trung bình là:",
+                "opts": [
+                  "Tuần thứ 8 - 12 của thai kỳ",
+                  "Tuần thứ 14 - 18 của thai kỳ",
+                  "Tuần thứ 24 - 28 của thai kỳ",
+                  "Tuần thứ 32 - 36 của thai kỳ"
+                ],
+                "ans": 2,
+                "exp": "Từ tuần thứ 24 đến 28 của thai kỳ, bánh rau tăng cường sản xuất mạnh các hormone đối kháng insulin (hPL, estrogen, progesterone, cortisol) làm tăng tính kháng insulin sinh lý; đây là thời điểm nhạy nhất để phát hiện đái tháo đường thai kỳ. Thai phụ có yếu tố nguy cơ cao cần được tầm soát ngay trong 3 tháng đầu."
+              },
+              {
+                "q": "Mục tiêu kiểm soát đường huyết mao mạch được khuyến cáo cho thai phụ mắc đái tháo đường thai kỳ là:",
+                "opts": [
+                  "Trước ăn < 7,0 mmol/L; sau ăn 2 giờ < 10,0 mmol/L",
+                  "Lúc đói/trước ăn < 5,3 mmol/L (hoặc < 5,1 mmol/L); sau ăn 1 giờ < 7,8 mmol/L; sau ăn 2 giờ < 6,7 mmol/L",
+                  "Trước ăn < 6,5 mmol/L; sau ăn 2 giờ < 8,5 mmol/L",
+                  "Sau ăn bất kỳ < 11,1 mmol/L"
+                ],
+                "ans": 1,
+                "exp": "Kiểm soát đường huyết trong thai kỳ đòi hỏi mục tiêu rất chặt chẽ để phòng ngừa biến chứng đa ối, thai to, kẹt vai khi sinh và hạ đường huyết sơ sinh: nồng độ glucose máu lúc đói ≤ 5,3 mmol/L (95 mg/dl), sau ăn 1 giờ ≤ 7,8 mmol/L (140 mg/dl) và sau ăn 2 giờ ≤ 6,7 mmol/L (120 mg/dl)."
+              },
+              {
+                "q": "Thuốc hạ đường huyết được Bộ Y tế và quốc tế khuyến cáo là lựa chọn chuẩn duy nhất để điều trị đái tháo đường thai kỳ khi thay đổi lối sống không đạt mục tiêu là:",
+                "opts": [
+                  "Metformin đường uống",
+                  "Gliclazide đường uống",
+                  "Insulin tiêm dưới da (Insulin tác dụng nhanh và Insulin bán chậm/nền)",
+                  "Thuốc ức chế SGLT2"
+                ],
+                "ans": 2,
+                "exp": "Insulin không đi qua hàng rào nhau thai nên an toàn tuyệt đối cho thai nhi, kiểm soát đường huyết nhanh chóng và chính xác theo từng bữa ăn. Các thuốc hạ đường huyết đường uống nói chung không được khuyến cáo rộng rãi trong thai kỳ vì có thể qua nhau thai và thiếu dữ liệu an toàn lâu dài cho trẻ."
+              },
+              {
+                "q": "Dấu hiệu lâm sàng và cận lâm sàng giúp chẩn đoán xác định Thai chết lưu trong tử cung là:",
+                "opts": [
+                  "Cơn co tử cung xuất hiện thưa",
+                  "Sản phụ mất cảm giác thai máy, chiều cao tử cung nhỏ hơn tuổi thai/không tăng theo thời gian, khám không nghe thấy tim thai và Siêu âm Doppler xác nhận mất hoàn toàn hoạt động của tim thai",
+                  "Ra máu âm đạo đỏ tươi có lẫn máu cục",
+                  "Bụng trướng căng gõ đục"
+                ],
+                "ans": 1,
+                "exp": "Khi thai lưu, sản phụ thấy bụng không to lên (thậm chí nhỏ đi), ngực căng rồi tiết sữa non, thai ngừng cử động; siêu âm là tiêu chuẩn vàng khẳng định chắc chắn thai ngừng phát triển (không thấy hoạt động tim thai, các chỉ số sinh trắc ngừng tiến triển, có thể thấy dấu hiệu bong da đầu hoặc chồng khớp sọ Spalding)."
+              },
+              {
+                "q": "Biến chứng rối loạn đông máu nguy hiểm nhất của thai chết lưu kéo dài trong tử cung (trên 3 - 4 tuần) cần được xét nghiệm kiểm tra trước khi can thiệp lấy thai là:",
+                "opts": [
+                  "Tăng tiểu cầu tiên phát",
+                  "Đông máu nội mạch rải rác (DIC) do giải phóng Thromboplastin từ tổ chức thai hoại tử vào tuần hoàn mẹ",
+                  "Suy tủy xương cấp tính",
+                  "Tắc mạch phổi do khí"
+                ],
+                "ans": 1,
+                "exp": "Bánh rau và thai hoại tử tiết ra các chất gây đông máu (thromboplastin tổ chức) thấm dần vào máu mẹ, kích hoạt dòng thác đông máu nội mạch làm tiêu thụ cạn kiệt fibrinogen và các yếu tố đông máu, dẫn đến hội chứng DIC và chảy máu ồ ạt không cầm được khi đưa thai ra ngoài. Xét nghiệm Fibrinogen máu và đông máu cơ bản là bắt buộc."
+              }
+            ]
+          },
+          "theo-doi-chuyen-da": {
+            "title": "Bài 2: Theo dõi đánh giá chuyển dạ (5 câu)",
+            "questions": [
+              {
+                "q": "Dấu hiệu nào sau đây KHÔNG PHẢI là dấu hiệu khẳng định một cuộc chuyển dạ đẻ thực sự:",
+                "opts": [
+                  "Cơn co tử cung tăng dần về tần số và cường độ (ít nhất 3 cơn co trong 10 phút, thời gian co kéo dài ≥ 30 giây)",
+                  "Cổ tử cung xóa và mở tiến triển",
+                  "Sự thành lập đầu ối và sự tiến triển đi xuống của ngôi thai",
+                  "Ra chất nhầy hồng ở âm đạo đơn thuần mà không có cơn co tử cung"
+                ],
+                "ans": 3,
+                "exp": "Dịch nhầy hồng âm đạo (mất nút nhầy cổ tử cung) chỉ là dấu hiệu báo chuyển dạ, có thể xuất hiện trước khi chuyển dạ thực sự từ vài ngày đến một tuần. Chuyển dạ thực sự bắt buộc phải có cơn co tử cung nhịp nhàng tăng dần làm cho cổ tử cung xóa mở và ngôi thai tiến triển."
+              },
+              {
+                "q": "Trong theo dõi chuyển dạ bằng Monitoring sản khoa (Cardiotocography - CTG), vị trí đặt đầu dò đo cơn co tử cung (Toco transducer) đúng chuẩn là:",
+                "opts": [
+                  "Đặt ở ngay trên xương mu",
+                  "Đặt tại vùng đáy tử cung (nơi xuất phát và có cường độ cơn co tử cung mạnh nhất)",
+                  "Đặt ở hố chậu trái",
+                  "Đặt trực tiếp lên vị trí tim thai"
+                ],
+                "ans": 1,
+                "exp": "Cơn co tử cung sinh lý bắt đầu phát nhịp từ một trong hai sừng tử cung rồi lan tỏa xuống dưới, sóng co bóp có cường độ và biên độ cao nhất tại vùng đáy tử cung; do đó đầu dò áp lực Toco phải được cố định ở đáy tử cung để ghi nhận chính xác tần số và thời gian cơn co."
+              },
+              {
+                "q": "Giai đoạn I của cuộc chuyển dạ chuyển sang \"Pha hoạt động\" (Active phase) khi độ mở cổ tử cung đạt từ:",
+                "opts": [
+                  "Mở 1 - 2 cm",
+                  "Mở 3 cm",
+                  "Mở từ 4 cm đến 10 cm (mở hết)",
+                  "Khi đầu ối đã vỡ tự nhiên"
+                ],
+                "ans": 2,
+                "exp": "Giai đoạn I (xóa mở cổ tử cung) gồm 2 pha: Pha tiềm tàng (từ khi bắt đầu chuyển dạ đến khi CTC mở 3 cm, tiến triển chậm); Pha hoạt động (khi CTC mở từ 4 cm đến 10 cm, tốc độ mở nhanh trung bình ≥ 1 cm/giờ ở người con so)."
+              },
+              {
+                "q": "Sản phụ mang thai 40 tuần đang theo dõi chuyển dạ, tim thai dao động không đều từ 100 - 170 chu kỳ/phút, cơn co tử cung tần số 3, khám cổ tử cung mở 2 cm, ngôi đầu cao chúc không tiến triển. Xử trí đúng đắn nhất là:",
+                "opts": [
+                  "Cho đẻ chỉ huy bằng truyền tĩnh mạch Oxytocin",
+                  "Bấm ối để tăng tốc độ chuyển dạ",
+                  "Chuyển phẫu thuật mổ lấy thai cấp cứu vì suy thai cấp",
+                  "Tiếp tục theo dõi tim thai bằng ống nghe gỗ mỗi 1 giờ"
+                ],
+                "ans": 2,
+                "exp": "Nhịp tim thai dao động bất thường (dưới 110 ck/p hoặc trên 160 ck/p) kèm theo cơn co dồn dập nhưng cổ tử cung mở chậm và ngôi cao là dấu hiệu của suy thai cấp trong chuyển dạ; chỉ định mổ lấy thai cấp cứu là bắt buộc để bảo đảm an toàn tính mạng cho thai nhi."
+              },
+              {
+                "q": "Thời điểm thích hợp nhất để thực hiện thủ thuật cắt tầng sinh môn khi đỡ đẻ thường ngôi chỏm là:",
+                "opts": [
+                  "Cắt ngay khi cổ tử cung mở hết",
+                  "Cắt khi sản phụ bắt đầu có cảm giác muốn rặn",
+                  "Cắt khi tầng sinh môn đã giãn nở căng phồng tối đa, đầu thai nhi đã lọt thấp và chuẩn bị thập thò ở âm hộ trong cơn rặn đẻ",
+                  "Cắt sau khi đầu thai nhi đã sổ hoàn toàn ra ngoài"
+                ],
+                "ans": 2,
+                "exp": "Cắt tầng sinh môn (thường cắt nghiêng 45^\\circ góc 7 giờ hoặc 5 giờ) được thực hiện vào đúng đỉnh cơn co khi tầng sinh môn mỏng căng và đầu thai nhi tì sát âm hộ để vừa hạn chế tối đa chảy máu, vừa mở rộng lối thoát tránh rách tầng sinh môn phức tạp tổn thương cơ thắt hậu môn."
+              }
+            ]
+          },
+          "cham-soc-hau-san-chay-mau": {
+            "title": "Bài 3: Khám theo dõi sản phụ sau đẻ (5 câu)",
+            "questions": [
+              {
+                "q": "Theo định nghĩa chuẩn của Bộ Y tế và Tổ chức Y tế Thế giới (WHO), Chảy máu sau đẻ (Băng huyết sau sinh) đối với sinh đường âm đạo được xác định khi lượng máu mất:",
+                "opts": [
+                  "≥ 300 ml",
+                  "≥ 400 ml",
+                  "≥ 500 ml (hoặc ≥ 1000 ml đối với phẫu thuật lấy thai)",
+                  "≥ 1500 ml"
+                ],
+                "ans": 2,
+                "exp": "Chảy máu sau sinh kinh điển được định nghĩa là mất ≥ 500 ml máu sau đẻ đường âm đạo hoặc ≥ 1000 ml máu sau mổ lấy thai, hoặc bất kỳ lượng máu mất nào gây biến đổi huyết động (mạch nhanh, tụt huyết áp, sốc)."
+              },
+              {
+                "q": "Bốn nhóm nguyên nhân chính gây chảy máu sau đẻ (quy tắc 4T) bao gồm:",
+                "opts": [
+                  "Tone (Đờ tử cung), Tissue (Sót rau/màng rau), Trauma (Chấn thương đường sinh dục), Thrombin (Rối loạn đông máu)",
+                  "Time (Thời gian), Temperature (Nhiệt độ), Tumor (U xơ), Tension (Huyết áp)",
+                  "Toxicity (Nhiễm độc), Torsion (Xoắn), Tears (Rách), Trauma (Chấn thương)",
+                  "Thyroid (Bệnh tuyến giáp), Thrombosis (Huyết khối), Tone (Trương lực), Tissue (Mô)"
+                ],
+                "ans": 0,
+                "exp": "Quy tắc 4T phân loại toàn diện nguyên nhân băng huyết sau sinh: Tone: Đờ tử cung (chiếm 70 - 80% trường hợp). Tissue: Sót bánh rau, sót màng rau, rau cài răng lược. Trauma: Rách tầng sinh môn, rách âm đạo, rách cổ tử cung, vỡ tử cung. Thrombin: Rối loạn đông cầm máu bẩm sinh hoặc mắc phải."
+              },
+              {
+                "q": "Chỉ định bắt buộc phải tiến hành thủ thuật Kiểm soát tử cung bằng tay sau đẻ là:",
+                "opts": [
+                  "Sản phụ sau đẻ thường tử cung co hồi tốt hình quả cầu an toàn",
+                  "Kiểm tra bánh rau thấy thiếu múi rau hoặc rách màng rau nghi ngờ sót, chảy máu sau đẻ do đờ tử cung, hoặc đẻ đường âm đạo trên người có sẹo mổ cũ ở tử cung",
+                  "Sản phụ sốt nhẹ sau sinh",
+                  "Em bé sinh non tháng"
+                ],
+                "ans": 1,
+                "exp": "Kiểm soát tử cung bằng tay nhằm luồn tay vô khuẩn vào buồng tử cung để bóc vét sạch các múi rau/màng rau còn sót, lấy hết máu cục và kiểm tra tính toàn vẹn của thành tử cung (loại trừ vỡ tử cung dưới phúc mạc hoặc nứt vết mổ cũ)."
+              },
+              {
+                "q": "Sản phụ sau sinh thường đủ tháng, đẻ con nặng 3500g có cắt khâu tầng sinh môn, kiểm tra bánh rau thấy có bánh rau phụ rách màng, âm đạo tiếp tục rỉ máu đỏ sẫm khoảng 300ml. Xử trí cấp cứu tiếp theo cần làm ngay là:",
+                "opts": [
+                  "Đặt túi chườm lạnh lên thành bụng",
+                  "Dùng thuốc co hồi tử cung (Oxytocin), tiến hành kiểm soát tử cung lấy sạch phần rau phụ còn sót và kiểm tra kỹ lại đường sinh dục",
+                  "Chuyển phòng mổ cắt tử cung bán phần ngay",
+                  "Chỉ khâu lại da tầng sinh môn và đóng gạc ngoài"
+                ],
+                "ans": 1,
+                "exp": "Có dấu hiệu bánh rau phụ bị sót gây chảy máu rỉ rả; bắt buộc phải tiêm thuốc co hồi tử cung (Oxytocin) kết hợp kiểm soát buồng tử cung bằng tay lấy hết phần rau phụ sót, sau đó kiểm tra ống đẻ và khâu phục hồi tầng sinh môn cẩn thận."
+              },
+              {
+                "q": "Trong quá trình bóc rau nhân tạo sau đẻ đường âm đạo, phát hiện một phần bánh rau dính chặt không thể bóc tách ra khỏi cơ tử cung và chảy máu nhiều, thái độ xử trí đúng đắn là:",
+                "opts": [
+                  "Cố gắng dùng thìa nạo thật mạnh để cạo sạch diện bám",
+                  "Ngừng ngay thủ thuật bóc rau bằng tay, dùng thuốc giảm đau/hồi sức chống sốc và chuyển mổ cấp cứu (nghi ngờ rau cài răng lược)",
+                  "Chờ thêm 30 phút rồi dùng kẹp kéo giật mạnh",
+                  "Đóng chặt âm đạo bằng gạc mét chèn"
+                ],
+                "ans": 1,
+                "exp": "Gai rau ăn sâu vào lớp cơ tử cung (rau cài răng lược - Placenta accreta/increta) không có lớp ranh giới decidua bọt; nếu cố dùng tay bóc giật sẽ xé toạc cơ tử cung gây thủng tử cung và chảy máu ồ ạt đe dọa tính mạng. Bắt buộc phải ngừng thủ thuật và chuyển mổ mở xử trí (thường phải cắt tử cung)."
+              }
+            ]
+          },
+          "ke-hoach-hoa-gia-dinh": {
+            "title": "Bài 4: Khám tư vấn kế hoạch hóa gia đình (4 câu)",
+            "questions": [
+              {
+                "q": "Phương pháp phá thai ngoại khoa bằng Hút chân không (hút bằng bơm hút chân không Karman một van hoặc hai van) được áp dụng an toàn cho tuổi thai:",
+                "opts": [
+                  "Thai từ 4 - 6 tuần",
+                  "Thai từ tuần thứ 6 đến hết tuần thứ 12 của thai kỳ",
+                  "Thai từ 13 - 18 tuần",
+                  "Thai sau 20 tuần"
+                ],
+                "ans": 1,
+                "exp": "Hướng dẫn kỹ thuật KHHGĐ của Bộ Y tế: Phương pháp hút thai chân không được chỉ định cho tuổi thai từ tuần thứ 6 đến hết 12 tuần (tính từ ngày đầu kỳ kinh cuối)."
+              },
+              {
+                "q": "Phương pháp nong và gắp thai (D&E) KHÔNG ĐƯỢC áp dụng cho tuổi thai nào sau đây:",
+                "opts": [
+                  "Thai 10 tuần tuổi",
+                  "Thai 14 tuần tuổi",
+                  "Thai 16 tuần tuổi",
+                  "Thai 17 tuần tuổi"
+                ],
+                "ans": 0,
+                "exp": "Phương pháp nong và gắp thai được chỉ định cho thai to từ tuần thứ 13 đến hết tuần thứ 18. Đối với thai 10 tuần tuổi, phương pháp chuẩn được áp dụng là hút thai chân không hoặc phá thai bằng thuốc, tuyệt đối không dùng phương pháp gắp thai."
+              },
+              {
+                "q": "Phác đồ phá thai nội khoa bằng thuốc (áp dụng cho thai đến hết 9 tuần / hết 63 ngày) bao gồm sự kết hợp của hai loại thuốc:",
+                "opts": [
+                  "Methotrexate kết hợp Misoprostol",
+                  "Mifepristone 200 mg (kháng Progesterone) uống trước, sau 24 - 48 giờ dùng tiếp Misoprostol (Prostaglandin E1) ngậm dưới lưỡi hoặc đặt âm đạo",
+                  "Oxytocin tiêm bắp kết hợp Ergometrine",
+                  "Dinoprostone đặt trực tràng"
+                ],
+                "ans": 1,
+                "exp": "Mifepristone đối kháng thụ thể progesterone làm bong tróc túi thai và mềm cổ tử cung; Misoprostol gây co bóp cơ tử cung mạnh mẽ tống xuất phôi thai ra ngoài. Đây là phác đồ chuẩn mực của Bộ Y tế và WHO."
+              },
+              {
+                "q": "Biện pháp tránh thai nào sau đây có hiệu quả cao nhất và tác dụng kéo dài (LARC) thích hợp cho phụ nữ đã có đủ con và không có chống chỉ định:",
+                "opts": [
+                  "Bao cao su nam dùng từng lần",
+                  "Dụng cụ tử cung (vòng tránh thai chứa đồng hoặc chứa Levonorgestrel) hoặc que cấy tránh thai dưới da",
+                  "Tính ngày rụng trứng theo chu kỳ kinh nguyệt",
+                  "Xuất tinh ngoài âm đạo"
+                ],
+                "ans": 1,
+                "exp": "Dụng cụ tử cung (IUD) và que cấy phóng thích progestin (Implanon) thuộc nhóm biện pháp tránh thai có hiệu quả cao nhất (tỷ lệ thất bại < 1%), tác dụng kéo dài từ 3 đến 5 năm, có khả năng phục hồi khả năng sinh sản nhanh sau khi tháo bỏ và không phụ thuộc vào sự tuân thủ hàng ngày của người sử dụng."
+              }
+            ]
+          },
+          "chua-ngoai-tu-cung": {
+            "title": "Bài 5: Chửa ngoài tử cung (5 câu)",
+            "questions": [
+              {
+                "q": "Vị trí làm tổ bất thường thường gặp nhất của thai ngoài tử cung (chiếm hơn 95% các trường hợp) là:",
+                "opts": [
+                  "Vòi tử cung (đặc biệt là đoạn bóng vòi tử cung)",
+                  "Buồng trứng",
+                  "Ổ bụng",
+                  "Ống cổ tử cung"
+                ],
+                "ans": 0,
+                "exp": "Vòi tử cung là nơi xảy ra thụ tinh và là vị trí thai ngoài tử cung phổ biến nhất (> 95%), trong đó đoạn bóng vòi trứng chiếm tỷ lệ cao nhất (70 - 80%), tiếp theo là đoạn eo, đoạn loa và đoạn kẽ vòi tử cung."
+              },
+              {
+                "q": "Tam chứng lâm sàng kinh điển gợi ý chửa ngoài tử cung chưa vỡ bao gồm:",
+                "opts": [
+                  "Sốt cao, đau bụng hạ vị và khí hư ra nhiều mủ",
+                  "Chậm kinh (hoặc rối loạn kinh nguyệt), Đau bụng vùng hạ vị một bên và Ra máu âm đạo bất thường (máu rỉ rả, màu nâu đen/socola)",
+                  "Nôn nhiều, trướng bụng và bí đại tiện",
+                  "Chảy máu ồ ạt kèm theo tụt huyết áp ngay từ đầu"
+                ],
+                "ans": 1,
+                "exp": "Tam chứng kinh điển: Chậm kinh kèm que thử thai dương tính (β-hCG > 0), đau tức âm ỉ vùng hố chậu/hạ vị lệch một bên, và ra máu âm đạo ít một, sẫm màu dai dẳng không đông (do niêm mạc tử cung thoái hóa bong rụng vì nồng độ nội tiết không đủ duy trì)."
+              },
+              {
+                "q": "Phương pháp chẩn đoán cận lâm sàng phối hợp có giá trị quyết định hàng đầu trong chẩn đoán sớm thai ngoài tử cung là:",
+                "opts": [
+                  "Định lượng nồng độ β-hCG huyết thanh ngắt quãng kết hợp Siêu âm đầu dò âm đạo (TVS)",
+                  "Chụp X-quang bụng không chuẩn bị",
+                  "Chọc hút dịch cùng đồ Douglas qua đường âm đạo",
+                  "Soi cổ tử cung và xét nghiệm tế bào âm đạo"
+                ],
+                "ans": 0,
+                "exp": "Siêu âm đầu dò âm đạo giúp xác định buồng tử cung trống rỗng khi nồng độ β-hCG đã vượt \"ngưỡng phân định\" (1500 - 2000 mIU/ml), đồng thời tìm thấy khối thai hoặc túi noãn hoàng/tim thai nằm ngoài tử cung."
+              },
+              {
+                "q": "Điều kiện cần thỏa mãn để có thể chỉ định điều trị nội khoa bảo tồn thai ngoài tử cung bằng thuốc Methotrexate (MTX) theo Bộ Y tế là:",
+                "opts": [
+                  "Thai ngoài tử cung đã vỡ có máu tràn ngập ổ bụng",
+                  "Huyết động người bệnh hoàn toàn ổn định, kích thước khối thai < 3,5 - 4 cm, chưa có tim thai trên siêu âm, nồng độ β-hCG < 5000 mIU/ml và không có dịch tự do trong ổ bụng",
+                  "Nồng độ β-hCG > 10.000 mIU/ml",
+                  "Bệnh nhân có suy giảm chức năng gan thận nặng"
+                ],
+                "ans": 1,
+                "exp": "Methotrexate (chất kháng acid folic ức chế phân bào nguyên bào nuôi) chỉ được chỉ định khi khối thai nhỏ chưa vỡ, chưa có tim thai, huyết động ổn định và chức năng gan thận, công thức máu hoàn toàn bình thường để đảm bảo tỷ lệ thành công cao và tránh nguy cơ vỡ đột ngột."
+              },
+              {
+                "q": "Thao tác nào sau đây là SAI về kỹ thuật phẫu thuật nội soi ổ bụng xử trí thai ngoài tử cung:",
+                "opts": [
+                  "Gắp khối thai kích thước nhỏ đưa ra ngoài qua nòng trocar",
+                  "Đặt trocar chính mang camera quan sát đi qua thành bụng ở vùng hố chậu trái",
+                  "Phải xả sạch toàn bộ khí CO₂ ra khỏi ổ bụng trước khi rút các trocar",
+                  "Hút rửa sạch máu cục và kiểm tra cầm máu kỹ diện cắt vòi tử cung"
+                ],
+                "ans": 1,
+                "exp": "Trong phẫu thuật nội soi sản phụ khoa, trocar chính mang camera soi luôn luôn được đặt xuyên qua rốn (hoặc ngay dưới/trên rốn trên đường trắng giữa) để có góc nhìn toàn cảnh bao quát nhất tiểu khung; các trocar phụ thao tác mới được đặt ở hai bên hố chậu."
+              }
+            ]
+          },
+          "u-xo-tu-cung": {
+            "title": "Bài 6: U xơ tử cung (4 câu)",
+            "questions": [
+              {
+                "q": "Theo bảng phân loại vị trí u xơ tử cung của Liên đoàn Sản Phụ khoa Quốc tế (FIGO 2011), một khối u xơ có kích thước 5 cm, lồi vào trong lớp cơ tử cung 30% và lồi ra ngoài dưới thanh mạc 70% được xếp vào nhóm:",
+                "opts": [
+                  "FIGO nhóm L 2-5 (hoặc L 5)",
+                  "FIGO nhóm L 0 (u xơ có cuống trong buồng tử cung)",
+                  "FIGO nhóm L 4 (u xơ hoàn toàn trong cơ)",
+                  "FIGO nhóm L 7 (u xơ có cuống dưới thanh mạc)"
+                ],
+                "ans": 0,
+                "exp": "Hệ thống phân loại FIGO: L 0, 1, 2: Dưới niêm mạc. L 3, 4: Trong cơ. L 5, 6, 7: Dưới thanh mạc (L 5: u dưới thanh mạc lồi vào trong cơ ≥ 50%; các khối u xuyên thành tiếp xúc cả niêm mạc và thanh mạc được ký hiệu kết hợp như L 2-5)."
+              },
+              {
+                "q": "Phương pháp chẩn đoán hình ảnh có độ chính xác cao nhất được chỉ định để khảo sát chi tiết số lượng, kích thước, cấu trúc và hệ thống mạch nuôi dưỡng của khối u xơ tử cung trước khi tiến hành can thiệp nút mạch (UFE) là:",
+                "opts": [
+                  "Siêu âm ổ bụng tổng quát",
+                  "Chụp X-quang tử cung vòi trứng (HSG)",
+                  "Chụp cộng hưởng từ (MRI) tiểu khung có tiêm đối quang từ",
+                  "Chụp cắt lớp vi tính bụng không tiêm thuốc"
+                ],
+                "ans": 2,
+                "exp": "Chụp cộng hưởng từ (MRI) tiểu khung cung cấp hình ảnh mô mềm vượt trội, xác định ranh giới giữa khối u và lớp cơ lành, đánh giá mức độ cấp máu từ động mạch tử cung và loại trừ các bệnh lý ác tính kèm theo (như Sarcoma tử cung) trước khi can thiệp nút tắc mạch."
+              },
+              {
+                "q": "Triệu chứng cơ năng kinh điển và thường gặp nhất của u xơ tử cung dưới niêm mạc hoặc u xơ trong cơ kích thước lớn là:",
+                "opts": [
+                  "Đau quặn bụng dữ dội từng cơn",
+                  "Rong kinh, cường kinh (kinh nguyệt kéo dài, ra nhiều máu cục) dẫn đến thiếu máu mạn tính",
+                  "Khí hư ra nhiều mủ hôi",
+                  "Mất kinh hoàn toàn"
+                ],
+                "ans": 1,
+                "exp": "Khối u xơ làm tăng diện tích bề mặt buồng nội mạc tử cung, cản trở sự co hồi cầm máu sinh lý của các mạch máu cơ tử cung và làm tăng sinh mạch máu nội mạc, gây ra cường kinh và rong kinh kéo dài làm bệnh nhân thiếu máu."
+              },
+              {
+                "q": "Bệnh nhân nữ 18 tuổi, chưa từng sinh con (PARA 0000), mong con, khám siêu âm phát hiện một nhân xơ tử cung nằm hoàn toàn trong cơ tử cung kích thước 3 cm (FIGO L4), không có triệu chứng rong kinh. Thái độ xử trí phù hợp nhất là:",
+                "opts": [
+                  "Phẫu thuật cắt toàn bộ tử cung để triệt căn",
+                  "Mổ mở bóc u xơ tử cung ngay lập tức",
+                  "Tiếp tục theo dõi định kỳ, bảo tồn tử cung và tư vấn hỗ trợ sinh sản nếu có hiếm muộn",
+                  "Điều trị bằng hóa chất chống ung thư"
+                ],
+                "ans": 2,
+                "exp": "Khối u xơ nhỏ (3 cm) nằm trong cơ không gây biến dạng buồng tử cung và không có triệu chứng lâm sàng ở phụ nữ trẻ chưa sinh con không có chỉ định phẫu thuật; phẫu thuật bóc u có nguy cơ để lại sẹo mổ tử cung và dính buồng tử cung gây cản trở mang thai sau này."
+              }
+            ]
+          },
+          "u-nang-buong-trung": {
+            "title": "Bài 7: U nang buồng trứng (3 câu)",
+            "questions": [
+              {
+                "q": "Loại nang buồng trứng nào sau đây thuộc nhóm \"Nang cơ năng\" sinh lý, có thể tự tiêu biến sau vài chu kỳ kinh nguyệt mà không cần can thiệp phẫu thuật:",
+                "opts": [
+                  "U nang bì (U quái trưởng thành - Teratoma)",
+                  "U nang nhầy buồng trứng",
+                  "U nang nước buồng trứng",
+                  "Nang noãn (Nang De Graaf) hoặc Nang hoàng thể"
+                ],
+                "ans": 3,
+                "exp": "Nang cơ năng (nang bọc noãn không vỡ, nang hoàng thể thoái hóa muộn) hình thành do rối loạn nội tiết thoáng qua của chu kỳ buồng trứng, thành mỏng chứa dịch trong và sẽ tự teo biến sau 2 - 3 tháng theo dõi. U nang bì, u nang nước và u nang nhầy là các u thực thể bắt buộc phải phẫu thuật."
+              },
+              {
+                "q": "Biến chứng cấp cứu ngoại khoa thường gặp nhất của u nang buồng trứng có cuống dài (đặc biệt là u nang bì buồng trứng) là:",
+                "opts": [
+                  "Xoắn u nang buồng trứng",
+                  "Ung thư hóa cấp tính",
+                  "Dò nang vào trực tràng",
+                  "Teo buồng trứng"
+                ],
+                "ans": 0,
+                "exp": "Khối u nang có trọng lượng không đồng đều (như u nang bì chứa tóc, mỡ, răng) và có cuống dài di động rất dễ bị vặn xoắn quanh trục của nó. Xoắn làm nghẽn tĩnh mạch trước (gây ứ máu tím đen) rồi tắc động mạch nuôi dưỡng dẫn tới hoại tử buồng trứng nếu không được mổ tháo xoắn cấp cứu."
+              },
+              {
+                "q": "Bệnh nhân nữ 40 tuổi vào viện vì đau đột ngột vùng hạ vị dữ dội, siêu âm phát hiện khối u phần phụ kích thước 9 cm có cấu trúc hỗn hợp âm (nghi u nang bì), ấn đau chói và có phản ứng thành bụng cục bộ. Xử trí cấp cứu đúng đắn là:",
+                "opts": [
+                  "Điều trị kháng sinh liều cao và hẹn khám lại sau 1 tháng",
+                  "Hồi sức giảm đau và tiến hành phẫu thuật nội soi (hoặc mổ mở) cấp cứu xử trí u nang xoắn",
+                  "Cho dùng thuốc tránh thai kết hợp để làm teo khối u",
+                  "Chọc hút dịch u nang qua đường âm đạo"
+                ],
+                "ans": 1,
+                "exp": "Đau đột ngột dữ dội kèm khối u buồng trứng ấn đau chói là biểu hiện điển hình của biến chứng xoắn u nang buồng trứng; bắt buộc phải mổ cấp cứu càng sớm càng tốt để bảo tồn mô buồng trứng lành."
+              }
+            ]
+          },
+          "viem-phan-phu-viem-am-dao": {
+            "title": "Bài 8: Viêm phần phụ, viêm đường sinh dục dưới (5 câu)",
+            "questions": [
+              {
+                "q": "Hai tác nhân vi sinh vật lây truyền qua đường tình dục (STIs) kinh điển và thường gặp nhất gây Viêm phần phụ cấp tính (PID) là:",
+                "opts": [
+                  "Escherichia coli và Proteus mirabilis",
+                  "Neisseria gonorrhoeae (Lậu cầu) và Chlamydia trachomatis",
+                  "Nấm Candida albicans và Trùng roi Trichomonas",
+                  "Virus Herpes simplex (HSV)"
+                ],
+                "ans": 1,
+                "exp": "Lậu cầu và Chlamydia là hai vi khuẩn hàng đầu lây qua đường tình dục, xâm nhập ngược dòng từ cổ tử cung lên niêm mạc tử cung và hai vòi trứng, phá hủy lớp biểu mô nhung mao gây viêm dính tắc vòi trứng, áp xe phần phụ và tăng nguy cơ chửa ngoài tử cung hoặc vô sinh sau này."
+              },
+              {
+                "q": "Lựa chọn điều trị ưu tiên hàng đầu cho bệnh nhân Viêm áp xe phần phụ (Tubo-ovarian Abscess - TOA) chưa vỡ trên lâm sàng là:",
+                "opts": [
+                  "Phẫu thuật cắt bỏ toàn bộ hai buồng trứng và tử cung ngay lập tức",
+                  "Chọc tháo ổ áp xe qua thành bụng đơn thuần",
+                  "Điều trị nội khoa tích cực bằng kháng sinh phổ rộng liều cao đường tĩnh mạch (bao phủ lậu, Chlamydia, vi khuẩn kỵ khí và Gram âm)",
+                  "Đặt vòng tránh thai kháng sinh"
+                ],
+                "ans": 2,
+                "exp": "Khối áp xe phần phụ chưa vỡ có tỷ lệ đáp ứng thành công với điều trị nội khoa bảo tồn từ 70 - 85%; phác đồ kháng sinh phổ rộng tĩnh mạch liều cao (như Ceftriaxone + Doxycycline + Metronidazole) là ưu tiên số 1. Phẫu thuật chỉ can thiệp khi ổ áp xe có dấu hiệu dọa vỡ/vỡ gây viêm phúc mạc hoặc điều trị nội khoa thất bại sau 48 - 72 giờ."
+              },
+              {
+                "q": "Kháng sinh nào sau đây TUYỆT ĐỐI KHÔNG ĐƯỢC DÙNG trong phác đồ điều trị viêm phần phụ hoặc viêm đường sinh dục ở phụ nữ đang mang thai:",
+                "opts": [
+                  "Ceftriaxone",
+                  "Azithromycin",
+                  "Amoxicillin/Clavulanic acid",
+                  "Doxycycline (thuộc nhóm Tetracycline)"
+                ],
+                "ans": 3,
+                "exp": "Doxycycline và các kháng sinh nhóm Tetracycline đi qua nhau thai gắn vào calci mô xương và mầm răng đang phát triển, gây rối loạn phát triển xương thai nhi và làm biến đổi màu men răng vĩnh viễn (răng ố vàng nâu); do đó chống chỉ định tuyệt đối trong thai kỳ. Thuốc thay thế an toàn là Azithromycin hoặc Erythromycin."
+              },
+              {
+                "q": "Để xét nghiệm chẩn đoán nhiễm virus sinh u nhú ở người (HPV) gây ung thư cổ tử cung, bệnh phẩm tế bào KHÔNG ĐƯỢC lấy từ vị trí nào sau đây:",
+                "opts": [
+                  "Vùng chuyển tiếp và lỗ ngoài cổ tử cung",
+                  "Thành âm đạo và túi cùng sau",
+                  "Tổn thương sùi mào gà sinh dục ngoài",
+                  "Niêm mạc trong lòng trực tràng ống hậu môn sâu"
+                ],
+                "ans": 3,
+                "exp": "Mẫu bệnh phẩm sàng lọc HPV và tế bào học (Pap smear) trong phụ khoa được thu thập tại vùng chuyển tiếp cổ tử cung, túi cùng âm đạo và các nốt sùi tổn thương sinh dục. Không lấy mẫu sâu trong lòng trực tràng để chẩn đoán sàng lọc phụ khoa."
+              },
+              {
+                "q": "Đặc điểm khí hư và triệu chứng lâm sàng điển hình của Viêm âm đạo do Trùng roi (Trichomonas vaginalis) là:",
+                "opts": [
+                  "Khí hư đặc vón cục như váng sữa/bã đậu bám chặt vào thành âm đạo, ngứa dữ dội",
+                  "Khí hư ra nhiều, loãng, có bọt khí, màu vàng xanh, mùi hôi nồng nặc kèm theo cảm giác nóng rát ngứa ngáy âm hộ; khám thấy niêm mạc âm đạo và cổ tử cung xung huyết đỏ rực dạng \"hình quả dâu tây\" (Strawberry cervix)",
+                  "Khí hư màu trắng đục dính đều, có mùi cá ươn rõ khi làm test Whiff với KOH 10%",
+                  "Khí hư có lẫn máu tươi nhưng không có mùi hôi"
+                ],
+                "ans": 1,
+                "exp": "Trùng roi âm đạo gây phản ứng viêm cấp tính rầm rộ: khí hư nhiều bọt vàng xanh, hôi thối, tổn thương các điểm chấm xuất huyết vi mạch trên bề mặt cổ tử cung tạo hình ảnh cổ tử cung quả dâu tây đặc trưng; điều trị bằng Metronidazole đường uống cho cả người bệnh và bạn tình. Viêm do nấm Candida có khí hư bã đậu; viêm âm đạo do vi khuẩn (BV) có khí hư mùi cá ươn"
               }
             ]
           }
